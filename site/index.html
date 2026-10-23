@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>Rewind</title>
+  <meta name="description" content="예전엔 다 들었지만 요즘은 잊힌 노래를 장르별로 틀어주고, 마음에 든 곡을 플레이리스트로 모아주는 사이트">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23ff2d55'/%3E%3Cpath d='M30 50 52 34v32zM52 50l22-16v32z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app">
+
+    <!-- 탐색 -->
+    <section id="view-explore" class="view active" aria-labelledby="t-explore">
+      <header class="large-title">
+        <p class="eyebrow" id="updated"></p>
+        <h1 id="t-explore">Rewind</h1>
+        <p class="subtitle">그땐 다 들었는데, 요즘은 잊힌 노래</p>
+      </header>
+
+      <div class="group-header">
+        <span>장르</span>
+        <button class="text-btn" id="toggle-all" type="button">전체 선택</button>
+      </div>
+      <div class="card">
+        <div class="chips" id="genres" role="group" aria-label="장르 선택"></div>
+      </div>
+      <p class="group-footer">여러 개 고를 수 있어요.</p>
+
+      <div class="card player-card" id="player-card">
+        <div class="empty" id="explore-empty">
+          <div class="empty-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          </div>
+          <p class="empty-title" id="empty-title">장르를 골라주세요</p>
+          <p class="empty-sub" id="empty-sub">고른 장르에서 한 곡씩 틀어드려요.</p>
+          <button class="pill secondary hidden" id="reset-seen-inline" type="button">평가 기록 초기화</button>
+        </div>
+
+        <div class="now hidden" id="explore-now">
+          <div class="video"><div id="yt-explore"></div></div>
+          <div class="meta">
+            <div class="meta-text">
+              <h2 id="np-title"></h2>
+              <p id="np-artist"></p>
+            </div>
+            <span class="badge" id="np-info"></span>
+          </div>
+          <div class="actions">
+            <button class="round dislike" id="btn-dislike" type="button" aria-label="별로">
+              <svg viewBox="0 0 24 24"><path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.7a2 2 0 0 0-2 1.7l-1.4 9A2 2 0 0 0 4.3 15H10z"/><path d="M17 2h2.7A2.3 2.3 0 0 1 22 4v7a2.3 2.3 0 0 1-2.3 2H17"/></svg>
+              <span>별로</span>
+            </button>
+            <button class="round skip" id="btn-skip" type="button" aria-label="건너뛰기">
+              <svg viewBox="0 0 24 24"><path d="M5 4l10 8-10 8z"/><path d="M19 5v14"/></svg>
+              <span>넘기기</span>
+            </button>
+            <button class="round like" id="btn-like" type="button" aria-label="좋아요">
+              <svg viewBox="0 0 24 24"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.3a2 2 0 0 0 2-1.7l1.4-9A2 2 0 0 0 19.7 9H14z"/><path d="M7 22H4.3A2.3 2.3 0 0 1 2 20v-7a2.3 2.3 0 0 1 2.3-2H7"/></svg>
+              <span>좋아요</span>
+            </button>
+          </div>
+          <p class="remaining" id="remaining"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 플레이리스트 -->
+    <section id="view-playlist" class="view" aria-labelledby="t-playlist">
+      <header class="large-title">
+        <p class="eyebrow" id="pl-count"></p>
+        <h1 id="t-playlist">플레이리스트</h1>
+      </header>
+
+      <div class="pl-buttons">
+        <button class="pill primary" id="btn-play-all" type="button">
+          <svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8z"/></svg>재생
+        </button>
+        <button class="pill secondary" id="btn-shuffle" type="button">
+          <svg viewBox="0 0 24 24"><path d="M16 3h5v5"/><path d="M4 20 21 3"/><path d="M21 16v5h-5"/><path d="M15 15l6 6"/><path d="M4 4l5 5"/></svg>셔플
+        </button>
+      </div>
+
+      <div class="card mini hidden" id="pl-now">
+        <div class="video"><div id="yt-playlist"></div></div>
+        <div class="mini-bar">
+          <div class="meta-text">
+            <h2 id="pl-np-title"></h2>
+            <p id="pl-np-artist"></p>
+          </div>
+          <button class="icon-btn" id="btn-pl-prev" type="button" aria-label="이전 곡">
+            <svg viewBox="0 0 24 24"><path d="M19 20 9 12l10-8z"/><path d="M5 19V5"/></svg>
+          </button>
+          <button class="icon-btn" id="btn-pl-next" type="button" aria-label="다음 곡">
+            <svg viewBox="0 0 24 24"><path d="M5 4l10 8-10 8z"/><path d="M19 5v14"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="card list" id="pl-list"></div>
+      <div class="empty plain hidden" id="pl-empty">
+        <p class="empty-title">아직 비어 있어요</p>
+        <p class="empty-sub">탐색에서 좋아요를 누른 곡이 여기에 모여요.</p>
+      </div>
+
+      <div class="card list settings">
+        <button class="row link" id="btn-export" type="button">YouTube에서 열기<span class="chev">›</span></button>
+        <button class="row link danger" id="btn-reset" type="button">평가 기록 초기화</button>
+      </div>
+      <p class="group-footer">평가 기록을 초기화하면 이미 평가한 곡이 탐색에 다시 나와요. 플레이리스트는 그대로예요.</p>
+    </section>
+  </main>
+
+  <nav class="tabbar" aria-label="탭">
+    <button class="tab active" data-view="explore" type="button">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg>
+      <span>탐색</span>
+    </button>
+    <button class="tab" data-view="playlist" type="button">
+      <svg viewBox="0 0 24 24"><path d="M3 6h12M3 12h12M3 18h8"/><path d="M19 4v11"/><circle cx="17" cy="16" r="2"/></svg>
+      <span>플레이리스트</span>
+      <i class="tab-badge hidden" id="tab-badge"></i>
+    </button>
+  </nav>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="app.js"></script>
+</body>
+</html>
