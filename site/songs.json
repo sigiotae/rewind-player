@@ -1,0 +1,21 @@
+{
+ "updated": "sample",
+ "genres": [
+  {"id": "pop", "label": "팝"}, {"id": "dance", "label": "댄스"}, {"id": "hiphop", "label": "힙합"},
+  {"id": "rnb", "label": "R&B"}, {"id": "rock", "label": "록"}, {"id": "indie", "label": "인디"},
+  {"id": "electronic", "label": "일렉트로닉"}, {"id": "ballad", "label": "발라드"},
+  {"id": "kpop", "label": "K-POP"}, {"id": "latin", "label": "라틴"}
+ ],
+ "songs": [
+  {"id": "dQw4w9WgXcQ", "artist": "Rick Astley", "title": "Never Gonna Give You Up", "genres": ["pop", "dance"], "views": 1600000000, "year": 2009},
+  {"id": "fWNaR-rxAic", "artist": "Carly Rae Jepsen", "title": "Call Me Maybe", "genres": ["pop", "dance"], "views": 1500000000, "year": 2012},
+  {"id": "8UVNT4wvIGY", "artist": "Gotye", "title": "Somebody That I Used to Know", "genres": ["pop", "indie"], "views": 2100000000, "year": 2011},
+  {"id": "KQ6zr6kCPj8", "artist": "LMFAO", "title": "Party Rock Anthem", "genres": ["dance", "electronic", "hiphop"], "views": 2300000000, "year": 2011},
+  {"id": "9bZkp7q19f0", "artist": "PSY", "title": "Gangnam Style", "genres": ["kpop", "dance"], "views": 5300000000, "year": 2012},
+  {"id": "kXYiU_JCYtU", "artist": "Linkin Park", "title": "Numb", "genres": ["rock"], "views": 2400000000, "year": 2007},
+  {"id": "uelHwf8o7_U", "artist": "Eminem", "title": "Love The Way You Lie", "genres": ["hiphop", "rnb"], "views": 2900000000, "year": 2010},
+  {"id": "kJQP7kiw5Fk", "artist": "Luis Fonsi", "title": "Despacito", "genres": ["latin", "pop"], "views": 8800000000, "year": 2017},
+  {"id": "YQHsXMglC9A", "artist": "Adele", "title": "Hello", "genres": ["ballad", "pop"], "views": 3300000000, "year": 2015},
+  {"id": "CevxZvSJLk8", "artist": "Katy Perry", "title": "Roar", "genres": ["pop"], "views": 4000000000, "year": 2013}
+ ]
+}
