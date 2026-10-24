@@ -2,7 +2,7 @@ name: Update song list
 
 on:
   schedule:
-    - cron: "17 18 * * *"   # 매일 한국시간 03:17
+    - cron: "17 8 * * *"    # 매일 한국시간 17:17 (YouTube 할당량은 한국시간 16~17시에 초기화)
   workflow_dispatch: {}      # Actions 탭에서 수동 실행 가능
 
 permissions:
