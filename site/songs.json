@@ -1191,7 +1191,8 @@
    "artist": "Aqua",
    "title": "Barbie Girl",
    "genres": [
-    "pop"
+    "pop",
+    "dance"
    ],
    "views": 1745370285,
    "year": 2010
@@ -5584,7 +5585,8 @@
    "artist": "Mr.President",
    "title": "Coco Jamboo",
    "genres": [
-    "pop"
+    "pop",
+    "dance"
    ],
    "views": 414227199,
    "year": 2014
@@ -6158,6 +6160,16 @@
    ],
    "views": 366806840,
    "year": 2007
+  },
+  {
+   "id": "ViP87WipSm0",
+   "artist": "La Bouche",
+   "title": "Be My Lover",
+   "genres": [
+    "dance"
+   ],
+   "views": 365572456,
+   "year": 2016
   },
   {
    "id": "U7mPqycQ0tQ",
@@ -6856,7 +6868,7 @@
   },
   {
    "id": "eimgRedLkkU",
-   "artist": "Empire of the Sun",
+   "artist": "Empire Of The Sun",
    "title": "Walking on a Dream",
    "genres": [
     "indie",
@@ -8729,8 +8741,8 @@
    "artist": "Daft Punk",
    "title": "Get Lucky",
    "genres": [
-    "rnb",
-    "pop"
+    "pop",
+    "rnb"
    ],
    "views": 235202618,
    "year": 2013
@@ -11469,8 +11481,8 @@
    "artist": "Bow Wow",
    "title": "Let Me Hold You ft. Omarion",
    "genres": [
-    "hiphop",
-    "pop"
+    "pop",
+    "hiphop"
    ],
    "views": 160874801,
    "year": 2009
@@ -13460,7 +13472,7 @@
   },
   {
    "id": "IPKAwJKGSDc",
-   "artist": "Empire of the Sun",
+   "artist": "Empire Of The Sun",
    "title": "Alive",
    "genres": [
     "pop"
@@ -16282,6 +16294,16 @@
    "year": 2011
   },
   {
+   "id": "llmbcMmZuQ4",
+   "artist": "Modern Talking",
+   "title": "Brother Louie Mix '98",
+   "genres": [
+    "dance"
+   ],
+   "views": 97306068,
+   "year": 2014
+  },
+  {
    "id": "CFWX0hWCbng",
    "artist": "Ke$ha",
    "title": "Blow",
@@ -18532,6 +18554,16 @@
    "year": 2013
   },
   {
+   "id": "Qvu033SBMYU",
+   "artist": "Gala",
+   "title": "Freed from Desire",
+   "genres": [
+    "dance"
+   ],
+   "views": 78344526,
+   "year": 2017
+  },
+  {
    "id": "EeTPi2a2Ld4",
    "artist": "Big Sean",
    "title": "My Last ft. Chris Brown",
@@ -19140,8 +19172,8 @@
    "artist": "Calvin Harris",
    "title": "Let's Go ft. Ne-Yo",
    "genres": [
-    "electronic",
-    "pop"
+    "pop",
+    "electronic"
    ],
    "views": 74044145,
    "year": 2012
@@ -25144,6 +25176,16 @@
    "year": 2011
   },
   {
+   "id": "_SQy6X5g7JU",
+   "artist": "La Bouche",
+   "title": "Sweet Dreams",
+   "genres": [
+    "dance"
+   ],
+   "views": 43833610,
+   "year": 2017
+  },
+  {
    "id": "zLxXqEZ5OoA",
    "artist": "Macklemore",
    "title": "Can't Hold Us (feat. Ray Dalton)",
@@ -25595,6 +25637,16 @@
    "year": 2015
   },
   {
+   "id": "zvhiJEMHx3g",
+   "artist": "Fey",
+   "title": "Azúcar Amargo",
+   "genres": [
+    "dance"
+   ],
+   "views": 42198455,
+   "year": 2015
+  },
+  {
    "id": "U-WoYD6nHmk",
    "artist": "Huh Gak",
    "title": "How did we (우린 어쩌다 헤어진 걸까)",
@@ -25643,6 +25695,16 @@
    ],
    "views": 42009123,
    "year": 2009
+  },
+  {
+   "id": "Eht9W25tDZo",
+   "artist": "Scatman John",
+   "title": "Scatman (ski-ba-bop-ba-dop-bop)",
+   "genres": [
+    "dance"
+   ],
+   "views": 41983973,
+   "year": 2016
   },
   {
    "id": "O9B0aN6mLKI",
@@ -27134,6 +27196,16 @@
    ],
    "views": 37379418,
    "year": 2020
+  },
+  {
+   "id": "G223WQ6vSII",
+   "artist": "Paradisio",
+   "title": "Bailando",
+   "genres": [
+    "dance"
+   ],
+   "views": 37374009,
+   "year": 2019
   },
   {
    "id": "pS_ox-T5vOc",
@@ -29120,6 +29192,16 @@
     "pop"
    ],
    "views": 31540137,
+   "year": 2017
+  },
+  {
+   "id": "l5Zox5O3jh4",
+   "artist": "C + C Music Factory",
+   "title": "Gonna Make You Sweat (Everybody Dance Now)",
+   "genres": [
+    "dance"
+   ],
+   "views": 31503338,
    "year": 2017
   },
   {

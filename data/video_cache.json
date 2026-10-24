@@ -1063,7 +1063,10 @@
    "PLE-hcHh2ZvPs7zpTCRp9I_XUQaGtDG3YK",
    "PLWjTcqMGesppVAXK4hz80NBun3iKkgXK2",
    "PLpGa2TIfKL3GwFAgrEwFscWYCaUmMn3IS",
-   "PLGBuKfnErZlAJvz_MjNOUBNbYqLcnXZLr"
+   "PLGBuKfnErZlAJvz_MjNOUBNbYqLcnXZLr",
+   "PLvZVm5v9C-k_oUkgi2d8I2y3nTL7jrZBx",
+   "PLxDSlyWtiR96ITHXuW0AVjbB5NhBVv_Tq",
+   "PLucLX3bgFdeRAbFyuxLpFzv6SYCiAXyHx"
   ],
   "queries_done": [
    "90s pop hits",
@@ -1096,7 +1099,8 @@
    "best pop songs 2005",
    "best pop songs 2012",
    "throwback pop songs",
-   "early 2000s pop songs"
+   "early 2000s pop songs",
+   "eurodance 90s"
   ]
  },
  "a ap ferg - plain jane": {
@@ -3395,7 +3399,8 @@
  "aqua - barbie girl": {
   "artist": "Aqua",
   "genres": [
-   "pop"
+   "pop",
+   "dance"
   ],
   "track": "Barbie Girl",
   "video": {
@@ -9495,6 +9500,20 @@
    "rock"
   ],
   "track": "Pepper"
+ },
+ "c c music factory - gonna make you sweat": {
+  "artist": "C + C Music Factory",
+  "genres": [
+   "dance"
+  ],
+  "track": "Gonna Make You Sweat (Everybody Dance Now)",
+  "video": {
+   "channel": "C + C Music Factory - Topic",
+   "id": "l5Zox5O3jh4",
+   "published": "2017-04-08T20:47:41Z",
+   "views": 31503338,
+   "ytTitle": "Gonna Make You Sweat (Everybody Dance Now)"
+  }
  },
  "c line dion - all by myself": {
   "artist": "Céline Dion",
@@ -18252,6 +18271,20 @@
    "ytTitle": "Fetty Wap  - Trap Queen (Official Video) Prod. By Tony Fadd"
   }
  },
+ "fey - az car amargo": {
+  "artist": "Fey",
+  "genres": [
+   "dance"
+  ],
+  "track": "Azúcar Amargo",
+  "video": {
+   "channel": "Fey - Topic",
+   "id": "zvhiJEMHx3g",
+   "published": "2015-09-23T16:08:19Z",
+   "views": 42198455,
+   "ytTitle": "Azúcar Amargo"
+  }
+ },
  "fidlar - sober": {
   "artist": "FIDLAR",
   "genres": [
@@ -19719,7 +19752,14 @@
   "genres": [
    "dance"
   ],
-  "track": "Freed from Desire"
+  "track": "Freed from Desire",
+  "video": {
+   "channel": "Gala - Topic",
+   "id": "Qvu033SBMYU",
+   "published": "2017-04-21T09:46:41Z",
+   "views": 78344526,
+   "ytTitle": "Freed From Desire"
+  }
  },
  "galantis - no money": {
   "artist": "Galantis",
@@ -27862,7 +27902,28 @@
   "genres": [
    "dance"
   ],
-  "track": "Be My Lover"
+  "track": "Be My Lover",
+  "video": {
+   "channel": "LaBoucheVEVO",
+   "id": "ViP87WipSm0",
+   "published": "2016-02-25T15:46:30Z",
+   "views": 365572456,
+   "ytTitle": "La Bouche - Be My Lover (Official Video)"
+  }
+ },
+ "la bouche - sweet dreams": {
+  "artist": "La Bouche",
+  "genres": [
+   "dance"
+  ],
+  "track": "Sweet Dreams (Radio Version)",
+  "video": {
+   "channel": "La Bouche - Topic",
+   "id": "_SQy6X5g7JU",
+   "published": "2017-01-26T00:32:59Z",
+   "views": 43833610,
+   "ytTitle": "Sweet Dreams (Radio Version)"
+  }
  },
  "la factoria - como me duele": {
   "artist": "La Factoria",
@@ -33834,6 +33895,20 @@
    "ytTitle": "Moby - 'Porcelain' (Official Video)"
   }
  },
+ "modern talking - brother louie mix 98": {
+  "artist": "Modern Talking",
+  "genres": [
+   "dance"
+  ],
+  "track": "Brother Louie Mix '98 (Radio Edit)",
+  "video": {
+   "channel": "Modern Talking - Topic",
+   "id": "llmbcMmZuQ4",
+   "published": "2014-09-01T21:10:04Z",
+   "views": 97306068,
+   "ytTitle": "Brother Louie Mix '98 (Radio Edit)"
+  }
+ },
  "modest mouse - float on": {
   "artist": "Modest Mouse",
   "genres": [
@@ -34192,7 +34267,8 @@
  "mr president - coco jamboo": {
   "artist": "Mr.President",
   "genres": [
-   "pop"
+   "pop",
+   "dance"
   ],
   "track": "Coco Jamboo (1996)",
   "video": {
@@ -37478,6 +37554,20 @@
    "published": "2009-10-05T07:32:18Z",
    "views": 156053686,
    "ytTitle": "Papa Roach - Scars (Official Music Video)"
+  }
+ },
+ "paradisio - bailando": {
+  "artist": "Paradisio",
+  "genres": [
+   "dance"
+  ],
+  "track": "Bailando",
+  "video": {
+   "channel": "Paradisio - Topic",
+   "id": "G223WQ6vSII",
+   "published": "2019-04-11T20:25:53Z",
+   "views": 37374009,
+   "ytTitle": "Bailando (Video Edit)"
   }
  },
  "paramore - ain t it fun": {
@@ -41672,6 +41762,20 @@
    "published": "2009-10-25T08:39:45Z",
    "views": 595734195,
    "ytTitle": "Savage Garden - Truly Madly Deeply (Official Video)"
+  }
+ },
+ "scatman john - scatman": {
+  "artist": "Scatman John",
+  "genres": [
+   "dance"
+  ],
+  "track": "Scatman (ski-ba-bop-ba-dop-bop)",
+  "video": {
+   "channel": "Scatman John - Topic",
+   "id": "Eht9W25tDZo",
+   "published": "2016-12-31T16:55:17Z",
+   "views": 41983973,
+   "ytTitle": "Scatman (ski-ba-bop-ba-dop-bop)"
   }
  },
  "scatman official video hd - scatman john": {
