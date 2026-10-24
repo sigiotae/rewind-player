@@ -10,18 +10,19 @@ site/                 Cloudflare Pages에 배포되는 정적 사이트
   index.html, style.css, app.js
   songs.json          곡 목록 (GitHub Actions가 매일 갱신)
 scripts/build_songs.py  곡 목록 생성 스크립트
+scripts/tidy.py         가수·곡 이름 정리, 중복 제거
 data/video_cache.json   YouTube 검색 결과 캐시 (할당량 절약)
-.github/workflows/update-songs.yml  매일 03:17(KST) 자동 실행
+.github/workflows/update-songs.yml  매일 17:17(KST) 자동 실행
 ```
 
 ## 곡 선정 기준
 
-1. Last.fm 장르 태그별 누적 인기곡을 후보로 가져온다.
+1. YouTube에서 장르·연대별 히트곡 재생목록을 찾아 곡을 한꺼번에 가져오고, Last.fm 장르 태그별 누적 인기곡도 후보로 더한다.
 2. Last.fm 현재 글로벌 차트 상위 500곡에 있는 곡은 뺀다.
 3. YouTube에서 영상을 찾아 **조회수 3천만 이상**, **업로드 5년 이상** 지난 곡만 남긴다.
 
 기준은 워크플로의 환경 변수 `MIN_VIEWS`, `MIN_AGE_YEARS`로 바꿀 수 있다.
-YouTube 할당량 때문에 하루에 약 90곡씩 검색하므로 목록은 며칠에 걸쳐 늘어난다.
+YouTube 할당량(하루 10,000단위, 한국시간 16~17시 초기화) 안에서 매일 새 재생목록을 처리하므로 목록은 며칠에 걸쳐 늘어난다.
 
 ## 설정
 
