@@ -24,6 +24,9 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from tidy import tidy_songs  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE_PATH = os.path.join(ROOT, "data", "video_cache.json")
 OUT_PATH = os.path.join(ROOT, "site", "songs.json")
@@ -63,7 +66,7 @@ def http_get_json(url, params):
                 return json.loads(r.read().decode("utf-8"))
         except urllib.error.HTTPError as e:
             body = e.read().decode("utf-8", "ignore")
-            if e.code == 403 and "quota" in body.lower():
+            if e.code in (403, 429) and "quota" in body.lower():
                 raise QuotaExceeded(body)
             if attempt == 2:
                 raise RuntimeError(f"HTTP {e.code}: {body[:300]}")
@@ -170,16 +173,27 @@ def find_video(yt_key, artist, track):
 # 통째로 가져온다. 재생목록 검색 1회(100단위)로 곡 수백 개를 1~2단위에 확인할 수 있다.
 
 PLAYLIST_QUERIES = {
-    "pop": ["90s pop hits", "2000s pop hits", "2010s pop hits"],
-    "dance": ["90s dance hits", "2000s dance hits", "2010s dance hits"],
-    "hiphop": ["90s hip hop hits", "2000s hip hop hits", "2010s hip hop hits"],
-    "rnb": ["90s r&b hits", "2000s r&b hits", "2010s r&b hits"],
-    "rock": ["90s rock hits", "2000s rock hits", "2010s rock hits"],
-    "indie": ["2000s indie rock hits", "2010s indie pop hits"],
-    "electronic": ["2000s electronic hits", "2010s edm hits"],
-    "ballad": ["2000년대 발라드 명곡", "2010년대 발라드 명곡", "2000s love ballads"],
-    "kpop": ["2000s kpop hits", "2010s kpop hits", "2세대 아이돌 노래 모음"],
-    "latin": ["2000s reggaeton hits", "2010s latin hits"],
+    "pop": ["90s pop hits", "2000s pop hits", "2010s pop hits", "best pop songs 2005", "best pop songs 2012",
+            "throwback pop songs", "early 2000s pop songs"],
+    "dance": ["90s dance hits", "2000s dance hits", "2010s dance hits", "eurodance 90s", "2000s club hits",
+              "party anthems 2010s"],
+    "hiphop": ["90s hip hop hits", "2000s hip hop hits", "2010s hip hop hits", "old school hip hop classics",
+               "2000s rap hits", "2010s rap hits"],
+    "rnb": ["90s r&b hits", "2000s r&b hits", "2010s r&b hits", "90s r&b slow jams", "2000s rnb love songs"],
+    "rock": ["90s rock hits", "2000s rock hits", "2010s rock hits", "2000s alternative rock", "90s grunge hits",
+             "pop punk 2000s", "2000s emo songs"],
+    "indie": ["2000s indie rock hits", "2010s indie pop hits", "indie classics 2000s", "2010s indie hits",
+              "indie folk 2010s", "indie rock anthems", "alternative indie 2000s playlist", "tumblr indie songs 2013",
+              "indie sleaze playlist"],
+    "electronic": ["2000s electronic hits", "2010s edm hits", "edm classics 2012", "electro house 2010",
+                   "dubstep 2011 hits", "progressive house classics", "trance classics 2000s",
+                   "electronic music 2000s classics", "future bass 2016 hits"],
+    "ballad": ["2000년대 발라드 명곡", "2010년대 발라드 명곡", "2000s love ballads", "90년대 발라드 명곡",
+               "90s love songs", "power ballads"],
+    "kpop": ["2000s kpop hits", "2010s kpop hits", "2세대 아이돌 노래 모음", "3세대 아이돌 명곡",
+             "2010년대 가요 히트곡", "kpop 2012 hits", "kpop 2016 hits"],
+    "latin": ["2000s reggaeton hits", "2010s latin hits", "reggaeton old school", "latin pop 2000s",
+              "bachata hits 2010s"],
 }
 PLAYLISTS_PER_QUERY = 3
 MAX_ITEMS_PER_PLAYLIST = 200
@@ -285,8 +299,8 @@ def harvest_playlists(yt_key, cache, units):
                     k = key_of(artist, track)
                     entry = cache.setdefault(k, {"artist": artist, "track": track, "genres": []})
                     if not entry.get("video"):
-                        entry["video"] = {"id": v["id"], "views": views,
-                                          "published": sn["publishedAt"], "ytTitle": sn["title"]}
+                        entry["video"] = {"id": v["id"], "views": views, "published": sn["publishedAt"],
+                                          "ytTitle": sn["title"], "channel": sn.get("channelTitle", "")}
                         id_to_key[v["id"]] = k
                         added += 1
                     if gid not in entry["genres"]:
@@ -317,6 +331,33 @@ def clean_title(t):
 def years_since(iso):
     dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
     return (datetime.now(timezone.utc) - dt).days / 365.25
+
+
+def build_list(cache, now_playing):
+    """캐시에서 조건(조회수·연도·현재 차트 제외)에 맞는 곡을 골라 이름을 정리한다."""
+    by_id = {}
+    for k, e in cache.items():
+        if k.startswith("__"):
+            continue
+        v = e.get("video")
+        if not v or k in now_playing or not e.get("genres"):
+            continue
+        if v["views"] < MIN_VIEWS or years_since(v["published"]) < MIN_AGE_YEARS:
+            continue
+        if v["id"] in by_id:
+            for g in e["genres"]:
+                if g not in by_id[v["id"]]["genres"]:
+                    by_id[v["id"]]["genres"].append(g)
+            continue
+        by_id[v["id"]] = {
+            "id": v["id"],
+            "artist": e["artist"],
+            "title": clean_title(e["track"]),
+            "genres": list(e["genres"]),
+            "views": v["views"],
+            "year": int(v["published"][:4]),
+        }
+    return tidy_songs(list(by_id.values()))
 
 
 def main():
@@ -373,37 +414,15 @@ def main():
                 searches += 1
     except QuotaExceeded:
         print("YouTube 할당량 소진 — 여기까지 저장합니다.")
+    except Exception as e:  # 예기치 못한 오류가 나도 지금까지 모은 결과는 저장
+        print(f"수집 중 오류 — 여기까지 저장합니다: {e}")
     print(f"이번 실행: 곡 검색 {searches}회, 사용 {units.used}단위")
 
     os.makedirs(os.path.dirname(CACHE_PATH), exist_ok=True)
     with open(CACHE_PATH, "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False, indent=1, sort_keys=True)
 
-    # 최종 목록 (같은 영상이 두 번 들어가면 장르만 합침)
-    by_id = {}
-    for k, e in cache.items():
-        if k.startswith("__"):
-            continue
-        v = e.get("video")
-        if not v or k in now_playing:
-            continue
-        if v["views"] < MIN_VIEWS or years_since(v["published"]) < MIN_AGE_YEARS:
-            continue
-        if v["id"] in by_id:
-            for g in e["genres"]:
-                if g not in by_id[v["id"]]["genres"]:
-                    by_id[v["id"]]["genres"].append(g)
-            continue
-        by_id[v["id"]] = {
-            "id": v["id"],
-            "artist": e["artist"],
-            "title": clean_title(e["track"]),
-            "genres": list(e["genres"]),
-            "views": v["views"],
-            "year": int(v["published"][:4]),
-        }
-    songs = [s for s in by_id.values() if s["genres"]]
-    songs.sort(key=lambda s: -s["views"])
+    songs = build_list(cache, now_playing)
 
     out = {
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
