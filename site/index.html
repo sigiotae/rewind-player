@@ -8,7 +8,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <title>Rewind</title>
-  <meta name="description" content="예전엔 다 들었지만 요즘은 잊힌 노래를 장르별로 틀어주고, 마음에 든 곡을 플레이리스트로 모아주는 사이트">
+  <meta name="description" content="예전엔 다 들었지만 요즘은 잊힌 노래를 장르별로 틀어주고, 마음에 든 곡을 플레이리스트로 모아 다른 사람과 나누는 사이트">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23ff2d55'/%3E%3Cpath d='M30 50 52 34v32zM52 50l22-16v32z' fill='white'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -70,11 +70,32 @@
       </div>
     </section>
 
-    <!-- 플레이리스트 -->
+    <!-- 검색 -->
+    <section id="view-search" class="view" aria-labelledby="t-search">
+      <header class="large-title">
+        <p class="eyebrow" id="search-count"></p>
+        <h1 id="t-search">검색</h1>
+      </header>
+      <label class="searchbar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="search-input" type="search" placeholder="가수, 곡 이름" autocomplete="off" enterkeyhint="search" aria-label="가수나 곡 이름으로 검색">
+        <button class="clear hidden" id="search-clear" type="button" aria-label="지우기">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6M9 9l6 6"/></svg>
+        </button>
+      </label>
+      <div class="card mini hidden" data-player="search"></div>
+      <div class="card list" id="search-list"></div>
+      <div class="empty plain" id="search-empty">
+        <p class="empty-title" id="search-empty-title">듣고 싶은 노래를 찾아보세요</p>
+        <p class="empty-sub" id="search-empty-sub">곡을 누르면 바로 재생되고, ＋를 누르면 내 플리에 담겨요.</p>
+      </div>
+    </section>
+
+    <!-- 내 플리 -->
     <section id="view-playlist" class="view" aria-labelledby="t-playlist">
       <header class="large-title">
         <p class="eyebrow" id="pl-count"></p>
-        <h1 id="t-playlist">플레이리스트</h1>
+        <h1 id="t-playlist">내 플리</h1>
       </header>
 
       <div class="pl-buttons">
@@ -86,33 +107,78 @@
         </button>
       </div>
 
-      <div class="card mini hidden" id="pl-now">
-        <div class="video"><div id="yt-playlist"></div></div>
-        <div class="mini-bar">
-          <div class="meta-text">
-            <h2 id="pl-np-title"></h2>
-            <p id="pl-np-artist"></p>
-          </div>
-          <button class="icon-btn" id="btn-pl-prev" type="button" aria-label="이전 곡">
-            <svg viewBox="0 0 24 24"><path d="M19 20 9 12l10-8z"/><path d="M5 19V5"/></svg>
-          </button>
-          <button class="icon-btn" id="btn-pl-next" type="button" aria-label="다음 곡">
-            <svg viewBox="0 0 24 24"><path d="M5 4l10 8-10 8z"/><path d="M19 5v14"/></svg>
-          </button>
-        </div>
-      </div>
+      <div class="card mini hidden" data-player="mine"></div>
 
       <div class="card list" id="pl-list"></div>
       <div class="empty plain hidden" id="pl-empty">
         <p class="empty-title">아직 비어 있어요</p>
-        <p class="empty-sub">탐색에서 좋아요를 누른 곡이 여기에 모여요.</p>
+        <p class="empty-sub">탐색에서 좋아요를 누르거나 검색에서 ＋를 누른 곡이 여기에 모여요.</p>
       </div>
 
+      <div class="group-header"><span>공유</span></div>
       <div class="card list settings">
+        <button class="row link" id="btn-share-link" type="button">링크로 공유하기<span class="chev">›</span></button>
+        <button class="row link" id="btn-publish" type="button">공유 플리에 올리기<span class="chev">›</span></button>
         <button class="row link" id="btn-export" type="button">YouTube에서 열기<span class="chev">›</span></button>
+      </div>
+      <p class="group-footer">링크를 받은 사람은 그대로 듣거나 자기 플리에 담을 수 있어요. 공유 플리에 올리면 누구나 볼 수 있어요.</p>
+
+      <div class="card list settings">
         <button class="row link danger" id="btn-reset" type="button">평가 기록 초기화</button>
       </div>
       <p class="group-footer">평가 기록을 초기화하면 이미 평가한 곡이 탐색에 다시 나와요. 플레이리스트는 그대로예요.</p>
+    </section>
+
+    <!-- 공유 플리 -->
+    <section id="view-community" class="view" aria-labelledby="t-community">
+      <header class="large-title">
+        <p class="eyebrow">다른 사람들의 플레이리스트</p>
+        <h1 id="t-community">공유 플리</h1>
+      </header>
+      <div class="segmented" role="tablist" aria-label="정렬">
+        <button type="button" role="tab" class="seg active" data-sort="new" aria-selected="true">최신</button>
+        <button type="button" role="tab" class="seg" data-sort="top" aria-selected="false">인기</button>
+      </div>
+      <div class="cards" id="community-list"></div>
+      <div class="empty plain hidden" id="community-empty">
+        <p class="empty-title" id="community-empty-title">아직 올라온 플리가 없어요</p>
+        <p class="empty-sub" id="community-empty-sub">내 플리 탭에서 첫 번째로 올려보세요.</p>
+      </div>
+      <button class="pill secondary wide hidden" id="community-more" type="button">더 보기</button>
+    </section>
+
+    <!-- 플리 상세 (공유 플리 / 링크로 받은 플리) -->
+    <section id="view-detail" class="view" aria-labelledby="t-detail">
+      <nav class="navbar">
+        <button class="back" id="detail-back" type="button">
+          <svg viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg><span id="detail-back-label">공유 플리</span>
+        </button>
+      </nav>
+      <header class="large-title compact">
+        <p class="eyebrow" id="detail-meta"></p>
+        <h1 id="t-detail"></h1>
+        <p class="subtitle" id="detail-author"></p>
+      </header>
+
+      <div class="pl-buttons">
+        <button class="pill primary" id="detail-play" type="button">
+          <svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8z"/></svg>재생
+        </button>
+        <button class="pill secondary" id="detail-shuffle" type="button">
+          <svg viewBox="0 0 24 24"><path d="M16 3h5v5"/><path d="M4 20 21 3"/><path d="M21 16v5h-5"/><path d="M15 15l6 6"/><path d="M4 4l5 5"/></svg>셔플
+        </button>
+      </div>
+
+      <div class="card mini hidden" data-player="detail"></div>
+      <div class="card list" id="detail-list"></div>
+      <p class="group-footer" id="detail-missing"></p>
+
+      <div class="card list settings">
+        <button class="row link" id="detail-like" type="button"><span id="detail-like-label">좋아요</span><span class="like-count" id="detail-like-count"></span></button>
+        <button class="row link" id="detail-save" type="button">내 플리에 모두 담기<span class="chev">›</span></button>
+        <button class="row link" id="detail-share" type="button">링크 복사<span class="chev">›</span></button>
+        <button class="row link danger hidden" id="detail-delete" type="button">내가 올린 플리 삭제</button>
+      </div>
     </section>
   </main>
 
@@ -121,12 +187,36 @@
       <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg>
       <span>탐색</span>
     </button>
+    <button class="tab" data-view="search" type="button">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <span>검색</span>
+    </button>
     <button class="tab" data-view="playlist" type="button">
       <svg viewBox="0 0 24 24"><path d="M3 6h12M3 12h12M3 18h8"/><path d="M19 4v11"/><circle cx="17" cy="16" r="2"/></svg>
-      <span>플레이리스트</span>
+      <span>내 플리</span>
       <i class="tab-badge hidden" id="tab-badge"></i>
     </button>
+    <button class="tab" data-view="community" type="button">
+      <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.5"/><path d="M16 14.2c2.9.4 5 2.8 5 5.8"/></svg>
+      <span>공유 플리</span>
+    </button>
   </nav>
+
+  <!-- 공유 플리 올리기 시트 -->
+  <div class="sheet-backdrop hidden" id="publish-sheet" role="dialog" aria-modal="true" aria-labelledby="publish-title">
+    <form class="sheet" id="publish-form">
+      <div class="sheet-bar">
+        <button type="button" class="text-btn" id="publish-cancel">취소</button>
+        <h2 id="publish-title">공유 플리에 올리기</h2>
+        <button type="submit" class="text-btn strong" id="publish-submit">올리기</button>
+      </div>
+      <div class="card list form">
+        <label class="row field"><span>제목</span><input id="publish-name" maxlength="40" placeholder="예: 비 오는 날 듣는 2000년대 발라드" required></label>
+        <label class="row field"><span>닉네임</span><input id="publish-author" maxlength="20" placeholder="익명"></label>
+      </div>
+      <p class="group-footer" id="publish-info"></p>
+    </form>
+  </div>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
