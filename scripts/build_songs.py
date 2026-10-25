@@ -285,13 +285,20 @@ def split_title(title, channel):
     return ch, t.strip(" \"'“”")
 
 
-def search_playlists(yt_key, query, units):
+def search_playlists(yt_key, query, units, accept=None, n=PLAYLISTS_PER_QUERY):
+    """재생목록 검색. accept가 있으면 재생목록 제목이 조건에 맞는 것만 쓴다 (검색 비용은 같음)."""
     units.spend(100)
     data = http_get_json(YT_SEARCH_URL, {
-        "part": "id", "q": query, "type": "playlist",
-        "maxResults": PLAYLISTS_PER_QUERY, "key": yt_key,
+        "part": "snippet", "q": query, "type": "playlist",
+        "maxResults": 10 if accept else n, "key": yt_key,
     })
-    return [it["id"]["playlistId"] for it in data.get("items", []) if it.get("id", {}).get("playlistId")]
+    out = []
+    for it in data.get("items", []):
+        pid = it.get("id", {}).get("playlistId")
+        title = it.get("snippet", {}).get("title", "")
+        if pid and (accept is None or accept(title)):
+            out.append(pid)
+    return out[:n]
 
 
 def playlist_video_ids(yt_key, pid, units):
@@ -324,14 +331,14 @@ def video_details(yt_key, ids, units):
 
 
 def harvest_playlists(yt_key, cache, units, jobs, min_views):
-    """jobs: [(검색어, 표시 함수)]. 표시 함수는 찾은 곡의 캐시 항목에 장르나 한국 차트 연도를 기록한다."""
+    """jobs: [(검색어, 표시 함수, 재생목록 제목 조건)]. 표시 함수는 찾은 곡의 캐시 항목에 장르나 한국 차트 연도를 기록한다."""
     meta = cache.setdefault("__meta__", {"queries_done": [], "playlists_done": []})
     id_to_key = {e["video"]["id"]: k for k, e in cache.items() if not k.startswith("__") and e.get("video")}
     added = 0
-    for q, mark in jobs:
+    for q, mark, accept in jobs:
         if q in meta["queries_done"]:
             continue
-        for pid in search_playlists(yt_key, q, units):
+        for pid in search_playlists(yt_key, q, units, accept):
             if pid in meta["playlists_done"]:
                 continue
             vids = []
@@ -379,11 +386,20 @@ def kr_marker(year):
 
 
 def global_jobs():
-    return [(q, genre_marker(g)) for g, qs in PLAYLIST_QUERIES.items() for q in qs]
+    return [(q, genre_marker(g), None) for g, qs in PLAYLIST_QUERIES.items() for q in qs]
+
+
+KR_CHART_WORDS = re.compile(r"멜론|melon|가온|gaon|써클|circle|연간|차트|chart|가요|k-?pop|top\s?\d+", re.I)
+
+
+def kr_title_ok(year):
+    """재생목록 제목에 그 해(예: 2005, '2005년')와 차트 관련 말이 있어야 한다. '2000년대', '2000s'는 안 됨."""
+    year_re = re.compile(rf"(?<!\d){year}(?!\d|\s*년대|s\b|'s)")
+    return lambda title: bool(year_re.search(title) and KR_CHART_WORDS.search(title))
 
 
 def kr_jobs():
-    return [(t.format(y=y), kr_marker(y)) for y in KR_YEARS for t in KR_QUERY_TEMPLATES]
+    return [(t.format(y=y), kr_marker(y), kr_title_ok(y)) for y in KR_YEARS for t in KR_QUERY_TEMPLATES]
 
 
 # ---------- 메인 ----------
@@ -408,6 +424,21 @@ def years_since(iso):
     return (datetime.now(timezone.utc) - dt).days / 365.25
 
 
+KANA = re.compile(r"[\u3040-\u30ff]")
+
+
+def looks_korean_song(e):
+    """한국 차트 재생목록에 섞여 들어온 외국 곡을 거른다."""
+    v = e.get("video") or {}
+    text = " ".join([e.get("artist", ""), e.get("track", ""), v.get("ytTitle", ""), v.get("channel", "")])
+    if KANA.search(text):
+        return False  # 일본 곡·커버
+    if HANGUL.search(text):
+        return True
+    # 한글이 없으면, 외국 재생목록·Last.fm 장르가 붙은 곡(외국 곡)은 뺀다
+    return not [g for g in e.get("genres", []) if g != "kpop"]
+
+
 def is_korean(e):
     v = e.get("video") or {}
     text = " ".join([e.get("artist", ""), e.get("track", ""), v.get("ytTitle", ""), v.get("channel", "")])
@@ -428,7 +459,8 @@ def build_list(cache, now_playing, now_playing_kr=frozenset()):
 
         # 한국: 연간 차트에 오른 해가 5년 이상 지난 곡
         y = e.get("kr_year")
-        if y and this_year - y >= MIN_AGE_YEARS and v["views"] >= KR_MIN_VIEWS and k not in now_playing_kr:
+        if (y and this_year - y >= MIN_AGE_YEARS and v["views"] >= KR_MIN_VIEWS
+                and k not in now_playing_kr and looks_korean_song(e)):
             prev = korea.get(v["id"])
             if not prev or y < prev["year"]:
                 korea[v["id"]] = dict(base, region="kr", year=y, genres=[])
@@ -448,6 +480,24 @@ def build_list(cache, now_playing, now_playing_kr=frozenset()):
     return tidy_songs(list(world.values())) + tidy_songs(list(korea.values()))
 
 
+KR_DATA_VERSION = 2
+
+
+def reset_kr_if_needed(cache):
+    """재생목록 제목 검증 없이 모았던 한국 차트 연도를 지우고 다시 모으게 한다."""
+    meta = cache.setdefault("__meta__", {"queries_done": [], "playlists_done": []})
+    if meta.get("kr_version") == KR_DATA_VERSION:
+        return
+    kr_queries = {q for q, _, _ in kr_jobs()}
+    for k, e in cache.items():
+        if not k.startswith("__"):
+            e.pop("kr_year", None)
+    meta["queries_done"] = [q for q in meta["queries_done"] if q not in kr_queries]
+    meta["playlists_done"] = []  # 한국 재생목록을 다시 볼 수 있게 (외국 검색어는 이미 끝나서 다시 돌지 않음)
+    meta["kr_version"] = KR_DATA_VERSION
+    print("한국 차트 데이터를 초기화했습니다 (재생목록 제목 검증 추가).")
+
+
 def main():
     lf_key = os.environ.get("LASTFM_API_KEY")
     yt_key = os.environ.get("YOUTUBE_API_KEY")
@@ -455,6 +505,7 @@ def main():
         sys.exit("LASTFM_API_KEY, YOUTUBE_API_KEY 환경 변수가 필요합니다.")
 
     cache = load_json(CACHE_PATH, {})  # key -> {artist, track, genres, video|None}
+    reset_kr_if_needed(cache)
 
     print("현재 차트 불러오는 중…")
     now_playing = current_chart(lf_key, CURRENT_CHART_SIZE)
