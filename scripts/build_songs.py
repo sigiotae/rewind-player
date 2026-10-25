@@ -173,27 +173,59 @@ def find_video(yt_key, artist, track):
 # 통째로 가져온다. 재생목록 검색 1회(100단위)로 곡 수백 개를 1~2단위에 확인할 수 있다.
 
 PLAYLIST_QUERIES = {
-    "pop": ["90s pop hits", "2000s pop hits", "2010s pop hits", "best pop songs 2005", "best pop songs 2012",
-            "throwback pop songs", "early 2000s pop songs"],
-    "dance": ["90s dance hits", "2000s dance hits", "2010s dance hits", "eurodance 90s", "2000s club hits",
-              "party anthems 2010s"],
-    "hiphop": ["90s hip hop hits", "2000s hip hop hits", "2010s hip hop hits", "old school hip hop classics",
-               "2000s rap hits", "2010s rap hits"],
-    "rnb": ["90s r&b hits", "2000s r&b hits", "2010s r&b hits", "90s r&b slow jams", "2000s rnb love songs"],
-    "rock": ["90s rock hits", "2000s rock hits", "2010s rock hits", "2000s alternative rock", "90s grunge hits",
-             "pop punk 2000s", "2000s emo songs"],
-    "indie": ["2000s indie rock hits", "2010s indie pop hits", "indie classics 2000s", "2010s indie hits",
-              "indie folk 2010s", "indie rock anthems", "alternative indie 2000s playlist", "tumblr indie songs 2013",
-              "indie sleaze playlist"],
-    "electronic": ["2000s electronic hits", "2010s edm hits", "edm classics 2012", "electro house 2010",
-                   "dubstep 2011 hits", "progressive house classics", "trance classics 2000s",
-                   "electronic music 2000s classics", "future bass 2016 hits"],
-    "ballad": ["2000년대 발라드 명곡", "2010년대 발라드 명곡", "2000s love ballads", "90년대 발라드 명곡",
-               "90s love songs", "power ballads"],
-    "kpop": ["2000s kpop hits", "2010s kpop hits", "2세대 아이돌 노래 모음", "3세대 아이돌 명곡",
-             "2010년대 가요 히트곡", "kpop 2012 hits", "kpop 2016 hits"],
-    "latin": ["2000s reggaeton hits", "2010s latin hits", "reggaeton old school", "latin pop 2000s",
-              "bachata hits 2010s"],
+    "pop": [
+        "90s pop hits", "2000s pop hits", "2010s pop hits", "best pop songs 2005", "best pop songs 2012",
+        "throwback pop songs", "early 2000s pop songs", "best pop songs 2008", "best pop songs 2010",
+        "best pop songs 2014", "best pop songs 2016", "late 90s pop hits", "summer hits 2000s",
+        "one hit wonders 2000s", "boy band hits 90s 2000s", "disney channel songs 2000s",
+    ],
+    "dance": [
+        "90s dance hits", "2000s dance hits", "2010s dance hits", "eurodance 90s", "2000s club hits",
+        "party anthems 2010s", "dance hits 2009", "dance hits 2013", "club bangers 2000s", "90s dance party",
+        "moombahton hits",
+    ],
+    "hiphop": [
+        "90s hip hop hits", "2000s hip hop hits", "2010s hip hop hits", "old school hip hop classics",
+        "2000s rap hits", "2010s rap hits", "hip hop hits 2004", "hip hop hits 2008", "hip hop hits 2015",
+        "west coast hip hop classics", "southern hip hop 2000s", "90s east coast rap",
+    ],
+    "rnb": [
+        "90s r&b hits", "2000s r&b hits", "2010s r&b hits", "90s r&b slow jams", "2000s rnb love songs",
+        "r&b hits 2004", "r&b hits 2012", "neo soul classics", "new jack swing hits", "2010s r&b slow songs",
+    ],
+    "rock": [
+        "90s rock hits", "2000s rock hits", "2010s rock hits", "2000s alternative rock", "90s grunge hits",
+        "pop punk 2000s", "2000s emo songs", "rock hits 2005", "rock hits 2012", "post grunge hits",
+        "nu metal classics", "british rock 90s", "stadium rock anthems",
+    ],
+    "indie": [
+        "2000s indie rock hits", "2010s indie pop hits", "indie classics 2000s", "2010s indie hits",
+        "indie folk 2010s", "indie rock anthems", "alternative indie 2000s playlist",
+        "tumblr indie songs 2013", "indie sleaze playlist", "indie hits 2009", "indie hits 2014",
+        "indie hits 2017", "bedroom pop 2017", "britpop classics", "indie electronic 2010s",
+        "garage rock revival", "chill indie 2010s",
+    ],
+    "electronic": [
+        "2000s electronic hits", "2010s edm hits", "edm classics 2012", "electro house 2010",
+        "dubstep 2011 hits", "progressive house classics", "trance classics 2000s",
+        "electronic music 2000s classics", "future bass 2016 hits", "edm hits 2013", "edm hits 2015",
+        "big room house 2014", "tropical house 2015", "chillstep classics", "electro pop 2009",
+        "french house classics", "drum and bass classics",
+    ],
+    "ballad": [
+        "2000년대 발라드 명곡", "2010년대 발라드 명곡", "2000s love ballads", "90년대 발라드 명곡", "90s love songs",
+        "power ballads", "2000년대 이별 노래", "2010년대 이별 노래", "노래방 발라드 명곡", "sad songs 2000s", "love songs 2010s",
+    ],
+    "kpop": [
+        "2000s kpop hits", "2010s kpop hits", "2세대 아이돌 노래 모음", "3세대 아이돌 명곡", "2010년대 가요 히트곡",
+        "kpop 2012 hits", "kpop 2016 hits", "2000년대 댄스곡", "1세대 아이돌 노래", "kpop 2010 hits", "kpop 2014 hits",
+        "kpop 2018 hits", "2010년대 걸그룹 노래", "2010년대 보이그룹 노래", "추억의 가요",
+    ],
+    "latin": [
+        "2000s reggaeton hits", "2010s latin hits", "reggaeton old school", "latin pop 2000s",
+        "bachata hits 2010s", "reggaeton 2005", "reggaeton 2017 hits", "latin trap 2018", "salsa hits",
+        "latin ballads 2000s",
+    ],
 }
 PLAYLISTS_PER_QUERY = 3
 MAX_ITEMS_PER_PLAYLIST = 200
