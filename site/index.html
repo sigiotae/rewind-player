@@ -23,14 +23,19 @@
         <p class="subtitle">그땐 다 들었는데, 요즘은 잊힌 노래</p>
       </header>
 
+      <div class="segmented region" role="tablist" aria-label="한국 / 외국">
+        <button type="button" role="tab" class="seg region-seg active" data-region="global" aria-selected="true">외국</button>
+        <button type="button" role="tab" class="seg region-seg" data-region="kr" aria-selected="false">한국</button>
+      </div>
+
       <div class="group-header">
-        <span>장르</span>
+        <span id="chip-label">장르</span>
         <button class="text-btn" id="toggle-all" type="button">전체 선택</button>
       </div>
       <div class="card">
-        <div class="chips" id="genres" role="group" aria-label="장르 선택"></div>
+        <div class="chips" id="genres" role="group" aria-label="선택"></div>
       </div>
-      <p class="group-footer">여러 개 고를 수 있어요.</p>
+      <p class="group-footer" id="chip-footer">여러 개 고를 수 있어요.</p>
 
       <div class="card player-card" id="player-card">
         <div class="empty" id="explore-empty">
