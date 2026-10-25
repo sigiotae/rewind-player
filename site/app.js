@@ -1,4 +1,4 @@
-/* Rewind — 장르 복수 선택 → 한 곡씩 재생 → 좋아요/별로 → 플레이리스트 */
+/* Rewind — 탐색 · 검색 · 내 플리 · 공유 플리 */
 (function () {
   "use strict";
 
@@ -17,69 +17,198 @@
 
   const state = {
     data: { genres: [], songs: [] },
+    byId: new Map(),
     selected: new Set(store.get("genres", [])),
-    seen: new Set(store.get("seen", [])),      // 좋아요/별로를 누른 곡 id
-    skipped: new Set(),                         // 이번 방문에서 넘긴 곡
-    playlist: store.get("playlist", []),        // [{id, artist, title, year}]
+    seen: new Set(store.get("seen", [])),       // 좋아요/별로를 누른 곡 id
+    skipped: new Set(),                          // 이번 방문에서 넘긴 곡
+    playlist: store.get("playlist", []),         // [{id, artist, title, year}]
+    owned: store.get("owned", {}),               // 내가 올린 공유 플리 {id: ownerToken}
+    likedShared: new Set(store.get("likedShared", [])),
     current: null,
-    plIndex: -1,
-    plOrder: [],
+    detail: null,                                // 지금 열린 상세 플리
+    view: "explore",
   };
 
   const $ = (id) => document.getElementById(id);
   const fmtViews = (n) => n >= 1e9 ? (n / 1e9).toFixed(1).replace(/\.0$/, "") + "B"
     : n >= 1e6 ? Math.round(n / 1e6) + "M" : String(n);
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const thumb = (id) => `https://i.ytimg.com/vi/${encodeURIComponent(id)}/mqdefault.jpg`;
+  const inMine = (id) => state.playlist.some((p) => p.id === id);
+
+  const ICON = {
+    plus: '<svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>',
+    check: '<svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg>',
+    x: '<svg viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>',
+    heart: '<svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-9.2-8.6C1.2 8.2 3 4.5 6.6 4.5c2.1 0 3.6 1.2 5.4 3.2 1.8-2 3.3-3.2 5.4-3.2 3.6 0 5.4 3.7 3.8 6.9C19 15.6 12 20 12 20z"/></svg>',
+    prev: '<svg viewBox="0 0 24 24"><path d="M19 20 9 12l10-8z"/><path d="M5 19V5"/></svg>',
+    next: '<svg viewBox="0 0 24 24"><path d="M5 4l10 8-10 8z"/><path d="M19 5v14"/></svg>',
+  };
+
+  // ---------- 토스트 ----------
+  let toastTimer;
+  function toast(msg) {
+    const t = $("toast");
+    t.textContent = msg;
+    t.classList.add("show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => t.classList.remove("show"), 1800);
+  }
 
   // ---------- YouTube 플레이어 ----------
-  let ytReady = false;
-  let explorePlayer = null;
-  let playlistPlayer = null;
-  const pending = { explore: null, playlist: null };
+  // 플레이어는 처음 쓸 때 만든다. 여러 개가 동시에 소리 나지 않게 하나만 재생.
+  let ytApiReady = !!(window.YT && window.YT.Player);
+  const waiting = [];
+  window.onYouTubeIframeAPIReady = () => { ytApiReady = true; waiting.splice(0).forEach((f) => f()); };
+  const players = [];
 
-  function makePlayer(elId, onEnd, onReady, onError) {
-    return new YT.Player(elId, {
-      width: "100%", height: "100%",
-      playerVars: { playsinline: 1, rel: 0, modestbranding: 1 },
-      events: {
-        onReady,
-        onStateChange: (e) => { if (e.data === YT.PlayerState.ENDED) onEnd(); },
-        onError,
-      },
+  function pauseOthers(except) {
+    players.forEach((p) => { if (p !== except) p.pause(); });
+  }
+
+  class YtSlot {
+    constructor(elId, { onEnd, onError } = {}) {
+      this.elId = elId;
+      this.onEnd = onEnd || (() => {});
+      this.onError = onError || (() => {});
+      this.yt = null;
+      this.ready = false;
+      this.pending = null;
+      players.push(this);
+    }
+    create() {
+      if (this.yt) return;
+      const go = () => {
+        this.yt = new YT.Player(this.elId, {
+          width: "100%", height: "100%",
+          playerVars: { playsinline: 1, rel: 0, modestbranding: 1 },
+          events: {
+            onReady: () => { this.ready = true; if (this.pending) this.load(...this.pending); },
+            onStateChange: (e) => {
+              if (e.data === YT.PlayerState.PLAYING) pauseOthers(this);
+              if (e.data === YT.PlayerState.ENDED) this.onEnd();
+            },
+            onError: () => this.onError(),
+          },
+        });
+      };
+      ytApiReady ? go() : waiting.push(go);
+    }
+    load(id, autoplay) {
+      this.create();
+      if (!this.ready) { this.pending = [id, autoplay]; return; }
+      this.pending = null;
+      if (autoplay) { pauseOthers(this); this.yt.loadVideoById(id); } else this.yt.cueVideoById(id);
+    }
+    pause() {
+      try { if (this.ready) this.yt.pauseVideo(); } catch (e) { /* 무시 */ }
+    }
+  }
+
+  // 목록을 차례로 재생하는 미니 플레이어 (검색 · 내 플리 · 상세에서 사용)
+  class QueuePlayer {
+    constructor(name, onChange) {
+      this.box = document.querySelector(`[data-player="${name}"]`);
+      this.box.innerHTML = `
+        <div class="video"><div id="yt-${name}"></div></div>
+        <div class="mini-bar">
+          <div class="meta-text"><h2></h2><p></p></div>
+          <button class="icon-btn" data-act="prev" type="button" aria-label="이전 곡">${ICON.prev}</button>
+          <button class="icon-btn" data-act="next" type="button" aria-label="다음 곡">${ICON.next}</button>
+        </div>`;
+      this.slot = new YtSlot(`yt-${name}`, { onEnd: () => this.step(1), onError: () => this.step(1) });
+      this.queue = [];
+      this.index = -1;
+      this.onChange = onChange || (() => {});
+      this.box.querySelector('[data-act="prev"]').addEventListener("click", () => this.step(-1));
+      this.box.querySelector('[data-act="next"]').addEventListener("click", () => this.step(1));
+    }
+    play(songs, start = 0, shuffle = false) {
+      let q = songs.slice();
+      if (shuffle) {
+        for (let i = q.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [q[i], q[j]] = [q[j], q[i]]; }
+        start = 0;
+      }
+      if (!q.length) return;
+      this.queue = q;
+      this.at(start);
+    }
+    step(d) { if (this.queue.length) this.at(this.index + d); }
+    at(i) {
+      const n = this.queue.length;
+      this.index = ((i % n) + n) % n;
+      const s = this.queue[this.index];
+      this.box.classList.remove("hidden");
+      this.box.querySelector("h2").textContent = s.title;
+      this.box.querySelector("p").textContent = s.artist;
+      this.slot.load(s.id, true);
+      this.onChange(s.id);
+    }
+    get currentId() { return this.index >= 0 && this.queue[this.index] ? this.queue[this.index].id : null; }
+    stop() { this.slot.pause(); this.box.classList.add("hidden"); this.queue = []; this.index = -1; }
+  }
+
+  const explorePlayer = new YtSlot("yt-explore", {
+    onError: () => { if (state.current) state.skipped.add(state.current.id); nextSong(); },
+  });
+  const searchPlayer = new QueuePlayer("search", () => markPlaying("search-list", searchPlayer));
+  const minePlayer = new QueuePlayer("mine", () => markPlaying("pl-list", minePlayer));
+  const detailPlayer = new QueuePlayer("detail", () => markPlaying("detail-list", detailPlayer));
+
+  function markPlaying(listId, player) {
+    const id = player.currentId;
+    document.querySelectorAll(`#${listId} .row.song`).forEach((r) => r.classList.toggle("playing", r.dataset.id === id));
+  }
+
+  // ---------- 곡 행(공통) ----------
+  function songRow(s, { remove = false, index } = {}) {
+    const added = inMine(s.id);
+    const action = remove
+      ? `<button class="row-btn" type="button" data-del="${index}" aria-label="삭제">${ICON.x}</button>`
+      : `<button class="row-btn add${added ? " done" : ""}" type="button" data-add="${esc(s.id)}" aria-label="${added ? "내 플리에 담김" : "내 플리에 담기"}">${added ? ICON.check : ICON.plus}</button>`;
+    return `
+      <div class="row song" data-id="${esc(s.id)}" data-i="${index ?? ""}" role="button" tabindex="0">
+        <div class="thumb" style="background-image:url('${thumb(s.id)}')"></div>
+        <div class="row-text">
+          <div class="row-title">${esc(s.title)}</div>
+          <div class="row-sub">${esc(s.artist)}${s.year ? " · " + s.year : ""}</div>
+        </div>
+        ${action}
+      </div>`;
+  }
+
+  function addToMine(s, quiet) {
+    if (inMine(s.id)) return false;
+    state.playlist.push({ id: s.id, artist: s.artist, title: s.title, year: s.year });
+    store.set("playlist", state.playlist);
+    renderPlaylist();
+    if (!quiet) toast("내 플리에 담았어요");
+    return true;
+  }
+
+  // 목록 클릭: ＋ 버튼이면 담기, 아니면 그 곡부터 재생
+  function bindSongList(listId, getSongs, player) {
+    const list = $(listId);
+    list.addEventListener("click", (e) => {
+      const add = e.target.closest("[data-add]");
+      if (add) {
+        const s = getSongs().find((x) => x.id === add.dataset.add);
+        if (s && addToMine(s)) {
+          add.classList.add("done");
+          add.innerHTML = ICON.check;
+          add.setAttribute("aria-label", "내 플리에 담김");
+        }
+        return;
+      }
+      if (e.target.closest("[data-del]")) return;
+      const row = e.target.closest(".row.song");
+      if (!row) return;
+      const songs = getSongs();
+      player.play(songs, Math.max(0, songs.findIndex((x) => x.id === row.dataset.id)));
     });
-  }
-
-  function initPlayers() {
-    if (ytReady) return;
-    ytReady = true;
-    explorePlayer = makePlayer("yt-explore",
-      () => {},                               // 끝나도 자동으로 넘기지 않음: 평가를 기다림
-      () => { explorePlayer._ready = true; if (pending.explore) loadExplore(pending.explore); },
-      () => { // 임베드 불가 등 → 조용히 다음 곡
-        if (state.current) state.skipped.add(state.current.id);
-        nextSong();
-      });
-    playlistPlayer = makePlayer("yt-playlist",
-      () => playPlaylistAt(state.plIndex + 1),
-      () => { playlistPlayer._ready = true; if (pending.playlist) loadPlaylist(pending.playlist); },
-      () => playPlaylistAt(state.plIndex + 1));
-  }
-  window.onYouTubeIframeAPIReady = initPlayers;
-  if (window.YT && window.YT.Player) initPlayers();
-
-  function loadExplore(id) {
-    if (!explorePlayer || !explorePlayer._ready) { pending.explore = id; return; }
-    pending.explore = null;
-    explorePlayer.cueVideoById(id);
-  }
-  function loadPlaylist(id) {
-    if (!playlistPlayer || !playlistPlayer._ready) { pending.playlist = id; return; }
-    pending.playlist = null;
-    playlistPlayer.loadVideoById(id);
-  }
-  function pauseAll() {
-    try { explorePlayer && explorePlayer._ready && explorePlayer.pauseVideo(); } catch (e) {}
-    try { playlistPlayer && playlistPlayer._ready && playlistPlayer.pauseVideo(); } catch (e) {}
+    list.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" && e.target.classList.contains("song")) e.target.click();
+    });
   }
 
   // ---------- 장르 ----------
@@ -97,13 +226,12 @@
       b.type = "button";
       b.className = "chip";
       b.setAttribute("aria-pressed", state.selected.has(g.id));
-      b.innerHTML = `<svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg>${esc(g.label)} <span class="count">${n}</span>`;
+      b.innerHTML = `${ICON.check}${esc(g.label)} <span class="count">${n}</span>`;
       b.addEventListener("click", () => {
         state.selected.has(g.id) ? state.selected.delete(g.id) : state.selected.add(g.id);
         b.setAttribute("aria-pressed", state.selected.has(g.id));
         store.set("genres", [...state.selected]);
         updateToggleAll();
-        // 지금 곡이 선택 장르에서 빠졌으면 다음 곡
         if (!state.current || !state.current.genres.some((x) => state.selected.has(x))) nextSong();
         else updateRemaining();
       });
@@ -141,7 +269,6 @@
     const pool = candidates().filter((s) => !state.current || s.id !== state.current.id);
     if (!state.selected.size) return showEmpty("장르를 골라주세요", "고른 장르에서 한 곡씩 틀어드려요.", false);
     if (!pool.length) {
-      // 넘기기만 한 곡이 있으면 다시 돌림
       if (state.skipped.size) { state.skipped.clear(); const again = candidates(); if (again.length) return show(pick(again)); }
       return showEmpty("이 장르는 다 들었어요", "다른 장르를 고르거나 평가 기록을 초기화해 보세요.", true);
     }
@@ -163,13 +290,13 @@
     $("np-title").textContent = song.title;
     $("np-artist").textContent = song.artist;
     $("np-info").textContent = `${song.year} · ${fmtViews(song.views)}회`;
-    loadExplore(song.id);
+    explorePlayer.load(song.id, false);
     updateRemaining();
   }
 
   function showEmpty(title, sub, showReset) {
     state.current = null;
-    pauseAll();
+    explorePlayer.pause();
     $("explore-now").classList.add("hidden");
     $("explore-empty").classList.remove("hidden");
     $("empty-title").textContent = title;
@@ -178,8 +305,7 @@
   }
 
   function updateRemaining() {
-    const n = candidates().length;
-    $("remaining").textContent = `선택한 장르에 남은 곡 ${n}곡`;
+    $("remaining").textContent = `선택한 장르에 남은 곡 ${candidates().length}곡`;
   }
 
   function rate(liked) {
@@ -187,12 +313,7 @@
     if (!s) return;
     state.seen.add(s.id);
     store.set("seen", [...state.seen]);
-    if (liked && !state.playlist.some((p) => p.id === s.id)) {
-      state.playlist.push({ id: s.id, artist: s.artist, title: s.title, year: s.year });
-      store.set("playlist", state.playlist);
-      renderPlaylist();
-      toast("플레이리스트에 추가했어요");
-    }
+    if (liked) addToMine(s);
     nextSong();
   }
 
@@ -203,7 +324,49 @@
     nextSong();
   });
 
-  // ---------- 플레이리스트 ----------
+  // ---------- 검색 ----------
+  const fold = (s) => String(s).toLowerCase().normalize("NFKC").replace(/[\s'’".,!?()\[\]\-_&]+/g, "");
+  let searchIndex = [];
+  let searchResults = [];
+
+  function buildSearchIndex() {
+    searchIndex = state.data.songs.map((s) => ({ s, key: fold(s.artist) + "|" + fold(s.title) + "|" + fold(s.aka || "") }));
+  }
+
+  function runSearch() {
+    const q = $("search-input").value.trim();
+    $("search-clear").classList.toggle("hidden", !q);
+    const words = q.split(/\s+/).map(fold).filter(Boolean);
+    if (!words.length) {
+      searchResults = [];
+      $("search-list").innerHTML = "";
+      $("search-list").classList.add("hidden");
+      $("search-count").textContent = "";
+      $("search-empty").classList.remove("hidden");
+      $("search-empty-title").textContent = "듣고 싶은 노래를 찾아보세요";
+      $("search-empty-sub").textContent = `${state.data.songs.length.toLocaleString()}곡 중에서 찾아요. 곡을 누르면 바로 재생되고, ＋를 누르면 내 플리에 담겨요.`;
+      return;
+    }
+    const hits = searchIndex.filter((x) => words.every((w) => x.key.includes(w))).map((x) => x.s);
+    searchResults = hits.slice(0, 80);
+    $("search-count").textContent = hits.length ? `${hits.length.toLocaleString()}곡` : "";
+    $("search-list").classList.toggle("hidden", !hits.length);
+    $("search-empty").classList.toggle("hidden", !!hits.length);
+    if (!hits.length) {
+      $("search-empty-title").textContent = "찾는 곡이 없어요";
+      $("search-empty-sub").textContent = "다른 이름이나 영어 표기로 찾아보세요.";
+    }
+    $("search-list").innerHTML = searchResults.map((s) => songRow(s)).join("");
+    markPlaying("search-list", searchPlayer);
+  }
+
+  let searchTimer;
+  $("search-input").addEventListener("input", () => { clearTimeout(searchTimer); searchTimer = setTimeout(runSearch, 120); });
+  $("search-input").addEventListener("keydown", (e) => { if (e.key === "Enter") e.target.blur(); });
+  $("search-clear").addEventListener("click", () => { $("search-input").value = ""; runSearch(); $("search-input").focus(); });
+  bindSongList("search-list", () => searchResults, searchPlayer);
+
+  // ---------- 내 플리 ----------
   function renderPlaylist() {
     const list = $("pl-list");
     const n = state.playlist.length;
@@ -212,74 +375,55 @@
     $("tab-badge").classList.toggle("hidden", !n);
     $("pl-empty").classList.toggle("hidden", !!n);
     list.classList.toggle("hidden", !n);
-    ["btn-play-all", "btn-shuffle", "btn-export"].forEach((id) => { $(id).disabled = !n; });
-
-    const playingId = state.plIndex >= 0 ? state.plOrder[state.plIndex] : null;
-    list.innerHTML = state.playlist.map((s, i) => `
-      <div class="row song${s.id === playingId ? " playing" : ""}" data-i="${i}" role="button" tabindex="0">
-        <div class="thumb" style="background-image:url('https://i.ytimg.com/vi/${encodeURIComponent(s.id)}/mqdefault.jpg')"></div>
-        <div class="row-text">
-          <div class="row-title">${esc(s.title)}</div>
-          <div class="row-sub">${esc(s.artist)} · ${s.year}</div>
-        </div>
-        <button class="del" type="button" data-del="${i}" aria-label="삭제">
-          <svg viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
-        </button>
-      </div>`).join("");
+    ["btn-play-all", "btn-shuffle", "btn-export", "btn-share-link", "btn-publish"].forEach((id) => { $(id).disabled = !n; });
+    list.innerHTML = state.playlist.map((s, i) => songRow(s, { remove: true, index: i })).join("");
+    markPlaying("pl-list", minePlayer);
   }
 
   $("pl-list").addEventListener("click", (e) => {
     const del = e.target.closest("[data-del]");
-    if (del) {
-      const i = +del.dataset.del;
-      const [removed] = state.playlist.splice(i, 1);
-      store.set("playlist", state.playlist);
-      state.plOrder = state.plOrder.filter((id) => id !== removed.id);
-      renderPlaylist();
-      toast("삭제했어요");
-      return;
-    }
-    const row = e.target.closest(".row.song");
-    if (row) startPlaylist(false, state.playlist[+row.dataset.i].id);
-  });
-  $("pl-list").addEventListener("keydown", (e) => {
-    if (e.key === "Enter" && e.target.classList.contains("song")) e.target.click();
-  });
-
-  function startPlaylist(shuffle, firstId) {
-    if (!state.playlist.length) return;
-    let ids = state.playlist.map((s) => s.id);
-    if (shuffle) {
-      for (let i = ids.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [ids[i], ids[j]] = [ids[j], ids[i]]; }
-    }
-    state.plOrder = ids;
-    pauseAll();
-    playPlaylistAt(firstId ? ids.indexOf(firstId) : 0);
-  }
-
-  function playPlaylistAt(i) {
-    if (!state.plOrder.length) return;
-    if (i >= state.plOrder.length) i = 0;
-    if (i < 0) i = state.plOrder.length - 1;
-    state.plIndex = i;
-    const s = state.playlist.find((p) => p.id === state.plOrder[i]);
-    if (!s) return;
-    $("pl-now").classList.remove("hidden");
-    $("pl-np-title").textContent = s.title;
-    $("pl-np-artist").textContent = s.artist;
-    loadPlaylist(s.id);
+    if (!del) return;
+    state.playlist.splice(+del.dataset.del, 1);
+    store.set("playlist", state.playlist);
     renderPlaylist();
-  }
+    if (state.view === "search") runSearch();
+    toast("삭제했어요");
+  });
+  bindSongList("pl-list", () => state.playlist, minePlayer);
 
-  $("btn-play-all").addEventListener("click", () => startPlaylist(false));
-  $("btn-shuffle").addEventListener("click", () => startPlaylist(true));
-  $("btn-pl-next").addEventListener("click", () => playPlaylistAt(state.plIndex + 1));
-  $("btn-pl-prev").addEventListener("click", () => playPlaylistAt(state.plIndex - 1));
+  $("btn-play-all").addEventListener("click", () => minePlayer.play(state.playlist));
+  $("btn-shuffle").addEventListener("click", () => minePlayer.play(state.playlist, 0, true));
 
   // YouTube 임시 재생목록으로 열기 (최대 50곡)
   $("btn-export").addEventListener("click", () => {
     const ids = state.playlist.slice(0, 50).map((s) => s.id).join(",");
     if (ids) window.open("https://www.youtube.com/watch_videos?video_ids=" + ids, "_blank", "noopener");
+  });
+
+  // 링크 공유: 곡 id를 주소 뒤(#)에 담는다. 서버 없이 동작.
+  const MAX_LINK_SONGS = 100;
+  function shareLink(ids, title) {
+    let url = location.origin + location.pathname + "#pl=" + ids.slice(0, MAX_LINK_SONGS).join(".");
+    if (title) url += "&t=" + encodeURIComponent(title);
+    return url;
+  }
+
+  async function shareUrl(url, title) {
+    if (navigator.share && /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)) {
+      try { await navigator.share({ title: title || "Rewind 플레이리스트", url }); return; } catch (e) { if (e.name === "AbortError") return; }
+    }
+    try {
+      await navigator.clipboard.writeText(url);
+      toast("링크를 복사했어요");
+    } catch (e) {
+      window.prompt("이 링크를 복사하세요", url);
+    }
+  }
+
+  $("btn-share-link").addEventListener("click", () => {
+    if (!state.playlist.length) return;
+    shareUrl(shareLink(state.playlist.map((s) => s.id), ""), "내 플레이리스트");
+    if (state.playlist.length > MAX_LINK_SONGS) toast(`링크에는 앞의 ${MAX_LINK_SONGS}곡만 담겨요`);
   });
 
   function resetSeen() {
@@ -293,39 +437,259 @@
   $("btn-reset").addEventListener("click", resetSeen);
   $("reset-seen-inline").addEventListener("click", resetSeen);
 
-  // ---------- 탭 ----------
+  // ---------- 공유 플리: 서버 통신 ----------
+  async function api(path, opts = {}) {
+    const res = await fetch("/api" + path, {
+      ...opts,
+      headers: { "content-type": "application/json", ...(opts.headers || {}) },
+    });
+    let body = {};
+    try { body = await res.json(); } catch (e) { /* 빈 응답 */ }
+    if (!res.ok) throw new Error(body.error || "잠시 후 다시 시도해 주세요.");
+    return body;
+  }
+
+  // ---------- 공유 플리: 올리기 ----------
+  function openPublish() {
+    if (!state.playlist.length) return;
+    $("publish-name").value = "";
+    $("publish-author").value = store.get("nickname", "");
+    $("publish-info").textContent = `내 플리의 ${Math.min(state.playlist.length, 100)}곡이 올라가요. 올린 뒤에도 내 플리는 그대로예요.`;
+    $("publish-sheet").classList.remove("hidden");
+    setTimeout(() => $("publish-name").focus(), 50);
+  }
+  function closePublish() { $("publish-sheet").classList.add("hidden"); }
+
+  $("btn-publish").addEventListener("click", openPublish);
+  $("publish-cancel").addEventListener("click", closePublish);
+  $("publish-sheet").addEventListener("click", (e) => { if (e.target.id === "publish-sheet") closePublish(); });
+  $("publish-form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const title = $("publish-name").value.trim();
+    const author = $("publish-author").value.trim();
+    if (!title) { $("publish-name").focus(); return; }
+    store.set("nickname", author);
+    const btn = $("publish-submit");
+    btn.disabled = true;
+    try {
+      const res = await api("/playlists", {
+        method: "POST",
+        body: JSON.stringify({ title, author, songs: state.playlist.slice(0, 100).map((s) => s.id) }),
+      });
+      state.owned[res.id] = res.ownerToken;
+      store.set("owned", state.owned);
+      closePublish();
+      toast("공유 플리에 올렸어요");
+      communityLoaded = false;
+      location.hash = "c=" + res.id;
+    } catch (err) {
+      toast(err.message);
+    } finally {
+      btn.disabled = false;
+    }
+  });
+
+  // ---------- 공유 플리: 목록 ----------
+  let communitySort = "new";
+  let communityItems = [];
+  let communityLoaded = false;
+
+  function cardHtml(p) {
+    const ids = p.preview.length >= 4 ? p.preview.slice(0, 4) : p.preview.slice(0, 1);
+    const tiles = ids.map((id) => `<i style="background-image:url('${thumb(id)}')"></i>`).join("");
+    return `
+      <button class="pl-card" type="button" data-cid="${esc(p.id)}">
+        <div class="mosaic${ids.length === 1 ? " single" : ""}">${tiles}</div>
+        <div class="pl-card-text">
+          <div class="row-title">${esc(p.title)}</div>
+          <div class="row-sub">${esc(p.author)} · ${p.count}곡</div>
+          <div class="row-sub likes">${ICON.heart}${p.likes}</div>
+        </div>
+      </button>`;
+  }
+
+  async function loadCommunity(more) {
+    const list = $("community-list");
+    if (!more) { communityItems = []; list.innerHTML = '<div class="loading">불러오는 중…</div>'; }
+    const before = more && communitySort === "new" && communityItems.length ? communityItems[communityItems.length - 1].created : 0;
+    try {
+      const res = await api(`/playlists?sort=${communitySort}&limit=30${before ? "&before=" + before : ""}`);
+      communityItems = communityItems.concat(res.items);
+      communityLoaded = true;
+      list.innerHTML = communityItems.map(cardHtml).join("");
+      $("community-empty").classList.toggle("hidden", !!communityItems.length);
+      $("community-empty-title").textContent = "아직 올라온 플리가 없어요";
+      $("community-empty-sub").textContent = "내 플리 탭에서 첫 번째로 올려보세요.";
+      $("community-more").classList.toggle("hidden", communitySort !== "new" || res.items.length < 30);
+    } catch (err) {
+      list.innerHTML = "";
+      $("community-empty").classList.remove("hidden");
+      $("community-empty-title").textContent = "공유 플리를 불러오지 못했어요";
+      $("community-empty-sub").textContent = err.message;
+      $("community-more").classList.add("hidden");
+    }
+  }
+
+  document.querySelectorAll(".seg").forEach((b) => b.addEventListener("click", () => {
+    communitySort = b.dataset.sort;
+    document.querySelectorAll(".seg").forEach((x) => {
+      x.classList.toggle("active", x === b);
+      x.setAttribute("aria-selected", x === b);
+    });
+    loadCommunity(false);
+  }));
+  $("community-more").addEventListener("click", () => loadCommunity(true));
+  $("community-list").addEventListener("click", (e) => {
+    const c = e.target.closest("[data-cid]");
+    if (c) location.hash = "c=" + c.dataset.cid;
+  });
+
+  // ---------- 플리 상세 (공유 플리 · 링크로 받은 플리) ----------
+  function songsFromIds(ids) {
+    const songs = ids.map((id) => state.byId.get(id)).filter(Boolean);
+    return { songs, missing: ids.length - songs.length };
+  }
+
+  function openDetail(d) {
+    // d: {kind: "community"|"link", id?, title, author?, likes?, songs:[song], missing}
+    state.detail = d;
+    detailPlayer.stop();
+    $("t-detail").textContent = d.title;
+    $("detail-author").textContent = d.author ? `${d.author}님이 만든 플리` : "";
+    $("detail-meta").textContent = `${d.songs.length}곡`;
+    $("detail-back-label").textContent = d.kind === "community" ? "공유 플리" : "돌아가기";
+    $("detail-list").innerHTML = d.songs.map((s) => songRow(s)).join("");
+    $("detail-missing").textContent = d.missing ? `지금 목록에 없는 ${d.missing}곡은 빠졌어요.` : "";
+    const isCommunity = d.kind === "community";
+    $("detail-like").classList.toggle("hidden", !isCommunity);
+    $("detail-delete").classList.toggle("hidden", !(isCommunity && state.owned[d.id]));
+    updateLikeButton();
+    ["detail-play", "detail-shuffle", "detail-save"].forEach((id) => { $(id).disabled = !d.songs.length; });
+    showView("detail");
+  }
+
+  function updateLikeButton() {
+    const d = state.detail;
+    if (!d || d.kind !== "community") return;
+    const liked = state.likedShared.has(d.id);
+    $("detail-like").classList.toggle("liked", liked);
+    $("detail-like-label").innerHTML = `${ICON.heart}${liked ? "좋아요 누름" : "좋아요"}`;
+    $("detail-like-count").textContent = d.likes;
+  }
+
+  bindSongList("detail-list", () => (state.detail ? state.detail.songs : []), detailPlayer);
+  $("detail-play").addEventListener("click", () => state.detail && detailPlayer.play(state.detail.songs));
+  $("detail-shuffle").addEventListener("click", () => state.detail && detailPlayer.play(state.detail.songs, 0, true));
+
+  $("detail-save").addEventListener("click", () => {
+    if (!state.detail) return;
+    const n = state.detail.songs.filter((s) => addToMine(s, true)).length;
+    toast(n ? `내 플리에 ${n}곡을 담았어요` : "이미 모두 담겨 있어요");
+    $("detail-list").innerHTML = state.detail.songs.map((s) => songRow(s)).join("");
+    markPlaying("detail-list", detailPlayer);
+  });
+
+  $("detail-share").addEventListener("click", () => {
+    const d = state.detail;
+    if (!d) return;
+    const url = d.kind === "community"
+      ? location.origin + location.pathname + "#c=" + d.id
+      : shareLink(d.songs.map((s) => s.id), d.title);
+    shareUrl(url, d.title);
+  });
+
+  $("detail-like").addEventListener("click", async () => {
+    const d = state.detail;
+    if (!d || d.kind !== "community" || state.likedShared.has(d.id)) return;
+    try {
+      const res = await api(`/playlists/${d.id}/like`, { method: "POST" });
+      d.likes = res.likes;
+      state.likedShared.add(d.id);
+      store.set("likedShared", [...state.likedShared]);
+      updateLikeButton();
+      communityLoaded = false;
+    } catch (err) { toast(err.message); }
+  });
+
+  $("detail-delete").addEventListener("click", async () => {
+    const d = state.detail;
+    if (!d || !state.owned[d.id]) return;
+    if (!confirm("이 공유 플리를 지울까요? 다른 사람들도 더 이상 볼 수 없어요.")) return;
+    try {
+      await api(`/playlists/${d.id}`, { method: "DELETE", headers: { "x-owner-token": state.owned[d.id] } });
+      delete state.owned[d.id];
+      store.set("owned", state.owned);
+      toast("지웠어요");
+      communityLoaded = false;
+      location.hash = "";
+      showView("community");
+    } catch (err) { toast(err.message); }
+  });
+
+  $("detail-back").addEventListener("click", () => {
+    const back = state.detail && state.detail.kind === "community" ? "community" : "explore";
+    history.replaceState(null, "", location.pathname);
+    showView(back);
+  });
+
+  // ---------- 화면 전환 ----------
+  function showView(view) {
+    state.view = view;
+    const tabView = view === "detail" ? (state.detail && state.detail.kind === "community" ? "community" : null) : view;
+    document.querySelectorAll(".tab").forEach((t) => t.classList.toggle("active", t.dataset.view === tabView));
+    document.querySelectorAll(".view").forEach((v) => v.classList.toggle("active", v.id === "view-" + view));
+    players.forEach((p) => p.pause());
+    window.scrollTo({ top: 0 });
+    if (view === "community" && !communityLoaded) loadCommunity(false);
+    if (view === "search") runSearch();
+    if (view === "playlist") renderPlaylist();
+  }
+
   document.querySelectorAll(".tab").forEach((tab) => {
     tab.addEventListener("click", () => {
-      const view = tab.dataset.view;
-      document.querySelectorAll(".tab").forEach((t) => t.classList.toggle("active", t === tab));
-      document.querySelectorAll(".view").forEach((v) => v.classList.toggle("active", v.id === "view-" + view));
-      pauseAll();
-      window.scrollTo({ top: 0 });
+      if (location.hash) history.replaceState(null, "", location.pathname);
+      showView(tab.dataset.view);
     });
   });
 
-  // ---------- 토스트 ----------
-  let toastTimer;
-  function toast(msg) {
-    const t = $("toast");
-    t.textContent = msg;
-    t.classList.add("show");
-    clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => t.classList.remove("show"), 1600);
+  // 주소의 # 부분으로 상세 열기:  #pl=id.id.id&t=제목  또는  #c=공유플리id
+  async function route() {
+    const h = location.hash.replace(/^#/, "");
+    if (!h) return;
+    const params = new URLSearchParams(h);
+    if (params.get("pl")) {
+      const ids = params.get("pl").split(".").filter((x) => /^[A-Za-z0-9_-]{11}$/.test(x)).slice(0, MAX_LINK_SONGS);
+      const { songs, missing } = songsFromIds(ids);
+      openDetail({ kind: "link", title: params.get("t") || "공유받은 플레이리스트", songs, missing });
+    } else if (params.get("c")) {
+      const id = params.get("c");
+      try {
+        const p = await api("/playlists/" + encodeURIComponent(id));
+        const { songs, missing } = songsFromIds(p.songs);
+        openDetail({ kind: "community", id: p.id, title: p.title, author: p.author, likes: p.likes, songs, missing });
+      } catch (err) {
+        toast(err.message);
+        history.replaceState(null, "", location.pathname);
+        showView("community");
+      }
+    }
   }
+  window.addEventListener("hashchange", route);
 
   // ---------- 시작 ----------
   fetch("songs.json", { cache: "no-cache" })
     .then((r) => r.json())
     .then((data) => {
       state.data = data;
-      // 없어진 장르 선택은 정리
+      state.byId = new Map(data.songs.map((s) => [s.id, s]));
       const ids = new Set(data.genres.map((g) => g.id));
       state.selected = new Set([...state.selected].filter((g) => ids.has(g)));
       $("updated").textContent = data.updated && data.updated !== "sample" ? `업데이트 ${data.updated}` : "";
+      buildSearchIndex();
       renderGenres();
       renderPlaylist();
       nextSong();
+      route();
     })
     .catch(() => showEmpty("곡 목록을 불러오지 못했어요", "잠시 후 새로고침해 주세요.", false));
 })();
