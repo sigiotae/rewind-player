@@ -1,5 +1,8 @@
 """
-장르별 '예전엔 인기 있었지만 요즘은 잘 안 듣는 곡' 목록을 만든다.
+'예전엔 인기 있었지만 요즘은 잘 안 듣는 곡' 목록을 외국(장르별)·한국(연도대별)으로 만든다.
+
+한국: 연도별 멜론·가온 연간 차트 재생목록에서 곡을 모으고, 차트에 오른 해를 기록한다.
+외국: 아래 흐름으로 전 세계 재생목록과 Last.fm에서 곡을 모으고, 한국 곡은 뺀다.
 
 흐름
 1. Last.fm 장르 태그별 누적 인기곡(tag.getTopTracks)을 후보로 가져온다.
@@ -41,9 +44,22 @@ GENRES = [
     ("indie", "인디", ["indie", "indie pop"]),
     ("electronic", "일렉트로닉", ["electronic", "edm"]),
     ("ballad", "발라드", ["ballad", "acoustic"]),
-    ("kpop", "K-POP", ["k-pop"]),
     ("latin", "라틴", ["latin", "reggaeton"]),
 ]
+
+# 한국 버전: 연도별 연간 차트 재생목록에서 곡을 모은다. 차트 연도로 연도대를 나눈다.
+KR_YEARS = range(2000, 2021)
+KR_QUERY_TEMPLATES = ["멜론 연간차트 {y}", "{y}년 가요 연간차트 TOP100", "가온차트 {y} 연간"]
+KR_ERAS = [
+    ("2000a", "2000년대 초반", 2000, 2004),
+    ("2000b", "2000년대 후반", 2005, 2009),
+    ("2010a", "2010년대 초반", 2010, 2014),
+    ("2010b", "2010년대 후반", 2015, 2019),
+    ("2020a", "2020년대", 2020, 2029),
+]
+KR_MIN_VIEWS = int(os.environ.get("KR_MIN_VIEWS", 1_000_000))  # 차트에 오른 것 자체가 인기의 증거라 기준을 낮춤
+KR_COUNTRY = "Korea, Republic of"  # Last.fm 국가 이름(ISO 3166-1)
+HANGUL = re.compile(r"[\uac00-\ud7a3]")
 
 TRACKS_PER_TAG = 150          # 태그당 가져올 후보 수
 CURRENT_CHART_SIZE = 500      # '요즘 듣는 곡'으로 볼 현재 차트 범위
@@ -118,6 +134,20 @@ def current_chart(key, size):
     keys, page = set(), 1
     while len(keys) < size:
         data = lastfm("chart.gettoptracks", key, limit=50, page=page)
+        items = data.get("tracks", {}).get("track", [])
+        if not items:
+            break
+        for t in items:
+            keys.add(key_of(t["artist"]["name"], t["name"]))
+        page += 1
+    return keys
+
+
+def current_chart_kr(key, size):
+    """Last.fm 한국 사용자 기준 현재 인기곡 (요즘 듣는 곡 제외용)"""
+    keys, page = set(), 1
+    while len(keys) < size:
+        data = lastfm("geo.gettoptracks", key, country=KR_COUNTRY, limit=50, page=page)
         items = data.get("tracks", {}).get("track", [])
         if not items:
             break
@@ -213,13 +243,7 @@ PLAYLIST_QUERIES = {
         "french house classics", "drum and bass classics",
     ],
     "ballad": [
-        "2000년대 발라드 명곡", "2010년대 발라드 명곡", "2000s love ballads", "90년대 발라드 명곡", "90s love songs",
-        "power ballads", "2000년대 이별 노래", "2010년대 이별 노래", "노래방 발라드 명곡", "sad songs 2000s", "love songs 2010s",
-    ],
-    "kpop": [
-        "2000s kpop hits", "2010s kpop hits", "2세대 아이돌 노래 모음", "3세대 아이돌 명곡", "2010년대 가요 히트곡",
-        "kpop 2012 hits", "kpop 2016 hits", "2000년대 댄스곡", "1세대 아이돌 노래", "kpop 2010 hits", "kpop 2014 hits",
-        "kpop 2018 hits", "2010년대 걸그룹 노래", "2010년대 보이그룹 노래", "추억의 가요",
+        "2000s love ballads", "90s love songs", "power ballads", "sad songs 2000s", "love songs 2010s",
     ],
     "latin": [
         "2000s reggaeton hits", "2010s latin hits", "reggaeton old school", "latin pop 2000s",
@@ -299,48 +323,67 @@ def video_details(yt_key, ids, units):
     return out
 
 
-def harvest_playlists(yt_key, cache, units):
+def harvest_playlists(yt_key, cache, units, jobs, min_views):
+    """jobs: [(검색어, 표시 함수)]. 표시 함수는 찾은 곡의 캐시 항목에 장르나 한국 차트 연도를 기록한다."""
     meta = cache.setdefault("__meta__", {"queries_done": [], "playlists_done": []})
     id_to_key = {e["video"]["id"]: k for k, e in cache.items() if not k.startswith("__") and e.get("video")}
     added = 0
-    for gid, queries in PLAYLIST_QUERIES.items():
-        for q in queries:
-            if q in meta["queries_done"]:
+    for q, mark in jobs:
+        if q in meta["queries_done"]:
+            continue
+        for pid in search_playlists(yt_key, q, units):
+            if pid in meta["playlists_done"]:
                 continue
-            for pid in search_playlists(yt_key, q, units):
-                if pid in meta["playlists_done"]:
+            vids = []
+            for vid in playlist_video_ids(yt_key, pid, units):
+                if vid in id_to_key:  # 이미 아는 곡이면 표시만 추가
+                    mark(cache[id_to_key[vid]])
+                else:
+                    vids.append(vid)
+            for v in video_details(yt_key, vids, units):
+                sn = v["snippet"]
+                views = int(v.get("statistics", {}).get("viewCount", 0))
+                if not v.get("status", {}).get("embeddable", False) or views < min_views:
                     continue
-                vids = []
-                for vid in playlist_video_ids(yt_key, pid, units):
-                    if vid in id_to_key:  # 이미 아는 곡이면 장르만 추가
-                        g = cache[id_to_key[vid]]["genres"]
-                        if gid not in g:
-                            g.append(gid)
-                    else:
-                        vids.append(vid)
-                for v in video_details(yt_key, vids, units):
-                    sn = v["snippet"]
-                    views = int(v.get("statistics", {}).get("viewCount", 0))
-                    if not v.get("status", {}).get("embeddable", False) or views < MIN_VIEWS:
-                        continue
-                    if NOT_A_SONG.search(sn["title"]):
-                        continue
-                    artist, track = split_title(sn["title"], sn.get("channelTitle", ""))
-                    if not artist or not track:
-                        continue
-                    k = key_of(artist, track)
-                    entry = cache.setdefault(k, {"artist": artist, "track": track, "genres": []})
-                    if not entry.get("video"):
-                        entry["video"] = {"id": v["id"], "views": views, "published": sn["publishedAt"],
-                                          "ytTitle": sn["title"], "channel": sn.get("channelTitle", "")}
-                        id_to_key[v["id"]] = k
-                        added += 1
-                    if gid not in entry["genres"]:
-                        entry["genres"].append(gid)
-                meta["playlists_done"].append(pid)
-            meta["queries_done"].append(q)
-            print(f"  재생목록 '{q}' 완료 (누적 {added}곡, {units.used}단위)")
+                if NOT_A_SONG.search(sn["title"]):
+                    continue
+                artist, track = split_title(sn["title"], sn.get("channelTitle", ""))
+                if not artist or not track:
+                    continue
+                k = key_of(artist, track)
+                entry = cache.setdefault(k, {"artist": artist, "track": track, "genres": []})
+                if not entry.get("video"):
+                    entry["video"] = {"id": v["id"], "views": views, "published": sn["publishedAt"],
+                                      "ytTitle": sn["title"], "channel": sn.get("channelTitle", "")}
+                    id_to_key[v["id"]] = k
+                    added += 1
+                mark(entry)
+            meta["playlists_done"].append(pid)
+        meta["queries_done"].append(q)
+        print(f"  재생목록 '{q}' 완료 (누적 {added}곡, {units.used}단위)")
     return added
+
+
+def genre_marker(gid):
+    def mark(entry):
+        entry.setdefault("genres", [])
+        if gid not in entry["genres"]:
+            entry["genres"].append(gid)
+    return mark
+
+
+def kr_marker(year):
+    def mark(entry):
+        entry["kr_year"] = min(entry.get("kr_year", year), year)
+    return mark
+
+
+def global_jobs():
+    return [(q, genre_marker(g)) for g, qs in PLAYLIST_QUERIES.items() for q in qs]
+
+
+def kr_jobs():
+    return [(t.format(y=y), kr_marker(y)) for y in KR_YEARS for t in KR_QUERY_TEMPLATES]
 
 
 # ---------- 메인 ----------
@@ -365,31 +408,44 @@ def years_since(iso):
     return (datetime.now(timezone.utc) - dt).days / 365.25
 
 
-def build_list(cache, now_playing):
-    """캐시에서 조건(조회수·연도·현재 차트 제외)에 맞는 곡을 골라 이름을 정리한다."""
-    by_id = {}
+def is_korean(e):
+    v = e.get("video") or {}
+    text = " ".join([e.get("artist", ""), e.get("track", ""), v.get("ytTitle", ""), v.get("channel", "")])
+    return bool(HANGUL.search(text)) or "kpop" in e.get("genres", [])
+
+
+def build_list(cache, now_playing, now_playing_kr=frozenset()):
+    """외국(장르)과 한국(차트 연도) 목록을 만든다. 한국 곡은 외국 목록에서 뺀다."""
+    this_year = datetime.now(timezone.utc).year
+    world, korea = {}, {}
     for k, e in cache.items():
         if k.startswith("__"):
             continue
         v = e.get("video")
-        if not v or k in now_playing or not e.get("genres"):
+        if not v:
+            continue
+        base = {"id": v["id"], "artist": e["artist"], "title": clean_title(e["track"]), "views": v["views"]}
+
+        # 한국: 연간 차트에 오른 해가 5년 이상 지난 곡
+        y = e.get("kr_year")
+        if y and this_year - y >= MIN_AGE_YEARS and v["views"] >= KR_MIN_VIEWS and k not in now_playing_kr:
+            prev = korea.get(v["id"])
+            if not prev or y < prev["year"]:
+                korea[v["id"]] = dict(base, region="kr", year=y, genres=[])
+
+        # 외국: 장르가 있고, 한국 곡이 아니고, 조회수·업로드 기준을 넘는 곡
+        genres = [g for g in e.get("genres", []) if g != "kpop"]
+        if not genres or is_korean(e) or k in now_playing:
             continue
         if v["views"] < MIN_VIEWS or years_since(v["published"]) < MIN_AGE_YEARS:
             continue
-        if v["id"] in by_id:
-            for g in e["genres"]:
-                if g not in by_id[v["id"]]["genres"]:
-                    by_id[v["id"]]["genres"].append(g)
+        if v["id"] in world:
+            for g in genres:
+                if g not in world[v["id"]]["genres"]:
+                    world[v["id"]]["genres"].append(g)
             continue
-        by_id[v["id"]] = {
-            "id": v["id"],
-            "artist": e["artist"],
-            "title": clean_title(e["track"]),
-            "genres": list(e["genres"]),
-            "views": v["views"],
-            "year": int(v["published"][:4]),
-        }
-    return tidy_songs(list(by_id.values()))
+        world[v["id"]] = dict(base, region="global", year=int(v["published"][:4]), genres=list(genres))
+    return tidy_songs(list(world.values())) + tidy_songs(list(korea.values()))
 
 
 def main():
@@ -402,6 +458,11 @@ def main():
 
     print("현재 차트 불러오는 중…")
     now_playing = current_chart(lf_key, CURRENT_CHART_SIZE)
+    try:
+        now_playing_kr = current_chart_kr(lf_key, 300)
+    except Exception as e:  # 한국 차트를 못 가져와도 나머지는 계속
+        print(f"한국 현재 차트를 불러오지 못했습니다: {e}")
+        now_playing_kr = set()
 
     # 장르별 후보 수집
     per_genre = {}
@@ -427,12 +488,17 @@ def main():
     units = Units(UNIT_BUDGET)
     searches = 0
     try:
-        # 1) 인기 재생목록에서 한꺼번에 수집 (할당량 대비 곡 수가 훨씬 많음)
-        print("재생목록 수집 중…")
-        added = harvest_playlists(yt_key, cache, units)
-        print(f"재생목록에서 새로 찾은 곡 {added}곡")
+        # 1) 한국 연간 차트 재생목록
+        print("한국 차트 재생목록 수집 중…")
+        added = harvest_playlists(yt_key, cache, units, kr_jobs(), KR_MIN_VIEWS)
+        print(f"한국 차트에서 새로 찾은 곡 {added}곡")
 
-        # 2) 남은 할당량으로 Last.fm 후보를 한 곡씩 검색 (장르 돌아가며)
+        # 2) 전 세계 인기 재생목록 (할당량 대비 곡 수가 훨씬 많음)
+        print("전 세계 재생목록 수집 중…")
+        added = harvest_playlists(yt_key, cache, units, global_jobs(), MIN_VIEWS)
+        print(f"전 세계 재생목록에서 새로 찾은 곡 {added}곡")
+
+        # 3) 남은 할당량으로 Last.fm 후보를 한 곡씩 검색 (장르 돌아가며)
         queues = {gid: [x for x in lst if "video" not in cache[x[0]]] for gid, lst in per_genre.items()}
         while searches < MAX_SEARCHES_PER_RUN and any(queues.values()):
             for gid in list(queues):
@@ -454,16 +520,18 @@ def main():
     with open(CACHE_PATH, "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False, indent=1, sort_keys=True)
 
-    songs = build_list(cache, now_playing)
+    songs = build_list(cache, now_playing, now_playing_kr)
 
     out = {
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "genres": [{"id": g, "label": label} for g, label, _ in GENRES],
+        "eras": [{"id": i, "label": label, "from": a, "to": b} for i, label, a, b in KR_ERAS],
         "songs": songs,
     }
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
-    print(f"songs.json: {len(songs)}곡")
+    print(f"songs.json: 외국 {sum(s['region'] == 'global' for s in songs)}곡, "
+          f"한국 {sum(s['region'] == 'kr' for s in songs)}곡")
 
 
 if __name__ == "__main__":
