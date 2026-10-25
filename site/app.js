@@ -31,7 +31,17 @@
     current: null,
     detail: null,                                // 지금 열린 상세 플리
     view: "explore",
+    preview: store.get("preview", false) === true, // 1분 미리듣기
   };
+
+  // 미리듣기: 곡 길이의 30% 지점(최소 30초)부터 60초. 짧은 곡은 처음부터.
+  const PREVIEW_SEC = 60;
+  function previewRange(d) {
+    if (!(d > 0)) return null;
+    if (d <= PREVIEW_SEC + 30) return { start: 0, end: d };
+    const start = Math.floor(Math.min(Math.max(30, d * 0.3), d - PREVIEW_SEC));
+    return { start, end: start + PREVIEW_SEC };
+  }
 
   const $ = (id) => document.getElementById(id);
   const fmtViews = (n) => n >= 1e9 ? (n / 1e9).toFixed(1).replace(/\.0$/, "") + "B"
@@ -71,15 +81,38 @@
   }
 
   class YtSlot {
-    constructor(elId, { onEnd, onError } = {}) {
+    constructor(elId, { onEnd, onError, onPreviewEnd } = {}) {
       this.elId = elId;
       this.onEnd = onEnd || (() => {});
       this.onError = onError || (() => {});
+      this.onPreviewEnd = onPreviewEnd || this.onEnd;
       this.yt = null;
       this.ready = false;
       this.pending = null;
+      this.needSeek = false;   // 미리듣기 시작 위치로 아직 안 옮김
+      this.previewEnd = null;  // 미리듣기가 끝나는 시각(초)
+      this.timer = null;
       players.push(this);
     }
+    // 재생이 시작되면 미리듣기 구간으로 옮기고, 끝 시각을 지켜본다
+    startPreview() {
+      if (!this.needSeek) return;
+      this.needSeek = false;
+      if (!state.preview) return;
+      const r = previewRange(this.yt.getDuration());
+      if (!r) return;
+      if (r.start > 0 && this.yt.getCurrentTime() < r.start - 2) this.yt.seekTo(r.start, true);
+      this.previewEnd = r.end;
+      clearInterval(this.timer);
+      this.timer = setInterval(() => this.checkPreview(), 500);
+    }
+    checkPreview() {
+      if (this.previewEnd === null || !state.preview) return this.stopPreview();
+      let t = 0;
+      try { t = this.yt.getCurrentTime(); } catch (e) { return; }
+      if (t >= this.previewEnd - 0.3) { this.stopPreview(); this.onPreviewEnd(); }
+    }
+    stopPreview() { clearInterval(this.timer); this.timer = null; this.previewEnd = null; }
     create() {
       if (this.yt) return;
       const go = () => {
@@ -89,8 +122,8 @@
           events: {
             onReady: () => { this.ready = true; if (this.pending) this.load(...this.pending); },
             onStateChange: (e) => {
-              if (e.data === YT.PlayerState.PLAYING) pauseOthers(this);
-              if (e.data === YT.PlayerState.ENDED) this.onEnd();
+              if (e.data === YT.PlayerState.PLAYING) { pauseOthers(this); this.startPreview(); }
+              if (e.data === YT.PlayerState.ENDED) { this.stopPreview(); this.onEnd(); }
             },
             onError: () => this.onError(),
           },
@@ -102,6 +135,8 @@
       this.create();
       if (!this.ready) { this.pending = [id, autoplay]; return; }
       this.pending = null;
+      this.stopPreview();
+      this.needSeek = true;
       if (autoplay) { pauseOthers(this); this.yt.loadVideoById(id); } else this.yt.cueVideoById(id);
     }
     pause() {
@@ -117,6 +152,7 @@
         <div class="video"><div id="yt-${name}"></div></div>
         <div class="mini-bar">
           <div class="meta-text"><h2></h2><p></p></div>
+          <button class="preview-toggle" data-act="preview" type="button" aria-pressed="false" aria-label="1분 미리듣기">1분</button>
           <button class="icon-btn" data-act="prev" type="button" aria-label="이전 곡">${ICON.prev}</button>
           <button class="icon-btn" data-act="next" type="button" aria-label="다음 곡">${ICON.next}</button>
         </div>`;
@@ -126,6 +162,7 @@
       this.onChange = onChange || (() => {});
       this.box.querySelector('[data-act="prev"]').addEventListener("click", () => this.step(-1));
       this.box.querySelector('[data-act="next"]').addEventListener("click", () => this.step(1));
+      this.box.querySelector('[data-act="preview"]').addEventListener("click", () => setPreview(!state.preview));
     }
     play(songs, start = 0, shuffle = false) {
       let q = songs.slice();
@@ -154,7 +191,26 @@
 
   const explorePlayer = new YtSlot("yt-explore", {
     onError: () => { if (state.current) state.skipped.add(state.current.id); nextSong(); },
+    // 탐색은 평가를 받아야 하므로 1분 뒤 멈추고 기다린다
+    onPreviewEnd: () => { explorePlayer.pause(); toast("1분 미리듣기 끝 · 좋아요나 별로를 눌러주세요"); },
   });
+
+  // 미리듣기 켜기/끄기. 듣던 중에 끄면 그 곡은 끝까지 이어서 재생된다.
+  function setPreview(on) {
+    state.preview = on;
+    store.set("preview", on);
+    document.querySelectorAll(".preview-toggle").forEach((b) => {
+      b.classList.toggle("on", on);
+      b.setAttribute("aria-pressed", on);
+    });
+    if (!on) players.forEach((p) => p.stopPreview());
+    toast(on ? "1분 미리듣기 켬 · 하이라이트 1분만 들어요" : "미리듣기 끔 · 끝까지 들어요");
+  }
+  document.querySelectorAll(".preview-toggle").forEach((b) => {
+    b.classList.toggle("on", state.preview);
+    b.setAttribute("aria-pressed", state.preview);
+  });
+  $("btn-preview").addEventListener("click", () => setPreview(!state.preview));
   const searchPlayer = new QueuePlayer("search", () => markPlaying("search-list", searchPlayer));
   const minePlayer = new QueuePlayer("mine", () => markPlaying("pl-list", minePlayer));
   const detailPlayer = new QueuePlayer("detail", () => markPlaying("detail-list", detailPlayer));
