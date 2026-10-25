@@ -202,9 +202,12 @@ def tidy_songs(songs):
         if key in best:
             keep = best[key]
             genres = keep["genres"] + [g for g in r["genres"] if g not in keep["genres"]]
+            year = min(keep.get("year", 9999), r.get("year", 9999))
             if r["views"] > keep["views"]:
                 keep = dict(r)
             keep["genres"] = genres
+            if year != 9999:
+                keep["year"] = year
             best[key] = keep
         else:
             best[key] = dict(r)
