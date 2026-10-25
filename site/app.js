@@ -18,7 +18,11 @@
   const state = {
     data: { genres: [], songs: [] },
     byId: new Map(),
-    selected: new Set(store.get("genres", [])),
+    region: store.get("region", "global") === "kr" ? "kr" : "global",   // 외국 / 한국
+    selected: {
+      global: new Set(store.get("genres", [])),   // 외국: 장르
+      kr: new Set(store.get("eras", [])),         // 한국: 연도대
+    },
     seen: new Set(store.get("seen", [])),       // 좋아요/별로를 누른 곡 id
     skipped: new Set(),                          // 이번 방문에서 넘긴 곡
     playlist: store.get("playlist", []),         // [{id, artist, title, year}]
@@ -171,7 +175,7 @@
         <div class="thumb" style="background-image:url('${thumb(s.id)}')"></div>
         <div class="row-text">
           <div class="row-title">${esc(s.title)}</div>
-          <div class="row-sub">${esc(s.artist)}${s.year ? " · " + s.year : ""}</div>
+          <div class="row-sub">${s.region === "kr" ? '<span class="kr-tag">한국</span>' : ""}${esc(s.artist)}${s.year ? " · " + s.year : ""}</div>
         </div>
         ${action}
       </div>`;
@@ -211,66 +215,104 @@
     });
   }
 
-  // ---------- 장르 ----------
-  function genreCount(gid) {
-    return state.data.songs.filter((s) => s.genres.includes(gid)).length;
+  // ---------- 외국 / 한국, 장르 / 연도대 ----------
+  // 외국은 장르로, 한국은 연간 차트 연도대로 고른다.
+  const sel = () => state.selected[state.region];
+  const saveSel = () => store.set(state.region === "kr" ? "eras" : "genres", [...sel()]);
+  const regionSongs = () => state.data.songs.filter((s) => (s.region || "global") === state.region);
+
+  function chipsFor() {
+    if (state.region === "kr") {
+      return (state.data.eras || []).map((e) => ({ id: e.id, label: e.label, match: (s) => s.year >= e.from && s.year <= e.to }));
+    }
+    return state.data.genres.map((g) => ({ id: g.id, label: g.label, match: (s) => s.genres.includes(g.id) }));
   }
 
-  function renderGenres() {
+  function chipMatch(s) {
+    return chipsFor().some((c) => sel().has(c.id) && c.match(s));
+  }
+
+  function renderChips() {
     const wrap = $("genres");
     wrap.innerHTML = "";
-    state.data.genres.forEach((g) => {
-      const n = genreCount(g.id);
+    const songs = regionSongs();
+    const kr = state.region === "kr";
+    $("chip-label").textContent = kr ? "연도" : "장르";
+    $("chip-footer").textContent = kr
+      ? "멜론·가온 연간 차트에 올랐던 해 기준이에요. 여러 개 고를 수 있어요."
+      : "전 세계 인기 재생목록 기준이에요. 여러 개 고를 수 있어요.";
+    let shown = 0;
+    chipsFor().forEach((c) => {
+      const n = songs.filter(c.match).length;
       if (!n) return;
+      shown++;
       const b = document.createElement("button");
       b.type = "button";
       b.className = "chip";
-      b.setAttribute("aria-pressed", state.selected.has(g.id));
-      b.innerHTML = `${ICON.check}${esc(g.label)} <span class="count">${n}</span>`;
+      b.setAttribute("aria-pressed", sel().has(c.id));
+      b.innerHTML = `${ICON.check}${esc(c.label)} <span class="count">${n}</span>`;
       b.addEventListener("click", () => {
-        state.selected.has(g.id) ? state.selected.delete(g.id) : state.selected.add(g.id);
-        b.setAttribute("aria-pressed", state.selected.has(g.id));
-        store.set("genres", [...state.selected]);
+        sel().has(c.id) ? sel().delete(c.id) : sel().add(c.id);
+        b.setAttribute("aria-pressed", sel().has(c.id));
+        saveSel();
         updateToggleAll();
-        if (!state.current || !state.current.genres.some((x) => state.selected.has(x))) nextSong();
+        if (!state.current || !chipMatch(state.current)) nextSong();
         else updateRemaining();
       });
       wrap.appendChild(b);
     });
+    if (!shown) wrap.innerHTML = `<p class="chips-empty">${kr ? "한국 차트 곡을 모으는 중이에요. 하루 이틀 뒤에 다시 와주세요." : "곡 목록을 불러오는 중이에요."}</p>`;
     updateToggleAll();
   }
 
-  function visibleGenres() {
-    return state.data.genres.filter((g) => genreCount(g.id) > 0).map((g) => g.id);
+  function visibleChips() {
+    const songs = regionSongs();
+    return chipsFor().filter((c) => songs.some(c.match)).map((c) => c.id);
   }
 
   function updateToggleAll() {
-    const all = visibleGenres();
-    $("toggle-all").textContent = all.length && all.every((g) => state.selected.has(g)) ? "전체 해제" : "전체 선택";
+    const all = visibleChips();
+    $("toggle-all").classList.toggle("hidden", !all.length);
+    $("toggle-all").textContent = all.length && all.every((g) => sel().has(g)) ? "전체 해제" : "전체 선택";
   }
 
   $("toggle-all").addEventListener("click", () => {
-    const all = visibleGenres();
-    const allOn = all.every((g) => state.selected.has(g));
-    state.selected = new Set(allOn ? [] : all);
-    store.set("genres", [...state.selected]);
-    renderGenres();
+    const all = visibleChips();
+    const allOn = all.every((g) => sel().has(g));
+    state.selected[state.region] = new Set(allOn ? [] : all);
+    saveSel();
+    renderChips();
     nextSong();
   });
 
+  function setRegion(r) {
+    state.region = r;
+    store.set("region", r);
+    document.querySelectorAll(".region-seg").forEach((b) => {
+      b.classList.toggle("active", b.dataset.region === r);
+      b.setAttribute("aria-selected", b.dataset.region === r);
+    });
+    state.current = null;
+    state.skipped.clear();
+    renderChips();
+    nextSong();
+  }
+  document.querySelectorAll(".region-seg").forEach((b) => b.addEventListener("click", () => {
+    if (b.dataset.region !== state.region) setRegion(b.dataset.region);
+  }));
+
   // ---------- 탐색 ----------
   function candidates() {
-    return state.data.songs.filter((s) =>
-      s.genres.some((g) => state.selected.has(g)) &&
-      !state.seen.has(s.id) && !state.skipped.has(s.id));
+    return regionSongs().filter((s) => chipMatch(s) && !state.seen.has(s.id) && !state.skipped.has(s.id));
   }
 
   function nextSong() {
     const pool = candidates().filter((s) => !state.current || s.id !== state.current.id);
-    if (!state.selected.size) return showEmpty("장르를 골라주세요", "고른 장르에서 한 곡씩 틀어드려요.", false);
+    const what = state.region === "kr" ? "연도" : "장르";
+    if (!sel().size) return showEmpty(`${what}를 골라주세요`, `고른 ${what}에서 한 곡씩 틀어드려요.`, false);
     if (!pool.length) {
       if (state.skipped.size) { state.skipped.clear(); const again = candidates(); if (again.length) return show(pick(again)); }
-      return showEmpty("이 장르는 다 들었어요", "다른 장르를 고르거나 평가 기록을 초기화해 보세요.", true);
+      return showEmpty(`이 ${what}는 다 들었어요`, `다른 ${what}를 고르거나 평가 기록을 초기화해 보세요.`, true);
     }
     show(pick(pool));
   }
@@ -289,7 +331,9 @@
     $("explore-now").classList.remove("hidden");
     $("np-title").textContent = song.title;
     $("np-artist").textContent = song.artist;
-    $("np-info").textContent = `${song.year} · ${fmtViews(song.views)}회`;
+    $("np-info").textContent = song.region === "kr"
+      ? `${song.year} 연간차트`
+      : `${song.year} · ${fmtViews(song.views)}회`;
     explorePlayer.load(song.id, false);
     updateRemaining();
   }
@@ -305,7 +349,7 @@
   }
 
   function updateRemaining() {
-    $("remaining").textContent = `선택한 장르에 남은 곡 ${candidates().length}곡`;
+    $("remaining").textContent = `고른 ${state.region === "kr" ? "연도" : "장르"}에 남은 곡 ${candidates().length}곡`;
   }
 
   function rate(liked) {
@@ -530,9 +574,9 @@
     }
   }
 
-  document.querySelectorAll(".seg").forEach((b) => b.addEventListener("click", () => {
+  document.querySelectorAll("#view-community .seg").forEach((b) => b.addEventListener("click", () => {
     communitySort = b.dataset.sort;
-    document.querySelectorAll(".seg").forEach((x) => {
+    document.querySelectorAll("#view-community .seg").forEach((x) => {
       x.classList.toggle("active", x === b);
       x.setAttribute("aria-selected", x === b);
     });
@@ -682,13 +726,15 @@
     .then((data) => {
       state.data = data;
       state.byId = new Map(data.songs.map((s) => [s.id, s]));
-      const ids = new Set(data.genres.map((g) => g.id));
-      state.selected = new Set([...state.selected].filter((g) => ids.has(g)));
+      data.songs.forEach((s) => { s.region = s.region || "global"; s.genres = s.genres || []; });
+      const gids = new Set(data.genres.map((g) => g.id));
+      const eids = new Set((data.eras || []).map((e) => e.id));
+      state.selected.global = new Set([...state.selected.global].filter((g) => gids.has(g)));
+      state.selected.kr = new Set([...state.selected.kr].filter((g) => eids.has(g)));
       $("updated").textContent = data.updated && data.updated !== "sample" ? `업데이트 ${data.updated}` : "";
       buildSearchIndex();
-      renderGenres();
+      setRegion(state.region);
       renderPlaylist();
-      nextSong();
       route();
     })
     .catch(() => showEmpty("곡 목록을 불러오지 못했어요", "잠시 후 새로고침해 주세요.", false));
