@@ -180,11 +180,24 @@ def tidy_songs(songs):
     for r in rows:
         names[norm(r["artist"])].append(r["artist"])
     shown = {k: display_name(v) for k, v in names.items()}
+    # 검색용 다른 이름 (IU(아이유) → "아이유", 소녀시대 / Girls' Generation 등)
+    aka = {}
+    for k, variants in names.items():
+        extra = set()
+        for v in set(variants):
+            extra.update(x.strip() for x in re.findall(r"\(([^()]+)\)", v))
+            extra.add(re.sub(r"\s*\([^()]*\)", "", v).strip())
+        extra = {x for x in extra if x and norm(x) != norm(shown[k]) and len(x) <= 30}
+        if extra:
+            aka[k] = " ".join(sorted(extra))
 
     # 같은 곡 중복 제거 (피처링 표기 차이는 무시)
     best = {}
     for r in rows:
-        r["artist"] = shown[norm(r["artist"])]
+        k = norm(r["artist"])
+        r["artist"] = shown[k]
+        if k in aka:
+            r["aka"] = aka[k]
         key = (norm(r["artist"]), norm(FEAT.split(r["title"])[0]))
         if key in best:
             keep = best[key]
