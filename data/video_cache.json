@@ -2998,7 +2998,11 @@
    "PLbmM_M6fjs7x8RMBfXUgD6OB6IzW2T3lT",
    "PLp7pAH9am84Pm413PyQOHJZIwWyMcXqSe",
    "PL-K3fmciIdmuIPEzoJA5hHXOgEN2jku4b",
-   "PLLB8Mr6zCRJRjXHBGppRdtLV5Da-1Gc-d"
+   "PLLB8Mr6zCRJRjXHBGppRdtLV5Da-1Gc-d",
+   "PLIQMp29k3kKYjPQWcDNYzXt2A64V5Ie6N",
+   "PLtVEBdolILckYbB97F1rIkNOTWmJcOWJI",
+   "PL_CAWC8HTg8PCPQEb2UI1vE6oii1MPDix",
+   "PLIcU1ztdf2U8PJnnIs1pfGlvH0s1iK9-B"
   ],
   "queries_done": [
    "90s pop hits",
@@ -3161,7 +3165,8 @@
    "post grunge hits",
    "nu metal classics",
    "british rock 90s",
-   "stadium rock anthems"
+   "stadium rock anthems",
+   "indie hits 2009"
   ]
  },
  "a ap ferg - plain jane": {
@@ -8674,7 +8679,8 @@
   "artist": "Audioslave",
   "genres": [
    "rock",
-   "pop"
+   "pop",
+   "indie"
   ],
   "track": "Be Yourself (Album Version)",
   "video": {
@@ -8687,7 +8693,8 @@
  "audioslave - cochise": {
   "artist": "Audioslave",
   "genres": [
-   "rock"
+   "rock",
+   "indie"
   ],
   "track": "Cochise",
   "video": {
@@ -8729,7 +8736,8 @@
   "genres": [
    "rock",
    "pop",
-   "dance"
+   "dance",
+   "indie"
   ],
   "track": "Like a Stone",
   "video": {
@@ -24098,7 +24106,8 @@
   "genres": [
    "pop",
    "rock",
-   "dance"
+   "dance",
+   "indie"
   ],
   "track": "My Sacrifice",
   "video": {
@@ -30480,6 +30489,34 @@
    "published": "2009-10-25T20:20:00Z",
    "views": 168383052,
    "ytTitle": "Eagle-Eye Cherry - Save Tonight"
+  }
+ },
+ "eagles - new kid in town": {
+  "artist": "Eagles",
+  "genres": [
+   "indie"
+  ],
+  "track": "New Kid in Town",
+  "video": {
+   "channel": "Eagles - Topic",
+   "id": "-Pa5nqYXEnY",
+   "published": "2017-01-25T17:07:48Z",
+   "views": 87745274,
+   "ytTitle": "New Kid in Town (2013 Remaster)"
+  }
+ },
+ "eagles - one of these nights": {
+  "artist": "Eagles",
+  "genres": [
+   "indie"
+  ],
+  "track": "One of These Nights",
+  "video": {
+   "channel": "Eagles - Topic",
+   "id": "ESc2Tq2HzhQ",
+   "published": "2018-10-18T10:48:37Z",
+   "views": 51942168,
+   "ytTitle": "One of These Nights (2018 Remaster)"
   }
  },
  "eamon - f k it": {
@@ -39541,7 +39578,14 @@
   "genres": [
    "indie"
   ],
-  "track": "Gooey"
+  "track": "Gooey",
+  "video": {
+   "channel": "Glass Animals",
+   "id": "jeo3an2M_Lo",
+   "published": "2014-02-13T16:35:56Z",
+   "views": 76500827,
+   "ytTitle": "Glass Animals - Gooey (Official Audio)"
+  }
  },
  "gloria trevi - todos me miran": {
   "artist": "Gloria Trevi",
@@ -40603,6 +40647,20 @@
    "published": "2017-07-26T22:41:59Z",
    "views": 64391334,
    "ytTitle": "Tongue Tied"
+  }
+ },
+ "grouplove - ways to go": {
+  "artist": "Grouplove",
+  "genres": [
+   "indie"
+  ],
+  "track": "Ways to Go",
+  "video": {
+   "channel": "GROUPLOVE",
+   "id": "VGvHnDeS12o",
+   "published": "2013-06-10T14:34:21Z",
+   "views": 31305422,
+   "ytTitle": "Grouplove - \"Ways to Go\" [OFFICIAL MUSIC VIDEO]"
   }
  },
  "grupo extra - lejos de ti": {
@@ -42786,6 +42844,20 @@
    "ytTitle": "Perhaps Love (사랑인가요) (是爱情吗)"
   }
  },
+ "hozier - from eden": {
+  "artist": "Hozier",
+  "genres": [
+   "indie"
+  ],
+  "track": "From Eden",
+  "video": {
+   "channel": "HozierVEVO",
+   "id": "cI0wUoCLnLk",
+   "published": "2014-11-18T08:00:03Z",
+   "views": 66551635,
+   "ytTitle": "Hozier - From Eden (Official Video)"
+  }
+ },
  "hozier - someone new": {
   "artist": "Hozier",
   "genres": [
@@ -44472,7 +44544,8 @@
   "artist": "Incubus",
   "genres": [
    "rock",
-   "pop"
+   "pop",
+   "indie"
   ],
   "track": "Drive",
   "video": {
@@ -50047,6 +50120,20 @@
   ],
   "track": "Heartbeats"
  },
+ "jos gonz lez - stay alive": {
+  "artist": "José González",
+  "genres": [
+   "indie"
+  ],
+  "track": "Stay Alive",
+  "video": {
+   "channel": "JoseGonzalezVEVO",
+   "id": "NucJk8TxyRg",
+   "published": "2013-12-16T08:00:00Z",
+   "views": 32825465,
+   "ytTitle": "José González - Stay Alive"
+  }
+ },
  "josh turner - why don t we just dance": {
   "artist": "Josh Turner",
   "genres": [
@@ -55000,7 +55087,8 @@
   "genres": [
    "dance",
    "electronic",
-   "pop"
+   "pop",
+   "indie"
   ],
   "track": "Hideaway",
   "video": {
@@ -73611,7 +73699,8 @@
   "artist": "OK Go",
   "genres": [
    "rock",
-   "pop"
+   "pop",
+   "indie"
   ],
   "track": "Here It Goes Again",
   "video": {
@@ -74134,7 +74223,8 @@
  "onerepublic - i lived": {
   "artist": "OneRepublic",
   "genres": [
-   "pop"
+   "pop",
+   "indie"
   ],
   "track": "I Lived",
   "video": {
@@ -75237,7 +75327,8 @@
   "artist": "Paramore",
   "genres": [
    "rock",
-   "pop"
+   "pop",
+   "indie"
   ],
   "track": "Paramore: Decode",
   "video": {
@@ -77002,7 +77093,8 @@
  "placebo - the bitter end": {
   "artist": "Placebo",
   "genres": [
-   "rock"
+   "rock",
+   "indie"
   ],
   "track": "The Bitter End",
   "video": {
@@ -77361,7 +77453,8 @@
  "portal - still alive": {
   "artist": "Portal",
   "genres": [
-   "rock"
+   "rock",
+   "indie"
   ],
   "track": "Still Alive",
   "video": {
@@ -79359,7 +79452,8 @@
  "rage against the machine - bulls on parade": {
   "artist": "Rage Against the Machine",
   "genres": [
-   "rock"
+   "rock",
+   "indie"
   ],
   "track": "Bulls on Parade",
   "video": {
@@ -79372,7 +79466,8 @@
  "rage against the machine - killing in the name": {
   "artist": "Rage Against the Machine",
   "genres": [
-   "rock"
+   "rock",
+   "indie"
   ],
   "track": "Killing in the Name",
   "video": {
@@ -82913,7 +83008,8 @@
   "artist": "Rudimental",
   "genres": [
    "pop",
-   "dance"
+   "dance",
+   "indie"
   ],
   "track": "Feel The Love (ft. John Newman)",
   "video": {
@@ -82922,6 +83018,20 @@
    "published": "2012-04-12T09:49:56Z",
    "views": 126582061,
    "ytTitle": "Rudimental - Feel The Love (ft. John Newman) [Official Video]"
+  }
+ },
+ "rudimental - not giving in": {
+  "artist": "Rudimental",
+  "genres": [
+   "indie"
+  ],
+  "track": "Not Giving In (ft. John Newman & Alex Clare)",
+  "video": {
+   "channel": "Rudimental",
+   "id": "J9-Lwpgfd1E",
+   "published": "2012-10-17T08:55:12Z",
+   "views": 88670971,
+   "ytTitle": "Rudimental - Not Giving In (ft. John Newman & Alex Clare) [Official Video]"
   }
  },
  "ruel - painkiller": {
@@ -90062,7 +90172,8 @@
   "genres": [
    "rock",
    "pop",
-   "ballad"
+   "ballad",
+   "indie"
   ],
   "track": "It's Been Awhile",
   "video": {
@@ -92223,7 +92334,8 @@
   "artist": "System Of A Down",
   "genres": [
    "pop",
-   "rock"
+   "rock",
+   "indie"
   ],
   "track": "Chop Suey!",
   "video": {
@@ -94931,7 +95043,8 @@
  "the black keys - tighten up": {
   "artist": "The Black Keys",
   "genres": [
-   "rock"
+   "rock",
+   "indie"
   ],
   "track": "Tighten Up",
   "video": {

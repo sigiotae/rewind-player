@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "genres": [
   {
    "id": "pop",
@@ -1627,7 +1627,8 @@
    "genres": [
     "rock",
     "pop",
-    "dance"
+    "dance",
+    "indie"
    ]
   },
   {
@@ -2728,9 +2729,9 @@
    "region": "global",
    "year": 2015,
    "genres": [
+    "rnb",
     "pop",
-    "hiphop",
-    "rnb"
+    "hiphop"
    ]
   },
   {
@@ -4977,8 +4978,8 @@
    "region": "global",
    "year": 2010,
    "genres": [
-    "pop",
-    "rnb"
+    "rnb",
+    "pop"
    ]
   },
   {
@@ -5565,7 +5566,8 @@
    "year": 2008,
    "genres": [
     "rock",
-    "pop"
+    "pop",
+    "indie"
    ]
   },
   {
@@ -8493,8 +8495,8 @@
    "year": 2011,
    "genres": [
     "dance",
-    "electronic",
-    "pop"
+    "pop",
+    "electronic"
    ]
   },
   {
@@ -9109,7 +9111,8 @@
    "genres": [
     "pop",
     "rock",
-    "dance"
+    "dance",
+    "indie"
    ]
   },
   {
@@ -9156,9 +9159,9 @@
    "region": "global",
    "year": 2008,
    "genres": [
+    "hiphop",
     "pop",
-    "dance",
-    "hiphop"
+    "dance"
    ]
   },
   {
@@ -9515,8 +9518,8 @@
    "region": "global",
    "year": 2011,
    "genres": [
-    "pop",
-    "rnb"
+    "rnb",
+    "pop"
    ]
   },
   {
@@ -9582,7 +9585,8 @@
    "region": "global",
    "year": 2011,
    "genres": [
-    "rock"
+    "rock",
+    "indie"
    ]
   },
   {
@@ -11261,7 +11265,8 @@
    "genres": [
     "rock",
     "pop",
-    "ballad"
+    "ballad",
+    "indie"
    ]
   },
   {
@@ -11914,7 +11919,8 @@
    "year": 2009,
    "genres": [
     "rock",
-    "pop"
+    "pop",
+    "indie"
    ]
   },
   {
@@ -13062,8 +13068,8 @@
    "region": "global",
    "year": 2009,
    "genres": [
-    "hiphop",
-    "rnb"
+    "rnb",
+    "hiphop"
    ]
   },
   {
@@ -15360,13 +15366,12 @@
   {
    "id": "GxgqpCdOKak",
    "artist": "Drake",
-   "title": "Hold On, We're Going Home",
-   "views": 211542574,
+   "title": "Hold On, We’re Going Home ft. Majid Jordan",
+   "views": 211520456,
    "region": "global",
    "year": 2013,
    "genres": [
     "rnb",
-    "ballad",
     "dance"
    ]
   },
@@ -22261,7 +22266,8 @@
    "year": 2012,
    "genres": [
     "pop",
-    "dance"
+    "dance",
+    "indie"
    ]
   },
   {
@@ -24304,7 +24310,8 @@
    "region": "global",
    "year": 2013,
    "genres": [
-    "rock"
+    "rock",
+    "indie"
    ]
   },
   {
@@ -24838,7 +24845,8 @@
    "year": 2017,
    "genres": [
     "rock",
-    "pop"
+    "pop",
+    "indie"
    ]
   },
   {
@@ -27082,7 +27090,8 @@
    "region": "global",
    "year": 2010,
    "genres": [
-    "rock"
+    "rock",
+    "indie"
    ]
   },
   {
@@ -28278,6 +28287,17 @@
    ]
   },
   {
+   "id": "J9-Lwpgfd1E",
+   "artist": "Rudimental",
+   "title": "Not Giving In (ft. John Newman & Alex Clare)",
+   "views": 88670971,
+   "region": "global",
+   "year": 2012,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "YqJAnQTwmJs",
    "artist": "2Pac",
    "title": "I Get Around",
@@ -28409,6 +28429,17 @@
    "year": 2020,
    "genres": [
     "rnb"
+   ]
+  },
+  {
+   "id": "-Pa5nqYXEnY",
+   "artist": "Eagles",
+   "title": "New Kid in Town",
+   "views": 87745274,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "indie"
    ]
   },
   {
@@ -29004,7 +29035,8 @@
    "region": "global",
    "year": 2010,
    "genres": [
-    "rock"
+    "rock",
+    "indie"
    ]
   },
   {
@@ -30645,6 +30677,17 @@
    ]
   },
   {
+   "id": "jeo3an2M_Lo",
+   "artist": "Glass Animals",
+   "title": "Gooey",
+   "views": 76500827,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "HZwMX6T5Jhk",
    "artist": "Kanye West",
    "title": "Love Lockdown",
@@ -31535,7 +31578,8 @@
    "region": "global",
    "year": 2014,
    "genres": [
-    "pop"
+    "pop",
+    "indie"
    ]
   },
   {
@@ -31639,7 +31683,8 @@
    "year": 2009,
    "genres": [
     "rock",
-    "pop"
+    "pop",
+    "indie"
    ]
   },
   {
@@ -32327,7 +32372,8 @@
    "region": "global",
    "year": 2010,
    "genres": [
-    "rock"
+    "rock",
+    "indie"
    ]
   },
   {
@@ -32427,9 +32473,9 @@
    "region": "global",
    "year": 2009,
    "genres": [
+    "dance",
     "hiphop",
-    "pop",
-    "dance"
+    "pop"
    ]
   },
   {
@@ -33209,6 +33255,17 @@
    "genres": [
     "rnb",
     "hiphop"
+   ]
+  },
+  {
+   "id": "cI0wUoCLnLk",
+   "artist": "Hozier",
+   "title": "From Eden",
+   "views": 66551635,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "indie"
    ]
   },
   {
@@ -36661,7 +36718,8 @@
    "region": "global",
    "year": 2007,
    "genres": [
-    "rock"
+    "rock",
+    "indie"
    ]
   },
   {
@@ -38135,6 +38193,17 @@
    "year": 2018,
    "genres": [
     "electronic"
+   ]
+  },
+  {
+   "id": "ESc2Tq2HzhQ",
+   "artist": "Eagles",
+   "title": "One of These Nights",
+   "views": 51942168,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "indie"
    ]
   },
   {
@@ -42234,7 +42303,8 @@
    "genres": [
     "dance",
     "electronic",
-    "pop"
+    "pop",
+    "indie"
    ]
   },
   {
@@ -43210,6 +43280,17 @@
    "year": 2014,
    "genres": [
     "pop",
+    "hiphop"
+   ]
+  },
+  {
+   "id": "rSK8jTzl1Kw",
+   "artist": "Ice Cube",
+   "title": "No Vaseline",
+   "views": 41034168,
+   "region": "global",
+   "year": 2021,
+   "genres": [
     "hiphop"
    ]
   },
@@ -47918,6 +47999,17 @@
    ]
   },
   {
+   "id": "NucJk8TxyRg",
+   "artist": "José González",
+   "title": "Stay Alive",
+   "views": 32825465,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "AA_5sLaTErQ",
    "artist": "LeAnn Rimes",
    "title": "I Need You",
@@ -49007,6 +49099,17 @@
     "rnb",
     "ballad",
     "pop"
+   ]
+  },
+  {
+   "id": "VGvHnDeS12o",
+   "artist": "Grouplove",
+   "title": "Ways to Go",
+   "views": 31305422,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "indie"
    ]
   },
   {
