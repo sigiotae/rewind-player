@@ -3791,6 +3791,13 @@
    "ytTitle": "Adele - Hometown Glory (Official Music Video)"
   }
  },
+ "adele - love in the dark": {
+  "artist": "Adele",
+  "genres": [
+   "rnb"
+  ],
+  "track": "Love in the Dark"
+ },
  "adele - lovesong": {
   "artist": "Adele",
   "genres": [
@@ -6324,6 +6331,13 @@
    "ytTitle": "Allure - All Cried Out"
   }
  },
+ "aloe blacc - i need a dollar": {
+  "artist": "Aloe Blacc",
+  "genres": [
+   "rnb"
+  ],
+  "track": "I Need a Dollar"
+ },
  "aloe blacc - the man": {
   "artist": "Aloe Blacc",
   "genres": [
@@ -6631,6 +6645,13 @@
    "rnb"
   ],
   "track": "He Can Only Hold Her"
+ },
+ "amy winehouse - in my bed": {
+  "artist": "Amy Winehouse",
+  "genres": [
+   "rnb"
+  ],
+  "track": "In My Bed"
  },
  "amy winehouse - love is a losing game": {
   "artist": "Amy Winehouse",
@@ -7391,6 +7412,13 @@
   ],
   "track": "Heliosphan"
  },
+ "aphex twin - i": {
+  "artist": "Aphex Twin",
+  "genres": [
+   "electronic"
+  ],
+  "track": "i"
+ },
  "aphex twin - pulsewidth": {
   "artist": "Aphex Twin",
   "genres": [
@@ -7992,6 +8020,13 @@
    "views": 1255333110,
    "ytTitle": "Ariana Grande - Break Free (Official Video) ft. Zedd"
   }
+ },
+ "ariana grande - break up with your girlfriend i m bored": {
+  "artist": "Ariana Grande",
+  "genres": [
+   "rnb"
+  ],
+  "track": "break up with your girlfriend, i'm bored"
  },
  "ariana grande - dangerous woman": {
   "artist": "Ariana Grande",
@@ -10331,6 +10366,13 @@
   ],
   "track": "La Difícil"
  },
+ "bad bunny - la romana": {
+  "artist": "Bad Bunny",
+  "genres": [
+   "latin"
+  ],
+  "track": "La Romana"
+ },
  "bad bunny - mia": {
   "artist": "Bad Bunny",
   "genres": [
@@ -12262,6 +12304,13 @@
    "ballad"
   ],
   "track": "Sandcastles"
+ },
+ "beyonc - save the hero": {
+  "artist": "Beyoncé",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Save the Hero"
  },
  "beyonc - single ladies": {
   "artist": "Beyoncé",
@@ -14708,7 +14757,8 @@
  "blue - breathe easy": {
   "artist": "Blue",
   "genres": [
-   "pop"
+   "pop",
+   "ballad"
   ],
   "track": "Breathe Easy",
   "video": {
@@ -16625,7 +16675,8 @@
  "britney spears - i m a slave 4 u": {
   "artist": "Britney Spears",
   "genres": [
-   "dance"
+   "dance",
+   "pop"
   ],
   "track": "I'm a Slave 4 U"
  },
@@ -20441,7 +20492,8 @@
   "artist": "Cassie",
   "genres": [
    "rnb",
-   "hiphop"
+   "hiphop",
+   "dance"
   ],
   "track": "Me & U",
   "video": {
@@ -20646,6 +20698,13 @@
   ],
   "track": "I'm Every Woman"
  },
+ "chaka khan - through the fire": {
+  "artist": "Chaka Khan",
+  "genres": [
+   "rnb"
+  ],
+  "track": "Through the Fire"
+ },
  "chamillionaire - ridin": {
   "artist": "Chamillionaire",
   "genres": [
@@ -20798,6 +20857,13 @@
    "dance"
   ],
   "track": "anthems"
+ },
+ "charli xcx - apple": {
+  "artist": "Charli xcx",
+  "genres": [
+   "dance"
+  ],
+  "track": "Apple"
  },
  "charli xcx - black roses": {
   "artist": "Charli xcx",
@@ -21416,6 +21482,13 @@
    "hiphop"
   ],
   "track": "Bonfire"
+ },
+ "childish gambino - feels like summer": {
+  "artist": "Childish Gambino",
+  "genres": [
+   "rnb"
+  ],
+  "track": "Feels Like Summer"
  },
  "childish gambino - fire fly": {
   "artist": "Childish Gambino",
@@ -22395,6 +22468,13 @@
    "views": 624378627,
    "ytTitle": "Christina Aguilera - Pero Me Acuerdo De Tí (Video Oficial)"
   }
+ },
+ "christina aguilera - stronger than ever": {
+  "artist": "Christina Aguilera",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Stronger Than Ever"
  },
  "christina aguilera - the voice within": {
   "artist": "Christina Aguilera",
@@ -24627,6 +24707,13 @@
    "ytTitle": "Cypress Hill - (Rock) Superstar (Official Video)"
   }
  },
+ "d angelo - brown sugar": {
+  "artist": "D'Angelo",
+  "genres": [
+   "rnb"
+  ],
+  "track": "Brown Sugar"
+ },
  "d angelo - lady": {
   "artist": "D'Angelo",
   "genres": [
@@ -24723,6 +24810,13 @@
    "ytTitle": "Laffy Taffy"
   }
  },
+ "d4vd - romantic homicide": {
+  "artist": "d4vd",
+  "genres": [
+   "indie"
+  ],
+  "track": "Romantic Homicide"
+ },
  "da hool - meet her at the loveparade official video": {
   "artist": "Da Hool",
   "genres": [
@@ -24783,6 +24877,13 @@
    "views": 305968852,
    "ytTitle": "Con Calma"
   }
+ },
+ "daddy yankee - con calma remix": {
+  "artist": "Daddy Yankee",
+  "genres": [
+   "latin"
+  ],
+  "track": "Con Calma - Remix"
  },
  "daddy yankee - dale caliente": {
   "artist": "Daddy Yankee",
@@ -25424,6 +25525,13 @@
    "ballad"
   ],
   "track": "9 Crimes"
+ },
+ "damien rice - cannonball": {
+  "artist": "Damien Rice",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Cannonball"
  },
  "damien rice - the blower s daughter": {
   "artist": "Damien Rice",
@@ -27758,7 +27866,8 @@
  "destiny s child - survivor": {
   "artist": "Destiny's Child",
   "genres": [
-   "hiphop"
+   "hiphop",
+   "rnb"
   ],
   "track": "Survivor",
   "video": {
@@ -40594,6 +40703,13 @@
    "ytTitle": "Grimes - Oblivion"
   }
  },
+ "grimes - shinigami eyes": {
+  "artist": "Grimes",
+  "genres": [
+   "dance"
+  ],
+  "track": "Shinigami Eyes"
+ },
  "grimes - world princess part ii": {
   "artist": "Grimes",
   "genres": [
@@ -41151,7 +41267,8 @@
  "gym class heroes - cupid s chokehold breakfast in america": {
   "artist": "Gym Class Heroes",
   "genres": [
-   "pop"
+   "pop",
+   "hiphop"
   ],
   "track": "Cupid's Chokehold / Breakfast in America",
   "video": {
@@ -46712,6 +46829,20 @@
   ],
   "track": "Sitting, Waiting, Wishing"
  },
+ "jack johnson - talk of the town": {
+  "artist": "Jack Johnson",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Talk Of The Town"
+ },
+ "jack johnson - taylor": {
+  "artist": "Jack Johnson",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Taylor"
+ },
  "jack johnson - times like these": {
   "artist": "Jack Johnson",
   "genres": [
@@ -46960,6 +47091,13 @@
    "views": 1907027073,
    "ytTitle": "James Arthur - Say You Won't Let Go"
   }
+ },
+ "james bay - let it go": {
+  "artist": "James Bay",
+  "genres": [
+   "indie"
+  ],
+  "track": "Let It Go"
  },
  "james blunt - 1973": {
   "artist": "James Blunt",
@@ -53403,6 +53541,13 @@
    "ytTitle": "Katy Perry - Firework (Official Music Video)"
   }
  },
+ "katy perry - harleys in hawaii": {
+  "artist": "Katy Perry",
+  "genres": [
+   "pop"
+  ],
+  "track": "Harleys in Hawaii"
+ },
  "katy perry - hot n cold": {
   "artist": "Katy Perry",
   "genres": [
@@ -53710,6 +53855,13 @@
    "dance"
   ],
   "track": "Backstabber"
+ },
+ "ke ha - blah blah blah": {
+  "artist": "Ke$ha",
+  "genres": [
+   "dance"
+  ],
+  "track": "Blah Blah Blah"
  },
  "ke ha - blah blah blah ft 3oh 3": {
   "artist": "Ke$ha",
@@ -54959,6 +55111,13 @@
    "ytTitle": "Kid Cudi - Pursuit Of Happiness (Official Music Video) ft. MGMT"
   }
  },
+ "kid cudi - up up away": {
+  "artist": "Kid Cudi",
+  "genres": [
+   "hiphop"
+  ],
+  "track": "Up Up & Away"
+ },
  "kid cudi vs crookers - day n night": {
   "artist": "Kid Cudi vs. Crookers",
   "genres": [
@@ -55461,6 +55620,13 @@
    "views": 196031002,
    "ytTitle": "Took Her To The O"
   }
+ },
+ "kings of convenience - know how": {
+  "artist": "Kings of Convenience",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Know How"
  },
  "kings of convenience - misread": {
   "artist": "Kings of Convenience",
@@ -56566,7 +56732,8 @@
  "la roux - in for the kill": {
   "artist": "La Roux",
   "genres": [
-   "electronic"
+   "electronic",
+   "dance"
   ],
   "track": "In For The Kill' (Skrillex Remix)",
   "video": {
@@ -56927,6 +57094,13 @@
    "ballad"
   ],
   "track": "Speechless"
+ },
+ "lady gaga - starstruck": {
+  "artist": "Lady Gaga",
+  "genres": [
+   "dance"
+  ],
+  "track": "Starstruck"
  },
  "lady gaga - summerboy": {
   "artist": "Lady Gaga",
@@ -62640,6 +62814,13 @@
   ],
   "track": "Danceteria"
  },
+ "madonna - easy ride": {
+  "artist": "Madonna",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Easy Ride"
+ },
  "madonna - frozen": {
   "artist": "Madonna",
   "genres": [
@@ -62865,6 +63046,13 @@
    "hiphop"
   ],
   "track": "All Caps"
+ },
+ "madvillain - meat grinder": {
+  "artist": "Madvillain",
+  "genres": [
+   "hiphop"
+  ],
+  "track": "Meat Grinder"
  },
  "maggie lindemann - pretty girl cheat codes x cade remix": {
   "artist": "Maggie Lindemann",
@@ -63127,6 +63315,13 @@
    "views": 94719671,
    "ytTitle": "To You My Light (feat. LEE RAON)"
   }
+ },
+ "malukah - the dragonborn comes": {
+  "artist": "Malukah",
+  "genres": [
+   "ballad"
+  ],
+  "track": "The Dragonborn Comes"
  },
  "maluma - 11 pm": {
   "artist": "Maluma",
@@ -63543,6 +63738,13 @@
    "latin"
   ],
   "track": "Me Llaman Calle"
+ },
+ "manu chao - minha galera": {
+  "artist": "Manu Chao",
+  "genres": [
+   "latin"
+  ],
+  "track": "Minha Galera"
  },
  "manuel turizo - la bachata": {
   "artist": "Manuel Turizo",
@@ -65636,7 +65838,8 @@
  "meg dia - monster": {
   "artist": "Meg & Dia",
   "genres": [
-   "electronic"
+   "electronic",
+   "indie"
   ],
   "track": "Monster (DotEXE Dubstep Remix)",
   "video": {
@@ -73529,6 +73732,13 @@
   ],
   "track": "Gronlandic Edit"
  },
+ "of montreal - suffer for fashion": {
+  "artist": "of Montreal",
+  "genres": [
+   "indie"
+  ],
+  "track": "Suffer For Fashion"
+ },
  "of montreal - wraith pinned to the mist and other games": {
   "artist": "of Montreal",
   "genres": [
@@ -75440,6 +75650,13 @@
    "ytTitle": "That's What You Get"
   }
  },
+ "paris hilton - jealousy": {
+  "artist": "Paris Hilton",
+  "genres": [
+   "pop"
+  ],
+  "track": "Jealousy"
+ },
  "park bom - 봄": {
   "artist": "Park Bom",
   "genres": [],
@@ -75835,6 +76052,13 @@
    "views": 102208479,
    "ytTitle": "Rainy day (Feat. ASH ISLAND, Skinny Brown)"
   }
+ },
+ "patrik isaksson - du f r g ra som du vill": {
+  "artist": "Patrik Isaksson",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Du får göra som du vill"
  },
  "patty smyth - sometimes love just ain t enough ft don henley": {
   "artist": "Patty Smyth",
@@ -76496,6 +76720,13 @@
    "electronic"
   ],
   "track": "Fall in Love"
+ },
+ "phantogram - mouthful of diamonds": {
+  "artist": "Phantogram",
+  "genres": [
+   "electronic"
+  ],
+  "track": "Mouthful of Diamonds"
  },
  "phantogram - when i": {
   "artist": "Phantogram",
@@ -85243,6 +85474,13 @@
    "ytTitle": "Selena Gomez & The Scene - Falling Down (SD Version)"
   }
  },
+ "selena gomez the scene - ghost of you": {
+  "artist": "Selena Gomez & the Scene",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Ghost of You"
+ },
  "selena gomez the scene - hit the lights": {
   "artist": "Selena Gomez & The Scene",
   "genres": [
@@ -86376,6 +86614,13 @@
   ],
   "track": "Donde Estas Corazon"
  },
+ "shakira - en tus pupilas": {
+  "artist": "Shakira",
+  "genres": [
+   "latin"
+  ],
+  "track": "En Tus Pupilas"
+ },
  "shakira - estoy aqu": {
   "artist": "Shakira",
   "genres": [
@@ -86450,6 +86695,13 @@
    "views": 313038905,
    "ytTitle": "Shakira - La La La (Brasil 2014) (Spanish Version) ft. Carlinhos Brown"
   }
+ },
+ "shakira - la pared": {
+  "artist": "Shakira",
+  "genres": [
+   "latin"
+  ],
+  "track": "La Pared"
  },
  "shakira - la tortura": {
   "artist": "Shakira",
@@ -86567,6 +86819,13 @@
    "latin"
   ],
   "track": "Moscas En La Casa"
+ },
+ "shakira - no creo": {
+  "artist": "Shakira",
+  "genres": [
+   "latin"
+  ],
+  "track": "No Creo"
  },
  "shakira - nunca me acuerdo de olvidarte": {
   "artist": "Shakira",
@@ -86761,7 +87020,8 @@
   "artist": "Shakira",
   "genres": [
    "latin",
-   "pop"
+   "pop",
+   "dance"
   ],
   "track": "Whenever, Wherever",
   "video": {
@@ -88744,6 +89004,13 @@
    "dance"
   ],
   "track": "GAS STATION"
+ },
+ "slayyyter - unknown loverz": {
+  "artist": "Slayyyter",
+  "genres": [
+   "dance"
+  ],
+  "track": "UNKNOWN LOVERZ"
  },
  "slayyyter - what is it like to be liked": {
   "artist": "Slayyyter",
@@ -90917,6 +91184,13 @@
    "views": 92275350,
    "ytTitle": "Stone Temple Pilots - Plush (Official Music Video)"
   }
+ },
+ "stratovarius - forever": {
+  "artist": "Stratovarius",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Forever"
  },
  "stray kids - back door": {
   "artist": "Stray Kids",
@@ -97006,7 +97280,8 @@
   "artist": "The Script",
   "genres": [
    "pop",
-   "dance"
+   "dance",
+   "rock"
   ],
   "track": "The Man Who Can't Be Moved",
   "video": {
@@ -97294,6 +97569,13 @@
    "indie"
   ],
   "track": "You're Not the Only One I Know"
+ },
+ "the tallest man on earth - love is all": {
+  "artist": "The Tallest Man on Earth",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Love Is All"
  },
  "the temper trap - sweet disposition": {
   "artist": "The Temper Trap",
@@ -100603,6 +100885,13 @@
    "rock"
   ],
   "track": "Jumpsuit"
+ },
+ "twenty one pilots - leave the city": {
+  "artist": "Twenty One Pilots",
+  "genres": [
+   "indie"
+  ],
+  "track": "Leave the City"
  },
  "twenty one pilots - legend": {
   "artist": "Twenty One Pilots",

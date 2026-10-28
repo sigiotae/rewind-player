@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "genres": [
   {
    "id": "pop",
@@ -3684,7 +3684,8 @@
    "year": 2009,
    "genres": [
     "latin",
-    "pop"
+    "pop",
+    "dance"
    ]
   },
   {
@@ -6328,7 +6329,8 @@
    "year": 2009,
    "genres": [
     "pop",
-    "dance"
+    "dance",
+    "rock"
    ]
   },
   {
@@ -15938,7 +15940,8 @@
    "region": "global",
    "year": 2015,
    "genres": [
-    "pop"
+    "pop",
+    "hiphop"
    ]
   },
   {
@@ -20093,7 +20096,8 @@
    "region": "global",
    "year": 2011,
    "genres": [
-    "electronic"
+    "electronic",
+    "indie"
    ]
   },
   {
@@ -25730,7 +25734,8 @@
    "year": 2017,
    "genres": [
     "rnb",
-    "hiphop"
+    "hiphop",
+    "dance"
    ]
   },
   {
@@ -28327,7 +28332,8 @@
    "region": "global",
    "year": 2009,
    "genres": [
-    "pop"
+    "pop",
+    "ballad"
    ],
    "aka": "Da Ba Dee"
   },
@@ -29591,18 +29597,6 @@
    "year": 2014,
    "genres": [
     "rnb"
-   ]
-  },
-  {
-   "id": "d3sA5plF6kE",
-   "artist": "Panic! At The Disco",
-   "title": "New Perspective",
-   "views": 82308081,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "rock",
-    "indie"
    ]
   },
   {
@@ -38082,7 +38076,8 @@
    "region": "global",
    "year": 2017,
    "genres": [
-    "hiphop"
+    "hiphop",
+    "rnb"
    ]
   },
   {
@@ -47071,7 +47066,8 @@
    "region": "global",
    "year": 2010,
    "genres": [
-    "electronic"
+    "electronic",
+    "dance"
    ]
   },
   {
@@ -51447,15 +51443,6 @@
    "views": 97466468,
    "region": "kr",
    "year": 2020,
-   "genres": []
-  },
-  {
-   "id": "wKyMIrBClYw",
-   "artist": "DEAN",
-   "title": "instagram",
-   "views": 97386194,
-   "region": "kr",
-   "year": 2018,
    "genres": []
   },
   {
