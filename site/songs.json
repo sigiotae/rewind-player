@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "genres": [
   {
    "id": "pop",
@@ -1774,18 +1774,6 @@
    "year": 2016,
    "genres": [
     "pop"
-   ]
-  },
-  {
-   "id": "TJAfLE39ZZ8",
-   "artist": "Amy Winehouse",
-   "title": "Back to Black",
-   "views": 1535441619,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "rnb",
-    "rock"
    ]
   },
   {
@@ -3637,19 +3625,6 @@
     "dance",
     "electronic",
     "pop"
-   ]
-  },
-  {
-   "id": "5NPBIwQyPWE",
-   "artist": "Avril Lavigne",
-   "title": "Complicated",
-   "views": 932482361,
-   "region": "global",
-   "year": 2010,
-   "genres": [
-    "pop",
-    "rock",
-    "dance"
    ]
   },
   {
@@ -8461,18 +8436,6 @@
    "genres": [
     "pop",
     "dance"
-   ]
-  },
-  {
-   "id": "RYnFIRc0k6E",
-   "artist": "Limp Bizkit",
-   "title": "Rollin' (Air Raid Vehicle)",
-   "views": 414086747,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "rock",
-    "pop"
    ]
   },
   {
