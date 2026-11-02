@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "genres": [
   {
    "id": "pop",
@@ -2023,6 +2023,17 @@
    ]
   },
   {
+   "id": "o3mP3mJDL2k",
+   "artist": "Shakira",
+   "title": "Can't Remember to Forget You (feat. Rihanna)",
+   "views": 1446638920,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "pop"
+   ]
+  },
+  {
    "id": "YlUKcNNmywk",
    "artist": "Red Hot Chili Peppers",
    "title": "Californication",
@@ -2879,6 +2890,17 @@
    "genres": [
     "pop",
     "electronic"
+   ]
+  },
+  {
+   "id": "ZhIsAZO5gl0",
+   "artist": "Kiss",
+   "title": "I Was Made for Lovin' You",
+   "views": 1144255845,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "rock"
    ]
   },
   {
@@ -3925,8 +3947,8 @@
    "region": "global",
    "year": 2016,
    "genres": [
-    "pop",
-    "electronic"
+    "electronic",
+    "pop"
    ]
   },
   {
@@ -4547,9 +4569,9 @@
    "region": "global",
    "year": 2013,
    "genres": [
+    "ballad",
     "hiphop",
-    "rnb",
-    "ballad"
+    "rnb"
    ]
   },
   {
@@ -5144,19 +5166,6 @@
    ]
   },
   {
-   "id": "I7HahVwYpwo",
-   "artist": "Black Eyed Peas",
-   "title": "Meet Me Halfway",
-   "views": 732574864,
-   "region": "global",
-   "year": 2010,
-   "genres": [
-    "pop",
-    "hiphop",
-    "rnb"
-   ]
-  },
-  {
    "id": "cmSbXsFE3l8",
    "artist": "Anna Kendrick",
    "title": "Cups (Pitch Perfect’s When I’m Gone) (Director's Cut)",
@@ -5178,6 +5187,18 @@
    "genres": [
     "pop",
     "ballad"
+   ]
+  },
+  {
+   "id": "I7HahVwYpwo",
+   "artist": "The Black Eyed Peas",
+   "title": "Meet Me Halfway",
+   "views": 729821241,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "rnb",
+    "pop"
    ]
   },
   {
@@ -5668,19 +5689,6 @@
    "year": 2010,
    "genres": [
     "latin"
-   ]
-  },
-  {
-   "id": "Wg92RrNhB8s",
-   "artist": "Ariana Grande",
-   "title": "One Last Time",
-   "views": 667341258,
-   "region": "global",
-   "year": 2015,
-   "genres": [
-    "pop",
-    "hiphop",
-    "ballad"
    ]
   },
   {
@@ -6301,6 +6309,18 @@
    ]
   },
   {
+   "id": "tCXGJQYZ9JA",
+   "artist": "Taylor Swift",
+   "title": "Delicate",
+   "views": 607737707,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "pop",
+    "dance"
+   ]
+  },
+  {
    "id": "EDwb9jOVRtU",
    "artist": "Madonna",
    "title": "Hung Up",
@@ -6355,6 +6375,17 @@
    "year": 2018,
    "genres": [
     "ballad"
+   ]
+  },
+  {
+   "id": "yURRmWtbTbo",
+   "artist": "Michael Jackson",
+   "title": "Don't Stop 'Til You Get Enough",
+   "views": 602897369,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "pop"
    ]
   },
   {
@@ -7168,9 +7199,9 @@
    "region": "global",
    "year": 2012,
    "genres": [
+    "ballad",
     "pop",
-    "dance",
-    "ballad"
+    "dance"
    ]
   },
   {
@@ -8400,6 +8431,19 @@
    ]
   },
   {
+   "id": "6Whgn_iE5uc",
+   "artist": "Santana",
+   "title": "Smooth (feat. Rob Thomas)",
+   "views": 456256576,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "rock",
+    "latin",
+    "pop"
+   ]
+  },
+  {
    "id": "BcqxLCWn-CE",
    "artist": "Lauv",
    "title": "I Like Me Better",
@@ -8432,18 +8476,6 @@
    "year": 2009,
    "genres": [
     "ballad"
-   ]
-  },
-  {
-   "id": "6Whgn_iE5uc",
-   "artist": "Santana",
-   "title": "Smooth ft. Rob Thomas",
-   "views": 455271240,
-   "region": "global",
-   "year": 2013,
-   "genres": [
-    "pop",
-    "rock"
    ]
   },
   {
@@ -8606,6 +8638,17 @@
    "year": 2010,
    "genres": [
     "dance"
+   ]
+  },
+  {
+   "id": "JRWox-i6aAk",
+   "artist": "Lana Del Rey",
+   "title": "Blue Jeans",
+   "views": 447795430,
+   "region": "global",
+   "year": 2012,
+   "genres": [
+    "indie"
    ]
   },
   {
@@ -9384,6 +9427,17 @@
    ]
   },
   {
+   "id": "JXgV1rXUoME",
+   "artist": "Doja Cat",
+   "title": "You Right",
+   "views": 412632547,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "-oqAU5VxFWs",
    "artist": "Counting Crows",
    "title": "Mr. Jones",
@@ -9421,6 +9475,18 @@
    ]
   },
   {
+   "id": "17ozSeGw-fY",
+   "artist": "Calvin Harris",
+   "title": "Sweet Nothing (feat. Florence Welch)",
+   "views": 410591343,
+   "region": "global",
+   "year": 2012,
+   "genres": [
+    "dance",
+    "pop"
+   ]
+  },
+  {
    "id": "uGcsIdGOuZY",
    "artist": "Skillet",
    "title": "Hero",
@@ -9429,18 +9495,6 @@
    "year": 2010,
    "genres": [
     "rock"
-   ]
-  },
-  {
-   "id": "17ozSeGw-fY",
-   "artist": "Calvin Harris",
-   "title": "Sweet Nothing ft. Florence Welch",
-   "views": 410266610,
-   "region": "global",
-   "year": 2012,
-   "genres": [
-    "pop",
-    "dance"
    ]
   },
   {
@@ -9650,6 +9704,17 @@
    "genres": [
     "hiphop",
     "pop"
+   ]
+  },
+  {
+   "id": "1Xfdjqa5dfY",
+   "artist": "Willow",
+   "title": "Wait a Minute!",
+   "views": 398417444,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -12741,6 +12806,17 @@
    ]
   },
   {
+   "id": "b-3BI9AspYc",
+   "artist": "Rihanna",
+   "title": "What Now",
+   "views": 301181389,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "Edwsf-8F3sI",
    "artist": "Michael Bublé",
    "title": "Feeling Good",
@@ -14506,6 +14582,17 @@
    ]
   },
   {
+   "id": "tIpzfs5tBJU",
+   "artist": "Julieta Venegas",
+   "title": "Limón y Sal",
+   "views": 257699752,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "mrhcucasAlw",
    "artist": "Maná",
    "title": "Eres Mi Religión",
@@ -14537,17 +14624,6 @@
    "year": 2021,
    "genres": [
     "dance"
-   ]
-  },
-  {
-   "id": "tIpzfs5tBJU",
-   "artist": "Julieta Venegas",
-   "title": "Limon Y Sal",
-   "views": 257274998,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "latin"
    ]
   },
   {
@@ -15465,6 +15541,18 @@
    ]
   },
   {
+   "id": "nY-Xk3sGr6Q",
+   "artist": "Miguel",
+   "title": "How Many Drinks?",
+   "views": 239885590,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "rnb",
+    "hiphop"
+   ]
+  },
+  {
    "id": "cyLE48i4XY0",
    "artist": "Zendaya",
    "title": "Replay",
@@ -15499,17 +15587,6 @@
     "electronic",
     "pop",
     "ballad"
-   ]
-  },
-  {
-   "id": "nY-Xk3sGr6Q",
-   "artist": "Miguel",
-   "title": "How Many Drinks? ft. Kendrick Lamar",
-   "views": 238897686,
-   "region": "global",
-   "year": 2013,
-   "genres": [
-    "hiphop"
    ]
   },
   {
@@ -15905,6 +15982,18 @@
    "year": 2015,
    "genres": [
     "rock"
+   ]
+  },
+  {
+   "id": "Mzybwwf2HoQ",
+   "artist": "Britney Spears",
+   "title": "I'm a Slave 4 U",
+   "views": 231877842,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "dance",
+    "pop"
    ]
   },
   {
@@ -17736,6 +17825,17 @@
    ]
   },
   {
+   "id": "RZuJ_OHBN78",
+   "artist": "Beyoncé",
+   "title": "Naughty Girl",
+   "views": 205161651,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "EIqw-bnCu9Y",
    "artist": "Piso 21",
    "title": "Déjala Que Vuelva",
@@ -17996,6 +18096,17 @@
     "pop",
     "hiphop",
     "rnb"
+   ]
+  },
+  {
+   "id": "hAx6mYeC6pY",
+   "artist": "Sophie Ellis-Bextor",
+   "title": "Murder on the Dancefloor",
+   "views": 201243178,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "dance"
    ]
   },
   {
@@ -18838,12 +18949,13 @@
    "id": "EAc4zHEDd7o",
    "artist": "David Guetta",
    "title": "Who's That Chick? (feat. Rihanna)",
-   "views": 189026097,
+   "views": 189136151,
    "region": "global",
    "year": 2010,
    "genres": [
-    "electronic",
-    "pop"
+    "dance",
+    "pop",
+    "electronic"
    ]
   },
   {
@@ -21835,8 +21947,8 @@
   {
    "id": "A63VwWz1ij0",
    "artist": "Paramore",
-   "title": "Brick By Boring Brick",
-   "views": 158146604,
+   "title": "Brick by Boring Brick",
+   "views": 158309547,
    "region": "global",
    "year": 2009,
    "genres": [
@@ -23067,6 +23179,18 @@
    ]
   },
   {
+   "id": "2uYs0gJD-LE",
+   "artist": "M.I.A.",
+   "title": "Bad Girls",
+   "views": 146331339,
+   "region": "global",
+   "year": 2012,
+   "genres": [
+    "hiphop",
+    "electronic"
+   ]
+  },
+  {
    "id": "eiiU-Fky18s",
    "artist": "Gym Class Heroes",
    "title": "Cupid's Chokehold ft. Patrick Stump",
@@ -24160,6 +24284,17 @@
    ]
   },
   {
+   "id": "P3CxhBIrBho",
+   "artist": "Basshunter",
+   "title": "All I Ever Wanted",
+   "views": 138179473,
+   "region": "global",
+   "year": 2008,
+   "genres": [
+    "dance"
+   ]
+  },
+  {
    "id": "UnyLfqpyi94",
    "artist": "AJR",
    "title": "Burn The House Down",
@@ -24271,6 +24406,18 @@
     "pop",
     "rock",
     "indie"
+   ]
+  },
+  {
+   "id": "V54CEElTF_U",
+   "artist": "Taylor Swift",
+   "title": "Call It What You Want",
+   "views": 136797911,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "pop",
+    "dance"
    ]
   },
   {
@@ -27261,6 +27408,17 @@
    ]
   },
   {
+   "id": "6CHs4x2uqcQ",
+   "artist": "Kanye West",
+   "title": "Good Morning",
+   "views": 115534916,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "hiphop"
+   ]
+  },
+  {
    "id": "xmOOGeZE-aE",
    "artist": "Korn",
    "title": "Did My Time",
@@ -27555,6 +27713,17 @@
    ]
   },
   {
+   "id": "TlMgAsAmQKE",
+   "artist": "Cults",
+   "title": "Always Forever",
+   "views": 113137171,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "KCggcs7X_2Y",
    "artist": "Chris Jedi",
    "title": "Ahora Dice",
@@ -27824,6 +27993,17 @@
    "year": 2009,
    "genres": [
     "rnb"
+   ]
+  },
+  {
+   "id": "QjlFqgRbICY",
+   "artist": "Kendrick Lamar",
+   "title": "A.D.H.D",
+   "views": 111678433,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "hiphop"
    ]
   },
   {
@@ -28681,6 +28861,17 @@
    ]
   },
   {
+   "id": "vIhlZKxi8AU",
+   "artist": "Gwen Stefani",
+   "title": "Luxurious",
+   "views": 107217256,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "pop"
+   ]
+  },
+  {
    "id": "rRRtPognZXI",
    "artist": "Anuel AA",
    "title": "Quiere Beber",
@@ -29158,6 +29349,18 @@
    "year": 2020,
    "genres": [
     "rock"
+   ]
+  },
+  {
+   "id": "CcNo07Xp8aQ",
+   "artist": "Robyn",
+   "title": "Dancing on My Own",
+   "views": 104650572,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "dance",
+    "electronic"
    ]
   },
   {
@@ -30282,6 +30485,17 @@
    ]
   },
   {
+   "id": "LvetJ9U_tVY",
+   "artist": "Slipknot",
+   "title": "Vermilion, Pt. 2",
+   "views": 98942921,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "n6-RFMfPSX8",
    "artist": "Becky G",
    "title": "Lovin' So Hard",
@@ -30646,6 +30860,17 @@
    "year": 2020,
    "genres": [
     "indie"
+   ]
+  },
+  {
+   "id": "1ZZQuj6htF4",
+   "artist": "Michael Jackson",
+   "title": "P.Y.T. (Pretty Young Thing)",
+   "views": 97398090,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "pop"
    ]
   },
   {
@@ -36497,6 +36722,17 @@
     "pop",
     "ballad",
     "dance"
+   ]
+  },
+  {
+   "id": "XBYhQnjyrWo",
+   "artist": "Evanescence",
+   "title": "Sweet Sacrifice",
+   "views": 73046654,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rock"
    ]
   },
   {
@@ -45193,6 +45429,17 @@
    ]
   },
   {
+   "id": "MYF7H_fpc-g",
+   "artist": "Kanye West",
+   "title": "Jesus Walks",
+   "views": 49544127,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "hiphop"
+   ]
+  },
+  {
    "id": "BjvfIJstWeg",
    "artist": "The Cure",
    "title": "Close To Me",
@@ -45303,6 +45550,17 @@
    "year": 2009,
    "genres": [
     "hiphop"
+   ]
+  },
+  {
+   "id": "xZ1PoPRIuGk",
+   "artist": "Shakira",
+   "title": "Si Te Vas",
+   "views": 49286135,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -46248,6 +46506,17 @@
    "year": 2012,
    "genres": [
     "dance"
+   ]
+  },
+  {
+   "id": "_rxgp7TJhUE",
+   "artist": "Britney Spears",
+   "title": "Perfume",
+   "views": 47801588,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -50157,6 +50426,17 @@
    ]
   },
   {
+   "id": "96C7zX178-s",
+   "artist": "One Direction",
+   "title": "Right Now",
+   "views": 40570891,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "Um99r6sgspY",
    "artist": "LL COOL J",
    "title": "Hey Lover ft. Boyz II Men",
@@ -51182,6 +51462,17 @@
    "views": 38581568,
    "region": "global",
    "year": 2011,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
+   "id": "oDHAEME84Og",
+   "artist": "Crystal Castles",
+   "title": "Untrust Us",
+   "views": 38572611,
+   "region": "global",
+   "year": 2013,
    "genres": [
     "electronic"
    ]
@@ -52598,6 +52889,17 @@
    ]
   },
   {
+   "id": "SoYLSOcgTeg",
+   "artist": "Cascada",
+   "title": "Bad Boy",
+   "views": 36572367,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "dance"
+   ]
+  },
+  {
    "id": "cfHtgIdwk38",
    "artist": "Westside Connection",
    "title": "Gangsta Nation",
@@ -52606,6 +52908,18 @@
    "year": 2015,
    "genres": [
     "hiphop"
+   ]
+  },
+  {
+   "id": "FxzBvqY5PP0",
+   "artist": "Daft Punk",
+   "title": "Digital Love",
+   "views": 36555402,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "dance",
+    "electronic"
    ]
   },
   {
@@ -52740,6 +53054,17 @@
    "views": 36414065,
    "region": "global",
    "year": 2015,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
+   "id": "xidb8xmuiWI",
+   "artist": "Frank Ocean",
+   "title": "Chanel",
+   "views": 36397967,
+   "region": "global",
+   "year": 2020,
    "genres": [
     "rnb"
    ]
@@ -55319,6 +55644,17 @@
    "year": 2010,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "k53aLj72MYE",
+   "artist": "Lana Del Rey",
+   "title": "Off to the Races",
+   "views": 32663183,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "indie"
    ]
   },
   {
