@@ -2057,7 +2057,13 @@
   "genres": [
    "rock"
   ],
-  "track": "The Kill"
+  "track": "The Kill",
+  "video": {
+   "id": "8yvGCAvOAfM",
+   "published": "2010-09-22T19:57:03Z",
+   "views": 327918813,
+   "ytTitle": "Thirty Seconds To Mars - The Kill (Bury Me)"
+  }
  },
  "355 문문 - 비행운": {
   "artist": "[온스테이지] 355. 문문",
@@ -4950,7 +4956,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Without You"
+  "track": "Without You",
+  "video": {
+   "id": "GQ__8JkeJgk",
+   "published": "2016-10-22T02:53:19Z",
+   "views": 13207588,
+   "ytTitle": "AIR SUPPLY -  WITHOUT YOU  - SUBTITULADA ESPAÑOL - INGLÉS"
+  }
  },
  "aitana - nada sale mal": {
   "artist": "Aitana",
@@ -5768,7 +5780,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Corazón partío"
+  "track": "Corazón partío",
+  "video": {
+   "id": "ZMUqIoDtSwc",
+   "published": "2009-10-27T02:33:40Z",
+   "views": 145936529,
+   "ytTitle": "Alejandro Sanz - Corazon Partio [Latin Mix] (Official Music Video)"
+  }
  },
  "alejandro sanz - cuando nadie me ve": {
   "artist": "Alejandro Sanz",
@@ -8167,7 +8185,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Flim"
+  "track": "Flim",
+  "video": {
+   "id": "-yNHlKAzyVA",
+   "published": "2024-03-01T18:55:28Z",
+   "views": 4248887,
+   "ytTitle": "Flim"
+  }
  },
  "aphex twin - heliosphan": {
   "artist": "Aphex Twin",
@@ -8857,7 +8881,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Almost Is Never Enough (feat. Nathan Sykes)"
+  "track": "Almost Is Never Enough (feat. Nathan Sykes)",
+  "video": {
+   "id": "b87dBaL4qI0",
+   "published": "2013-08-19T07:00:10Z",
+   "views": 139399356,
+   "ytTitle": "Ariana Grande - Almost Is Never Enough (Official Video) ft. Nathan Sykes"
+  }
  },
  "ariana grande - almost is never enough ft nathan sykes": {
   "artist": "Ariana Grande",
@@ -10454,7 +10484,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Girlfriend"
+  "track": "Girlfriend",
+  "video": {
+   "id": "Bg59q4puhmg",
+   "published": "2009-10-03T04:37:20Z",
+   "views": 728684937,
+   "ytTitle": "Avril Lavigne - Girlfriend (Official Video)"
+  }
  },
  "avril lavigne - give you what you like": {
   "artist": "Avril Lavigne",
@@ -10510,7 +10546,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Let Me Go (feat. Chad Kroeger)"
+  "track": "Let Me Go (feat. Chad Kroeger)",
+  "video": {
+   "id": "AqajUg85Ax4",
+   "published": "2013-10-15T15:45:00Z",
+   "views": 258814558,
+   "ytTitle": "Avril Lavigne - Let Me Go (Official Video) ft. Chad Kroeger"
+  }
  },
  "avril lavigne - my happy ending": {
   "artist": "Avril Lavigne",
@@ -10768,14 +10810,26 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Luxury"
+  "track": "Luxury",
+  "video": {
+   "id": "dAmaaW4d5n0",
+   "published": "2012-09-27T11:10:25Z",
+   "views": 28741401,
+   "ytTitle": "LUXURY - AZEALIA BANKS (**OFFICIAL VIDEO**)"
+  }
  },
  "b a - twilight": {
   "artist": "bôa",
   "genres": [
    "rock"
   ],
-  "track": "Twilight"
+  "track": "Twilight",
+  "video": {
+   "id": "KzxJXysxgRY",
+   "published": "2023-06-05T13:30:06Z",
+   "views": 2424792,
+   "ytTitle": "Bôa - Twilight (Lyrics)"
+  }
  },
  "b a p - one shot": {
   "artist": "B.A.P",
@@ -12379,7 +12433,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Where's Your Head At"
+  "track": "Where's Your Head At",
+  "video": {
+   "id": "omwXLXeTR4w",
+   "published": "2014-12-25T16:24:01Z",
+   "views": 25658504,
+   "ytTitle": "Where's Your Head At"
+  }
  },
  "basick - meeting is easy parting is hard": {
   "artist": "BASICK",
@@ -12549,7 +12609,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Myth"
+  "track": "Myth",
+  "video": {
+   "id": "FuvWc3ToDHg",
+   "published": "2012-03-07T04:52:18Z",
+   "views": 14321091,
+   "ytTitle": "BEACH HOUSE  - \"MYTH\" (OFFICIAL TRACK)"
+  }
  },
  "beach house - silver soul": {
   "artist": "Beach House",
@@ -13559,7 +13625,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Blue (feat. Blue Ivy)"
+  "track": "Blue (feat. Blue Ivy)",
+  "video": {
+   "id": "vRFS0MYTC1I",
+   "published": "2020-08-24T12:26:02Z",
+   "views": 83053789,
+   "ytTitle": "Beyoncé, Blue Ivy, SAINt JHN, WizKid - BROWN SKIN GIRL (Official Video)"
+  }
  },
  "beyonc - broken hearted girl": {
   "artist": "Beyoncé",
@@ -13651,7 +13723,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Diva"
+  "track": "Diva",
+  "video": {
+   "id": "rNM5HW13_O8",
+   "published": "2009-10-03T04:53:41Z",
+   "views": 287919210,
+   "ytTitle": "Beyoncé - Diva"
+  }
  },
  "beyonc - drunk in love": {
   "artist": "Beyoncé",
@@ -13686,14 +13764,26 @@
   "genres": [
    "rnb"
   ],
-  "track": "Formation"
+  "track": "Formation",
+  "video": {
+   "id": "WDZJPJV__bQ",
+   "published": "2016-12-09T17:00:03Z",
+   "views": 340028026,
+   "ytTitle": "Beyoncé - Formation (Official Video)"
+  }
  },
  "beyonc - freakum dress": {
   "artist": "Beyoncé",
   "genres": [
    "rnb"
   ],
-  "track": "Freakum Dress"
+  "track": "Freakum Dress",
+  "video": {
+   "id": "ArDXxTsJJoo",
+   "published": "2009-10-03T04:51:01Z",
+   "views": 59106593,
+   "ytTitle": "Beyoncé - Freakum Dress (Video)"
+  }
  },
  "beyonc - green light": {
   "artist": "Beyoncé",
@@ -15189,7 +15279,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Venus as a Boy"
+  "track": "Venus as a Boy",
+  "video": {
+   "id": "ZaxUZH0cbhM",
+   "published": "2010-10-30T06:00:43Z",
+   "views": 4416319,
+   "ytTitle": "Bjork - Venus as a boy"
+  }
  },
  "black - wonderful life": {
   "artist": "Black",
@@ -15352,7 +15448,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Where Is the Love"
+  "track": "Where Is the Love",
+  "video": {
+   "id": "WpYeekQkAdc",
+   "published": "2009-06-16T22:48:50Z",
+   "views": 1387940730,
+   "ytTitle": "The Black Eyed Peas - Where Is The Love? (Official Music Video)"
+  }
  },
  "black eyed peas j balvin - ritmo": {
   "artist": "Black Eyed Peas, J Balvin",
@@ -20332,7 +20434,13 @@
   "genres": [
    "latin"
   ],
-  "track": "De camino a la vereda"
+  "track": "De camino a la vereda",
+  "video": {
+   "id": "_RrVQ9mFjq8",
+   "published": "2014-07-30T10:31:06Z",
+   "views": 11519324,
+   "ytTitle": "Buena Vista Social Club - De Camino a La Vereda (Official Audio)"
+  }
  },
  "buena vista social club - dos gardenias": {
   "artist": "Buena Vista Social Club",
@@ -20400,7 +20508,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Veinte años"
+  "track": "Veinte años",
+  "video": {
+   "id": "VRlxgW5yzVU",
+   "published": "2011-05-23T13:23:13Z",
+   "views": 9119700,
+   "ytTitle": "Compay Segundo e Omara Portuondo - Veinte años - Heineken Concerts 1999"
+  }
  },
  "built to spill - carry the zero": {
   "artist": "Built to Spill",
@@ -22662,7 +22776,13 @@
   "genres": [
    "latin"
   ],
-  "track": "La Vida Es Un Carnaval"
+  "track": "La Vida Es Un Carnaval",
+  "video": {
+   "id": "0nBFWzpWXuM",
+   "published": "2007-05-01T01:17:37Z",
+   "views": 107408713,
+   "ytTitle": "La Vida Es Un Carnaval - Celia Cruz"
+  }
  },
  "central cee - doja": {
   "artist": "Central Cee",
@@ -24294,7 +24414,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "No Guidance (feat. Drake)"
+  "track": "No Guidance (feat. Drake)",
+  "video": {
+   "id": "6L_k74BOLag",
+   "published": "2019-07-26T16:00:00Z",
+   "views": 516311550,
+   "ytTitle": "Chris Brown - No Guidance (Official Video) ft. Drake"
+  }
  },
  "chris brown - no guidance ft drake": {
   "artist": "Chris Brown",
@@ -25699,7 +25825,13 @@
   "genres": [
    "dance"
   ],
-  "track": "You Make Me Feel... (feat. Sabi)"
+  "track": "You Make Me Feel... (feat. Sabi)",
+  "video": {
+   "id": "HpyZEzrDf4c",
+   "published": "2011-06-29T08:06:53Z",
+   "views": 167241170,
+   "ytTitle": "Cobra Starship: You Make Me Feel... ft. Sabi [OFFICIAL VIDEO]"
+  }
  },
  "cochise - tell em": {
   "artist": "Cochise",
@@ -26920,7 +27052,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Knights"
+  "track": "Knights",
+  "video": {
+   "id": "oSgTIlfREn8",
+   "published": "2013-05-13T16:11:52Z",
+   "views": 8721659,
+   "ytTitle": "Crystal Castles - Knights"
+  }
  },
  "crystal castles - not in love ft robert smith of the cure": {
   "artist": "Crystal Castles",
@@ -26940,7 +27078,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Suffocation"
+  "track": "Suffocation",
+  "video": {
+   "id": "Z0NGdLr4img",
+   "published": "2013-06-05T19:34:35Z",
+   "views": 18493717,
+   "ytTitle": "Crystal Castles - Suffocation"
+  }
  },
  "crystal castles - transgender": {
   "artist": "Crystal Castles",
@@ -34825,7 +34969,13 @@
    "indie",
    "ballad"
   ],
-  "track": "Angeles"
+  "track": "Angeles",
+  "video": {
+   "id": "rQEEvDcMurE",
+   "published": "2014-06-04T17:05:40Z",
+   "views": 3196054,
+   "ytTitle": "Elliott Smith - Angeles (from Either/Or)"
+  }
  },
  "elliott smith - ballad of big nothing": {
   "artist": "Elliott Smith",
@@ -36465,7 +36615,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Wonderful Tonight"
+  "track": "Wonderful Tonight",
+  "video": {
+   "id": "UprwkbzUX6g",
+   "published": "2009-10-27T01:40:12Z",
+   "views": 227747675,
+   "ytTitle": "Eric Clapton - Wonderful Tonight [Official Live]"
+  }
  },
  "eric nam - 봄인가 봐 spring love": {
   "artist": "Eric Nam",
@@ -40660,7 +40816,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Sweet Life"
+  "track": "Sweet Life",
+  "video": {
+   "id": "y14F2RQW7h4",
+   "published": "2018-10-30T05:42:27Z",
+   "views": 11706180,
+   "ytTitle": "Sweet Life"
+  }
  },
  "frank ocean - swim good": {
   "artist": "Frank Ocean",
@@ -43971,7 +44133,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Latin Simone (Que Pasa Contigo)"
+  "track": "Latin Simone (Que Pasa Contigo)",
+  "video": {
+   "id": "5xQzNkkedKI",
+   "published": "2015-02-12T17:39:38Z",
+   "views": 3175099,
+   "ytTitle": "Gorillaz - Latin Simone (Que Pasa Contigo) - Gorillaz"
+  }
  },
  "gorillaz - new gold": {
   "artist": "Gorillaz",
@@ -45098,7 +45266,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Bubble Pop Electric"
+  "track": "Bubble Pop Electric",
+  "video": {
+   "id": "xIF0Me8j0dg",
+   "published": "2019-11-21T10:16:40Z",
+   "views": 52634903,
+   "ytTitle": "Bubble Pop Electric (Remastered 2019)"
+  }
  },
  "gwen stefani - cool": {
   "artist": "Gwen Stefani",
@@ -45189,7 +45363,13 @@
   "genres": [
    "dance"
   ],
-  "track": "What You Waiting For?"
+  "track": "What You Waiting For?",
+  "video": {
+   "id": "f5qICl3Fr3w",
+   "published": "2009-10-07T16:23:13Z",
+   "views": 88035204,
+   "ytTitle": "Gwen Stefani - What You Waiting For? (Clean Version) (Official Music Video)"
+  }
  },
  "gyeongseo - let s have a drink": {
   "artist": "Gyeongseo",
@@ -49065,7 +49245,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Obstacle 1"
+  "track": "Obstacle 1",
+  "video": {
+   "id": "OC5zHACynR4",
+   "published": "2018-06-06T13:57:44Z",
+   "views": 29076894,
+   "ytTitle": "Interpol - Obstacle 1"
+  }
  },
  "into you - ariana grande": {
   "artist": "Into You",
@@ -57034,7 +57220,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "telepatía"
+  "track": "telepatía",
+  "video": {
+   "id": "Dwzk-XZxZ4k",
+   "published": "2020-11-18T18:03:35Z",
+   "views": 265172400,
+   "ytTitle": "Kali Uchis – telepatía [Official Audio]"
+  }
  },
  "kalimba - duele": {
   "artist": "Kalimba",
@@ -57278,7 +57470,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Big Brother"
+  "track": "Big Brother",
+  "video": {
+   "id": "HInIGGXhJHs",
+   "published": "2019-02-15T00:01:18Z",
+   "views": 8356248,
+   "ytTitle": "Big Brother"
+  }
  },
  "kanye west - black skinhead": {
   "artist": "Kanye West",
@@ -57392,7 +57590,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Family Business"
+  "track": "Family Business",
+  "video": {
+   "id": "JwAjANmjajc",
+   "published": "2018-07-16T20:46:57Z",
+   "views": 22321749,
+   "ytTitle": "Family Business"
+  }
  },
  "kanye west - famous": {
   "artist": "Kanye West",
@@ -57541,7 +57745,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Hell of a Life"
+  "track": "Hell of a Life",
+  "video": {
+   "id": "tJKNcI6jC6A",
+   "published": "2018-07-23T17:07:38Z",
+   "views": 15065394,
+   "ytTitle": "Hell Of A Life"
+  }
  },
  "kanye west - hey mama": {
   "artist": "Kanye West",
@@ -57734,7 +57944,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Roses"
+  "track": "Roses",
+  "video": {
+   "id": "Qxlnb1lEdEs",
+   "published": "2018-10-30T02:32:11Z",
+   "views": 9941588,
+   "ytTitle": "Roses"
+  }
  },
  "kanye west - runaway": {
   "artist": "Kanye West",
@@ -60132,7 +60348,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Mr. Rager"
+  "track": "Mr. Rager",
+  "video": {
+   "id": "XEolg577-DA",
+   "published": "2018-07-26T22:37:53Z",
+   "views": 142759189,
+   "ytTitle": "Mr. Rager"
+  }
  },
  "kid cudi - pursuit of happiness": {
   "artist": "Kid Cudi",
@@ -60916,7 +61138,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Bait & Switch"
+  "track": "Bait & Switch",
+  "video": {
+   "id": "X2Rkmj7Eqtc",
+   "published": "2017-02-19T07:48:11Z",
+   "views": 8844134,
+   "ytTitle": "Bait & Switch"
+  }
  },
  "knife party - bonfire": {
   "artist": "Knife Party",
@@ -62394,7 +62622,13 @@
   "genres": [
    "dance"
   ],
-  "track": "G.U.Y."
+  "track": "G.U.Y.",
+  "video": {
+   "id": "ohs0a-QnFF4",
+   "published": "2014-03-27T07:00:01Z",
+   "views": 138880663,
+   "ytTitle": "Lady Gaga - G.U.Y. (An ARTPOP Film) (Broadcast Edit)"
+  }
  },
  "lady gaga - garden of eden": {
   "artist": "Lady Gaga",
@@ -62408,14 +62642,26 @@
   "genres": [
    "dance"
   ],
-  "track": "Government Hooker"
+  "track": "Government Hooker",
+  "video": {
+   "id": "o8uMXyxvbKA",
+   "published": "2011-05-18T22:05:26Z",
+   "views": 37180372,
+   "ytTitle": "Lady Gaga - Government Hooker (Official Audio)"
+  }
  },
  "lady gaga - heavy metal lover": {
   "artist": "Lady Gaga",
   "genres": [
    "dance"
   ],
-  "track": "Heavy Metal Lover"
+  "track": "Heavy Metal Lover",
+  "video": {
+   "id": "lyN5157_Xos",
+   "published": "2011-05-19T19:57:57Z",
+   "views": 30085226,
+   "ytTitle": "Lady Gaga - Heavy Metal Lover (Official Audio)"
+  }
  },
  "lady gaga - judas": {
   "artist": "Lady Gaga",
@@ -62826,7 +63072,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Cola"
+  "track": "Cola",
+  "video": {
+   "id": "lBakG7KtVZE",
+   "published": "2020-04-14T18:33:50Z",
+   "views": 41393913,
+   "ytTitle": "Cola"
+  }
  },
  "lana del rey - dark paradise": {
   "artist": "Lana Del Rey",
@@ -62900,7 +63152,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Million Dollar Man"
+  "track": "Million Dollar Man",
+  "video": {
+   "id": "YHmGVp6zRLw",
+   "published": "2020-04-14T18:33:49Z",
+   "views": 27658291,
+   "ytTitle": "Million Dollar Man"
+  }
  },
  "lana del rey - music to watch boys to": {
   "artist": "Lana Del Rey",
@@ -65438,7 +65696,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Somewhere Only We Know"
+  "track": "Somewhere Only We Know",
+  "video": {
+   "id": "Oextk-If8HQ",
+   "published": "2009-10-09T03:16:18Z",
+   "views": 1071004696,
+   "ytTitle": "Keane - Somewhere Only We Know (Official Music Video)"
+  }
  },
  "lim chang jung - long time no see": {
   "artist": "Lim Chang Jung",
@@ -65939,7 +66203,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Figure.09"
+  "track": "Figure.09",
+  "video": {
+   "id": "LpC0SKU6O00",
+   "published": "2015-03-27T19:41:35Z",
+   "views": 52782217,
+   "ytTitle": "Figure.09 - Linkin Park (Meteora)"
+  }
  },
  "linkin park - given up": {
   "artist": "Linkin Park",
@@ -68916,7 +69186,13 @@
   "genres": [
    "pop"
   ],
-  "track": "Like a Prayer"
+  "track": "Like a Prayer",
+  "video": {
+   "id": "79fzeNUqQbQ",
+   "published": "2009-10-27T02:06:14Z",
+   "views": 432966524,
+   "ytTitle": "Madonna - Like A Prayer (Official Video)"
+  }
  },
  "madonna - live to tell": {
   "artist": "Madonna",
@@ -68979,7 +69255,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Sorry"
+  "track": "Sorry",
+  "video": {
+   "id": "UXk39wP2X4o",
+   "published": "2020-07-06T04:03:03Z",
+   "views": 46826,
+   "ytTitle": "Madonna - Sorry (Demo 2020) [Sub Español]"
+  }
  },
  "madonna - take a bow": {
   "artist": "Madonna",
@@ -69812,7 +70094,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Clandestino"
+  "track": "Clandestino",
+  "video": {
+   "id": "MNzafK1HIro",
+   "published": "2009-10-28T19:34:12Z",
+   "views": 45167173,
+   "ytTitle": "Manu Chao – Clandestino (Live)"
+  }
  },
  "manu chao - desaparecido": {
   "artist": "Manu Chao",
@@ -75230,7 +75518,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Frijolero"
+  "track": "Frijolero",
+  "video": {
+   "id": "8iJMOBcPQyg",
+   "published": "2009-06-16T23:49:47Z",
+   "views": 157616221,
+   "ytTitle": "Molotov - Frijolero"
+  }
  },
  "molotov - gimme tha power": {
   "artist": "Molotov",
@@ -76597,7 +76891,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Demolition Lovers"
+  "track": "Demolition Lovers",
+  "video": {
+   "id": "GaLaMd_EAo4",
+   "published": "2017-07-21T06:58:38Z",
+   "views": 18137744,
+   "ytTitle": "Demolition Lovers"
+  }
  },
  "my chemical romance - desert song": {
   "artist": "My Chemical Romance",
@@ -76800,7 +77100,13 @@
   "genres": [
    "rock"
   ],
-  "track": "This Is How I Disappear"
+  "track": "This Is How I Disappear",
+  "video": {
+   "id": "3df8CooYnSs",
+   "published": "2016-09-23T20:16:24Z",
+   "views": 11149558,
+   "ytTitle": "My Chemical Romance - This Is How I Disappear"
+  }
  },
  "my chemical romance - to the end": {
   "artist": "My Chemical Romance",
@@ -78604,7 +78910,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Holland, 1945"
+  "track": "Holland, 1945",
+  "video": {
+   "id": "XLaFLztnL84",
+   "published": "2011-01-01T14:45:51Z",
+   "views": 4420179,
+   "ytTitle": "Neutral Milk Hotel - Holland, 1945"
+  }
  },
  "neutral milk hotel - in the aeroplane over the sea": {
   "artist": "Neutral Milk Hotel",
@@ -83207,7 +83519,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Playing God"
+  "track": "Playing God",
+  "video": {
+   "id": "iDy2wCQYSrU",
+   "published": "2010-11-16T21:47:24Z",
+   "views": 89359072,
+   "ytTitle": "Paramore: Playing God [OFFICIAL VIDEO]"
+  }
  },
  "paramore - pressure": {
   "artist": "Paramore",
@@ -91122,7 +91440,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Blurred Lines"
+  "track": "Blurred Lines",
+  "video": {
+   "id": "yyDUC1LUXSU",
+   "published": "2013-03-20T22:15:19Z",
+   "views": 998002767,
+   "ytTitle": "Robin Thicke - Blurred Lines ft. T.I., Pharrell"
+  }
  },
  "robin thicke - blurred lines ft t i pharrell": {
   "artist": "Robin Thicke",
@@ -98234,7 +98558,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Lodi Dodi"
+  "track": "Lodi Dodi",
+  "video": {
+   "id": "bcE6T6S1qOA",
+   "published": "2023-03-09T10:04:05Z",
+   "views": 9338521,
+   "ytTitle": "Lodi Dodi"
+  }
  },
  "snoop dogg - sensual seduction": {
   "artist": "Snoop Dogg",
@@ -103409,14 +103739,26 @@
   "genres": [
    "ballad"
   ],
-  "track": "marjorie"
+  "track": "marjorie",
+  "video": {
+   "id": "hP6QpMeSG6s",
+   "published": "2020-12-11T05:00:09Z",
+   "views": 18044253,
+   "ytTitle": "Taylor Swift - marjorie (Official Lyric Video)"
+  }
  },
  "taylor swift - midnight rain": {
   "artist": "Taylor Swift",
   "genres": [
    "pop"
   ],
-  "track": "Midnight Rain"
+  "track": "Midnight Rain",
+  "video": {
+   "id": "Odh9ddPUkEY",
+   "published": "2022-10-22T00:00:13Z",
+   "views": 66522667,
+   "ytTitle": "Taylor Swift - Midnight Rain (Official Lyric Video)"
+  }
  },
  "taylor swift - mine": {
   "artist": "Taylor Swift",
@@ -106317,7 +106659,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Smack My Bitch Up"
+  "track": "Smack My Bitch Up",
+  "video": {
+   "id": "hZPECFQ4NhE",
+   "published": "2008-10-19T20:57:48Z",
+   "views": 29595030,
+   "ytTitle": "The Prodigy - Smack My Bitch Up"
+  }
  },
  "the pussycat dolls - beep ft will i am": {
   "artist": "The Pussycat Dolls",
@@ -106934,7 +107282,13 @@
   "genres": [
    "indie"
   ],
-  "track": "You're Not the Only One I Know"
+  "track": "You're Not the Only One I Know",
+  "video": {
+   "id": "5ip6ly5rR-k",
+   "published": "2014-11-23T08:13:45Z",
+   "views": 545131,
+   "ytTitle": "The Sundays - You're not the only one I know"
+  }
  },
  "the tallest man on earth - love is all": {
   "artist": "The Tallest Man on Earth",
@@ -107302,7 +107656,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "I Feel It Coming"
+  "track": "I Feel It Coming",
+  "video": {
+   "id": "qFLhGq0060w",
+   "published": "2017-03-10T05:00:03Z",
+   "views": 1488823320,
+   "ytTitle": "The Weeknd - I Feel It Coming ft. Daft Punk (Official Video)"
+  }
  },
  "the weeknd - i feel it coming ft daft punk": {
   "artist": "The Weeknd",

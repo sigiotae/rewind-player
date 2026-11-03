@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "genres": [
   {
    "id": "pop",
@@ -1928,11 +1928,12 @@
   {
    "id": "qFLhGq0060w",
    "artist": "The Weeknd",
-   "title": "I Feel It Coming ft. Daft Punk",
-   "views": 1484494513,
+   "title": "I Feel It Coming",
+   "views": 1488823320,
    "region": "global",
    "year": 2017,
    "genres": [
+    "rnb",
     "pop",
     "electronic",
     "ballad"
@@ -2152,6 +2153,17 @@
    "year": 2016,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "WpYeekQkAdc",
+   "artist": "Black Eyed Peas",
+   "title": "Where Is the Love",
+   "views": 1387940730,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "hiphop"
    ]
   },
   {
@@ -2397,7 +2409,6 @@
    "year": 2009,
    "genres": [
     "pop",
-    "rnb",
     "ballad"
    ]
   },
@@ -3166,6 +3177,17 @@
    ]
   },
   {
+   "id": "Oextk-If8HQ",
+   "artist": "Lily Allen",
+   "title": "Somewhere Only We Know",
+   "views": 1071004696,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "zAWsoFk2yVw",
    "artist": "Becky G, Paulo Londra",
    "title": "Cuando Te Besé",
@@ -3569,6 +3591,18 @@
    ]
   },
   {
+   "id": "yyDUC1LUXSU",
+   "artist": "Robin Thicke",
+   "title": "Blurred Lines",
+   "views": 998002767,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "dance",
+    "pop"
+   ]
+  },
+  {
    "id": "NrLkTZrPZA4",
    "artist": "Elton John",
    "title": "Sacrifice",
@@ -3577,18 +3611,6 @@
    "year": 2010,
    "genres": [
     "ballad"
-   ]
-  },
-  {
-   "id": "yyDUC1LUXSU",
-   "artist": "Robin Thicke",
-   "title": "Blurred Lines ft. T.I., Pharrell",
-   "views": 997017917,
-   "region": "global",
-   "year": 2013,
-   "genres": [
-    "pop",
-    "dance"
    ]
   },
   {
@@ -3710,6 +3732,19 @@
    "year": 2016,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "-CmadmM5cOk",
+   "artist": "Taylor Swift",
+   "title": "Style",
+   "views": 973792981,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "pop",
+    "hiphop",
+    "ballad"
    ]
   },
   {
@@ -5199,6 +5234,17 @@
    "genres": [
     "rnb",
     "pop"
+   ]
+  },
+  {
+   "id": "Bg59q4puhmg",
+   "artist": "Avril Lavigne",
+   "title": "Girlfriend",
+   "views": 728684937,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rock"
    ]
   },
   {
@@ -6769,18 +6815,6 @@
    ]
   },
   {
-   "id": "il9nqWw9W3Y",
-   "artist": "Demi Lovato",
-   "title": "Cool for the Summer",
-   "views": 564554063,
-   "region": "global",
-   "year": 2015,
-   "genres": [
-    "pop",
-    "hiphop"
-   ]
-  },
-  {
    "id": "tk36ovCMsU8",
    "artist": "Marshmello",
    "title": "Silence (feat. Khalid)",
@@ -7430,6 +7464,18 @@
    "genres": [
     "rock",
     "dance"
+   ]
+  },
+  {
+   "id": "6L_k74BOLag",
+   "artist": "Chris Brown",
+   "title": "No Guidance (feat. Drake)",
+   "views": 516311550,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "rnb",
+    "pop"
    ]
   },
   {
@@ -8977,6 +9023,17 @@
    ]
   },
   {
+   "id": "79fzeNUqQbQ",
+   "artist": "Madonna",
+   "title": "Like a Prayer",
+   "views": 432966524,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "pop"
+   ]
+  },
+  {
    "id": "nBtDsQ4fhXY",
    "artist": "Major Lazer",
    "title": "Cold Water (feat. Justin Bieber & MØ)",
@@ -10290,17 +10347,6 @@
    ]
   },
   {
-   "id": "oOni4BMeMp0",
-   "artist": "Chris Brown",
-   "title": "No Guidance ft. Drake",
-   "views": 372146527,
-   "region": "global",
-   "year": 2019,
-   "genres": [
-    "pop"
-   ]
-  },
-  {
    "id": "0CCEi4VDUZM",
    "artist": "Prime Records",
    "title": "Vico C Me acuerdo",
@@ -11425,6 +11471,17 @@
    ]
   },
   {
+   "id": "WDZJPJV__bQ",
+   "artist": "Beyoncé",
+   "title": "Formation",
+   "views": 340028026,
+   "region": "global",
+   "year": 2016,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "Rb6Scz-5YOs",
    "artist": "BENEE",
    "title": "Supalonely ft. Gus Dapperton",
@@ -11813,6 +11870,17 @@
     "rock",
     "dance",
     "indie"
+   ]
+  },
+  {
+   "id": "8yvGCAvOAfM",
+   "artist": "30 Seconds to Mars",
+   "title": "The Kill",
+   "views": 327918813,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "rock"
    ]
   },
   {
@@ -13329,6 +13397,17 @@
    ]
   },
   {
+   "id": "rNM5HW13_O8",
+   "artist": "Beyoncé",
+   "title": "Diva",
+   "views": 287919210,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "pXu6JC6-d_o",
    "artist": "Imagine Dragons",
    "title": "Natural",
@@ -14180,6 +14259,17 @@
    ]
   },
   {
+   "id": "Dwzk-XZxZ4k",
+   "artist": "Kali Uchis",
+   "title": "telepatía",
+   "views": 265172400,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "s6b33PTbGxk",
    "artist": "Britney Spears",
    "title": "Criminal",
@@ -14545,6 +14635,17 @@
    "year": 2017,
    "genres": [
     "hiphop"
+   ]
+  },
+  {
+   "id": "AqajUg85Ax4",
+   "artist": "Avril Lavigne",
+   "title": "Let Me Go (feat. Chad Kroeger)",
+   "views": 258814558,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -16211,6 +16312,17 @@
    "year": 2009,
    "genres": [
     "rnb",
+    "ballad"
+   ]
+  },
+  {
+   "id": "UprwkbzUX6g",
+   "artist": "Eric Clapton",
+   "title": "Wonderful Tonight",
+   "views": 227747675,
+   "region": "global",
+   "year": 2009,
+   "genres": [
     "ballad"
    ]
   },
@@ -20961,6 +21073,18 @@
    ]
   },
   {
+   "id": "HpyZEzrDf4c",
+   "artist": "Cobra Starship",
+   "title": "You Make Me Feel... (feat. Sabi)",
+   "views": 167241170,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "dance",
+    "pop"
+   ]
+  },
+  {
    "id": "0TIIu9CERgI",
    "artist": "Wale",
    "title": "Bad feat. Tiara Thomas",
@@ -20970,17 +21094,6 @@
    "genres": [
     "pop",
     "dance"
-   ]
-  },
-  {
-   "id": "HpyZEzrDf4c",
-   "artist": "Cobra Starship",
-   "title": "You Make Me Feel... ft. Sabi",
-   "views": 167109119,
-   "region": "global",
-   "year": 2011,
-   "genres": [
-    "pop"
    ]
   },
   {
@@ -21976,6 +22089,17 @@
    "genres": [
     "pop",
     "dance"
+   ]
+  },
+  {
+   "id": "8iJMOBcPQyg",
+   "artist": "Molotov",
+   "title": "Frijolero",
+   "views": 157616221,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -23249,6 +23373,17 @@
    ]
   },
   {
+   "id": "ZMUqIoDtSwc",
+   "artist": "Alejandro Sanz",
+   "title": "Corazón partío",
+   "views": 145936529,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "Lbpr-mEEnRo",
    "artist": "Ivy Queen",
    "title": "La Vida Es As�",
@@ -23635,6 +23770,17 @@
    "year": 2018,
    "genres": [
     "ballad"
+   ]
+  },
+  {
+   "id": "XEolg577-DA",
+   "artist": "Kid Cudi",
+   "title": "Mr. Rager",
+   "views": 142759189,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "hiphop"
    ]
   },
   {
@@ -24125,6 +24271,17 @@
    ]
   },
   {
+   "id": "b87dBaL4qI0",
+   "artist": "Ariana Grande",
+   "title": "Almost Is Never Enough (feat. Nathan Sykes)",
+   "views": 139399356,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "Xh9Cp4rd7mI",
    "artist": "Michael Jackson",
    "title": "Ghosts",
@@ -24144,17 +24301,6 @@
    "year": 2015,
    "genres": [
     "hiphop"
-   ]
-  },
-  {
-   "id": "b87dBaL4qI0",
-   "artist": "Ariana Grande",
-   "title": "Almost Is Never Enough ft. Nathan Sykes",
-   "views": 139282332,
-   "region": "global",
-   "year": 2013,
-   "genres": [
-    "ballad"
    ]
   },
   {
@@ -24179,6 +24325,17 @@
    "year": 2015,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "ohs0a-QnFF4",
+   "artist": "Lady Gaga",
+   "title": "G.U.Y.",
+   "views": 138880663,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "dance"
    ]
   },
   {
@@ -28815,6 +28972,17 @@
    ]
   },
   {
+   "id": "0nBFWzpWXuM",
+   "artist": "Celia Cruz",
+   "title": "La Vida Es Un Carnaval",
+   "views": 107408713,
+   "region": "global",
+   "year": 2007,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "is6gtilerPk",
    "artist": "*NSYNC",
    "title": "I Want You Back",
@@ -28824,17 +28992,6 @@
    "genres": [
     "pop",
     "ballad"
-   ]
-  },
-  {
-   "id": "0nBFWzpWXuM",
-   "artist": "La Vida Es Un Carnaval",
-   "title": "Celia Cruz",
-   "views": 107370765,
-   "region": "global",
-   "year": 2007,
-   "genres": [
-    "latin"
    ]
   },
   {
@@ -32654,6 +32811,17 @@
    ]
   },
   {
+   "id": "iDy2wCQYSrU",
+   "artist": "Paramore",
+   "title": "Playing God",
+   "views": 89359072,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "rock"
+   ]
+  },
+  {
    "id": "g8z-qP34-1Y",
    "artist": "Sum 41",
    "title": "With Me",
@@ -32986,6 +33154,17 @@
    "year": 2018,
    "genres": [
     "indie"
+   ]
+  },
+  {
+   "id": "f5qICl3Fr3w",
+   "artist": "Gwen Stefani",
+   "title": "What You Waiting For?",
+   "views": 88035204,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "dance"
    ]
   },
   {
@@ -34199,6 +34378,17 @@
    "year": 2010,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "vRFS0MYTC1I",
+   "artist": "Beyoncé",
+   "title": "Blue (feat. Blue Ivy)",
+   "views": 83053789,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -41384,6 +41574,17 @@
    ]
   },
   {
+   "id": "ArDXxTsJJoo",
+   "artist": "Beyoncé",
+   "title": "Freakum Dress",
+   "views": 59106593,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "4KHjxlIC4F8",
    "artist": "Toni Braxton",
    "title": "He Wasn't Man Enough",
@@ -43983,6 +44184,17 @@
    "year": 2010,
    "genres": [
     "indie"
+   ]
+  },
+  {
+   "id": "xIF0Me8j0dg",
+   "artist": "Gwen Stefani",
+   "title": "Bubble Pop Electric",
+   "views": 52634903,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "dance"
    ]
   },
   {
@@ -47816,6 +48028,17 @@
    ]
   },
   {
+   "id": "MNzafK1HIro",
+   "artist": "Manu Chao",
+   "title": "Clandestino",
+   "views": 45167173,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "Zx1_6F-nCaw",
    "artist": "Junkie XL, Elvis Presley",
    "title": "A Little Less Conversation",
@@ -49925,6 +50148,17 @@
    "genres": [
     "indie",
     "pop"
+   ]
+  },
+  {
+   "id": "lBakG7KtVZE",
+   "artist": "Lana Del Rey",
+   "title": "Cola",
+   "views": 41393913,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "indie"
    ]
   },
   {
@@ -52510,6 +52744,17 @@
    "year": 2009,
    "genres": [
     "rnb"
+   ]
+  },
+  {
+   "id": "o8uMXyxvbKA",
+   "artist": "Lady Gaga",
+   "title": "Government Hooker",
+   "views": 37180372,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "dance"
    ]
   },
   {
@@ -57700,6 +57945,17 @@
    "year": 2014,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "lyN5157_Xos",
+   "artist": "Lady Gaga",
+   "title": "Heavy Metal Lover",
+   "views": 30085226,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "dance"
    ]
   },
   {
