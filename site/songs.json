@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "genres": [
   {
    "id": "pop",
@@ -1691,20 +1691,6 @@
    ]
   },
   {
-   "id": "7QU1nvuxaMA",
-   "artist": "Audioslave",
-   "title": "Like a Stone",
-   "views": 1594563582,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "rock",
-    "pop",
-    "dance",
-    "indie"
-   ]
-  },
-  {
    "id": "Bznxx12Ptl0",
    "artist": "AronChupa, Little Sis Nora",
    "title": "I'm an Albatraoz |",
@@ -2213,19 +2199,6 @@
    "genres": [
     "pop",
     "dance"
-   ]
-  },
-  {
-   "id": "kTHNpusq654",
-   "artist": "Katy Perry",
-   "title": "Hot n Cold",
-   "views": 1373769503,
-   "region": "global",
-   "year": 2008,
-   "genres": [
-    "pop",
-    "dance",
-    "ballad"
    ]
   },
   {
@@ -4678,7 +4651,8 @@
    "year": 2009,
    "genres": [
     "pop",
-    "hiphop"
+    "hiphop",
+    "dance"
    ]
   },
   {
@@ -5270,6 +5244,17 @@
    ]
   },
   {
+   "id": "JwQZQygg3Lk",
+   "artist": "Black Eyed Peas",
+   "title": "The Time (Dirty Bit)",
+   "views": 726437326,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "dance"
+   ]
+  },
+  {
    "id": "LeiFF0gvqcc",
    "artist": "Michael Jackson",
    "title": "Remember the Time",
@@ -5698,6 +5683,17 @@
    "genres": [
     "pop",
     "rock"
+   ]
+  },
+  {
+   "id": "JZjAg6fK-BQ",
+   "artist": "The Weeknd",
+   "title": "Reminder",
+   "views": 674418856,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -6837,6 +6833,19 @@
    ]
   },
   {
+   "id": "4m48GqaOz90",
+   "artist": "Black Eyed Peas",
+   "title": "Boom Boom Pow",
+   "views": 559551365,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "dance",
+    "pop",
+    "electronic"
+   ]
+  },
+  {
    "id": "ZJL4UGSbeFg",
    "artist": "Shania Twain",
    "title": "Man! I Feel Like A Woman!",
@@ -6846,18 +6855,6 @@
    "genres": [
     "pop",
     "dance"
-   ]
-  },
-  {
-   "id": "4m48GqaOz90",
-   "artist": "The Black Eyed Peas",
-   "title": "Boom Boom Pow",
-   "views": 558545054,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "pop",
-    "electronic"
    ]
   },
   {
@@ -7574,6 +7571,18 @@
    ]
   },
   {
+   "id": "-zzP29emgpg",
+   "artist": "Drake",
+   "title": "Take Care",
+   "views": 512319697,
+   "region": "global",
+   "year": 2012,
+   "genres": [
+    "rnb",
+    "pop"
+   ]
+  },
+  {
    "id": "bXcSLI58-h8",
    "artist": "Lil Nas X",
    "title": "Panini",
@@ -7582,17 +7591,6 @@
    "year": 2019,
    "genres": [
     "dance"
-   ]
-  },
-  {
-   "id": "-zzP29emgpg",
-   "artist": "Drake",
-   "title": "Take Care ft. Rihanna",
-   "views": 511453939,
-   "region": "global",
-   "year": 2012,
-   "genres": [
-    "pop"
    ]
   },
   {
@@ -10052,18 +10050,6 @@
    ]
   },
   {
-   "id": "uAOR6ib95kQ",
-   "artist": "Gorillaz",
-   "title": "DARE",
-   "views": 390408799,
-   "region": "global",
-   "year": 2010,
-   "genres": [
-    "electronic",
-    "indie"
-   ]
-  },
-  {
    "id": "4JkIs37a2JE",
    "artist": "Jamiroquai",
    "title": "Virtual Insanity",
@@ -10275,6 +10261,17 @@
    "genres": [
     "pop",
     "electronic"
+   ]
+  },
+  {
+   "id": "booKP974B0k",
+   "artist": "Shakira",
+   "title": "She Wolf",
+   "views": 377006846,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "dance"
    ]
   },
   {
@@ -10572,6 +10569,17 @@
    "year": 2020,
    "genres": [
     "electronic"
+   ]
+  },
+  {
+   "id": "QxsmWxxouIM",
+   "artist": "Beyoncé",
+   "title": "Sorry",
+   "views": 364490015,
+   "region": "global",
+   "year": 2016,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -12283,6 +12291,17 @@
    ]
   },
   {
+   "id": "pZ12_E5R3qc",
+   "artist": "Beyoncé",
+   "title": "Partition",
+   "views": 314524177,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "LPgvNlrBfb0",
    "artist": "Cher Lloyd",
    "title": "Want U Back",
@@ -12770,6 +12789,17 @@
    "genres": [
     "pop",
     "ballad"
+   ]
+  },
+  {
+   "id": "_FE194VN6c4",
+   "artist": "Snoop Dogg",
+   "title": "Beautiful",
+   "views": 302892061,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "hiphop"
    ]
   },
   {
@@ -14409,6 +14439,17 @@
    ]
   },
   {
+   "id": "i3Jv9fNPjgk",
+   "artist": "Azealia Banks",
+   "title": "212 (feat. Lazy Jay)",
+   "views": 262196432,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "hiphop"
+   ]
+  },
+  {
    "id": "pvPsJFRGleA",
    "artist": "Justin Bieber",
    "title": "Holy ft. Chance The Rapper",
@@ -15950,6 +15991,17 @@
    ]
   },
   {
+   "id": "6p-lDYPR2P8",
+   "artist": "Madonna",
+   "title": "Music",
+   "views": 235465986,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "dance"
+   ]
+  },
+  {
    "id": "9C6Y0NzuIis",
    "artist": "Dyland & Lenny",
    "title": "Nadie Te Amará Como Yo",
@@ -16279,6 +16331,17 @@
    "year": 2017,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "CjRas1yOWvo",
+   "artist": "Scorpions",
+   "title": "Still Loving You",
+   "views": 228844657,
+   "region": "global",
+   "year": 2012,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -20527,7 +20590,8 @@
    "region": "global",
    "year": 2009,
    "genres": [
-    "pop"
+    "pop",
+    "dance"
    ]
   },
   {
@@ -20785,6 +20849,17 @@
    "year": 2016,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "_UwWYtLWEZg",
+   "artist": "Sleeping With Sirens",
+   "title": "If You Can't Hang",
+   "views": 171078254,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "rock"
    ]
   },
   {
@@ -22245,7 +22320,8 @@
    "year": 2009,
    "genres": [
     "pop",
-    "dance"
+    "dance",
+    "rnb"
    ]
   },
   {
@@ -22328,7 +22404,7 @@
   },
   {
    "id": "XSbZidsgMfw",
-   "artist": "Tyler, The Creator",
+   "artist": "Tyler The Creator",
    "title": "Yonkers",
    "views": 154704808,
    "region": "global",
@@ -22482,18 +22558,6 @@
    "year": 2009,
    "genres": [
     "pop",
-    "dance"
-   ]
-  },
-  {
-   "id": "3dm_5qWWDV8",
-   "artist": "Muse",
-   "title": "Hysteria",
-   "views": 153635883,
-   "region": "global",
-   "year": 2010,
-   "genres": [
-    "rock",
     "dance"
    ]
   },
@@ -27700,6 +27764,17 @@
    ]
   },
   {
+   "id": "mFNaFeIm4bU",
+   "artist": "Tyler The Creator",
+   "title": "She (feat. Frank Ocean)",
+   "views": 114737296,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "0GSOGAd5liw",
    "artist": "Gondwana",
    "title": "Felicidad",
@@ -29641,7 +29716,8 @@
    "region": "global",
    "year": 2009,
    "genres": [
-    "rnb"
+    "rnb",
+    "dance"
    ]
   },
   {
@@ -30088,6 +30164,17 @@
    "year": 2012,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "8yn3ViE6mhY",
+   "artist": "Depeche Mode",
+   "title": "Precious",
+   "views": 101385074,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "electronic"
    ]
   },
   {
@@ -32725,7 +32812,8 @@
    "region": "global",
    "year": 2010,
    "genres": [
-    "pop"
+    "pop",
+    "electronic"
    ]
   },
   {
@@ -33164,7 +33252,8 @@
    "region": "global",
    "year": 2009,
    "genres": [
-    "dance"
+    "dance",
+    "pop"
    ]
   },
   {
@@ -35135,6 +35224,17 @@
    ]
   },
   {
+   "id": "7_rftpd0u0U",
+   "artist": "Ariana Grande",
+   "title": "imagine",
+   "views": 79628014,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "TRqiFPpw2fY",
    "artist": "Foo Fighters",
    "title": "The Sky Is A Neighborhood",
@@ -35823,6 +35923,17 @@
    "year": 2013,
    "genres": [
     "rock"
+   ]
+  },
+  {
+   "id": "6e6Hj7MwWaI",
+   "artist": "Crystal Castles",
+   "title": "Vanished",
+   "views": 76264671,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "electronic"
    ]
   },
   {
@@ -37372,6 +37483,18 @@
    "genres": [
     "latin",
     "pop"
+   ]
+  },
+  {
+   "id": "d4uA3t9AOUw",
+   "artist": "Sohodolls",
+   "title": "Bang Bang Bang Bang",
+   "views": 71130114,
+   "region": "global",
+   "year": 2008,
+   "genres": [
+    "indie",
+    "electronic"
    ]
   },
   {
@@ -45091,7 +45214,8 @@
    "region": "global",
    "year": 2009,
    "genres": [
-    "indie"
+    "indie",
+    "rock"
    ]
   },
   {
@@ -45150,6 +45274,17 @@
    "genres": [
     "rock",
     "indie"
+   ]
+  },
+  {
+   "id": "6QSXbvmEEJM",
+   "artist": "Juanes",
+   "title": "La Paga",
+   "views": 50752127,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -49397,6 +49532,18 @@
    ]
   },
   {
+   "id": "ysJ82L-1rEc",
+   "artist": "Evanescence",
+   "title": "Going Under",
+   "views": 42595112,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "rock",
+    "pop"
+   ]
+  },
+  {
    "id": "fw_58PPCMRI",
    "artist": "Too $hort",
    "title": "Just Another Day",
@@ -53065,6 +53212,17 @@
    "year": 2018,
    "genres": [
     "ballad"
+   ]
+  },
+  {
+   "id": "AVPEP_KSldA",
+   "artist": "Ariana Grande",
+   "title": "R.E.M",
+   "views": 36656011,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -58404,15 +58562,6 @@
    "views": 313266743,
    "region": "kr",
    "year": 2020,
-   "genres": []
-  },
-  {
-   "id": "fRyhqobl0sk",
-   "artist": "Mariah Carey",
-   "title": "All I Want for Christmas Is You",
-   "views": 309965805,
-   "region": "kr",
-   "year": 2017,
    "genres": []
   },
   {
