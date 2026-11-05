@@ -9070,14 +9070,26 @@
   "genres": [
    "ballad"
   ],
-  "track": "imperfect for you"
+  "track": "imperfect for you",
+  "video": {
+   "id": "VtQorLzzbQw",
+   "published": "2024-03-08T05:00:28Z",
+   "views": 15349470,
+   "ytTitle": "Ariana Grande - imperfect for you (lyric visualizer)"
+  }
  },
  "ariana grande - in my head": {
   "artist": "Ariana Grande",
   "genres": [
    "rnb"
   ],
-  "track": "in my head"
+  "track": "in my head",
+  "video": {
+   "id": "6GcpNvYFMGE",
+   "published": "2019-02-15T05:06:34Z",
+   "views": 48967526,
+   "ytTitle": "Ariana Grande - in my head (Official Audio)"
+  }
  },
  "ariana grande - into you": {
   "artist": "Ariana Grande",
@@ -13602,7 +13614,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "All Night"
+  "track": "All Night",
+  "video": {
+   "id": "gM89Q5Eng_M",
+   "published": "2016-11-30T15:00:02Z",
+   "views": 128888416,
+   "ytTitle": "Beyoncé - All Night (Video)"
+  }
  },
  "beyonc - baby boy": {
   "artist": "Beyoncé",
@@ -14939,7 +14957,13 @@
    "indie",
    "ballad"
   ],
-  "track": "i love you"
+  "track": "i love you",
+  "video": {
+   "id": "WiinVuzh4DA",
+   "published": "2019-03-28T10:07:29Z",
+   "views": 202971070,
+   "ytTitle": "i love you"
+  }
  },
  "billie eilish - idontwannabeyouanymore": {
   "artist": "Billie Eilish",
@@ -15252,7 +15276,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Big Time Sensuality"
+  "track": "Big Time Sensuality",
+  "video": {
+   "id": "h2Y1oH3EZWc",
+   "published": "2014-08-18T09:42:10Z",
+   "views": 1092144,
+   "ytTitle": "Big Time Sensuality"
+  }
  },
  "bj rk - hidden place": {
   "artist": "Björk",
@@ -15273,7 +15303,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Hyperballad"
+  "track": "Hyperballad",
+  "video": {
+   "id": "6CSiU0j_lFA",
+   "published": "2007-07-01T15:02:16Z",
+   "views": 4847759,
+   "ytTitle": "björk - hyperballad"
+  }
  },
  "bj rk - it s not up to you": {
   "artist": "Björk",
@@ -15448,7 +15484,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "My Humps"
+  "track": "My Humps",
+  "video": {
+   "id": "4m48GqaOz90",
+   "published": "2009-06-16T21:39:46Z",
+   "views": 559629232,
+   "ytTitle": "The Black Eyed Peas - Boom Boom Pow (Official Music Video)"
+  }
  },
  "black eyed peas - pump it": {
   "artist": "Black Eyed Peas",
@@ -16726,7 +16768,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Song 2 - 2012 Remaster"
+  "track": "Song 2 - 2012 Remaster",
+  "video": {
+   "id": "SSbBvKaM6sk",
+   "published": "2009-04-15T20:31:11Z",
+   "views": 251500616,
+   "ytTitle": "Blur - Song 2 (Official Music Video)"
+  }
  },
  "bmk - when flowering spring comes": {
   "artist": "BMK",
@@ -23135,7 +23183,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Apple"
+  "track": "Apple",
+  "video": {
+   "id": "CPWxExGk7PM",
+   "published": "2024-06-07T04:22:17Z",
+   "views": 27015937,
+   "ytTitle": "Charli xcx - Apple (official lyric video)"
+  }
  },
  "charli xcx - b2b": {
   "artist": "Charli xcx",
@@ -23235,7 +23289,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Good Ones"
+  "track": "Good Ones",
+  "video": {
+   "id": "kjAuUXdSFaM",
+   "published": "2021-09-02T18:00:12Z",
+   "views": 23688545,
+   "ytTitle": "Charli XCX - Good Ones [Official Video]"
+  }
  },
  "charli xcx - grins": {
   "artist": "Charli xcx",
@@ -23277,7 +23337,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Sympathy is a knife"
+  "track": "Sympathy is a knife",
+  "video": {
+   "id": "S9s4Ckt-aKo",
+   "published": "2024-06-07T04:00:20Z",
+   "views": 6847636,
+   "ytTitle": "Charli xcx - Sympathy is a knife (official lyric video)"
+  }
  },
  "charli xcx - take my hand": {
   "artist": "Charli xcx",
@@ -28323,7 +28389,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Robot Rock"
+  "track": "Robot Rock",
+  "video": {
+   "id": "sFZjqVnWBhc",
+   "published": "2009-02-24T02:10:03Z",
+   "views": 63262232,
+   "ytTitle": "Daft Punk - Robot Rock (Official Music Video Remastered)"
+  }
  },
  "daft punk - something about us": {
   "artist": "Daft Punk",
@@ -30172,7 +30244,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Soul Meets Body"
+  "track": "Soul Meets Body",
+  "video": {
+   "id": "uizQVriWp8M",
+   "published": "2010-08-11T00:38:15Z",
+   "views": 21515293,
+   "ytTitle": "Death Cab for Cutie - Soul Meets Body (video)"
+  }
  },
  "death grips - get got": {
   "artist": "Death Grips",
@@ -30402,7 +30480,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Hole in the Earth"
+  "track": "Hole in the Earth",
+  "video": {
+   "id": "LnI_QIXU058",
+   "published": "2009-10-27T00:29:50Z",
+   "views": 17437600,
+   "ytTitle": "Deftones - Hole In The Earth [Official Music Video]"
+  }
  },
  "deftones - minerva": {
   "artist": "Deftones",
@@ -32367,7 +32451,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Like That (feat. Gucci Mane)"
+  "track": "Like That (feat. Gucci Mane)",
+  "video": {
+   "id": "XEJLuJyxLDE",
+   "published": "2020-06-25T16:00:14Z",
+   "views": 338824922,
+   "ytTitle": "Doja Cat - Like That (Official Video) ft. Gucci Mane"
+  }
  },
  "doja cat - rules": {
   "artist": "Doja Cat",
@@ -38258,7 +38348,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Beautiful Goodbye"
+  "track": "Beautiful Goodbye",
+  "video": {
+   "id": "p3cfAuYk5i4",
+   "published": "2019-08-02T12:08:52Z",
+   "views": 260882,
+   "ytTitle": "Beautiful Goodbye"
+  }
  },
  "f - chu": {
   "artist": "f(x)",
@@ -39104,7 +39200,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Praise You"
+  "track": "Praise You",
+  "video": {
+   "id": "ruAi4VBoBSM",
+   "published": "2010-05-21T10:52:29Z",
+   "views": 35771797,
+   "ytTitle": "Fatboy Slim - Praise You [Official Video]"
+  }
  },
  "fatboy slim - right here right now": {
   "artist": "Fatboy Slim",
@@ -40960,7 +41062,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Pilot Jones"
+  "track": "Pilot Jones",
+  "video": {
+   "id": "azgDZ-TBCzk",
+   "published": "2018-10-30T05:42:15Z",
+   "views": 5872817,
+   "ytTitle": "Pilot Jones"
+  }
  },
  "frank ocean - self control": {
   "artist": "Frank Ocean",
@@ -43116,7 +43224,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Lost in the Fire (feat. The Weeknd)"
+  "track": "Lost in the Fire (feat. The Weeknd)",
+  "video": {
+   "id": "ZGDGdRIxvd0",
+   "published": "2019-01-11T15:00:05Z",
+   "views": 269099409,
+   "ytTitle": "Gesaffelstein & The Weeknd - Lost in the Fire (Official Video)"
+  }
  },
  "geto boys - mind playing tricks on me": {
   "artist": "Geto Boys",
@@ -46408,7 +46522,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Save Me"
+  "track": "Save Me",
+  "video": {
+   "id": "dBWRCihnWFU",
+   "published": "2009-10-07T14:25:34Z",
+   "views": 43726130,
+   "ytTitle": "Hanson - Save Me"
+  }
  },
  "haon - boong boong": {
   "artist": "HAON",
@@ -52050,7 +52170,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Someone to Call My Lover"
+  "track": "Someone to Call My Lover",
+  "video": {
+   "id": "jWd9IgPktA4",
+   "published": "2010-11-17T03:19:22Z",
+   "views": 10536430,
+   "ytTitle": "Janet Jackson - Someone To Call My Lover (Official Music Video)"
+  }
  },
  "janet jackson - that s the way love goes": {
   "artist": "Janet Jackson",
@@ -55729,7 +55855,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Gotas De Agua Dulce"
+  "track": "Gotas De Agua Dulce",
+  "video": {
+   "id": "ayCXeExyJxg",
+   "published": "2009-11-23T05:26:13Z",
+   "views": 59083575,
+   "ytTitle": "Juanes - Gotas De Agua Dulce (Official Music Video)"
+  }
  },
  "juanes - juntos": {
   "artist": "Juanes",
@@ -56355,7 +56487,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Genesis"
+  "track": "Genesis",
+  "video": {
+   "id": "VKzWLUQizz8",
+   "published": "2012-12-07T17:20:08Z",
+   "views": 25281213,
+   "ytTitle": "Justice - Genesis - † (Official Audio)"
+  }
  },
  "justin bieber - as long as you love me": {
   "artist": "Justin Bieber",
@@ -58228,7 +58366,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Spaceship"
+  "track": "Spaceship",
+  "video": {
+   "id": "mn77gzjBl1U",
+   "published": "2018-07-16T20:46:51Z",
+   "views": 23706310,
+   "ytTitle": "Spaceship"
+  }
  },
  "kanye west - stronger": {
   "artist": "Kanye West",
@@ -58255,7 +58399,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "The New Workout Plan"
+  "track": "The New Workout Plan",
+  "video": {
+   "id": "ylT16QB6Uig",
+   "published": "2009-12-25T06:48:52Z",
+   "views": 9598372,
+   "ytTitle": "Kanye West - The New Workout Plan (Long Version)"
+  }
  },
  "kanye west - through the wire": {
   "artist": "Kanye West",
@@ -59882,7 +60032,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Backseat Freestyle"
+  "track": "Backseat Freestyle",
+  "video": {
+   "id": "EZW7et3tPuQ",
+   "published": "2013-01-08T04:33:36Z",
+   "views": 53773802,
+   "ytTitle": "Kendrick Lamar - Backseat Freestyle (Explicit)"
+  }
  },
  "kendrick lamar - bitch don t kill my vibe": {
   "artist": "Kendrick Lamar",
@@ -62876,7 +63032,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Disease"
+  "track": "Disease",
+  "video": {
+   "id": "fmC6b6_ovZY",
+   "published": "2024-10-30T01:00:34Z",
+   "views": 58036908,
+   "ytTitle": "Lady Gaga - Disease (Official Music Video)"
+  }
  },
  "lady gaga - dope": {
   "artist": "Lady Gaga",
@@ -63346,7 +63508,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Carmen"
+  "track": "Carmen",
+  "video": {
+   "id": "1Q39LtBQOEo",
+   "published": "2020-04-14T19:00:50Z",
+   "views": 16293187,
+   "ytTitle": "Carmen"
+  }
  },
  "lana del rey - cola": {
   "artist": "Lana Del Rey",
@@ -63466,7 +63634,13 @@
   "genres": [
    "indie"
   ],
-  "track": "National Anthem"
+  "track": "National Anthem",
+  "video": {
+   "id": "sxDdEPED0h8",
+   "published": "2012-09-05T11:51:38Z",
+   "views": 116555177,
+   "ytTitle": "Lana Del Rey - National Anthem"
+  }
  },
  "lana del rey - off to the races": {
   "artist": "Lana Del Rey",
@@ -63597,7 +63771,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Without You"
+  "track": "Without You",
+  "video": {
+   "id": "8dxofcoRZnI",
+   "published": "2020-04-14T19:02:27Z",
+   "views": 19873399,
+   "ytTitle": "Without You"
+  }
  },
  "lana del rey - young and beautiful": {
   "artist": "Lana Del Rey",
@@ -66640,7 +66820,13 @@
   "genres": [
    "rock"
   ],
-  "track": "The Emptiness Machine"
+  "track": "The Emptiness Machine",
+  "video": {
+   "id": "SRXH9AbT280",
+   "published": "2024-09-05T23:15:08Z",
+   "views": 237860890,
+   "ytTitle": "The Emptiness Machine (Official Music Video) - Linkin Park"
+  }
  },
  "linkin park - waiting for the end": {
   "artist": "Linkin Park",
@@ -66694,7 +66880,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Dream"
+  "track": "Dream",
+  "video": {
+   "id": "FMX98ROVRCE",
+   "published": "2025-08-14T03:00:07Z",
+   "views": 72143262,
+   "ytTitle": "LISA - DREAM feat. Kentaro Sakaguchi (Official Short Film MV)"
+  }
  },
  "lisa - lalisa": {
   "artist": "Lisa",
@@ -67420,7 +67612,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Supercut"
+  "track": "Supercut",
+  "video": {
+   "id": "kDzfWzORry8",
+   "published": "2017-06-17T23:20:33Z",
+   "views": 8118532,
+   "ytTitle": "Lorde - SuperCut (Lyric Video)"
+  }
  },
  "lorde - team": {
   "artist": "Lorde",
@@ -69041,7 +69239,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "The Spins"
+  "track": "The Spins",
+  "video": {
+   "id": "mkGT1c98soU",
+   "published": "2012-09-04T00:35:12Z",
+   "views": 34697147,
+   "ytTitle": "Mac Miller - The Spins"
+  }
  },
  "mach daddy - la botella": {
   "artist": "Mach & Daddy",
@@ -70812,7 +71016,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "H.A.T.E.U."
+  "track": "H.A.T.E.U.",
+  "video": {
+   "id": "yd8wMObmm38",
+   "published": "2009-12-08T18:45:32Z",
+   "views": 21148870,
+   "ytTitle": "Mariah Carey - H.A.T.E.U. (Official Music Video)"
+  }
  },
  "mariah carey - hero": {
   "artist": "Mariah Carey",
@@ -71070,7 +71280,13 @@
   "genres": [
    "dance"
   ],
-  "track": "How to Be a Heartbreaker"
+  "track": "How to Be a Heartbreaker",
+  "video": {
+   "id": "oWXiSMXpJnk",
+   "published": "2016-12-23T22:23:52Z",
+   "views": 13095928,
+   "ytTitle": "how to be a heartbreaker // marina and the diamonds lyrics"
+  }
  },
  "marina - primadonna": {
   "artist": "Marina",
@@ -72166,7 +72382,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Take Me As I Am"
+  "track": "Take Me As I Am",
+  "video": {
+   "id": "NzNiE3ZUHdk",
+   "published": "2009-06-17T05:23:20Z",
+   "views": 38422770,
+   "ytTitle": "Mary J. Blige - Take Me As I Am (Official Music Video)"
+  }
  },
  "mase - what you want": {
   "artist": "Mase",
@@ -75866,7 +76088,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "He's Mine"
+  "track": "He's Mine",
+  "video": {
+   "id": "D1uayIkqhj4",
+   "published": "2008-08-17T06:58:30Z",
+   "views": 8626111,
+   "ytTitle": "Mokenstef- He's Mine"
+  }
  },
  "moloko - sing it back": {
   "artist": "Moloko",
@@ -76909,7 +77137,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Stockholm Syndrome"
+  "track": "Stockholm Syndrome",
+  "video": {
+   "id": "gXN9acC9edU",
+   "published": "2010-02-08T17:48:12Z",
+   "views": 24627812,
+   "ytTitle": "Muse - Stockholm Syndrome"
+  }
  },
  "muse - supermassive black hole": {
   "artist": "Muse",
@@ -77665,7 +77899,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "You Know What"
+  "track": "You Know What",
+  "video": {
+   "id": "_cdPWwBKplI",
+   "published": "2008-06-05T17:54:44Z",
+   "views": 3794880,
+   "ytTitle": "You Know What - N.E.R.D"
+  }
  },
  "n flying - rooftop": {
   "artist": "N.Flying(엔플라잉)",
@@ -83523,7 +83763,13 @@
   "genres": [
    "rock"
   ],
-  "track": "The Ballad of Mona Lisa"
+  "track": "The Ballad of Mona Lisa",
+  "video": {
+   "id": "gOgpdp3lP8M",
+   "published": "2011-02-07T02:48:26Z",
+   "views": 212957948,
+   "ytTitle": "Panic! At The Disco: The Ballad Of Mona Lisa [OFFICIAL VIDEO]"
+  }
  },
  "pantera - walk": {
   "artist": "Pantera",
@@ -86520,7 +86766,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Sunflower - Spider-Man: Into the Spider-Verse"
+  "track": "Sunflower - Spider-Man: Into the Spider-Verse",
+  "video": {
+   "id": "ApXoWvfEYVU",
+   "published": "2018-10-18T16:00:03Z",
+   "views": 3202862112,
+   "ytTitle": "Post Malone, Swae Lee - Sunflower (Spider-Man: Into the Spider-Verse)"
+  }
  },
  "post malone - take what you want ft ozzy osbourne travis scott": {
   "artist": "Post Malone",
@@ -92645,7 +92897,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "because i liked a boy"
+  "track": "because i liked a boy",
+  "video": {
+   "id": "1YUBbF24H44",
+   "published": "2022-07-15T04:00:09Z",
+   "views": 78003584,
+   "ytTitle": "Sabrina Carpenter - because i liked a boy (Official Video)"
+  }
  },
  "sabrina carpenter - emails i can t send": {
   "artist": "Sabrina Carpenter",
@@ -93253,7 +93511,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Jingo"
+  "track": "Jingo",
+  "video": {
+   "id": "sTcXtvKgvE0",
+   "published": "2014-09-26T19:00:16Z",
+   "views": 6666982,
+   "ytTitle": "Santana - Savor / Jingo | Live at Tanglewood (1970)"
+  }
  },
  "santana - maria maria": {
   "artist": "Santana",
@@ -93301,7 +93565,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Persuasion"
+  "track": "Persuasion",
+  "video": {
+   "id": "Hd_BIRJKRMA",
+   "published": "2020-06-05T09:28:08Z",
+   "views": 646573,
+   "ytTitle": "Persuasion - Santana [Live At Woodstock]"
+  }
  },
  "santana - savor": {
   "artist": "Santana",
@@ -93349,7 +93619,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Soul Sacrifice"
+  "track": "Soul Sacrifice",
+  "video": {
+   "id": "JaaT_HRb4GU",
+   "published": "2016-01-11T18:00:00Z",
+   "views": 61947523,
+   "ytTitle": "Santana - Soul Sacrifice 1969  Woodstock  live concierto HQ"
+  }
  },
  "santana - the game of love ft michelle branch": {
   "artist": "Santana",
@@ -94580,7 +94856,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Baila Esta Cumbia"
+  "track": "Baila Esta Cumbia",
+  "video": {
+   "id": "Bqi7DSA1Vd4",
+   "published": "2017-06-23T04:00:00Z",
+   "views": 46626788,
+   "ytTitle": "Selena - Baila Esta Cumbia (Live From Astrodome)"
+  }
  },
  "selena - como la flor": {
   "artist": "Selena",
@@ -94607,7 +94889,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Si Una Vez"
+  "track": "Si Una Vez",
+  "video": {
+   "id": "pjDc3nK8cN4",
+   "published": "2017-06-23T04:00:02Z",
+   "views": 303409737,
+   "ytTitle": "Selena - Si Una Vez (Live From Astrodome)"
+  }
  },
  "selena gomez - back to you from 13 reasons why season 2 soundtrack": {
   "artist": "Selena Gomez",
@@ -96392,7 +96680,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Te Dejo Madrid"
+  "track": "Te Dejo Madrid",
+  "video": {
+   "id": "jgCh19FJ1hg",
+   "published": "2011-05-20T22:03:40Z",
+   "views": 30012633,
+   "ytTitle": "Shakira - Te Dejo Madrid (Official HD Video)"
+  }
  },
  "shakira - un poco de amor": {
   "artist": "Shakira",
@@ -96696,7 +96990,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Why Do You Let Me Stay Here?"
+  "track": "Why Do You Let Me Stay Here?",
+  "video": {
+   "id": "FkzRyHa9a6g",
+   "published": "2008-08-08T16:30:06Z",
+   "views": 6169876,
+   "ytTitle": "She & Him - Why Do You Let Me Stay Here? (Official Video)"
+  }
  },
  "she wants revenge - tear you apart": {
   "artist": "She Wants Revenge",
@@ -98648,7 +98948,13 @@
   "genres": [
    "dance"
   ],
-  "track": "OLD TECHNOLOGY"
+  "track": "OLD TECHNOLOGY",
+  "video": {
+   "id": "rg1CEKM0nd0",
+   "published": "2026-02-24T17:00:07Z",
+   "views": 1476710,
+   "ytTitle": "Slayyyter - OLD TECHNOLOGY (Official Video)"
+  }
  },
  "slayyyter - unknown loverz": {
   "artist": "Slayyyter",
@@ -104018,7 +104324,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Cruel Summer"
+  "track": "Cruel Summer",
+  "video": {
+   "id": "ic8j13piAhQ",
+   "published": "2019-08-23T04:00:06Z",
+   "views": 310201696,
+   "ytTitle": "Taylor Swift - Cruel Summer (Official Audio)"
+  }
  },
  "taylor swift - dancing with our hands tied": {
   "artist": "Taylor Swift",
@@ -106371,7 +106683,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Naïve"
+  "track": "Naïve",
+  "video": {
+   "id": "jkaMiaRLgvY",
+   "published": "2008-03-19T00:06:15Z",
+   "views": 112671827,
+   "ytTitle": "The Kooks - Naive"
+  }
  },
  "the kooks - naive": {
   "artist": "The Kooks",
@@ -107269,7 +107587,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Sleeping In"
+  "track": "Sleeping In",
+  "video": {
+   "id": "j4-VaK_MSRI",
+   "published": "2008-11-18T17:50:38Z",
+   "views": 204508,
+   "ytTitle": "The Radio Dept. - Sleeping In"
+  }
  },
  "the rasmus - in the shadows": {
   "artist": "The Rasmus",
@@ -107540,7 +107864,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Today - 2011 Remaster"
+  "track": "Today - 2011 Remaster",
+  "video": {
+   "id": "xmUZ6nCFNoU",
+   "published": "2011-08-03T02:04:34Z",
+   "views": 74740914,
+   "ytTitle": "The Smashing Pumpkins - Today"
+  }
  },
  "the smashing pumpkins - tonight tonight": {
   "artist": "The Smashing Pumpkins",
@@ -107630,7 +107960,13 @@
   "genres": [
    "indie"
   ],
-  "track": "12:51"
+  "track": "12:51",
+  "video": {
+   "id": "LPAVDHo1Elc",
+   "published": "2009-10-03T20:46:31Z",
+   "views": 25131342,
+   "ytTitle": "The Strokes - 12:51 (Official HD Video)"
+  }
  },
  "the strokes - hard to explain": {
   "artist": "The Strokes",
@@ -108139,6 +108475,20 @@
    "rnb"
   ],
   "track": "High for This"
+ },
+ "the weeknd - house of balloons glass table girls": {
+  "artist": "The Weeknd",
+  "genres": [
+   "rnb",
+   "electronic"
+  ],
+  "track": "House of Balloons / Glass Table Girls",
+  "video": {
+   "id": "8ex38L8xtNI",
+   "published": "2011-03-21T01:39:53Z",
+   "views": 78817847,
+   "ytTitle": "The Weeknd - House Of Balloons / Glass Table Girls"
+  }
  },
  "the weeknd - i feel it coming": {
   "artist": "The Weeknd",
@@ -112378,7 +112728,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Answer"
+  "track": "Answer",
+  "video": {
+   "id": "OUlsTuG39O0",
+   "published": "2013-03-27T07:07:31Z",
+   "views": 5892331,
+   "ytTitle": "Answer - Tyler, The Creator"
+  }
  },
  "tyler the creator - she": {
   "artist": "Tyler The Creator",
@@ -114694,7 +115050,13 @@
   "genres": [
    "rock"
   ],
-  "track": "I Just Threw Out the Love of My Dreams"
+  "track": "I Just Threw Out the Love of My Dreams",
+  "video": {
+   "id": "r2dosVRzLSM",
+   "published": "2018-07-31T14:09:02Z",
+   "views": 34669345,
+   "ytTitle": "I Just Threw Out The Love Of My Dreams"
+  }
  },
  "weezer - island in the sun": {
   "artist": "Weezer",
@@ -114715,7 +115077,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Pink Triangle"
+  "track": "Pink Triangle",
+  "video": {
+   "id": "v2vWDWxYJBc",
+   "published": "2018-07-26T02:35:01Z",
+   "views": 11363671,
+   "ytTitle": "Pink Triangle"
+  }
  },
  "weezer - pork and beans": {
   "artist": "Weezer",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "genres": [
   {
    "id": "pop",
@@ -454,12 +454,13 @@
   },
   {
    "id": "ApXoWvfEYVU",
-   "artist": "Post Malone, Swae Lee",
-   "title": "Sunflower (Spider-Man: Into the Spider-Verse)",
-   "views": 3185537420,
+   "artist": "Sunflower - Spider-Man",
+   "title": "Into the Spider-Verse",
+   "views": 3202862112,
    "region": "global",
    "year": 2018,
    "genres": [
+    "hiphop",
     "pop",
     "ballad"
    ]
@@ -1846,6 +1847,19 @@
    "year": 2016,
    "genres": [
     "pop",
+    "ballad"
+   ]
+  },
+  {
+   "id": "TJAfLE39ZZ8",
+   "artist": "Amy Winehouse",
+   "title": "Back to Black",
+   "views": 1535441619,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb",
+    "rock",
     "ballad"
    ]
   },
@@ -3883,19 +3897,6 @@
     "dance",
     "electronic",
     "pop"
-   ]
-  },
-  {
-   "id": "5NPBIwQyPWE",
-   "artist": "Avril Lavigne",
-   "title": "Complicated",
-   "views": 932482361,
-   "region": "global",
-   "year": 2010,
-   "genres": [
-    "pop",
-    "rock",
-    "dance"
    ]
   },
   {
@@ -6841,6 +6842,7 @@
    "year": 2009,
    "genres": [
     "dance",
+    "hiphop",
     "pop",
     "electronic"
    ]
@@ -11525,6 +11527,17 @@
    ]
   },
   {
+   "id": "XEJLuJyxLDE",
+   "artist": "Doja Cat",
+   "title": "Like That (feat. Gucci Mane)",
+   "views": 338824922,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "WwvTquVQKfA",
    "artist": "Camilo, El Alfa",
    "title": "BEBÉ",
@@ -12475,6 +12488,17 @@
    ]
   },
   {
+   "id": "ic8j13piAhQ",
+   "artist": "Taylor Swift",
+   "title": "Cruel Summer",
+   "views": 310201696,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "dance"
+   ]
+  },
+  {
    "id": "JYIaWeVL1JM",
    "artist": "SNAP!",
    "title": "Rhythm Is A Dancer",
@@ -12755,6 +12779,17 @@
    "genres": [
     "pop",
     "dance"
+   ]
+  },
+  {
+   "id": "pjDc3nK8cN4",
+   "artist": "Selena",
+   "title": "Si Una Vez",
+   "views": 303409737,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -14123,6 +14158,17 @@
    "genres": [
     "rock",
     "pop"
+   ]
+  },
+  {
+   "id": "ZGDGdRIxvd0",
+   "artist": "Gesaffelstein",
+   "title": "Lost in the Fire (feat. The Weeknd)",
+   "views": 269099409,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "electronic"
    ]
   },
   {
@@ -17343,19 +17389,6 @@
    ]
   },
   {
-   "id": "AqQuRw0S6b4",
-   "artist": "Maroon 5",
-   "title": "This Love",
-   "views": 214966303,
-   "region": "global",
-   "year": 2018,
-   "genres": [
-    "pop",
-    "rock",
-    "ballad"
-   ]
-  },
-  {
    "id": "0OWj0CiM8WU",
    "artist": "OneRepublic",
    "title": "Love Runs Out",
@@ -18131,6 +18164,18 @@
    "year": 2010,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "WiinVuzh4DA",
+   "artist": "Billie Eilish",
+   "title": "i love you",
+   "views": 202971070,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "indie",
+    "ballad"
    ]
   },
   {
@@ -25665,6 +25710,17 @@
    ]
   },
   {
+   "id": "gM89Q5Eng_M",
+   "artist": "Beyoncé",
+   "title": "All Night",
+   "views": 128888416,
+   "region": "global",
+   "year": 2016,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "7qrRzNidzIc",
    "artist": "Breaking Benjamin",
    "title": "I Will Not Bow",
@@ -27417,6 +27473,17 @@
    ]
   },
   {
+   "id": "sxDdEPED0h8",
+   "artist": "Lana Del Rey",
+   "title": "National Anthem",
+   "views": 116555177,
+   "region": "global",
+   "year": 2012,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "H947PtHmh0Y",
    "artist": "Deborah Cox",
    "title": "Nobody's Supposed To Be Here",
@@ -27978,6 +28045,18 @@
    ]
   },
   {
+   "id": "dSlYFtXENPo",
+   "artist": "Wheatus",
+   "title": "Teenage Dirtbag",
+   "views": 112909989,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "pop",
+    "rock"
+   ]
+  },
+  {
    "id": "N3oCS85HvpY",
    "artist": "Pixies",
    "title": "Where Is My Mind",
@@ -28045,6 +28124,18 @@
    ]
   },
   {
+   "id": "jkaMiaRLgvY",
+   "artist": "The Kooks",
+   "title": "Naïve",
+   "views": 112671827,
+   "region": "global",
+   "year": 2008,
+   "genres": [
+    "indie",
+    "rock"
+   ]
+  },
+  {
    "id": "yZ-VUnIehi8",
    "artist": "Van Morrison",
    "title": "Brown Eyed Girl",
@@ -28053,18 +28144,6 @@
    "year": 2017,
    "genres": [
     "rock"
-   ]
-  },
-  {
-   "id": "jkaMiaRLgvY",
-   "artist": "The Kooks",
-   "title": "Naive",
-   "views": 112475936,
-   "region": "global",
-   "year": 2008,
-   "genres": [
-    "rock",
-    "indie"
    ]
   },
   {
@@ -35337,6 +35416,18 @@
    ]
   },
   {
+   "id": "8ex38L8xtNI",
+   "artist": "The Weeknd",
+   "title": "House of Balloons / Glass Table Girls",
+   "views": 78817847,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "rnb",
+    "electronic"
+   ]
+  },
+  {
    "id": "K2ZEAm8GVVY",
    "artist": "Keith Sweat",
    "title": "Make It Last Forever (with Jacci McGhee)",
@@ -40091,6 +40182,17 @@
    ]
   },
   {
+   "id": "sFZjqVnWBhc",
+   "artist": "Daft Punk",
+   "title": "Robot Rock",
+   "views": 63262232,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "LCJblaUkkfc",
    "artist": "Radiohead",
    "title": "Street Spirit (Fade Out)",
@@ -40617,6 +40719,17 @@
    "year": 2015,
    "genres": [
     "hiphop"
+   ]
+  },
+  {
+   "id": "JaaT_HRb4GU",
+   "artist": "Santana",
+   "title": "Soul Sacrifice",
+   "views": 61947523,
+   "region": "global",
+   "year": 2016,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -41705,6 +41818,17 @@
    "year": 2009,
    "genres": [
     "rnb"
+   ]
+  },
+  {
+   "id": "ayCXeExyJxg",
+   "artist": "Juanes",
+   "title": "Gotas De Agua Dulce",
+   "views": 59083575,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -43908,6 +44032,17 @@
    "year": 2009,
    "genres": [
     "rock"
+   ]
+  },
+  {
+   "id": "EZW7et3tPuQ",
+   "artist": "Kendrick Lamar",
+   "title": "Backseat Freestyle",
+   "views": 53773802,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "hiphop"
    ]
   },
   {
@@ -46127,6 +46262,17 @@
    ]
   },
   {
+   "id": "6GcpNvYFMGE",
+   "artist": "Ariana Grande",
+   "title": "in my head",
+   "views": 48967526,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "YYxzRYMrcVc",
    "artist": "Busta Rhymes",
    "title": "We Made It ft. Linkin Park",
@@ -47355,6 +47501,17 @@
    "year": 2013,
    "genres": [
     "electronic"
+   ]
+  },
+  {
+   "id": "Bqi7DSA1Vd4",
+   "artist": "Selena",
+   "title": "Baila Esta Cumbia",
+   "views": 46626788,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -48840,6 +48997,17 @@
    ]
   },
   {
+   "id": "dBWRCihnWFU",
+   "artist": "Hanson",
+   "title": "Save Me",
+   "views": 43726130,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "G6yC4KXGixE",
    "artist": "Lil' Kim",
    "title": "Crush On You (feat. Lil' Cease)",
@@ -49529,18 +49697,6 @@
    "genres": [
     "indie",
     "rock"
-   ]
-  },
-  {
-   "id": "ysJ82L-1rEc",
-   "artist": "Evanescence",
-   "title": "Going Under",
-   "views": 42595112,
-   "region": "global",
-   "year": 2018,
-   "genres": [
-    "rock",
-    "pop"
    ]
   },
   {
@@ -51974,6 +52130,17 @@
    ]
   },
   {
+   "id": "NzNiE3ZUHdk",
+   "artist": "Mary J. Blige",
+   "title": "Take Me As I Am",
+   "views": 38422770,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "wZ9HG0nGe-g",
    "artist": "Jade",
    "title": "Don't Walk Away",
@@ -53785,6 +53952,17 @@
    ]
   },
   {
+   "id": "ruAi4VBoBSM",
+   "artist": "Fatboy Slim",
+   "title": "Praise You",
+   "views": 35771797,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "pd7dCbEfTs4",
    "artist": "Bobby Brown",
    "title": "Don't Be Cruel",
@@ -54464,12 +54642,34 @@
    ]
   },
   {
+   "id": "mkGT1c98soU",
+   "artist": "Mac Miller",
+   "title": "The Spins",
+   "views": 34697147,
+   "region": "global",
+   "year": 2012,
+   "genres": [
+    "hiphop"
+   ]
+  },
+  {
    "id": "HHpMtWtgUvc",
    "artist": "3 Doors Down",
    "title": "Be Like That",
    "views": 34689330,
    "region": "global",
    "year": 2009,
+   "genres": [
+    "rock"
+   ]
+  },
+  {
+   "id": "r2dosVRzLSM",
+   "artist": "Weezer",
+   "title": "I Just Threw Out the Love of My Dreams",
+   "views": 34669345,
+   "region": "global",
+   "year": 2018,
    "genres": [
     "rock"
    ]
@@ -58146,6 +58346,17 @@
    "views": 30039577,
    "region": "global",
    "year": 2017,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
+   "id": "jgCh19FJ1hg",
+   "artist": "Shakira",
+   "title": "Te Dejo Madrid",
+   "views": 30012633,
+   "region": "global",
+   "year": 2011,
    "genres": [
     "latin"
    ]
