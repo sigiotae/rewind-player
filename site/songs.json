@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "genres": [
   {
    "id": "pop",
@@ -2427,6 +2427,18 @@
    ]
   },
   {
+   "id": "hcm55lU9knw",
+   "artist": "Michel Teló",
+   "title": "Ai se eu te pego",
+   "views": 1293704675,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "latin",
+    "pop"
+   ]
+  },
+  {
    "id": "mWRsgZuwf_8",
    "artist": "Imagine Dragons",
    "title": "Demons",
@@ -2439,17 +2451,6 @@
     "dance",
     "rock",
     "ballad"
-   ]
-  },
-  {
-   "id": "hcm55lU9knw",
-   "artist": "Michel Teló",
-   "title": "Ai Se Eu Te Pego",
-   "views": 1291922978,
-   "region": "global",
-   "year": 2011,
-   "genres": [
-    "pop"
    ]
   },
   {
@@ -3897,6 +3898,19 @@
     "dance",
     "electronic",
     "pop"
+   ]
+  },
+  {
+   "id": "5NPBIwQyPWE",
+   "artist": "Avril Lavigne",
+   "title": "Complicated",
+   "views": 932482361,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "pop",
+    "rock",
+    "dance"
    ]
   },
   {
@@ -9034,6 +9048,18 @@
    ]
   },
   {
+   "id": "eDuRoPIOBjE",
+   "artist": "Drake",
+   "title": "Forever",
+   "views": 432309170,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "hiphop",
+    "pop"
+   ]
+  },
+  {
    "id": "nBtDsQ4fhXY",
    "artist": "Major Lazer",
    "title": "Cold Water (feat. Justin Bieber & MØ)",
@@ -9055,18 +9081,6 @@
    "genres": [
     "ballad",
     "rock"
-   ]
-  },
-  {
-   "id": "eDuRoPIOBjE",
-   "artist": "Drake, Kanye West, Lil Wayne, Eminem",
-   "title": "Forever",
-   "views": 430884451,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "hiphop",
-    "pop"
    ]
   },
   {
@@ -9939,6 +9953,18 @@
    ]
   },
   {
+   "id": "wIft-t-MQuE",
+   "artist": "Taylor Swift",
+   "title": "...Ready for It?",
+   "views": 392597356,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "dance",
+    "electronic"
+   ]
+  },
+  {
    "id": "yCiwj1cZ0Uo",
    "artist": "Alejandra Guzmán",
    "title": "Mi Peor Error (Primera Fila) (En Vivo)",
@@ -10527,6 +10553,17 @@
    "year": 2017,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "F1B9Fk_SgI0",
+   "artist": "Childish Gambino",
+   "title": "Feels Like Summer",
+   "views": 366852056,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -11916,18 +11953,6 @@
    ]
   },
   {
-   "id": "Ic5vxw3eijY",
-   "artist": "Estelle",
-   "title": "American Boy",
-   "views": 327188501,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "rnb",
-    "pop"
-   ]
-  },
-  {
    "id": "CSD2J8yaMmM",
    "artist": "OutKast",
    "title": "Ms. Jackson",
@@ -12868,6 +12893,17 @@
    "year": 2016,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "Ah0Ys50CqO8",
+   "artist": "Billie Eilish",
+   "title": "you should see me in a crown",
+   "views": 302256888,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "dance"
    ]
   },
   {
@@ -13995,7 +14031,8 @@
    "genres": [
     "pop",
     "dance",
-    "rock"
+    "rock",
+    "indie"
    ]
   },
   {
@@ -17808,6 +17845,17 @@
    ]
   },
   {
+   "id": "oEm3lY3trRU",
+   "artist": "Jhené Aiko",
+   "title": "The Worst",
+   "views": 209308485,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "zjpSX6fCPDc",
    "artist": "Reik",
    "title": "Inolvidable",
@@ -18293,6 +18341,18 @@
    ]
   },
   {
+   "id": "Oai1V7kaFBk",
+   "artist": "Sisqó",
+   "title": "Thong Song",
+   "views": 201514453,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb",
+    "pop"
+   ]
+  },
+  {
    "id": "_RrA-R5VHQs",
    "artist": "Evanescence",
    "title": "Call Me When You're Sober",
@@ -18350,17 +18410,6 @@
    "genres": [
     "dance",
     "ballad"
-   ]
-  },
-  {
-   "id": "Oai1V7kaFBk",
-   "artist": "Sisqo",
-   "title": "Thong Song",
-   "views": 200959920,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "pop"
    ]
   },
   {
@@ -20763,18 +20812,6 @@
    ]
   },
   {
-   "id": "C6MOKXm8x50",
-   "artist": "Fall Out Boy",
-   "title": "Dance, Dance",
-   "views": 172538804,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "rock",
-    "pop"
-   ]
-  },
-  {
    "id": "hcie4MOU-wQ",
    "artist": "Mario",
    "title": "How Do I Breathe",
@@ -21193,6 +21230,17 @@
    ]
   },
   {
+   "id": "QnxpHIl5Ynw",
+   "artist": "Lana Del Rey",
+   "title": "High by the Beach",
+   "views": 167310790,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "HpyZEzrDf4c",
    "artist": "Cobra Starship",
    "title": "You Make Me Feel... (feat. Sabi)",
@@ -21213,6 +21261,17 @@
    "year": 2013,
    "genres": [
     "pop",
+    "dance"
+   ]
+  },
+  {
+   "id": "udHq9Mg14Os",
+   "artist": "Billie Eilish",
+   "title": "ilomilo",
+   "views": 167118322,
+   "region": "global",
+   "year": 2019,
+   "genres": [
     "dance"
    ]
   },
@@ -22084,6 +22143,17 @@
    "year": 2018,
    "genres": [
     "hiphop"
+   ]
+  },
+  {
+   "id": "TkV5709EG5M",
+   "artist": "Bring Me the Horizon",
+   "title": "Drown",
+   "views": 159392487,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "rock"
    ]
   },
   {
@@ -24467,6 +24537,17 @@
    "year": 2011,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "UOUBW8bkjQ4",
+   "artist": "twenty one pilots",
+   "title": "Jumpsuit",
+   "views": 138835331,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "rock"
    ]
   },
   {
@@ -27920,6 +28001,17 @@
    ]
   },
   {
+   "id": "o10drRI3VQ0",
+   "artist": "Fleet Foxes",
+   "title": "White Winter Hymnal",
+   "views": 114197926,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "Xdv83MFJd7U",
    "artist": "Westlife",
    "title": "Seasons In The Sun",
@@ -28429,6 +28521,17 @@
    "year": 2014,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "te51eVrFWEc",
+   "artist": "The Righteous Brothers",
+   "title": "Unchained Melody",
+   "views": 111193617,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -29216,6 +29319,17 @@
    ]
   },
   {
+   "id": "WOKI_tIBWVI",
+   "artist": "Christina Aguilera",
+   "title": "You Lost Me",
+   "views": 107085723,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "1RfvFri4XH4",
    "artist": "DaBaby",
    "title": "Suge",
@@ -29876,6 +29990,17 @@
    "year": 2009,
    "genres": [
     "rnb",
+    "ballad"
+   ]
+  },
+  {
+   "id": "pHKjk1Dtegc",
+   "artist": "Pabllo Vittar",
+   "title": "Disk Me",
+   "views": 103477645,
+   "region": "global",
+   "year": 2018,
+   "genres": [
     "ballad"
    ]
   },
@@ -31107,6 +31232,17 @@
    ]
   },
   {
+   "id": "ABfQuZqq8wg",
+   "artist": "Marvin Gaye",
+   "title": "Ain't No Mountain High Enough",
+   "views": 97691483,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "EKMbtN008WY",
    "artist": "Farruko",
    "title": "Nena Fichu",
@@ -32018,6 +32154,17 @@
    "genres": [
     "rock",
     "indie"
+   ]
+  },
+  {
+   "id": "0m5SXO8qK78",
+   "artist": "Monchy & Alexandra",
+   "title": "Dos Locos",
+   "views": 93474091,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -35200,6 +35347,17 @@
    ]
   },
   {
+   "id": "5TAko3RH0bk",
+   "artist": "The Weeknd",
+   "title": "The Morning",
+   "views": 80009484,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "TObtwHlfLFk",
    "artist": "Shawn Mendes & Hailee Steinfeld",
    "title": "Stitches ft. Hailee Steinfeld",
@@ -35413,18 +35571,6 @@
    "year": 2013,
    "genres": [
     "rock"
-   ]
-  },
-  {
-   "id": "8ex38L8xtNI",
-   "artist": "The Weeknd",
-   "title": "House of Balloons / Glass Table Girls",
-   "views": 78817847,
-   "region": "global",
-   "year": 2011,
-   "genres": [
-    "rnb",
-    "electronic"
    ]
   },
   {
@@ -35845,6 +35991,17 @@
    "year": 2015,
    "genres": [
     "electronic"
+   ]
+  },
+  {
+   "id": "j_MlBCb9-m8",
+   "artist": "My Chemical Romance",
+   "title": "Disenchanted",
+   "views": 76864903,
+   "region": "global",
+   "year": 2016,
+   "genres": [
+    "rock"
    ]
   },
   {
@@ -37361,6 +37518,17 @@
    "genres": [
     "pop",
     "rnb"
+   ]
+  },
+  {
+   "id": "h7ArUgxtlJs",
+   "artist": "deadmau5",
+   "title": "Ghosts 'n' Stuff",
+   "views": 72002937,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "electronic"
    ]
   },
   {
@@ -42811,6 +42979,17 @@
    ]
   },
   {
+   "id": "lVL-zZnD3VU",
+   "artist": "White Town",
+   "title": "Your Woman",
+   "views": 56649727,
+   "region": "global",
+   "year": 2006,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "_RtjMjarXSo",
    "artist": "HA-ASH",
    "title": "Est�s En Donde Est�s",
@@ -42943,6 +43122,17 @@
    ]
   },
   {
+   "id": "P8a4iiOnzsc",
+   "artist": "Radical Face",
+   "title": "Welcome Home",
+   "views": 56312658,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "RJqimlFcJsM",
    "artist": "Baddiel & Skinner & Lightning Seeds",
    "title": "Three Lions (Football's Coming Home)",
@@ -42995,17 +43185,6 @@
    "year": 2009,
    "genres": [
     "latin"
-   ]
-  },
-  {
-   "id": "P8a4iiOnzsc",
-   "artist": "Radical Face",
-   "title": "Welcome Home, Son",
-   "views": 56268783,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "indie"
    ]
   },
   {
@@ -49369,6 +49548,17 @@
    ]
   },
   {
+   "id": "RD38JT8rypY",
+   "artist": "Beyoncé",
+   "title": "Sandcastles",
+   "views": 43085956,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "dZX6Q-Bj_xg",
    "artist": "Passion Pit",
    "title": "Take a Walk",
@@ -49697,6 +49887,18 @@
    "genres": [
     "indie",
     "rock"
+   ]
+  },
+  {
+   "id": "ysJ82L-1rEc",
+   "artist": "Evanescence",
+   "title": "Going Under",
+   "views": 42595112,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "rock",
+    "pop"
    ]
   },
   {
@@ -51456,7 +51658,7 @@
   },
   {
    "id": "lDpnjE1LUvE",
-   "artist": "Nick Cave & The Bad Seeds",
+   "artist": "Nick Cave & the Bad Seeds",
    "title": "Where The Wild Roses Grow (feat. Kylie Minogue)",
    "views": 39533546,
    "region": "global",
@@ -52760,6 +52962,17 @@
    ]
   },
   {
+   "id": "LnHoqHscTKE",
+   "artist": "Nick Cave & the Bad Seeds",
+   "title": "Into My Arms",
+   "views": 37487426,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "TDWT4GdMzy0",
    "artist": "Puddle Of Mudd",
    "title": "Psycho",
@@ -53179,6 +53392,17 @@
    "year": 2018,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "VCkFSe3voRc",
+   "artist": "Gorillaz",
+   "title": "Kids with Guns",
+   "views": 36986551,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "electronic"
    ]
   },
   {
@@ -59705,6 +59929,15 @@
    "views": 97466468,
    "region": "kr",
    "year": 2020,
+   "genres": []
+  },
+  {
+   "id": "wKyMIrBClYw",
+   "artist": "DEAN",
+   "title": "instagram",
+   "views": 97386194,
+   "region": "kr",
+   "year": 2018,
    "genres": []
   },
   {
