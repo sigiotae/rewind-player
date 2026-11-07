@@ -7549,7 +7549,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Paradinha"
+  "track": "Paradinha",
+  "video": {
+   "id": "-73pafJ9RFg",
+   "published": "2017-05-31T15:00:05Z",
+   "views": 412949738,
+   "ytTitle": "Anitta - Paradinha [Official Music Video]"
+  }
  },
  "anitta - romeo": {
   "artist": "Anitta",
@@ -8188,7 +8194,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Ageispolis"
+  "track": "Ageispolis",
+  "video": {
+   "id": "CJsiDDI-7Xw",
+   "published": "2010-09-13T20:15:28Z",
+   "views": 1204062,
+   "ytTitle": "Aphex Twin - Ageispolis"
+  }
  },
  "aphex twin - alberto balsalm": {
   "artist": "Aphex Twin",
@@ -12709,7 +12721,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Wildflower"
+  "track": "Wildflower",
+  "video": {
+   "id": "ijnrCaEHHK0",
+   "published": "2015-08-28T16:06:32Z",
+   "views": 3199204,
+   "ytTitle": "Beach House - Wildflower"
+  }
  },
  "beast - 12 30": {
   "artist": "Beast",
@@ -13509,7 +13527,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Stand by Me"
+  "track": "Stand by Me",
+  "video": {
+   "id": "hwZNL7QVJjE",
+   "published": "2009-10-27T23:22:54Z",
+   "views": 593694736,
+   "ytTitle": "Ben E. King - Stand By Me (Audio)"
+  }
  },
  "ben howard - promise": {
   "artist": "Ben Howard",
@@ -14899,7 +14923,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Ain't No Sunshine"
+  "track": "Ain't No Sunshine",
+  "video": {
+   "id": "Nuanwn3v-2I",
+   "published": "2022-11-01T07:00:06Z",
+   "views": 68502004,
+   "ytTitle": "Bill Withers - Ain't No Sunshine (Old Grey Whistle Test, 1972)"
+  }
  },
  "bill withers - lean on me": {
   "artist": "Bill Withers",
@@ -14971,7 +15001,13 @@
   "genres": [
    "dance"
   ],
-  "track": "bury a friend"
+  "track": "bury a friend",
+  "video": {
+   "id": "HUHC9tYz8ik",
+   "published": "2019-01-30T17:00:03Z",
+   "views": 495163693,
+   "ytTitle": "Billie Eilish - bury a friend"
+  }
  },
  "billie eilish - everything i wanted": {
   "artist": "Billie Eilish",
@@ -15068,7 +15104,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Oxytocin"
+  "track": "Oxytocin",
+  "video": {
+   "id": "Fcd8UbutjIg",
+   "published": "2021-07-30T04:00:04Z",
+   "views": 24134864,
+   "ytTitle": "Billie Eilish - Oxytocin (Official Lyric Video)"
+  }
  },
  "billie eilish - when the party s over": {
   "artist": "Billie Eilish",
@@ -15377,7 +15419,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Jóga"
+  "track": "Jóga",
+  "video": {
+   "id": "loB0kmz_0MM",
+   "published": "2019-09-17T16:18:03Z",
+   "views": 6047899,
+   "ytTitle": "björk : jóga"
+  }
  },
  "bj rk - pagan poetry": {
   "artist": "Björk",
@@ -20674,7 +20722,13 @@
   "genres": [
    "latin"
   ],
-  "track": "La Bayamesa"
+  "track": "La Bayamesa",
+  "video": {
+   "id": "alB2Q2m64es",
+   "published": "2014-07-30T10:19:39Z",
+   "views": 1803272,
+   "ytTitle": "Buena Vista Social Club - La Bayamesa (Official Audio)"
+  }
  },
  "buena vista social club - murmullo": {
   "artist": "Buena Vista Social Club",
@@ -20694,7 +20748,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Orgullecida"
+  "track": "Orgullecida",
+  "video": {
+   "id": "G00wyxo7UPE",
+   "published": "2014-07-30T10:19:44Z",
+   "views": 2605240,
+   "ytTitle": "Buena Vista Social Club - Orgullecida (Official Audio)"
+  }
  },
  "buena vista social club - pueblo nuevo": {
   "artist": "Buena Vista Social Club",
@@ -23233,7 +23293,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Super Graphic Ultra Modern Girl"
+  "track": "Super Graphic Ultra Modern Girl",
+  "video": {
+   "id": "kWLai0XoZmg",
+   "published": "2023-09-22T16:00:40Z",
+   "views": 9264677,
+   "ytTitle": "Chappell Roan - Super Graphic Ultra Modern Girl (Official Visualizer)"
+  }
  },
  "charles eddie - would i lie to you": {
   "artist": "Charles & Eddie",
@@ -23253,7 +23319,13 @@
   "genres": [
    "dance"
   ],
-  "track": "1999"
+  "track": "1999",
+  "video": {
+   "id": "6-v1b9waHWY",
+   "published": "2018-10-11T16:58:16Z",
+   "views": 56308485,
+   "ytTitle": "Charli XCX & Troye Sivan - 1999 [Official Video]"
+  }
  },
  "charli xcx - anthems": {
   "artist": "Charli xcx",
@@ -23331,7 +23403,13 @@
   "genres": [
    "dance"
   ],
-  "track": "detonate"
+  "track": "detonate",
+  "video": {
+   "id": "f-NS9hnmWN4",
+   "published": "2020-05-15T07:00:15Z",
+   "views": 1100101,
+   "ytTitle": "Charli XCX - detonate [Official Audio]"
+  }
  },
  "charli xcx - doing it ft rita ora": {
   "artist": "Charli XCX",
@@ -30345,7 +30423,13 @@
    "indie",
    "ballad"
   ],
-  "track": "I Will Follow You Into The Dark"
+  "track": "I Will Follow You Into The Dark",
+  "video": {
+   "id": "NDHY1D0tKRA",
+   "published": "2009-08-18T22:03:52Z",
+   "views": 32990641,
+   "ytTitle": "Death Cab For Cutie - I Will Follow You Into The Dark +Lyrics"
+  }
  },
  "death cab for cutie - soul meets body": {
   "artist": "Death Cab for Cutie",
@@ -30581,7 +30665,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Digital Bath"
+  "track": "Digital Bath",
+  "video": {
+   "id": "O_IIAYZL1R4",
+   "published": "2009-10-27T00:30:03Z",
+   "views": 20855777,
+   "ytTitle": "Deftones - Digital Bath [Official Music Video]"
+  }
  },
  "deftones - hole in the earth": {
   "artist": "Deftones",
@@ -37483,7 +37573,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Secret Door"
+  "track": "Secret Door",
+  "video": {
+   "id": "IpUIGf_Z13o",
+   "published": "2011-10-11T17:27:41Z",
+   "views": 1336800,
+   "ytTitle": "Evanescence - Secret Door (Lyrics)"
+  }
  },
  "evanescence - sweet sacrifice": {
   "artist": "Evanescence",
@@ -39127,7 +39223,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Rocketeer"
+  "track": "Rocketeer",
+  "video": {
+   "id": "RcmKbTR--iA",
+   "published": "2010-10-29T22:41:49Z",
+   "views": 92679102,
+   "ytTitle": "Far East Movement - Rocketeer ft. Ryan Tedder"
+  }
  },
  "far east movement - rocketeer ft ryan tedder": {
   "artist": "Far East Movement",
@@ -39243,7 +39345,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Pepas"
+  "track": "Pepas",
+  "video": {
+   "id": "y8trd3gjJt0",
+   "published": "2021-08-06T22:00:10Z",
+   "views": 841991175,
+   "ytTitle": "Farruko - Pepas (Official Video)"
+  }
  },
  "farruko - su hija me gusta": {
   "artist": "Farruko",
@@ -41134,7 +41242,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Crack Rock"
+  "track": "Crack Rock",
+  "video": {
+   "id": "IVzzw7Vkiyg",
+   "published": "2018-10-30T05:42:23Z",
+   "views": 14176288,
+   "ytTitle": "Crack Rock"
+  }
  },
  "frank ocean - forrest gump": {
   "artist": "Frank Ocean",
@@ -45141,7 +45255,13 @@
   "genres": [
    "dance"
   ],
-  "track": "California"
+  "track": "California",
+  "video": {
+   "id": "OsCfufAp2tM",
+   "published": "2016-05-09T14:00:13Z",
+   "views": 8257199,
+   "ytTitle": "Grimes - California"
+  }
  },
  "grimes - genesis": {
   "artist": "Grimes",
@@ -45205,7 +45325,13 @@
   "genres": [
    "dance"
   ],
-  "track": "World Princess Part II"
+  "track": "World Princess Part II",
+  "video": {
+   "id": "EOwhuTlxE54",
+   "published": "2016-10-05T17:51:37Z",
+   "views": 8617110,
+   "ytTitle": "Grimes - World Princess Part II [Official Video]"
+  }
  },
  "grizzly bear - two weeks": {
   "artist": "Grizzly Bear",
@@ -46797,7 +46923,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Without You"
+  "track": "Without You",
+  "video": {
+   "id": "8dnUv3DUP4E",
+   "published": "2015-10-09T17:10:15Z",
+   "views": 24446278,
+   "ytTitle": "Harry Nilsson - Without You (Audio)"
+  }
  },
  "harry styles - adore you": {
   "artist": "Harry Styles",
@@ -47191,7 +47323,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Forever and One (Neverland)"
+  "track": "Forever and One (Neverland)",
+  "video": {
+   "id": "-Dl6CLWLMzk",
+   "published": "2006-08-16T17:35:21Z",
+   "views": 70417603,
+   "ytTitle": "HELLOWEEN - Forever And One (Neverland) (Official Music Video)"
+  }
  },
  "her words kill - make me beautiful": {
   "artist": "Her Words Kill",
@@ -52257,7 +52395,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Dancing with your eyes closed"
+  "track": "Dancing with your eyes closed",
+  "video": {
+   "id": "QgyW9qjgIf4",
+   "published": "2025-02-26T17:00:01Z",
+   "views": 2839936,
+   "ytTitle": "Jane Remover — Dancing with your eyes closed"
+  }
  },
  "janelle mon e jidenna - yoga": {
   "artist": "Janelle Monáe, Jidenna",
@@ -58369,7 +58513,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Last Call"
+  "track": "Last Call",
+  "video": {
+   "id": "cpbeS15sHZ0",
+   "published": "2018-07-16T20:49:38Z",
+   "views": 13091639,
+   "ytTitle": "Last Call"
+  }
  },
  "kanye west - lost in the world": {
   "artist": "Kanye West",
@@ -58652,7 +58802,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "We Don't Care"
+  "track": "We Don't Care",
+  "video": {
+   "id": "0Tdpq3FRGhY",
+   "published": "2018-07-16T20:46:33Z",
+   "views": 15615178,
+   "ytTitle": "We Don't Care"
+  }
  },
  "kanye west - welcome to heartbreak": {
   "artist": "Kanye West",
@@ -60958,7 +61114,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Maui Wowie"
+  "track": "Maui Wowie",
+  "video": {
+   "id": "AnhBjLVtTNs",
+   "published": "2025-10-16T16:14:31Z",
+   "views": 20675323,
+   "ytTitle": "Maui Wowie"
+  }
  },
  "kid cudi - mr rager": {
   "artist": "Kid Cudi",
@@ -62987,7 +63149,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Me muero"
+  "track": "Me muero",
+  "video": {
+   "id": "k5k2XVKxznc",
+   "published": "2009-10-03T04:37:47Z",
+   "views": 86698080,
+   "ytTitle": "La 5A Estación - Me Muero"
+  }
  },
  "la quinta estaci n - recuerdame ft marc anthony": {
   "artist": "La Quinta Estación",
@@ -63870,7 +64038,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Pretty When You Cry"
+  "track": "Pretty When You Cry",
+  "video": {
+   "id": "2CSWw2OVxio",
+   "published": "2018-11-03T06:05:18Z",
+   "views": 46825740,
+   "ytTitle": "Pretty When You Cry"
+  }
  },
  "lana del rey - radio": {
   "artist": "Lana Del Rey",
@@ -67746,21 +67920,39 @@
   "genres": [
    "electronic"
   ],
-  "track": "400 Lux"
+  "track": "400 Lux",
+  "video": {
+   "id": "cWGQduke0tc",
+   "published": "2013-10-25T19:00:56Z",
+   "views": 7707158,
+   "ytTitle": "400 Lux - Lorde (Lyric Video)"
+  }
  },
  "lorde - a world alone": {
   "artist": "Lorde",
   "genres": [
    "indie"
   ],
-  "track": "A World Alone"
+  "track": "A World Alone",
+  "video": {
+   "id": "eWUnVyO1Klk",
+   "published": "2013-09-28T10:16:18Z",
+   "views": 13692553,
+   "ytTitle": "Lorde - A World Alone (Lyrics)"
+  }
  },
  "lorde - buzzcut season": {
   "artist": "Lorde",
   "genres": [
    "indie"
   ],
-  "track": "Buzzcut Season"
+  "track": "Buzzcut Season",
+  "video": {
+   "id": "pstVCGyaUBM",
+   "published": "2013-11-15T13:30:32Z",
+   "views": 52521306,
+   "ytTitle": "Lorde - Buzzcut Season"
+  }
  },
  "lorde - green light": {
   "artist": "Lorde",
@@ -69930,7 +70122,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Live to Tell"
+  "track": "Live to Tell",
+  "video": {
+   "id": "DHutZXREZ0E",
+   "published": "2009-10-27T02:07:42Z",
+   "views": 104729365,
+   "ytTitle": "Madonna - Crazy For You (Official Video)"
+  }
  },
  "madonna - living for love": {
   "artist": "Madonna",
@@ -70082,7 +70280,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Meat Grinder"
+  "track": "Meat Grinder",
+  "video": {
+   "id": "x8Ru8d0l_fU",
+   "published": "2014-07-02T00:07:24Z",
+   "views": 3919075,
+   "ytTitle": "Madvillain - Meat Grinder - Madvillainy (Full Album)"
+  }
  },
  "maggie lindemann - pretty girl cheat codes x cade remix": {
   "artist": "Maggie Lindemann",
@@ -70857,7 +71061,13 @@
   "genres": [
    "latin"
   ],
-  "track": "La Primavera"
+  "track": "La Primavera",
+  "video": {
+   "id": "myq3vGhwh-4",
+   "published": "2011-08-14T22:48:00Z",
+   "views": 7059957,
+   "ytTitle": "Manu Chao - La Primavera / Gustas Tu (Live)"
+  }
  },
  "manu chao - me gustas t": {
   "artist": "Manu Chao",
@@ -70877,7 +71087,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Me Llaman Calle"
+  "track": "Me Llaman Calle",
+  "video": {
+   "id": "ZivK8PmxPWQ",
+   "published": "2010-08-24T10:55:34Z",
+   "views": 42786109,
+   "ytTitle": "Manu Chao - Me Llaman Calle (Official Video)"
+  }
  },
  "manu chao - minha galera": {
   "artist": "Manu Chao",
@@ -72324,7 +72540,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Hello"
+  "track": "Hello",
+  "video": {
+   "id": "kK42LZqO0wA",
+   "published": "2010-10-01T09:08:44Z",
+   "views": 136614715,
+   "ytTitle": "Martin Solveig & Dragonette - Hello (Official Short Video Version HD)"
+  }
  },
  "martina stoessel - consejo de amor": {
   "artist": "Martina Stoessel",
@@ -72454,7 +72676,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "What's Going On"
+  "track": "What's Going On",
+  "video": {
+   "id": "H-kA3UtBj4M",
+   "published": "2010-12-29T11:49:17Z",
+   "views": 52578717,
+   "ytTitle": "Marvin Gaye - What's Going On"
+  }
  },
  "marvin gaye - what s happening brother": {
   "artist": "Marvin Gaye",
@@ -74249,7 +74477,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Kon Queso"
+  "track": "Kon Queso",
+  "video": {
+   "id": "xmPmtYRB1TE",
+   "published": "2020-06-03T22:24:07Z",
+   "views": 6860089,
+   "ytTitle": "Kon Queso"
+  }
  },
  "mf doom - one beer": {
   "artist": "MF DOOM",
@@ -76862,7 +77096,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Burning Pile"
+  "track": "Burning Pile",
+  "video": {
+   "id": "asRCJ5F_1zM",
+   "published": "2020-10-18T06:37:27Z",
+   "views": 12458949,
+   "ytTitle": "Mother Mother // Burning Pile (LYRICS)"
+  }
  },
  "mother mother - o my heart": {
   "artist": "Mother Mother",
@@ -77766,7 +78006,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Early Sunsets Over Monroeville"
+  "track": "Early Sunsets Over Monroeville",
+  "video": {
+   "id": "fOLfblOB2e8",
+   "published": "2017-07-26T22:47:49Z",
+   "views": 6122926,
+   "ytTitle": "Early Sunsets Over Monroeville"
+  }
  },
  "my chemical romance - famous last words": {
   "artist": "My Chemical Romance",
@@ -77913,7 +78159,13 @@
   "genres": [
    "rock"
   ],
-  "track": "The End."
+  "track": "The End.",
+  "video": {
+   "id": "XkCA2XqUJ4o",
+   "published": "2016-09-23T20:16:24Z",
+   "views": 8098382,
+   "ytTitle": "My Chemical Romance - The End"
+  }
  },
  "my chemical romance - the ghost of you": {
   "artist": "My Chemical Romance",
@@ -78387,7 +78639,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "It Ain't Hard to Tell"
+  "track": "It Ain't Hard to Tell",
+  "video": {
+   "id": "3hOZaTGnHU4",
+   "published": "2014-03-24T07:00:00Z",
+   "views": 24380946,
+   "ytTitle": "Nas - It Ain't Hard To Tell (Official Video)"
+  }
  },
  "nas - n y state of mind": {
   "artist": "Nas",
@@ -78420,7 +78678,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Represent"
+  "track": "Represent",
+  "video": {
+   "id": "xiVY_yPgvMs",
+   "published": "2017-05-05T21:56:38Z",
+   "views": 14421082,
+   "ytTitle": "Nas - Represent (Official Audio)"
+  }
  },
  "nas - the message": {
   "artist": "Nas",
@@ -78659,7 +78923,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "La La La"
+  "track": "La La La",
+  "video": {
+   "id": "3O1_3zBUKM8",
+   "published": "2013-04-18T23:01:31Z",
+   "views": 1433201625,
+   "ytTitle": "Naughty Boy - La la la ft. Sam Smith (Official Video)"
+  }
  },
  "naughty boy - la la la ft sam smith": {
   "artist": "Naughty Boy",
@@ -82420,7 +82690,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "logical"
+  "track": "logical",
+  "video": {
+   "id": "I6OeAufKDBg",
+   "published": "2023-09-08T04:00:10Z",
+   "views": 12343080,
+   "ytTitle": "Olivia Rodrigo - logical (Official Lyric Video)"
+  }
  },
  "olivia rodrigo - the grudge": {
   "artist": "Olivia Rodrigo",
@@ -83114,7 +83390,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Rosa Parks"
+  "track": "Rosa Parks",
+  "video": {
+   "id": "drsQLEU0N1Y",
+   "published": "2013-04-27T17:51:57Z",
+   "views": 26116339,
+   "ytTitle": "Outkast - Rosa Parks (Official HD Video)"
+  }
  },
  "outkast - roses": {
   "artist": "OutKast",
@@ -88464,7 +88746,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Airbag"
+  "track": "Airbag",
+  "video": {
+   "id": "jNY_wLukVW0",
+   "published": "2016-04-06T22:32:17Z",
+   "views": 12248703,
+   "ytTitle": "Airbag"
+  }
  },
  "radiohead - black star": {
   "artist": "Radiohead",
@@ -88517,7 +88805,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Climbing Up the Walls"
+  "track": "Climbing Up the Walls",
+  "video": {
+   "id": "XX4EpkR-Sp4",
+   "published": "2016-04-06T22:47:28Z",
+   "views": 7530325,
+   "ytTitle": "Climbing Up the Walls"
+  }
  },
  "radiohead - creep": {
   "artist": "Radiohead",
@@ -88659,14 +88953,26 @@
   "genres": [
    "electronic"
   ],
-  "track": "Kid A"
+  "track": "Kid A",
+  "video": {
+   "id": "NUnXxh5U25Y",
+   "published": "2016-04-06T22:08:03Z",
+   "views": 45610486,
+   "ytTitle": "Everything In Its Right Place"
+  }
  },
  "radiohead - lucky": {
   "artist": "Radiohead",
   "genres": [
    "rock"
   ],
-  "track": "Lucky"
+  "track": "Lucky",
+  "video": {
+   "id": "yuZYQvvLXVY",
+   "published": "2016-04-06T22:48:24Z",
+   "views": 5608349,
+   "ytTitle": "Lucky"
+  }
  },
  "radiohead - motion picture soundtrack": {
   "artist": "Radiohead",
@@ -88742,7 +89048,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Reckoner"
+  "track": "Reckoner",
+  "video": {
+   "id": "rOoCixFA8OI",
+   "published": "2007-10-11T03:49:05Z",
+   "views": 9655425,
+   "ytTitle": "Radiohead - Reckoner"
+  }
  },
  "radiohead - street spirit": {
   "artist": "Radiohead",
@@ -88777,7 +89089,13 @@
   "genres": [
    "rock"
   ],
-  "track": "The Bends"
+  "track": "The Bends",
+  "video": {
+   "id": "K8z8hLvjb_U",
+   "published": "2016-04-06T22:06:39Z",
+   "views": 9928904,
+   "ytTitle": "The Bends"
+  }
  },
  "radiohead - the tourist": {
   "artist": "Radiohead",
@@ -93282,7 +93600,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Is It a Crime"
+  "track": "Is It a Crime",
+  "video": {
+   "id": "NYz8xs163YU",
+   "published": "2009-12-12T13:19:31Z",
+   "views": 45898604,
+   "ytTitle": "Sade - Is It A Crime - Official - 1986"
+  }
  },
  "sade - love is stronger than pride": {
   "artist": "Sade",
@@ -93310,7 +93634,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "No Ordinary Love"
+  "track": "No Ordinary Love",
+  "video": {
+   "id": "_WcWHZc8s2I",
+   "published": "2009-12-12T02:09:07Z",
+   "views": 221461887,
+   "ytTitle": "Sade - No Ordinary Love - Official - 1992"
+  }
  },
  "sade - nothing can come between us": {
   "artist": "Sade",
@@ -93324,7 +93654,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Paradise"
+  "track": "Paradise",
+  "video": {
+   "id": "C0BLKudnyNo",
+   "published": "2009-12-12T00:54:17Z",
+   "views": 52723798,
+   "ytTitle": "Sade - Paradise - Official - 1988"
+  }
  },
  "sade - pearls": {
   "artist": "Sade",
@@ -101337,7 +101673,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Isn't She Lovely"
+  "track": "Isn't She Lovely",
+  "video": {
+   "id": "oE56g61mW44",
+   "published": "2018-08-07T22:52:56Z",
+   "views": 126984878,
+   "ytTitle": "Isn't She Lovely"
+  }
  },
  "stevie wonder - joy inside my tears": {
   "artist": "Stevie Wonder",
@@ -104581,7 +104923,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Bigger Than the Whole Sky"
+  "track": "Bigger Than the Whole Sky",
+  "video": {
+   "id": "l8Tps3PITx4",
+   "published": "2022-10-22T00:00:21Z",
+   "views": 12717635,
+   "ytTitle": "Taylor Swift - Bigger Than The Whole Sky (Lyric Video)"
+  }
  },
  "taylor swift - blank space": {
   "artist": "Taylor Swift",
@@ -105031,7 +105379,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "tolerate it"
+  "track": "tolerate it",
+  "video": {
+   "id": "ukxEKY_7MOc",
+   "published": "2020-12-11T05:00:26Z",
+   "views": 26944930,
+   "ytTitle": "Taylor Swift - tolerate it (Official Lyric Video)"
+  }
  },
  "taylor swift - we are never ever getting back together": {
   "artist": "Taylor Swift",
@@ -107215,7 +107569,13 @@
    "indie",
    "ballad"
   ],
-  "track": "Anyone Else But You"
+  "track": "Anyone Else But You",
+  "video": {
+   "id": "-N3BjVMWziE",
+   "published": "2008-04-06T23:46:56Z",
+   "views": 11720510,
+   "ytTitle": "Moldy Peaches - \"Anyone Else But You\" w/ Lyrics"
+  }
  },
  "the naked and famous - young blood": {
   "artist": "The Naked And Famous",

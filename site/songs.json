@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "genres": [
   {
    "id": "pop",
@@ -2049,11 +2049,12 @@
   {
    "id": "3O1_3zBUKM8",
    "artist": "Naughty Boy",
-   "title": "La la la ft. Sam Smith",
-   "views": 1430836747,
+   "title": "La La La",
+   "views": 1433201625,
    "region": "global",
    "year": 2013,
    "genres": [
+    "electronic",
     "pop"
    ]
   },
@@ -2396,6 +2397,7 @@
    "year": 2009,
    "genres": [
     "pop",
+    "rnb",
     "ballad"
    ]
   },
@@ -4455,6 +4457,17 @@
    ]
   },
   {
+   "id": "y8trd3gjJt0",
+   "artist": "Farruko",
+   "title": "Pepas",
+   "views": 841991175,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "F57P9C4SAW4",
    "artist": "Katy Perry",
    "title": "California Gurls (feat. Snoop Dogg)",
@@ -4497,8 +4510,7 @@
    "region": "global",
    "year": 2007,
    "genres": [
-    "rock",
-    "ballad"
+    "rock"
    ],
    "aka": "Hybrid Theory Meteora feat. Kiiara"
   },
@@ -6496,6 +6508,17 @@
    ]
   },
   {
+   "id": "hwZNL7QVJjE",
+   "artist": "Ben E. King",
+   "title": "Stand by Me",
+   "views": 593694736,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "0G3_kG5FFfQ",
    "artist": "Avril Lavigne",
    "title": "When You're Gone",
@@ -7768,6 +7791,17 @@
    "aka": "Hybrid Theory Meteora feat. Kiiara"
   },
   {
+   "id": "HUHC9tYz8ik",
+   "artist": "Billie Eilish",
+   "title": "bury a friend",
+   "views": 495163693,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "dance"
+   ]
+  },
+  {
    "id": "_sV0S8qWSy0",
    "artist": "Ariana Grande",
    "title": "The Way ft. Mac Miller",
@@ -8150,7 +8184,7 @@
   },
   {
    "id": "AOPMlIIg_38",
-   "artist": "Charli XCX",
+   "artist": "Charli xcx",
    "title": "Boom Clap",
    "views": 475591777,
    "region": "global",
@@ -9482,6 +9516,17 @@
    "year": 2009,
    "genres": [
     "hiphop"
+   ]
+  },
+  {
+   "id": "-73pafJ9RFg",
+   "artist": "Anitta",
+   "title": "Paradinha",
+   "views": 412949738,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -16953,6 +16998,17 @@
    ]
   },
   {
+   "id": "_WcWHZc8s2I",
+   "artist": "Sade",
+   "title": "No Ordinary Love",
+   "views": 221461887,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "XWCPbRsMb0Q",
    "artist": "Calvin Harris",
    "title": "One Kiss",
@@ -17822,7 +17878,7 @@
   },
   {
    "id": "ABhDiXbUaBE",
-   "artist": "Charli XCX",
+   "artist": "Charli xcx",
    "title": "Break The Rules",
    "views": 209680840,
    "region": "global",
@@ -24779,6 +24835,17 @@
    ]
   },
   {
+   "id": "kK42LZqO0wA",
+   "artist": "Martin Solveig",
+   "title": "Hello",
+   "views": 136614715,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "8tIgN7eICn4",
    "artist": "DJ Tiesto",
    "title": "Adagio For Strings",
@@ -26035,6 +26102,17 @@
    "year": 2015,
    "genres": [
     "rock"
+   ]
+  },
+  {
+   "id": "oE56g61mW44",
+   "artist": "Stevie Wonder",
+   "title": "Isn't She Lovely",
+   "views": 126984878,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -28104,17 +28182,6 @@
    ]
   },
   {
-   "id": "TlMgAsAmQKE",
-   "artist": "Cults",
-   "title": "Always Forever",
-   "views": 113137171,
-   "region": "global",
-   "year": 2014,
-   "genres": [
-    "indie"
-   ]
-  },
-  {
    "id": "KCggcs7X_2Y",
    "artist": "Chris Jedi",
    "title": "Ahora Dice",
@@ -29763,6 +29830,17 @@
    "year": 2018,
    "genres": [
     "hiphop"
+   ]
+  },
+  {
+   "id": "DHutZXREZ0E",
+   "artist": "Madonna",
+   "title": "Live to Tell",
+   "views": 104729365,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -32372,6 +32450,18 @@
    ]
   },
   {
+   "id": "RcmKbTR--iA",
+   "artist": "Far East Movement",
+   "title": "Rocketeer",
+   "views": 92679102,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "electronic",
+    "pop"
+   ]
+  },
+  {
    "id": "IP4V3TTC3fw",
    "artist": "Musiq",
    "title": "Halfcrazy",
@@ -32403,17 +32493,6 @@
    "genres": [
     "pop",
     "rock"
-   ]
-  },
-  {
-   "id": "RcmKbTR--iA",
-   "artist": "Far East Movement",
-   "title": "Rocketeer ft. Ryan Tedder",
-   "views": 92370225,
-   "region": "global",
-   "year": 2010,
-   "genres": [
-    "pop"
    ]
   },
   {
@@ -33782,6 +33861,17 @@
    "year": 2009,
    "genres": [
     "rock"
+   ]
+  },
+  {
+   "id": "k5k2XVKxznc",
+   "artist": "La Quinta Estación",
+   "title": "Me muero",
+   "views": 86698080,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -37934,6 +38024,17 @@
    "year": 2014,
    "genres": [
     "rnb"
+   ]
+  },
+  {
+   "id": "-Dl6CLWLMzk",
+   "artist": "Helloween",
+   "title": "Forever and One (Neverland)",
+   "views": 70417603,
+   "region": "global",
+   "year": 2006,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -43144,6 +43245,17 @@
    ]
   },
   {
+   "id": "6-v1b9waHWY",
+   "artist": "Charli xcx",
+   "title": "1999",
+   "views": 56308485,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "dance"
+   ]
+  },
+  {
    "id": "y-MaaxgdUT4",
    "artist": "Paramore",
    "title": "Pressure",
@@ -44591,6 +44703,17 @@
    ]
   },
   {
+   "id": "C0BLKudnyNo",
+   "artist": "Sade",
+   "title": "Paradise",
+   "views": 52723798,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "r0jfqoF3Y6w",
    "artist": "DJ Nelson",
    "title": "Pasarela (feat. Dalmata)",
@@ -44668,6 +44791,17 @@
    ]
   },
   {
+   "id": "H-kA3UtBj4M",
+   "artist": "Marvin Gaye",
+   "title": "What's Going On",
+   "views": 52578717,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "XW1HNWqdVbk",
    "artist": "Method Man",
    "title": "All I Need ft. Mary J. Blige",
@@ -44676,6 +44810,17 @@
    "year": 2010,
    "genres": [
     "hiphop"
+   ]
+  },
+  {
+   "id": "pstVCGyaUBM",
+   "artist": "Lorde",
+   "title": "Buzzcut Season",
+   "views": 52521306,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "indie"
    ]
   },
   {
@@ -45802,7 +45947,7 @@
   },
   {
    "id": "Km3agvlyRmM",
-   "artist": "Charli XCX",
+   "artist": "Charli xcx",
    "title": "Doing It ft.Rita Ora",
    "views": 50347749,
    "region": "global",
@@ -47617,6 +47762,17 @@
    ]
   },
   {
+   "id": "2CSWw2OVxio",
+   "artist": "Lana Del Rey",
+   "title": "Pretty When You Cry",
+   "views": 46825740,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "6dmujZr6ld4",
    "artist": "Troy, Gabriella",
    "title": "Everyday",
@@ -48087,6 +48243,17 @@
     "pop",
     "dance",
     "indie"
+   ]
+  },
+  {
+   "id": "NYz8xs163YU",
+   "artist": "Sade",
+   "title": "Is It a Crime",
+   "views": 45898604,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -49715,6 +49882,17 @@
    "year": 2009,
    "genres": [
     "electronic"
+   ]
+  },
+  {
+   "id": "ZivK8PmxPWQ",
+   "artist": "Manu Chao",
+   "title": "Me Llaman Calle",
+   "views": 42786109,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -56170,6 +56348,18 @@
    "year": 2010,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "NDHY1D0tKRA",
+   "artist": "Death Cab for Cutie",
+   "title": "I Will Follow You Into The Dark",
+   "views": 32990641,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "indie",
+    "ballad"
    ]
   },
   {
