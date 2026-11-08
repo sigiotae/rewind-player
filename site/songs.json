@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "genres": [
   {
    "id": "pop",
@@ -577,6 +577,19 @@
    ]
   },
   {
+   "id": "lY2yjAdbvdQ",
+   "artist": "Shawn Mendes",
+   "title": "Treat You Better",
+   "views": 2831987117,
+   "region": "global",
+   "year": 2016,
+   "genres": [
+    "pop",
+    "indie",
+    "ballad"
+   ]
+  },
+  {
    "id": "5qm8PH4xAss",
    "artist": "50 Cent",
    "title": "In Da Club",
@@ -1090,6 +1103,20 @@
    ]
   },
   {
+   "id": "QK8mJJJvaes",
+   "artist": "MACKLEMORE & RYAN LEWIS",
+   "title": "Thrift Shop (feat. Wanz)",
+   "views": 1994692676,
+   "region": "global",
+   "year": 2012,
+   "genres": [
+    "hiphop",
+    "pop",
+    "rnb",
+    "dance"
+   ]
+  },
+  {
    "id": "t_jHrUE5IOk",
    "artist": "Maluma",
    "title": "Felices los 4",
@@ -1098,19 +1125,6 @@
    "year": 2017,
    "genres": [
     "latin"
-   ]
-  },
-  {
-   "id": "QK8mJJJvaes",
-   "artist": "MACKLEMORE & RYAN LEWIS",
-   "title": "THRIFT SHOP FEAT. WANZ",
-   "views": 1992535318,
-   "region": "global",
-   "year": 2012,
-   "genres": [
-    "pop",
-    "rnb",
-    "dance"
    ]
   },
   {
@@ -2492,19 +2506,6 @@
    ]
   },
   {
-   "id": "SDTZ7iX4vTQ",
-   "artist": "Foster the People",
-   "title": "Pumped Up Kicks",
-   "views": 1277341538,
-   "region": "global",
-   "year": 2011,
-   "genres": [
-    "indie",
-    "pop",
-    "dance"
-   ]
-  },
-  {
    "id": "oiKj0Z_Xnjc",
    "artist": "Stromae",
    "title": "papaoutai",
@@ -2615,11 +2616,12 @@
   {
    "id": "O-zpOMYRi0w",
    "artist": "Iggy Azalea",
-   "title": "Fancy ft. Charli XCX",
-   "views": 1233005130,
+   "title": "Fancy",
+   "views": 1234448228,
    "region": "global",
    "year": 2014,
    "genres": [
+    "hiphop",
     "pop"
    ]
   },
@@ -4263,8 +4265,8 @@
    "region": "global",
    "year": 2014,
    "genres": [
-    "electronic",
-    "pop"
+    "pop",
+    "electronic"
    ]
   },
   {
@@ -7622,6 +7624,17 @@
    ]
   },
   {
+   "id": "CAMWdvo71ls",
+   "artist": "Stromae",
+   "title": "Tous les mêmes",
+   "views": 511879867,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "dance"
+   ]
+  },
+  {
    "id": "bXcSLI58-h8",
    "artist": "Lil Nas X",
    "title": "Panini",
@@ -8039,6 +8052,17 @@
    "views": 484110011,
    "region": "global",
    "year": 2012,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
+   "id": "zWaymcVmJ-A",
+   "artist": "Los Del Rio",
+   "title": "Macarena",
+   "views": 483766884,
+   "region": "global",
+   "year": 2019,
    "genres": [
     "latin"
    ]
@@ -12520,6 +12544,17 @@
    ]
   },
   {
+   "id": "92XVwY54h5k",
+   "artist": "twenty one pilots",
+   "title": "Car Radio",
+   "views": 311715759,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "f2JuxM-snGc",
    "artist": "Lorde",
    "title": "Team",
@@ -14852,6 +14887,18 @@
    ]
   },
   {
+   "id": "b8-tXG8KrWs",
+   "artist": "The Strokes",
+   "title": "Reptilia",
+   "views": 257828796,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rock",
+    "indie"
+   ]
+  },
+  {
    "id": "tIpzfs5tBJU",
    "artist": "Julieta Venegas",
    "title": "Limón y Sal",
@@ -15343,6 +15390,17 @@
    "year": 2017,
    "genres": [
     "indie"
+   ]
+  },
+  {
+   "id": "g3uxeG1rrlE",
+   "artist": "Maná",
+   "title": "Vivir Sin Aire",
+   "views": 247695488,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -17482,6 +17540,19 @@
    ]
   },
   {
+   "id": "AqQuRw0S6b4",
+   "artist": "Maroon 5",
+   "title": "This Love",
+   "views": 214966303,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "pop",
+    "rock",
+    "ballad"
+   ]
+  },
+  {
    "id": "0OWj0CiM8WU",
    "artist": "OneRepublic",
    "title": "Love Runs Out",
@@ -17717,12 +17788,14 @@
   {
    "id": "GxgqpCdOKak",
    "artist": "Drake",
-   "title": "Hold On, We’re Going Home ft. Majid Jordan",
-   "views": 211520456,
+   "title": "Hold On, We're Going Home",
+   "views": 211542574,
    "region": "global",
    "year": 2013,
    "genres": [
     "rnb",
+    "ballad",
+    "pop",
     "dance"
    ]
   },
@@ -18081,6 +18154,17 @@
    "views": 206852160,
    "region": "global",
    "year": 2019,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
+   "id": "5sye_VxmNZA",
+   "artist": "Enrique Iglesias",
+   "title": "Bailamos",
+   "views": 206412803,
+   "region": "global",
+   "year": 2020,
    "genres": [
     "latin"
    ]
@@ -20450,6 +20534,17 @@
    ]
   },
   {
+   "id": "K17df81RL9Y",
+   "artist": "Aurora",
+   "title": "Cure For Me",
+   "views": 176846446,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "dance"
+   ]
+  },
+  {
    "id": "MjXU7I6aBpA",
    "artist": "Chinofeo",
    "title": "Grupo Niche Gotas De Lluvia",
@@ -21715,7 +21810,7 @@
   },
   {
    "id": "NE6pANWJGuU",
-   "artist": "Foster the People",
+   "artist": "Foster The People",
    "title": "Imagination",
    "views": 162697221,
    "region": "global",
@@ -22976,6 +23071,17 @@
    "views": 151582403,
    "region": "global",
    "year": 2015,
+   "genres": [
+    "hiphop"
+   ]
+  },
+  {
+   "id": "10yrPDf92hY",
+   "artist": "Kendrick Lamar",
+   "title": "m.A.A.d city",
+   "views": 151535927,
+   "region": "global",
+   "year": 2012,
    "genres": [
     "hiphop"
    ]
@@ -24959,6 +25065,17 @@
    "year": 2017,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "4TV_128Fz2g",
+   "artist": "Princess Chelsea",
+   "title": "The Cigarette Duet",
+   "views": 136024152,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "indie"
    ]
   },
   {
@@ -27844,6 +27961,17 @@
    ]
   },
   {
+   "id": "bEeaS6fuUoA",
+   "artist": "Bill Withers",
+   "title": "Lovely Day",
+   "views": 115615612,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "1ohYsK5Y8Dc",
    "artist": "Lil Wayne",
    "title": "Got Money ft. T-Pain",
@@ -28273,7 +28401,7 @@
   },
   {
    "id": "_GMQLjzVGfw",
-   "artist": "Foster the People",
+   "artist": "Foster The People",
    "title": "Houdini",
    "views": 112675724,
    "region": "global",
@@ -29203,6 +29331,17 @@
    "genres": [
     "pop",
     "hiphop"
+   ]
+  },
+  {
+   "id": "Z2BMBrCKMcY",
+   "artist": "Chayanne",
+   "title": "Salomé",
+   "views": 108118168,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -32428,6 +32567,18 @@
    ]
   },
   {
+   "id": "fzQ6gRAEoy0",
+   "artist": "Porter Robinson",
+   "title": "Shelter",
+   "views": 92794908,
+   "region": "global",
+   "year": 2016,
+   "genres": [
+    "dance",
+    "electronic"
+   ]
+  },
+  {
    "id": "hbe3CQamF8k",
    "artist": "Massive Attack",
    "title": "Angel",
@@ -35584,6 +35735,17 @@
    ]
   },
   {
+   "id": "D9AFMVMl9qE",
+   "artist": "Ellie Goulding",
+   "title": "Your Song",
+   "views": 79607711,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "9BLLdXNdr4I",
    "artist": "Alejandro Fernández",
    "title": "Se Me Va La Voz",
@@ -35694,6 +35856,17 @@
    "year": 2009,
    "genres": [
     "rock"
+   ]
+  },
+  {
+   "id": "VRU2qs82DAg",
+   "artist": "Selena",
+   "title": "Dreaming of You",
+   "views": 78591794,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -36639,6 +36812,17 @@
    "genres": [
     "rnb",
     "ballad"
+   ]
+  },
+  {
+   "id": "rjOhZZyn30k",
+   "artist": "Corinne Bailey Rae",
+   "title": "Put Your Records On",
+   "views": 75189358,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -37872,7 +38056,7 @@
   },
   {
    "id": "8tMKanAqkbc",
-   "artist": "Foster the People",
+   "artist": "Foster The People",
    "title": "Sit Next to Me",
    "views": 71073614,
    "region": "global",
@@ -38504,6 +38688,17 @@
    ]
   },
   {
+   "id": "zKTSw07mGRQ",
+   "artist": "Chichi Peralta",
+   "title": "Procura",
+   "views": 69108465,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "aEtqFWKKbbM",
    "artist": "21 Savage",
    "title": "X (feat. Future)",
@@ -38963,6 +39158,17 @@
    "year": 2009,
    "genres": [
     "rock"
+   ]
+  },
+  {
+   "id": "pKhfoKOTwZY",
+   "artist": "Sade",
+   "title": "Cherish the Day",
+   "views": 67990239,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -40068,6 +40274,17 @@
    ]
   },
   {
+   "id": "IyVPyKrx0Xo",
+   "artist": "Saint Motel",
+   "title": "My Type",
+   "views": 64581039,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "yP4qdefD2To",
    "artist": "Goo Goo Dolls",
    "title": "Slide",
@@ -40169,6 +40386,17 @@
    "genres": [
     "dance",
     "electronic"
+   ]
+  },
+  {
+   "id": "tGbRZ73NvlY",
+   "artist": "Buena Vista Social Club",
+   "title": "Buena Vista Social Club",
+   "views": 64272006,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -40303,17 +40531,6 @@
    "views": 63845077,
    "region": "global",
    "year": 2021,
-   "genres": [
-    "latin"
-   ]
-  },
-  {
-   "id": "tGbRZ73NvlY",
-   "artist": "Buena Vista Social Club",
-   "title": "Chan Chan",
-   "views": 63767168,
-   "region": "global",
-   "year": 2011,
    "genres": [
     "latin"
    ]
@@ -41237,6 +41454,17 @@
    ]
   },
   {
+   "id": "3PFgbLnUcZE",
+   "artist": "Céline Dion",
+   "title": "I Surrender",
+   "views": 61130621,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "2mhKvNwOIWk",
    "artist": "Kevin Gates",
    "title": "2 Phones",
@@ -41709,6 +41937,17 @@
     "rock",
     "ballad",
     "dance"
+   ]
+  },
+  {
+   "id": "xMVTKOoy1uk",
+   "artist": "The Prodigy",
+   "title": "Omen",
+   "views": 60013095,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "electronic"
    ]
   },
   {
@@ -43631,7 +43870,7 @@
   },
   {
    "id": "1prhCWO_518",
-   "artist": "Foster the People",
+   "artist": "Foster The People",
    "title": "Call It What You Want",
    "views": 55424083,
    "region": "global",
@@ -48754,6 +48993,17 @@
    ]
   },
   {
+   "id": "XXx6RDzR6eM",
+   "artist": "Al Green",
+   "title": "Let's Stay Together",
+   "views": 44994157,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "ZmeudwRMrsU",
    "artist": "ASIAN KUNG-FU GENERATION",
    "title": "Rewrite",
@@ -51814,7 +52064,7 @@
   },
   {
    "id": "ABzh6hTYpb8",
-   "artist": "Foster the People",
+   "artist": "Foster The People",
    "title": "Helena Beat",
    "views": 39553600,
    "region": "global",
@@ -51936,6 +52186,17 @@
    ]
   },
   {
+   "id": "gjRLbzxz_3Y",
+   "artist": "Marvin Gaye",
+   "title": "I Want You",
+   "views": 39358017,
+   "region": "global",
+   "year": 2012,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "e5MAg_yWsq8",
    "artist": "Styx",
    "title": "Come Sail Away",
@@ -51967,6 +52228,17 @@
    "year": 2019,
    "genres": [
     "hiphop"
+   ]
+  },
+  {
+   "id": "O040xuq2FR0",
+   "artist": "Elvis Costello",
+   "title": "She",
+   "views": 39327635,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -52151,7 +52423,7 @@
   },
   {
    "id": "jlAgHt92lqE",
-   "artist": "Foster the People",
+   "artist": "Foster The People",
    "title": "Don't Stop (Color on the Walls)",
    "views": 38934187,
    "region": "global",
@@ -55011,7 +55283,7 @@
   },
   {
    "id": "MBqzrj18S2w",
-   "artist": "Foster the People",
+   "artist": "Foster The People",
    "title": "Coming of Age",
    "views": 34803145,
    "region": "global",
@@ -55061,17 +55333,6 @@
    "views": 34689330,
    "region": "global",
    "year": 2009,
-   "genres": [
-    "rock"
-   ]
-  },
-  {
-   "id": "r2dosVRzLSM",
-   "artist": "Weezer",
-   "title": "I Just Threw Out the Love of My Dreams",
-   "views": 34669345,
-   "region": "global",
-   "year": 2018,
    "genres": [
     "rock"
    ]
@@ -59553,15 +59814,6 @@
    "aka": "방탄소년단"
   },
   {
-   "id": "ZSRzCbpIxZo",
-   "artist": "Sia",
-   "title": "Snowman",
-   "views": 157196225,
-   "region": "kr",
-   "year": 2017,
-   "genres": []
-  },
-  {
    "id": "Dww9UjJ4Dt8",
    "artist": "SHINee",
    "title": "LUCIFER",
@@ -60119,15 +60371,6 @@
    "views": 97466468,
    "region": "kr",
    "year": 2020,
-   "genres": []
-  },
-  {
-   "id": "wKyMIrBClYw",
-   "artist": "DEAN",
-   "title": "instagram",
-   "views": 97386194,
-   "region": "kr",
-   "year": 2018,
    "genres": []
   },
   {

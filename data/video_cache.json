@@ -4927,7 +4927,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Cherry Blossom Girl"
+  "track": "Cherry Blossom Girl",
+  "video": {
+   "id": "mQONxOIPPuI",
+   "published": "2009-06-02T19:03:41Z",
+   "views": 2683060,
+   "ytTitle": "Air - Cherry Blossom Girl"
+  }
  },
  "air - playground love": {
   "artist": "Air",
@@ -5447,7 +5453,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Let's Stay Together"
+  "track": "Let's Stay Together",
+  "video": {
+   "id": "XXx6RDzR6eM",
+   "published": "2017-02-02T19:37:06Z",
+   "views": 44994157,
+   "ytTitle": "Al Green - Let's Stay Together (Official Audio)"
+  }
  },
  "al green - tired of being alone": {
   "artist": "Al Green",
@@ -9955,7 +9967,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Cure For Me"
+  "track": "Cure For Me",
+  "video": {
+   "id": "K17df81RL9Y",
+   "published": "2021-07-08T17:00:10Z",
+   "views": 176846446,
+   "ytTitle": "AURORA - Cure For Me"
+  }
  },
  "aurora - runaway": {
   "artist": "Aurora",
@@ -14943,7 +14961,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Lovely Day"
+  "track": "Lovely Day",
+  "video": {
+   "id": "bEeaS6fuUoA",
+   "published": "2015-06-13T02:26:19Z",
+   "views": 115615612,
+   "ytTitle": "Bill Withers - Lovely Day (Official Audio)"
+  }
  },
  "billie eilish - all the good girls go to hell": {
   "artist": "Billie Eilish",
@@ -19439,7 +19463,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Please Forgive Me"
+  "track": "Please Forgive Me",
+  "video": {
+   "id": "mxVbPEIkfqw",
+   "published": "2022-04-01T09:48:26Z",
+   "views": 26478837,
+   "ytTitle": "Bryan Adams - Please Forgive Me (Classic Version)"
+  }
  },
  "bryan adams rod stewart sting - all for love": {
   "artist": "Bryan Adams, Rod Stewart, Sting",
@@ -20637,7 +20667,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Buena Vista Social Club"
+  "track": "Buena Vista Social Club",
+  "video": {
+   "id": "tGbRZ73NvlY",
+   "published": "2011-05-19T10:28:51Z",
+   "views": 64272006,
+   "ytTitle": "Buena Vista Social Club - Chan Chan (Official HD Video)"
+  }
  },
  "buena vista social club - candela": {
   "artist": "Buena Vista Social Club",
@@ -21265,7 +21301,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "I Surrender"
+  "track": "I Surrender",
+  "video": {
+   "id": "3PFgbLnUcZE",
+   "published": "2011-03-18T21:17:05Z",
+   "views": 61130621,
+   "ytTitle": "Céline Dion - I Surrender (from the 2007 DVD \"Live In Las Vegas - A New Day...\")"
+  }
  },
  "c line dion - it s all coming back to me now": {
   "artist": "Céline Dion",
@@ -23443,7 +23485,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Girl, so confusing"
+  "track": "Girl, so confusing",
+  "video": {
+   "id": "0q3K6FPzY18",
+   "published": "2024-06-21T04:00:01Z",
+   "views": 18597353,
+   "ytTitle": "Charli xcx - Girl, so confusing featuring lorde (official audio)"
+  }
  },
  "charli xcx - gone": {
   "artist": "Charli xcx",
@@ -23518,14 +23566,26 @@
   "genres": [
    "dance"
   ],
-  "track": "Take My Hand"
+  "track": "Take My Hand",
+  "video": {
+   "id": "Ib5lHe-Jzmg",
+   "published": "2015-10-06T02:36:59Z",
+   "views": 189015,
+   "ytTitle": "Take My Hand"
+  }
  },
  "charli xcx - talk talk": {
   "artist": "Charli xcx",
   "genres": [
    "dance"
   ],
-  "track": "Talk talk"
+  "track": "Talk talk",
+  "video": {
+   "id": "K5jyIoPbu4M",
+   "published": "2024-09-13T18:45:13Z",
+   "views": 5933805,
+   "ytTitle": "Charli xcx - Talk talk featuring troye sivan (official lyric video)"
+  }
  },
  "charlie puth - attention": {
   "artist": "Charlie Puth",
@@ -23761,7 +23821,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Salomé"
+  "track": "Salomé",
+  "video": {
+   "id": "Z2BMBrCKMcY",
+   "published": "2009-10-03T04:37:31Z",
+   "views": 108118168,
+   "ytTitle": "Chayanne - Salomé (Vídeo Oficial)"
+  }
  },
  "chayanne - torero": {
   "artist": "Chayanne",
@@ -24090,7 +24156,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Procura"
+  "track": "Procura",
+  "video": {
+   "id": "zKTSw07mGRQ",
+   "published": "2019-08-15T17:57:49Z",
+   "views": 69108465,
+   "ytTitle": "Procura (Chichi Peralta) - Alta Calidad Dance"
+  }
  },
  "chichi peralta oficial - chichi peralta amor narcotico": {
   "artist": "CHICHI PERALTA OFICIAL",
@@ -24138,7 +24210,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Bonfire"
+  "track": "Bonfire",
+  "video": {
+   "id": "Ie-0rlw-iVQ",
+   "published": "2012-04-18T20:31:51Z",
+   "views": 7381876,
+   "ytTitle": "Childish Gambino- Bonfire (w/ lyrics)"
+  }
  },
  "childish gambino - feels like summer": {
   "artist": "Childish Gambino",
@@ -26785,7 +26863,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Put Your Records On"
+  "track": "Put Your Records On",
+  "video": {
+   "id": "rjOhZZyn30k",
+   "published": "2015-11-24T16:18:50Z",
+   "views": 75189358,
+   "ytTitle": "Corinne Bailey Rae - Put Your Records On"
+  }
  },
  "corona - the rhythm of the night": {
   "artist": "Corona",
@@ -27352,7 +27436,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Courtship Dating"
+  "track": "Courtship Dating",
+  "video": {
+   "id": "JwiG9CUDo-I",
+   "published": "2009-10-18T21:33:09Z",
+   "views": 3410170,
+   "ytTitle": "Crystal Castles \"COURTSHIP DATING\" Official"
+  }
  },
  "crystal castles - crimewave": {
   "artist": "Crystal Castles",
@@ -28642,14 +28732,26 @@
   "genres": [
    "electronic"
   ],
-  "track": "Voyager"
+  "track": "Voyager",
+  "video": {
+   "id": "CqZgd6-xQl8",
+   "published": "2009-02-26T20:50:16Z",
+   "views": 17115643,
+   "ytTitle": "Daft Punk - Voyager (Official Video)"
+  }
  },
  "daft punk - within": {
   "artist": "Daft Punk",
   "genres": [
    "electronic"
   ],
-  "track": "Within"
+  "track": "Within",
+  "video": {
+   "id": "Q5l2ChAqRDg",
+   "published": "2013-05-24T04:18:10Z",
+   "views": 19778327,
+   "ytTitle": "Daft Punk - Within"
+  }
  },
  "dale don dale - reggaeton latino": {
   "artist": "Dale Don Dale",
@@ -30645,7 +30747,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Beware"
+  "track": "Beware",
+  "video": {
+   "id": "aYbFEE0UtX0",
+   "published": "2021-05-27T02:27:18Z",
+   "views": 813544,
+   "ytTitle": "Beware - Deftones (lyrics)"
+  }
  },
  "deftones - change": {
   "artist": "Deftones",
@@ -33559,7 +33667,8 @@
   "artist": "Drake",
   "genres": [
    "rnb",
-   "ballad"
+   "ballad",
+   "pop"
   ],
   "track": "Hold On, We're Going Home",
   "video": {
@@ -35396,7 +35505,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Your Song"
+  "track": "Your Song",
+  "video": {
+   "id": "D9AFMVMl9qE",
+   "published": "2010-11-12T09:48:33Z",
+   "views": 79607711,
+   "ytTitle": "Ellie Goulding - Your Song (Official Video)"
+  }
  },
  "elliott smith - a fond farewell": {
   "artist": "Elliott Smith",
@@ -35710,7 +35825,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "She"
+  "track": "She",
+  "video": {
+   "id": "O040xuq2FR0",
+   "published": "2010-12-10T08:27:03Z",
+   "views": 39327635,
+   "ytTitle": "Elvis Costello 'She'"
+  }
  },
  "elvis crespo - suavemente": {
   "artist": "Elvis Crespo",
@@ -36451,7 +36572,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Bailamos"
+  "track": "Bailamos",
+  "video": {
+   "id": "5sye_VxmNZA",
+   "published": "2020-01-09T20:06:45Z",
+   "views": 206412803,
+   "ytTitle": "Enrique Iglesias - Bailamos"
+  }
  },
  "enrique iglesias - bailando": {
   "artist": "Enrique Iglesias",
@@ -44722,7 +44849,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "O Green World"
+  "track": "O Green World",
+  "video": {
+   "id": "tMt_YXr90AM",
+   "published": "2015-02-12T17:41:18Z",
+   "views": 17954164,
+   "ytTitle": "Gorillaz - O Green World - Demon Days"
+  }
  },
  "gorillaz - on melancholy hill": {
   "artist": "Gorillaz",
@@ -49112,7 +49245,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Fancy"
+  "track": "Fancy",
+  "video": {
+   "id": "O-zpOMYRi0w",
+   "published": "2014-03-04T16:00:02Z",
+   "views": 1234448228,
+   "ytTitle": "Iggy Azalea - Fancy ft. Charli XCX"
+  }
  },
  "iggy azalea - fancy ft charli xcx": {
   "artist": "Iggy Azalea",
@@ -58218,7 +58357,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Celebration"
+  "track": "Celebration",
+  "video": {
+   "id": "FZjlP-N7Hl4",
+   "published": "2018-10-30T02:32:17Z",
+   "views": 3694130,
+   "ytTitle": "Celebration"
+  }
  },
  "kanye west - champion": {
   "artist": "Kanye West",
@@ -60468,7 +60613,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "m.A.A.d city"
+  "track": "m.A.A.d city",
+  "video": {
+   "id": "10yrPDf92hY",
+   "published": "2012-10-18T00:27:48Z",
+   "views": 151535927,
+   "ytTitle": "Kendrick Lamar - M.A.A.D. City (Feat. MC eiht)"
+  }
  },
  "kendrick lamar - money trees": {
   "artist": "Kendrick Lamar",
@@ -61107,7 +61258,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Make Her Say"
+  "track": "Make Her Say",
+  "video": {
+   "id": "Xt22KvnRSL4",
+   "published": "2009-11-24T12:09:08Z",
+   "views": 20060604,
+   "ytTitle": "Kid Cudi - Make Her Say (Clean Version) ft. Kanye West, Common"
+  }
  },
  "kid cudi - maui wowie": {
   "artist": "Kid Cudi",
@@ -61168,7 +61325,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Up Up & Away"
+  "track": "Up Up & Away",
+  "video": {
+   "id": "MP7_VfMZuN0",
+   "published": "2018-07-31T11:49:22Z",
+   "views": 9020000,
+   "ytTitle": "Up Up & Away"
+  }
  },
  "kid cudi vs crookers - day n night": {
   "artist": "Kid Cudi vs. Crookers",
@@ -61552,7 +61715,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Freak It"
+  "track": "Freak It",
+  "video": {
+   "id": "tEu0NpbzJt4",
+   "published": "2026-05-13T14:59:56Z",
+   "views": 183075,
+   "ytTitle": "Freak It"
+  }
  },
  "kim petras - i like ur look": {
   "artist": "Kim Petras",
@@ -63438,7 +63607,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Garden of Eden"
+  "track": "Garden of Eden",
+  "video": {
+   "id": "tep9uGsVzK4",
+   "published": "2025-03-07T05:01:00Z",
+   "views": 15782499,
+   "ytTitle": "Lady Gaga - Garden Of Eden (Official Audio)"
+  }
  },
  "lady gaga - government hooker": {
   "artist": "Lady Gaga",
@@ -63852,7 +64027,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Body Electric"
+  "track": "Body Electric",
+  "video": {
+   "id": "nzV1st_Ekrc",
+   "published": "2013-01-19T07:55:51Z",
+   "views": 10708054,
+   "ytTitle": "Body Electric (LYRICS) - Lana Del Rey"
+  }
  },
  "lana del rey - born to die": {
   "artist": "Lana Del Rey",
@@ -68136,7 +68317,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Macarena"
+  "track": "Macarena",
+  "video": {
+   "id": "zWaymcVmJ-A",
+   "published": "2019-10-11T07:00:10Z",
+   "views": 483766884,
+   "ytTitle": "Los Del Rio - Macarena (Bayside Boys Remix)"
+  }
  },
  "los ex - take good care of me": {
   "artist": "Los Ex",
@@ -69804,7 +69991,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Thrift Shop (feat. Wanz)"
+  "track": "Thrift Shop (feat. Wanz)",
+  "video": {
+   "id": "QK8mJJJvaes",
+   "published": "2012-08-29T15:53:50Z",
+   "views": 1994692676,
+   "ytTitle": "MACKLEMORE & RYAN LEWIS - THRIFT SHOP FEAT. WANZ (OFFICIAL VIDEO)"
+  }
  },
  "macklemore ryan lewis - thrift shop feat wanz": {
   "artist": "MACKLEMORE & RYAN LEWIS",
@@ -70974,7 +71167,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Vivir Sin Aire"
+  "track": "Vivir Sin Aire",
+  "video": {
+   "id": "g3uxeG1rrlE",
+   "published": "2010-02-02T23:26:02Z",
+   "views": 247695488,
+   "ytTitle": "Maná - Vivir Sin Aire (Video Oficial)"
+  }
  },
  "man joy - eres mi religi n": {
   "artist": "Maná & Joy",
@@ -72613,7 +72812,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "I Want You"
+  "track": "I Want You",
+  "video": {
+   "id": "gjRLbzxz_3Y",
+   "published": "2012-04-10T13:57:35Z",
+   "views": 39358017,
+   "ytTitle": "Marvin Gaye - I Want You (1976)"
+  }
  },
  "marvin gaye - if i should die tonight": {
   "artist": "Marvin Gaye",
@@ -72648,7 +72853,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Mercy Mercy Me (The Ecology)"
+  "track": "Mercy Mercy Me (The Ecology)",
+  "video": {
+   "id": "uxMRgponxD0",
+   "published": "2017-02-10T11:11:49Z",
+   "views": 10048032,
+   "ytTitle": "Marvin Gaye ~ Mercy Mercy Me (The Ecology) 1971 Soul Purrfection Version"
+  }
  },
  "marvin gaye - right on": {
   "artist": "Marvin Gaye",
@@ -75841,7 +76052,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "What Do They Know?"
+  "track": "What Do They Know?",
+  "video": {
+   "id": "9zJzgnk49sQ",
+   "published": "2015-07-29T13:27:56Z",
+   "views": 11434880,
+   "ytTitle": "What Do They Know?"
+  }
  },
  "miniature tigers - cannibal queen": {
   "artist": "Miniature Tigers",
@@ -75855,7 +76072,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Like Or Like Like"
+  "track": "Like Or Like Like",
+  "video": {
+   "id": "h-GXvpGjS8s",
+   "published": "2022-11-03T07:53:50Z",
+   "views": 1792760,
+   "ytTitle": "Like or Like Like"
+  }
  },
  "minnie riperton - baby this love i have": {
   "artist": "Minnie Riperton",
@@ -77075,14 +77298,26 @@
   "genres": [
    "ballad"
   ],
-  "track": "One More Fucking Time"
+  "track": "One More Fucking Time",
+  "video": {
+   "id": "NWE8y5ms4jg",
+   "published": "2010-05-06T09:11:35Z",
+   "views": 2613993,
+   "ytTitle": "Motörhead - One More Fucking Time"
+  }
  },
  "mother mother - arms tonite": {
   "artist": "Mother Mother",
   "genres": [
    "indie"
   ],
-  "track": "Arms Tonite"
+  "track": "Arms Tonite",
+  "video": {
+   "id": "F0xdQ8ES9fc",
+   "published": "2013-05-13T19:21:33Z",
+   "views": 16159989,
+   "ytTitle": "Mother Mother - Arms Tonite"
+  }
  },
  "mother mother - body": {
   "artist": "Mother Mother",
@@ -77926,7 +78161,13 @@
   "genres": [
    "rock"
   ],
-  "track": "AMBULANCE"
+  "track": "AMBULANCE",
+  "video": {
+   "id": "i0Ocgk902kA",
+   "published": "2012-11-21T20:46:39Z",
+   "views": 2479024,
+   "ytTitle": "My Chemical Romance - AMBULANCE [Official Audio]"
+  }
  },
  "my chemical romance - cancer": {
   "artist": "My Chemical Romance",
@@ -87061,7 +87302,13 @@
    "dance",
    "electronic"
   ],
-  "track": "Shelter"
+  "track": "Shelter",
+  "video": {
+   "id": "fzQ6gRAEoy0",
+   "published": "2016-10-18T18:00:03Z",
+   "views": 92794908,
+   "ytTitle": "Porter Robinson & Madeon - Shelter (Official Video) (Short Film with A-1 Pictures & Crunchyroll)"
+  }
  },
  "porter robinson madeon - shelter": {
   "artist": "Porter Robinson & Madeon",
@@ -87637,7 +87884,13 @@
   "genres": [
    "indie"
   ],
-  "track": "The Cigarette Duet"
+  "track": "The Cigarette Duet",
+  "video": {
+   "id": "4TV_128Fz2g",
+   "published": "2011-06-07T13:28:10Z",
+   "views": 136024152,
+   "ytTitle": "Princess Chelsea - The Cigarette Duet"
+  }
  },
  "pristin - wee woo": {
   "artist": "PRISTIN(프리스틴)",
@@ -88785,7 +89038,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Bodysnatchers"
+  "track": "Bodysnatchers",
+  "video": {
+   "id": "nIQxhSvSRnQ",
+   "published": "2019-12-18T11:31:14Z",
+   "views": 11448336,
+   "ytTitle": "Bodysnatchers"
+  }
  },
  "radiohead - bullet proof i wish i was": {
   "artist": "Radiohead",
@@ -89102,7 +89361,13 @@
   "genres": [
    "rock"
   ],
-  "track": "The Tourist"
+  "track": "The Tourist",
+  "video": {
+   "id": "HkgzObf8uVU",
+   "published": "2016-04-06T22:03:50Z",
+   "views": 4523733,
+   "ytTitle": "The Tourist"
+  }
  },
  "radiohead - there there": {
   "artist": "Radiohead",
@@ -91831,7 +92096,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Farewell"
+  "track": "Farewell",
+  "video": {
+   "id": "_MOiwCMn30k",
+   "published": "2011-11-18T17:00:00Z",
+   "views": 12776608,
+   "ytTitle": "Rihanna - Farewell (Audio)"
+  }
  },
  "rihanna - fourfiveseconds": {
   "artist": "Rihanna",
@@ -93572,7 +93843,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Cherish the Day"
+  "track": "Cherish the Day",
+  "video": {
+   "id": "pKhfoKOTwZY",
+   "published": "2009-12-23T22:13:19Z",
+   "views": 67990239,
+   "ytTitle": "Sade - Cherish The Day - Official - 1993"
+  }
  },
  "sade - feel no pain": {
   "artist": "Sade",
@@ -93765,7 +94042,13 @@
   "genres": [
    "indie"
   ],
-  "track": "My Type"
+  "track": "My Type",
+  "video": {
+   "id": "IyVPyKrx0Xo",
+   "published": "2014-06-12T10:00:03Z",
+   "views": 64581039,
+   "ytTitle": "SAINT MOTEL - My Type (Official Video)"
+  }
  },
  "sakanaction - music video": {
   "artist": "サカナクション sakanaction",
@@ -95518,7 +95801,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Dreaming of You"
+  "track": "Dreaming of You",
+  "video": {
+   "id": "VRU2qs82DAg",
+   "published": "2009-02-26T01:50:23Z",
+   "views": 78591794,
+   "ytTitle": "Selena - Dreaming Of You (Official Music Video)"
+  }
  },
  "selena - si una vez": {
   "artist": "Selena",
@@ -101617,7 +101906,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "As"
+  "track": "As",
+  "video": {
+   "id": "GYQfWJNWe3I",
+   "published": "2007-12-06T07:27:03Z",
+   "views": 25606229,
+   "ytTitle": "Stevie Wonder - As"
+  }
  },
  "stevie wonder - don t you worry bout a thing": {
   "artist": "Stevie Wonder",
@@ -102199,7 +102494,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Tous les mêmes"
+  "track": "Tous les mêmes",
+  "video": {
+   "id": "CAMWdvo71ls",
+   "published": "2013-12-18T14:00:03Z",
+   "views": 511879867,
+   "ytTitle": "Stromae - tous les mêmes (Official Video)"
+  }
  },
  "styles p - good times": {
   "artist": "Styles P",
@@ -105360,7 +105661,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "The Manuscript"
+  "track": "The Manuscript",
+  "video": {
+   "id": "iY6Qhlua8Zw",
+   "published": "2024-04-20T00:00:26Z",
+   "views": 3265398,
+   "ytTitle": "Taylor Swift - The Manuscript (Official Lyric Video)"
+  }
  },
  "taylor swift - the story of us": {
   "artist": "Taylor Swift",
@@ -107183,7 +107490,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Who's Lovin' You"
+  "track": "Who's Lovin' You",
+  "video": {
+   "id": "N9U9A4_cgyI",
+   "published": "2020-06-28T19:00:03Z",
+   "views": 25643651,
+   "ytTitle": "The Jackson 5 \"Who's Loving You\" on The Ed Sullivan Show"
+  }
  },
  "the jadu - 김밥": {
   "artist": "The Jadu",
@@ -107526,7 +107839,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Andrew In Drag"
+  "track": "Andrew In Drag",
+  "video": {
+   "id": "zjOJjP2pXdo",
+   "published": "2012-01-11T19:19:18Z",
+   "views": 1290255,
+   "ytTitle": "The Magnetic Fields - Andrew In Drag"
+  }
  },
  "the magnetic fields - i don t believe in the sun": {
   "artist": "The Magnetic Fields",
@@ -108128,7 +108447,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Omen"
+  "track": "Omen",
+  "video": {
+   "id": "xMVTKOoy1uk",
+   "published": "2009-01-19T14:48:36Z",
+   "views": 60013095,
+   "ytTitle": "The Prodigy - Omen (Official Video)"
+  }
  },
  "the prodigy - out of space": {
   "artist": "The Prodigy",
@@ -108527,14 +108852,26 @@
   "genres": [
    "rock"
   ],
-  "track": "Bullet With Butterfly Wings - remastered 2012"
+  "track": "Bullet With Butterfly Wings - remastered 2012",
+  "video": {
+   "id": "8-r-V0uK4u0",
+   "published": "2011-08-03T01:25:11Z",
+   "views": 109626585,
+   "ytTitle": "The Smashing Pumpkins - Bullet With Butterfly Wings (Official Music Video)"
+  }
  },
  "the smashing pumpkins - perfect": {
   "artist": "The Smashing Pumpkins",
   "genres": [
    "rock"
   ],
-  "track": "Perfect"
+  "track": "Perfect",
+  "video": {
+   "id": "VKYY8DxVZHE",
+   "published": "2011-07-30T00:00:00Z",
+   "views": 14332089,
+   "ytTitle": "The Smashing Pumpkins - Perfect (Official Music Video)"
+  }
  },
  "the smashing pumpkins - today": {
   "artist": "The Smashing Pumpkins",
@@ -112639,7 +112976,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Car Radio"
+  "track": "Car Radio",
+  "video": {
+   "id": "92XVwY54h5k",
+   "published": "2013-04-19T21:59:15Z",
+   "views": 311715759,
+   "ytTitle": "twenty one pilots: Car Radio [OFFICIAL VIDEO]"
+  }
  },
  "twenty one pilots - chlorine": {
   "artist": "Twenty One Pilots",
@@ -115693,14 +116036,26 @@
   "genres": [
    "rock"
   ],
-  "track": "Transdermal Celebration"
+  "track": "Transdermal Celebration",
+  "video": {
+   "id": "PtuVA4NOm0I",
+   "published": "2013-02-11T23:15:03Z",
+   "views": 1615091,
+   "ytTitle": "Ween - Transdermal Celebration [HD]"
+  }
  },
  "ween - tried and true": {
   "artist": "Ween",
   "genres": [
    "rock"
   ],
-  "track": "Tried And True"
+  "track": "Tried And True",
+  "video": {
+   "id": "uUCS0Ful438",
+   "published": "2026-02-09T21:22:06Z",
+   "views": 715876,
+   "ytTitle": "Tried And True"
+  }
  },
  "weezer - across the sea": {
   "artist": "Weezer",
@@ -117746,7 +118101,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Jocelyn Flores"
+  "track": "Jocelyn Flores",
+  "video": {
+   "id": "UBdAwPSEESE",
+   "published": "2024-07-27T00:00:15Z",
+   "views": 6944645,
+   "ytTitle": "Billie Eilish on XXXTENTACION 💔"
+  }
  },
  "xxxtentacion - look at me": {
   "artist": "XXXTENTACION",
