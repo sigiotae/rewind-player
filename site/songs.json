@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "genres": [
   {
    "id": "pop",
@@ -778,18 +778,6 @@
    "genres": [
     "pop",
     "ballad"
-   ]
-  },
-  {
-   "id": "8SbUC-UaAxE",
-   "artist": "Guns N' Roses",
-   "title": "November Rain",
-   "views": 2500433595,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "rock",
-    "pop"
    ]
   },
   {
@@ -1706,6 +1694,20 @@
    ]
   },
   {
+   "id": "7QU1nvuxaMA",
+   "artist": "Audioslave",
+   "title": "Like a Stone",
+   "views": 1594563582,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rock",
+    "pop",
+    "dance",
+    "indie"
+   ]
+  },
+  {
    "id": "Bznxx12Ptl0",
    "artist": "AronChupa, Little Sis Nora",
    "title": "I'm an Albatraoz |",
@@ -2045,7 +2047,8 @@
    "region": "global",
    "year": 2014,
    "genres": [
-    "pop"
+    "pop",
+    "latin"
    ]
   },
   {
@@ -2228,6 +2231,19 @@
    "genres": [
     "pop",
     "dance"
+   ]
+  },
+  {
+   "id": "kTHNpusq654",
+   "artist": "Katy Perry",
+   "title": "Hot n Cold",
+   "views": 1373769503,
+   "region": "global",
+   "year": 2008,
+   "genres": [
+    "pop",
+    "dance",
+    "ballad"
    ]
   },
   {
@@ -3106,19 +3122,6 @@
    ]
   },
   {
-   "id": "dvgZkm1xWPE",
-   "artist": "Coldplay",
-   "title": "Viva la Vida",
-   "views": 1084070065,
-   "region": "global",
-   "year": 2008,
-   "genres": [
-    "rock",
-    "indie",
-    "pop"
-   ]
-  },
-  {
    "id": "W-TE_Ys4iwM",
    "artist": "One Direction",
    "title": "Story of My Life",
@@ -3905,19 +3908,6 @@
    ]
   },
   {
-   "id": "5NPBIwQyPWE",
-   "artist": "Avril Lavigne",
-   "title": "Complicated",
-   "views": 932482361,
-   "region": "global",
-   "year": 2010,
-   "genres": [
-    "pop",
-    "rock",
-    "dance"
-   ]
-  },
-  {
    "id": "Ri7-vnrJD3k",
    "artist": "Adele",
    "title": "Set Fire to the Rain",
@@ -4110,6 +4100,18 @@
    "genres": [
     "ballad",
     "pop"
+   ]
+  },
+  {
+   "id": "gl1aHhXnN1k",
+   "artist": "Ariana Grande",
+   "title": "thank u, next",
+   "views": 898220650,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "pop",
+    "rnb"
    ]
   },
   {
@@ -4445,6 +4447,18 @@
    "genres": [
     "electronic",
     "pop"
+   ]
+  },
+  {
+   "id": "o_1aF54DO60",
+   "artist": "Lana Del Rey",
+   "title": "Young and Beautiful",
+   "views": 843200593,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "rock",
+    "indie"
    ]
   },
   {
@@ -6851,6 +6865,18 @@
    ]
   },
   {
+   "id": "il9nqWw9W3Y",
+   "artist": "Demi Lovato",
+   "title": "Cool for the Summer",
+   "views": 564554063,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "pop",
+    "hiphop"
+   ]
+  },
+  {
    "id": "tk36ovCMsU8",
    "artist": "Marshmello",
    "title": "Silence (feat. Khalid)",
@@ -6858,6 +6884,19 @@
    "region": "global",
    "year": 2017,
    "genres": [
+    "electronic"
+   ]
+  },
+  {
+   "id": "oh2LWWORoiM",
+   "artist": "Tove Lo",
+   "title": "Habits (Stay High)",
+   "views": 562273867,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "indie",
+    "pop",
     "electronic"
    ]
   },
@@ -7215,6 +7254,17 @@
    "year": 2012,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "EgBJmlPo8Xw",
+   "artist": "Billie Eilish",
+   "title": "everything i wanted",
+   "views": 539633861,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "indie"
    ]
   },
   {
@@ -9813,14 +9863,14 @@
   },
   {
    "id": "UXxRyNvTPr8",
-   "artist": "Mariah Carey, Boyz II Men",
+   "artist": "Mariah Carey",
    "title": "One Sweet Day",
-   "views": 401757504,
+   "views": 403046528,
    "region": "global",
    "year": 2009,
    "genres": [
-    "rnb",
-    "ballad"
+    "ballad",
+    "rnb"
    ]
   },
   {
@@ -14116,17 +14166,6 @@
    ]
   },
   {
-   "id": "a01QQZyl-_I",
-   "artist": "Queen",
-   "title": "Under Pressure (feat. David Bowie)",
-   "views": 273852094,
-   "region": "global",
-   "year": 2008,
-   "genres": [
-    "rock"
-   ]
-  },
-  {
    "id": "ThlhSnRk21E",
    "artist": "DMX",
    "title": "Ruff Ryders' Anthem",
@@ -15145,6 +15184,17 @@
    "genres": [
     "pop",
     "ballad"
+   ]
+  },
+  {
+   "id": "-PZsSWwc9xA",
+   "artist": "Billie Eilish",
+   "title": "all the good girls go to hell",
+   "views": 253375896,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "dance"
    ]
   },
   {
@@ -17540,19 +17590,6 @@
    ]
   },
   {
-   "id": "AqQuRw0S6b4",
-   "artist": "Maroon 5",
-   "title": "This Love",
-   "views": 214966303,
-   "region": "global",
-   "year": 2018,
-   "genres": [
-    "pop",
-    "rock",
-    "ballad"
-   ]
-  },
-  {
    "id": "0OWj0CiM8WU",
    "artist": "OneRepublic",
    "title": "Love Runs Out",
@@ -18159,6 +18196,17 @@
    ]
   },
   {
+   "id": "lpxpHQ9ggUE",
+   "artist": "50 Cent",
+   "title": "Baby By Me",
+   "views": 206566955,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "hiphop"
+   ]
+  },
+  {
    "id": "5sye_VxmNZA",
    "artist": "Enrique Iglesias",
    "title": "Bailamos",
@@ -18251,17 +18299,6 @@
    "year": 2013,
    "genres": [
     "pop"
-   ]
-  },
-  {
-   "id": "lpxpHQ9ggUE",
-   "artist": "50 Cent",
-   "title": "Baby By Me ft. Ne-Yo",
-   "views": 204938274,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "hiphop"
    ]
   },
   {
@@ -18398,17 +18435,6 @@
    "year": 2009,
    "genres": [
     "latin"
-   ]
-  },
-  {
-   "id": "D4INE2zO9OU",
-   "artist": "Red Hot Chili Peppers",
-   "title": "Can't Stop",
-   "views": 202681389,
-   "region": "global",
-   "year": 2014,
-   "genres": [
-    "rock"
    ]
   },
   {
@@ -19239,6 +19265,17 @@
    ]
   },
   {
+   "id": "uBwk106e3es",
+   "artist": "Aventura",
+   "title": "Un Beso",
+   "views": 191560106,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "fwrY0D2ACNk",
    "artist": "Rae Sremmurd",
    "title": "Throw Sum Mo ft. Nicki Minaj, Young Thug",
@@ -19807,6 +19844,17 @@
     "dance",
     "electronic",
     "pop"
+   ]
+  },
+  {
+   "id": "z2pt4CN4rhc",
+   "artist": "Aventura",
+   "title": "Mi Corazoncito",
+   "views": 183160982,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -21082,17 +21130,6 @@
    "year": 2016,
    "genres": [
     "latin"
-   ]
-  },
-  {
-   "id": "_UwWYtLWEZg",
-   "artist": "Sleeping With Sirens",
-   "title": "If You Can't Hang",
-   "views": 171078254,
-   "region": "global",
-   "year": 2011,
-   "genres": [
-    "rock"
    ]
   },
   {
@@ -22670,7 +22707,7 @@
   },
   {
    "id": "XSbZidsgMfw",
-   "artist": "Tyler The Creator",
+   "artist": "Tyler, The Creator",
    "title": "Yonkers",
    "views": 154704808,
    "region": "global",
@@ -23363,6 +23400,17 @@
    ]
   },
   {
+   "id": "p7QYo-9SlP0",
+   "artist": "Ricky Martin",
+   "title": "Vuelve",
+   "views": 149483475,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "h_m-BjrxmgI",
    "artist": "Plain White T's",
    "title": "Hey There Delilah",
@@ -23541,6 +23589,17 @@
    "year": 2013,
    "genres": [
     "indie"
+   ]
+  },
+  {
+   "id": "y2bVIBwpCTA",
+   "artist": "The Jackson 5",
+   "title": "I Want You Back",
+   "views": 148032379,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -24666,6 +24725,17 @@
    "year": 2015,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "C8QJmI_V3j4",
+   "artist": "Sade",
+   "title": "By Your Side",
+   "views": 138933321,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -26073,6 +26143,17 @@
    "views": 128177249,
    "region": "global",
    "year": 2019,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
+   "id": "M2VBmHOYpV8",
+   "artist": "Depeche Mode",
+   "title": "Policy of Truth",
+   "views": 128095032,
+   "region": "global",
+   "year": 2009,
    "genres": [
     "electronic"
    ]
@@ -27694,6 +27775,17 @@
    ]
   },
   {
+   "id": "k1ATPhkVWi0",
+   "artist": "Billie Eilish",
+   "title": "my strange addiction",
+   "views": 117066284,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "dance"
+   ]
+  },
+  {
    "id": "j9B-WjuoPJ0",
    "artist": "Chino & Nacho",
    "title": "Andas En Mi Cabeza",
@@ -28115,17 +28207,6 @@
    "year": 2019,
    "genres": [
     "latin"
-   ]
-  },
-  {
-   "id": "mFNaFeIm4bU",
-   "artist": "Tyler The Creator",
-   "title": "She (feat. Frank Ocean)",
-   "views": 114737296,
-   "region": "global",
-   "year": 2011,
-   "genres": [
-    "indie"
    ]
   },
   {
@@ -31856,6 +31937,17 @@
    ]
   },
   {
+   "id": "8aShfolR6w8",
+   "artist": "Kendrick Lamar",
+   "title": "i",
+   "views": 95933925,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "hiphop"
+   ]
+  },
+  {
    "id": "7akWlwsCJXU",
    "artist": "Ariana Queaño",
    "title": "Passenger Seat by Stephen Speaks",
@@ -32171,17 +32263,6 @@
    "views": 94484432,
    "region": "global",
    "year": 2012,
-   "genres": [
-    "indie"
-   ]
-  },
-  {
-   "id": "wIgmyE5Juzw",
-   "artist": "Wallows",
-   "title": "Are You Bored Yet? (feat. Clairo)",
-   "views": 94330696,
-   "region": "global",
-   "year": 2019,
    "genres": [
     "indie"
    ]
@@ -33474,6 +33555,17 @@
    "year": 2009,
    "genres": [
     "ballad"
+   ]
+  },
+  {
+   "id": "UqLRqzTp6Rk",
+   "artist": "Muse",
+   "title": "Psycho",
+   "views": 88839358,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "rock"
    ]
   },
   {
@@ -38473,6 +38565,17 @@
    ]
   },
   {
+   "id": "p7FCgw_GlWc",
+   "artist": "Kanye West",
+   "title": "Famous",
+   "views": 69634355,
+   "region": "global",
+   "year": 2016,
+   "genres": [
+    "hiphop"
+   ]
+  },
+  {
    "id": "NNEgUPKxk7A",
    "artist": "Heavy D & The Boyz",
    "title": "Now That We Found Love ft. Aaron Hall",
@@ -39486,6 +39589,17 @@
    "genres": [
     "rnb",
     "hiphop"
+   ]
+  },
+  {
+   "id": "hfmY9Wlxx0o",
+   "artist": "Molotov",
+   "title": "Gimme Tha Power",
+   "views": 66581812,
+   "region": "global",
+   "year": 2008,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -45182,6 +45296,17 @@
    ]
   },
   {
+   "id": "_-QPvffO1gs",
+   "artist": "Depeche Mode",
+   "title": "It's No Good",
+   "views": 52312941,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "h3Yrhv33Zb8",
    "artist": "Aerosmith",
    "title": "Love In An Elevator",
@@ -50508,19 +50633,6 @@
    "aka": "2012"
   },
   {
-   "id": "W0VnPiyXSRQ",
-   "artist": "Kanye West",
-   "title": "All Falls Down",
-   "views": 42259814,
-   "region": "global",
-   "year": 2018,
-   "genres": [
-    "rnb",
-    "ballad",
-    "hiphop"
-   ]
-  },
-  {
    "id": "dscfeQOMuGw",
    "artist": "Monster Magnet",
    "title": "Space Lord",
@@ -50787,6 +50899,17 @@
    "year": 2021,
    "genres": [
     "rnb"
+   ]
+  },
+  {
+   "id": "N9XKLqGqwLA",
+   "artist": "Grimes",
+   "title": "Butterfly",
+   "views": 41851795,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "dance"
    ]
   },
   {
@@ -52051,6 +52174,17 @@
    ]
   },
   {
+   "id": "lDpnjE1LUvE",
+   "artist": "Nick Cave & the Bad Seeds",
+   "title": "Where the Wild Roses Grow",
+   "views": 39619844,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "jaiaaar88EM",
    "artist": "Def Leppard",
    "title": "Hysteria",
@@ -52082,17 +52216,6 @@
    "year": 2015,
    "genres": [
     "rock"
-   ]
-  },
-  {
-   "id": "lDpnjE1LUvE",
-   "artist": "Nick Cave & the Bad Seeds",
-   "title": "Where The Wild Roses Grow (feat. Kylie Minogue)",
-   "views": 39533546,
-   "region": "global",
-   "year": 2010,
-   "genres": [
-    "ballad"
    ]
   },
   {
@@ -55060,6 +55183,17 @@
    ]
   },
   {
+   "id": "C2dEwY0xzcI",
+   "artist": "Al Green",
+   "title": "How Can You Mend a Broken Heart",
+   "views": 35178848,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "T0BlXy3Roj4",
    "artist": "Method Man",
    "title": "Bring The Pain",
@@ -55257,6 +55391,17 @@
    "year": 2019,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "w9rzz4pDFwA",
+   "artist": "Kanye West",
+   "title": "Saint Pablo",
+   "views": 34849651,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "hiphop"
    ]
   },
   {
@@ -55840,6 +55985,17 @@
    "year": 2018,
    "genres": [
     "hiphop"
+   ]
+  },
+  {
+   "id": "UepDL4bkgKQ",
+   "artist": "Vaya Con Dios",
+   "title": "What's a Woman",
+   "views": 34072422,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -56757,6 +56913,17 @@
    ]
   },
   {
+   "id": "bRt5z880CFY",
+   "artist": "Daft Punk",
+   "title": "Superheroes",
+   "views": 32839356,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "ZY3X8cxEfzk",
    "artist": "Next",
    "title": "Wifey",
@@ -56969,6 +57136,17 @@
    ]
   },
   {
+   "id": "2s5xdY6MCeI",
+   "artist": "Taylor Swift",
+   "title": "the last great american dynasty",
+   "views": 32624283,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "-u6DvRyyKGU",
    "artist": "Interpol",
    "title": "All The Rage Back Home",
@@ -57033,6 +57211,17 @@
    "genres": [
     "rock",
     "indie"
+   ]
+  },
+  {
+   "id": "Fjufjv4rH0s",
+   "artist": "Stevie Wonder",
+   "title": "My Cherie Amour",
+   "views": 32504775,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -60167,15 +60356,6 @@
    "year": 2010,
    "genres": [],
    "aka": "MC몽"
-  },
-  {
-   "id": "2TEAh5SHZGs",
-   "artist": "Ariana Grande",
-   "title": "Santa Tell Me",
-   "views": 113255897,
-   "region": "kr",
-   "year": 2017,
-   "genres": []
   },
   {
    "id": "pJ-IGZKyfpU",

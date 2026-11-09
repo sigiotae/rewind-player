@@ -2589,7 +2589,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Baby By Me"
+  "track": "Baby By Me",
+  "video": {
+   "id": "lpxpHQ9ggUE",
+   "published": "2009-11-24T12:14:42Z",
+   "views": 206566955,
+   "ytTitle": "50 Cent - Baby By Me (Official Music Video) ft. Ne-Yo"
+  }
  },
  "50 cent - baby by me ft ne yo": {
   "artist": "50 Cent",
@@ -5446,7 +5452,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "How Can You Mend a Broken Heart"
+  "track": "How Can You Mend a Broken Heart",
+  "video": {
+   "id": "C2dEwY0xzcI",
+   "published": "2017-02-08T20:19:37Z",
+   "views": 35178848,
+   "ytTitle": "Al Green - For the Good Times (Official Audio)"
+  }
  },
  "al green - let s stay together": {
   "artist": "Al Green",
@@ -7041,7 +7053,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Dreams Tonite"
+  "track": "Dreams Tonite",
+  "video": {
+   "id": "ZXu6q-6JKjA",
+   "published": "2017-09-13T13:37:45Z",
+   "views": 8800153,
+   "ytTitle": "Alvvays - Dreams Tonite [Official Video]"
+  }
  },
  "alvvays - party police": {
   "artist": "Alvvays",
@@ -7199,7 +7217,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Love Is a Losing Game"
+  "track": "Love Is a Losing Game",
+  "video": {
+   "id": "aatZ9VSF7Mc",
+   "published": "2011-12-05T09:00:00Z",
+   "views": 13095051,
+   "ytTitle": "Amy Winehouse - Love Is A Losing Game (Live on Other Voices, 2006)"
+  }
  },
  "amy winehouse - me mr jones": {
   "artist": "Amy Winehouse",
@@ -7300,7 +7324,13 @@
   "genres": [
    "latin"
   ],
-  "track": "1977"
+  "track": "1977",
+  "video": {
+   "id": "yiQ7S38nKog",
+   "published": "2010-02-20T02:13:31Z",
+   "views": 22893004,
+   "ytTitle": "Ana Tijoux - 1977 (Official Music Video)"
+  }
  },
  "anah - amnesia": {
   "artist": "Anahí",
@@ -8232,7 +8262,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Fingerbib"
+  "track": "Fingerbib",
+  "video": {
+   "id": "Sz0FxOZk_L4",
+   "published": "2024-03-01T18:24:43Z",
+   "views": 2061114,
+   "ytTitle": "Fingerbib"
+  }
  },
  "aphex twin - flim": {
   "artist": "Aphex Twin",
@@ -9098,7 +9134,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "i wish i hated you"
+  "track": "i wish i hated you",
+  "video": {
+   "id": "T5k2-0yRzKc",
+   "published": "2024-03-08T05:00:24Z",
+   "views": 12150683,
+   "ytTitle": "Ariana Grande - i wish i hated you (lyric visualizer)"
+  }
  },
  "ariana grande - imagine": {
   "artist": "Ariana Grande",
@@ -10275,7 +10317,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Mi Corazoncito"
+  "track": "Mi Corazoncito",
+  "video": {
+   "id": "z2pt4CN4rhc",
+   "published": "2009-07-23T23:23:07Z",
+   "views": 183160982,
+   "ytTitle": "Aventura - Mi corazoncito"
+  }
  },
  "aventura - obsesion": {
   "artist": "Aventura",
@@ -10323,7 +10371,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Un Beso"
+  "track": "Un Beso",
+  "video": {
+   "id": "uBwk106e3es",
+   "published": "2009-07-23T22:07:58Z",
+   "views": 191560106,
+   "ytTitle": "Aventura - Un Beso"
+  }
  },
  "aventura - yo quisiera amarla": {
   "artist": "Aventura",
@@ -12718,7 +12772,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Silver Soul"
+  "track": "Silver Soul",
+  "video": {
+   "id": "njbmwfndFH4",
+   "published": "2010-03-04T21:18:49Z",
+   "views": 3508534,
+   "ytTitle": "Beach House - Silver Soul [OFFICIAL VIDEO]"
+  }
  },
  "beach house - space song": {
   "artist": "Beach House",
@@ -14974,7 +15034,13 @@
   "genres": [
    "dance"
   ],
-  "track": "all the good girls go to hell"
+  "track": "all the good girls go to hell",
+  "video": {
+   "id": "-PZsSWwc9xA",
+   "published": "2019-09-04T18:00:10Z",
+   "views": 253375896,
+   "ytTitle": "Billie Eilish - all the good girls go to hell"
+  }
  },
  "billie eilish - bad guy": {
   "artist": "Billie Eilish",
@@ -15038,14 +15104,26 @@
   "genres": [
    "indie"
   ],
-  "track": "everything i wanted"
+  "track": "everything i wanted",
+  "video": {
+   "id": "EgBJmlPo8Xw",
+   "published": "2020-01-23T20:00:02Z",
+   "views": 539633861,
+   "ytTitle": "Billie Eilish - everything i wanted"
+  }
  },
  "billie eilish - halley s comet": {
   "artist": "Billie Eilish",
   "genres": [
    "ballad"
   ],
-  "track": "Halley's Comet"
+  "track": "Halley's Comet",
+  "video": {
+   "id": "geUYm3f6ZA4",
+   "published": "2021-07-30T04:00:27Z",
+   "views": 29431944,
+   "ytTitle": "Billie Eilish - Halley’s Comet (Official Lyric Video)"
+  }
  },
  "billie eilish - i love you": {
   "artist": "Billie Eilish",
@@ -15100,7 +15178,13 @@
   "genres": [
    "dance"
   ],
-  "track": "my strange addiction"
+  "track": "my strange addiction",
+  "video": {
+   "id": "k1ATPhkVWi0",
+   "published": "2019-03-28T10:05:42Z",
+   "views": 117066284,
+   "ytTitle": "my strange addiction"
+  }
  },
  "billie eilish - nda": {
   "artist": "Billie Eilish",
@@ -15469,7 +15553,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Pluto"
+  "track": "Pluto",
+  "video": {
+   "id": "GmwZdlUSerU",
+   "published": "2007-09-20T20:21:48Z",
+   "views": 429292,
+   "ytTitle": "björk: pluto"
+  }
  },
  "bj rk - possibly maybe": {
   "artist": "Björk",
@@ -23401,7 +23491,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Black Roses"
+  "track": "Black Roses",
+  "video": {
+   "id": "GZGDS7B393o",
+   "published": "2013-04-23T16:28:14Z",
+   "views": 231602,
+   "ytTitle": "Charli XCX - Black Roses (HD)"
+  }
  },
  "charli xcx - boom clap": {
   "artist": "Charli xcx",
@@ -23748,7 +23844,13 @@
   "genres": [
    "latin"
   ],
-  "track": "La Llorona"
+  "track": "La Llorona",
+  "video": {
+   "id": "mwNBa40y2oA",
+   "published": "2017-11-09T10:46:30Z",
+   "views": 15474759,
+   "ytTitle": "Chavela Vargas - La Llorona"
+  }
  },
  "chayanne - bailando bachata": {
   "artist": "Chayanne",
@@ -28685,7 +28787,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Superheroes"
+  "track": "Superheroes",
+  "video": {
+   "id": "bRt5z880CFY",
+   "published": "2009-02-26T20:48:12Z",
+   "views": 32839356,
+   "ytTitle": "Daft Punk - Superheroes (Official Video)"
+  }
  },
  "daft punk - technologic": {
   "artist": "Daft Punk",
@@ -30726,7 +30834,13 @@
   "genres": [
    "rock"
   ],
-  "track": "976-EVIL"
+  "track": "976-EVIL",
+  "video": {
+   "id": "y8Fy2HcuVcU",
+   "published": "2020-05-08T20:23:46Z",
+   "views": 5349435,
+   "ytTitle": "Deftones – 976-EVIL (Official Visualizer)"
+  }
  },
  "deftones - be quiet and drive": {
   "artist": "Deftones",
@@ -31246,7 +31360,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "It's No Good"
+  "track": "It's No Good",
+  "video": {
+   "id": "_-QPvffO1gs",
+   "published": "2009-03-04T16:39:51Z",
+   "views": 52312941,
+   "ytTitle": "Depeche Mode - It's No Good (Official Video)"
+  }
  },
  "depeche mode - personal jesus": {
   "artist": "Depeche Mode",
@@ -31260,7 +31380,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Policy of Truth"
+  "track": "Policy of Truth",
+  "video": {
+   "id": "M2VBmHOYpV8",
+   "published": "2009-10-27T01:51:18Z",
+   "views": 128095032,
+   "ytTitle": "Depeche Mode - Policy of Truth (Official Video)"
+  }
  },
  "depeche mode - precious": {
   "artist": "Depeche Mode",
@@ -33360,7 +33486,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Where'd All The Time Go?"
+  "track": "Where'd All The Time Go?",
+  "video": {
+   "id": "bmZQpbNK7t4",
+   "published": "2010-08-13T22:35:22Z",
+   "views": 7241137,
+   "ytTitle": "Dr. Dog \"Where'd All The Time Go?\""
+  }
  },
  "dr dre - forgot about dre": {
   "artist": "Dr. Dre",
@@ -45381,7 +45513,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Butterfly"
+  "track": "Butterfly",
+  "video": {
+   "id": "N9XKLqGqwLA",
+   "published": "2015-03-09T06:42:26Z",
+   "views": 41851795,
+   "ytTitle": "Grimes - REALiTi"
+  }
  },
  "grimes - california": {
   "artist": "Grimes",
@@ -56427,7 +56565,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Before the Dawn"
+  "track": "Before the Dawn",
+  "video": {
+   "id": "1Qjoffl_Lgo",
+   "published": "2018-05-03T07:00:02Z",
+   "views": 2723486,
+   "ytTitle": "Judas Priest - Before the Dawn (Audio)"
+  }
  },
  "juice wrld - come go": {
   "artist": "Juice WRLD",
@@ -58383,7 +58527,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Clique"
+  "track": "Clique",
+  "video": {
+   "id": "aUAPsa5NfR4",
+   "published": "2018-07-24T18:23:16Z",
+   "views": 20465214,
+   "ytTitle": "Clique"
+  }
  },
  "kanye west - dark fantasy": {
   "artist": "Kanye West",
@@ -58442,7 +58592,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Famous"
+  "track": "Famous",
+  "video": {
+   "id": "p7FCgw_GlWc",
+   "published": "2016-07-01T15:30:00Z",
+   "views": 69634355,
+   "ytTitle": "Kanye West - Famous"
+  }
  },
  "kanye west - father stretch my hands pt 1": {
   "artist": "Kanye West",
@@ -58604,7 +58760,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Hold My Liquor"
+  "track": "Hold My Liquor",
+  "video": {
+   "id": "bvBfiRWLj_0",
+   "published": "2018-07-21T09:54:51Z",
+   "views": 17055812,
+   "ytTitle": "Hold My Liquor"
+  }
  },
  "kanye west - homecoming": {
   "artist": "Kanye West",
@@ -58726,7 +58888,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "New Slaves"
+  "track": "New Slaves",
+  "video": {
+   "id": "vQ0u09mFodw",
+   "published": "2018-07-21T09:54:34Z",
+   "views": 16357638,
+   "ytTitle": "New Slaves"
+  }
  },
  "kanye west - on sight": {
   "artist": "Kanye West",
@@ -58827,7 +58995,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Saint Pablo"
+  "track": "Saint Pablo",
+  "video": {
+   "id": "w9rzz4pDFwA",
+   "published": "2018-07-24T15:39:37Z",
+   "views": 34849651,
+   "ytTitle": "Saint Pablo"
+  }
  },
  "kanye west - send it up": {
   "artist": "Kanye West",
@@ -60580,7 +60754,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "i"
+  "track": "i",
+  "video": {
+   "id": "8aShfolR6w8",
+   "published": "2014-11-04T16:55:00Z",
+   "views": 95933925,
+   "ytTitle": "Kendrick Lamar - i (Official Video)"
+  }
  },
  "kendrick lamar - king kunta": {
   "artist": "Kendrick Lamar",
@@ -60937,7 +61117,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Trampoline"
+  "track": "Trampoline",
+  "video": {
+   "id": "9Qmwsg2pyEc",
+   "published": "2016-10-25T07:16:09Z",
+   "views": 4241605,
+   "ytTitle": "Kero Kero Bonito - Trampoline"
+  }
  },
  "kesha - take it off": {
   "artist": "Kesha",
@@ -63545,7 +63731,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Bloody Mary"
+  "track": "Bloody Mary",
+  "video": {
+   "id": "MsXdUtlDVhk",
+   "published": "2022-12-17T17:00:31Z",
+   "views": 736398024,
+   "ytTitle": "Lady Gaga - Bloody Mary (TikTok Remix | Speed Up) | Wednesday Dance Scene"
+  }
  },
  "lady gaga - born this way": {
   "artist": "Lady Gaga",
@@ -63785,7 +63977,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Shadow of a Man"
+  "track": "Shadow of a Man",
+  "video": {
+   "id": "LJEED4n1dP4",
+   "published": "2025-03-07T05:00:18Z",
+   "views": 14220097,
+   "ytTitle": "Lady Gaga - Shadow Of A Man (Official Audio)"
+  }
  },
  "lady gaga - shallow": {
   "artist": "Lady Gaga",
@@ -64347,7 +64545,8 @@
  "lana del rey - young and beautiful": {
   "artist": "Lana Del Rey",
   "genres": [
-   "rock"
+   "rock",
+   "indie"
   ],
   "track": "Young and Beautiful",
   "video": {
@@ -67498,7 +67697,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Rockstar"
+  "track": "Rockstar",
+  "video": {
+   "id": "hbcGx4MGUMg",
+   "published": "2024-06-28T00:00:07Z",
+   "views": 418654988,
+   "ytTitle": "LISA - ROCKSTAR (Official Music Video)"
+  }
  },
  "lisa - the first take": {
   "artist": "LiSA",
@@ -71767,7 +71972,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "One Sweet Day"
+  "track": "One Sweet Day",
+  "video": {
+   "id": "UXxRyNvTPr8",
+   "published": "2009-11-24T11:34:37Z",
+   "views": 403046528,
+   "ytTitle": "Mariah Carey, Boyz II Men - One Sweet Day (Official Video)"
+  }
  },
  "mariah carey - through the rain": {
   "artist": "Mariah Carey",
@@ -76812,7 +77023,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Gimme Tha Power"
+  "track": "Gimme Tha Power",
+  "video": {
+   "id": "hfmY9Wlxx0o",
+   "published": "2008-02-28T23:05:25Z",
+   "views": 66581812,
+   "ytTitle": "molotov - gimme tha  power"
+  }
  },
  "momoland - baam": {
   "artist": "MOMOLAND",
@@ -77324,7 +77541,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Body"
+  "track": "Body",
+  "video": {
+   "id": "4o0WYiK52Dg",
+   "published": "2013-05-13T19:02:03Z",
+   "views": 28297063,
+   "ytTitle": "Mother Mother - Body"
+  }
  },
  "mother mother - burning pile": {
   "artist": "Mother Mother",
@@ -77804,7 +78027,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Psycho"
+  "track": "Psycho",
+  "video": {
+   "id": "UqLRqzTp6Rk",
+   "published": "2015-03-12T17:47:19Z",
+   "views": 88839358,
+   "ytTitle": "Muse - Psycho [Official Lyric Video]"
+  }
  },
  "muse - resistance": {
   "artist": "Muse",
@@ -78358,14 +78587,26 @@
   "genres": [
    "rock"
   ],
-  "track": "Planetary (GO!)"
+  "track": "Planetary (GO!)",
+  "video": {
+   "id": "UvfNmXbVHi4",
+   "published": "2011-03-21T18:15:33Z",
+   "views": 20268054,
+   "ytTitle": "My Chemical Romance - Planetary (GO!) [Official Music Video] [HD]"
+  }
  },
  "my chemical romance - sleep": {
   "artist": "My Chemical Romance",
   "genres": [
    "rock"
   ],
-  "track": "Sleep"
+  "track": "Sleep",
+  "video": {
+   "id": "RSAoJJzVXYY",
+   "published": "2016-09-23T20:16:26Z",
+   "views": 7111313,
+   "ytTitle": "My Chemical Romance - Sleep"
+  }
  },
  "my chemical romance - teenagers": {
   "artist": "My Chemical Romance",
@@ -80730,7 +80971,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Where the Wild Roses Grow"
+  "track": "Where the Wild Roses Grow",
+  "video": {
+   "id": "lDpnjE1LUvE",
+   "published": "2010-03-13T05:59:50Z",
+   "views": 39619844,
+   "ytTitle": "Nick Cave & The Bad Seeds ft. Kylie Minogue - Where The Wild Roses Grow (Official 4K Video)"
+  }
  },
  "nick cave the bad seeds ft kylie minogue - where the wild roses grow": {
   "artist": "Nick Cave & The Bad Seeds ft. Kylie Minogue",
@@ -89092,7 +89339,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Electioneering"
+  "track": "Electioneering",
+  "video": {
+   "id": "3DtgWrFTtQk",
+   "published": "2016-04-06T21:51:10Z",
+   "views": 4829693,
+   "ytTitle": "Electioneering"
+  }
  },
  "radiohead - everything in its right place": {
   "artist": "Radiohead",
@@ -89176,7 +89429,13 @@
   "genres": [
    "rock"
   ],
-  "track": "India Rubber"
+  "track": "India Rubber",
+  "video": {
+   "id": "zB92UBjr9UE",
+   "published": "2019-12-18T11:29:33Z",
+   "views": 2500815,
+   "ytTitle": "India Rubber"
+  }
  },
  "radiohead - jigsaw falling into place": {
   "artist": "Radiohead",
@@ -89300,7 +89559,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Planet Telex"
+  "track": "Planet Telex",
+  "video": {
+   "id": "09EsZXrKEP4",
+   "published": "2019-12-18T11:31:57Z",
+   "views": 787438,
+   "ytTitle": "Planet Telex"
+  }
  },
  "radiohead - reckoner": {
   "artist": "Radiohead",
@@ -89374,7 +89639,13 @@
   "genres": [
    "rock"
   ],
-  "track": "There, There"
+  "track": "There, There",
+  "video": {
+   "id": "7AQSLozK7aA",
+   "published": "2008-07-18T16:05:33Z",
+   "views": 28674820,
+   "ytTitle": "Radiohead - There, There"
+  }
  },
  "radiohead - thinking about you": {
   "artist": "Radiohead",
@@ -91957,7 +92228,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Vuelve"
+  "track": "Vuelve",
+  "video": {
+   "id": "p7QYo-9SlP0",
+   "published": "2009-10-03T04:53:48Z",
+   "views": 149483475,
+   "ytTitle": "Ricky Martin - Vuelve (Video Oficial)"
+  }
  },
  "ricky montgomery - line without a hook": {
   "artist": "Ricky Montgomery",
@@ -93822,7 +94099,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Be That Easy"
+  "track": "Be That Easy",
+  "video": {
+   "id": "8oXRagyrv4U",
+   "published": "2016-06-29T07:00:00Z",
+   "views": 2866368,
+   "ytTitle": "Sade - Be That Easy (Audio)"
+  }
  },
  "sade - bullet proof soul": {
   "artist": "Sade",
@@ -93836,7 +94119,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "By Your Side"
+  "track": "By Your Side",
+  "video": {
+   "id": "C8QJmI_V3j4",
+   "published": "2009-12-12T02:05:56Z",
+   "views": 138933321,
+   "ytTitle": "Sade - By Your Side - Official - 2000"
+  }
  },
  "sade - cherish the day": {
   "artist": "Sade",
@@ -94848,7 +95137,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Lorelei"
+  "track": "Lorelei",
+  "video": {
+   "id": "9UrQ8u60-OA",
+   "published": "2012-03-19T00:05:38Z",
+   "views": 16080896,
+   "ytTitle": "Scorpions - Lorelei"
+  }
  },
  "scorpions - no one like you": {
   "artist": "Scorpions",
@@ -97446,7 +97741,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Nunca Me Acuerdo de Olvidarte"
+  "track": "Nunca Me Acuerdo de Olvidarte",
+  "video": {
+   "id": "o3mP3mJDL2k",
+   "published": "2014-01-31T01:35:01Z",
+   "views": 1447881864,
+   "ytTitle": "Shakira - Can't Remember to Forget You (Official Video) ft. Rihanna"
+  }
  },
  "shakira - objection": {
   "artist": "Shakira",
@@ -102002,7 +102303,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "My Cherie Amour"
+  "track": "My Cherie Amour",
+  "video": {
+   "id": "Fjufjv4rH0s",
+   "published": "2018-12-12T12:20:05Z",
+   "views": 32504775,
+   "ytTitle": "My Cherie Amour"
+  }
  },
  "stevie wonder - ordinary pain": {
   "artist": "Stevie Wonder",
@@ -102037,7 +102344,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Sir Duke"
+  "track": "Sir Duke",
+  "video": {
+   "id": "6sIjSNTS7Fs",
+   "published": "2007-11-25T08:41:58Z",
+   "views": 18873820,
+   "ytTitle": "Stevie Wonder - Sir Duke"
+  }
  },
  "stevie wonder - summer soft": {
   "artist": "Stevie Wonder",
@@ -105292,7 +105605,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Dancing With Our Hands Tied"
+  "track": "Dancing With Our Hands Tied",
+  "video": {
+   "id": "erGyUphZSt8",
+   "published": "2018-08-15T22:13:48Z",
+   "views": 24225691,
+   "ytTitle": "Dancing With Our Hands Tied"
+  }
  },
  "taylor swift - delicate": {
   "artist": "Taylor Swift",
@@ -105647,7 +105966,13 @@
   "genres": [
    "indie"
   ],
-  "track": "the last great american dynasty"
+  "track": "the last great american dynasty",
+  "video": {
+   "id": "2s5xdY6MCeI",
+   "published": "2020-07-24T04:00:01Z",
+   "views": 32624283,
+   "ytTitle": "Taylor Swift - the last great american dynasty (Official Lyric Video)"
+  }
  },
  "taylor swift - the man": {
   "artist": "Taylor Swift",
@@ -106326,7 +106651,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Since I Left You"
+  "track": "Since I Left You",
+  "video": {
+   "id": "wpqm-05R2Jk",
+   "published": "2009-10-21T13:33:10Z",
+   "views": 18379338,
+   "ytTitle": "The Avalanches - Since I Left You"
+  }
  },
  "the beatles - and i love her": {
   "artist": "The Beatles",
@@ -107483,7 +107814,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "I Want You Back"
+  "track": "I Want You Back",
+  "video": {
+   "id": "y2bVIBwpCTA",
+   "published": "2020-06-14T19:00:08Z",
+   "views": 148032379,
+   "ytTitle": "The Jackson 5 \"I Want You Back\" on The Ed Sullivan Show"
+  }
  },
  "the jackson 5 - who s lovin you": {
   "artist": "The Jackson 5",
@@ -109106,14 +109443,26 @@
   "genres": [
    "rnb"
   ],
-  "track": "You're a Big Girl Now"
+  "track": "You're a Big Girl Now",
+  "video": {
+   "id": "WWqcMhv_Hts",
+   "published": "2008-01-19T22:55:54Z",
+   "views": 4199281,
+   "ytTitle": "The Stylistics - You're A Big Girl Now"
+  }
  },
  "the sundays - here s where the story ends": {
   "artist": "The Sundays",
   "genres": [
    "indie"
   ],
-  "track": "Here's Where the Story Ends"
+  "track": "Here's Where the Story Ends",
+  "video": {
+   "id": "FHsip5xOenQ",
+   "published": "2009-11-21T16:00:30Z",
+   "views": 14316615,
+   "ytTitle": "The Sundays - Here's Where The Story Ends"
+  }
  },
  "the sundays - my finest hour": {
   "artist": "The Sundays",
@@ -114244,7 +114593,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Hollywood Forever"
+  "track": "Hollywood Forever",
+  "video": {
+   "id": "UNYqwpx7Cys",
+   "published": "2025-06-27T15:59:06Z",
+   "views": 2051548,
+   "ytTitle": "underscores — Music"
+  }
  },
  "underscores - old money bitch": {
   "artist": "underscores",
@@ -115221,7 +115576,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "What's a Woman"
+  "track": "What's a Woman",
+  "video": {
+   "id": "UepDL4bkgKQ",
+   "published": "2015-05-07T21:34:55Z",
+   "views": 34072422,
+   "ytTitle": "Vaya Con Dios - What's A Woman 1990"
+  }
  },
  "velvet revolver - fall to pieces": {
   "artist": "Velvet Revolver",
