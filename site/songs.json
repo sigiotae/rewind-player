@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "genres": [
   {
    "id": "pop",
@@ -1077,6 +1077,17 @@
    "year": 2015,
    "genres": [
     "hiphop"
+   ]
+  },
+  {
+   "id": "Mtau4v6foHA",
+   "artist": "Carlos Vives",
+   "title": "Fruta Fresca",
+   "views": 2007326386,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -4923,7 +4934,8 @@
    "year": 2015,
    "genres": [
     "pop",
-    "hiphop"
+    "hiphop",
+    "rnb"
    ]
   },
   {
@@ -7763,6 +7775,17 @@
    ]
   },
   {
+   "id": "eXvBjCO19QY",
+   "artist": "2Pac",
+   "title": "Changes",
+   "views": 503276144,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "hiphop"
+   ]
+  },
+  {
    "id": "WDaNJW_jEBo",
    "artist": "Busta Rhymes, Mariah Carey",
    "title": "I Know What You Want ft. Flipmode Squad",
@@ -9811,6 +9834,17 @@
    "year": 2016,
    "genres": [
     "hiphop"
+   ]
+  },
+  {
+   "id": "-tn2S3kJlyU",
+   "artist": "Billie Eilish",
+   "title": "idontwannabeyouanymore",
+   "views": 405918105,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "indie"
    ]
   },
   {
@@ -12730,7 +12764,8 @@
    "region": "global",
    "year": 2008,
    "genres": [
-    "dance"
+    "dance",
+    "rock"
    ],
    "aka": "Hybrid Theory Meteora feat. Kiiara"
   },
@@ -13990,6 +14025,18 @@
    ]
   },
   {
+   "id": "5qF_qbaWt3Q",
+   "artist": "Linkin Park",
+   "title": "Waiting for the End",
+   "views": 279417740,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "rock"
+   ],
+   "aka": "Hybrid Theory Meteora feat. Kiiara"
+  },
+  {
    "id": "z5W7DVFKrcs",
    "artist": "Jennifer Lopez",
    "title": "Goin' In ft. Flo Rida",
@@ -14010,18 +14057,6 @@
    "genres": [
     "pop"
    ]
-  },
-  {
-   "id": "5qF_qbaWt3Q",
-   "artist": "Linkin Park",
-   "title": "Waiting For The End",
-   "views": 277974613,
-   "region": "global",
-   "year": 2010,
-   "genres": [
-    "rock"
-   ],
-   "aka": "Hybrid Theory Meteora feat. Kiiara"
   },
   {
    "id": "6rgStv12dwA",
@@ -16238,6 +16273,17 @@
    ]
   },
   {
+   "id": "UVadfCxNnoY",
+   "artist": "Doja Cat",
+   "title": "Rules",
+   "views": 235187535,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "hiphop"
+   ]
+  },
+  {
    "id": "9C6Y0NzuIis",
    "artist": "Dyland & Lenny",
    "title": "Nadie Te Amará Como Yo",
@@ -17037,6 +17083,17 @@
    ]
   },
   {
+   "id": "u1xrNaTO1bI",
+   "artist": "Depeche Mode",
+   "title": "Personal Jesus",
+   "views": 222193446,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "Nco_kh8xJDs",
    "artist": "Alice In Chains",
    "title": "Would?",
@@ -17686,6 +17743,17 @@
    "year": 2010,
    "genres": [
     "rock"
+   ]
+  },
+  {
+   "id": "Wpm07-BGJnE",
+   "artist": "Nicki Minaj",
+   "title": "Chun-Li",
+   "views": 213134977,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "hiphop"
    ]
   },
   {
@@ -20604,6 +20672,17 @@
    ]
   },
   {
+   "id": "Pmv8aQKO6k0",
+   "artist": "twenty one pilots",
+   "title": "Guns for Hands",
+   "views": 176402044,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "k2pwvr8p4vM",
    "artist": "Travis Scott",
    "title": "BUTTERFLY EFFECT",
@@ -20860,6 +20939,17 @@
    "views": 173648996,
    "region": "global",
    "year": 2010,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
+   "id": "imeXSRNRMeg",
+   "artist": "Celia Cruz",
+   "title": "La Negra Tiene Tumbao",
+   "views": 173607727,
+   "region": "global",
+   "year": 2009,
    "genres": [
     "latin"
    ]
@@ -22140,6 +22230,17 @@
    "year": 2015,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "cEXhZ8PwM-Y",
+   "artist": "Sam Cooke",
+   "title": "A Change Is Gonna Come",
+   "views": 160516887,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -24147,6 +24248,17 @@
    "year": 2009,
    "genres": [
     "ballad"
+   ]
+  },
+  {
+   "id": "mqqLoUcLX5I",
+   "artist": "Shakira",
+   "title": "Sale el Sol",
+   "views": 143139582,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -30904,6 +31016,17 @@
    ]
   },
   {
+   "id": "OORBa32WFcM",
+   "artist": "Billie Eilish",
+   "title": "NDA",
+   "views": 100392106,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "dance"
+   ]
+  },
+  {
    "id": "kUwG_iX2-2g",
    "artist": "Sebastián Yatra",
    "title": "Traicionera",
@@ -31496,6 +31619,17 @@
    ]
   },
   {
+   "id": "_KiRbcvdUCM",
+   "artist": "Shakira",
+   "title": "Moscas En La Casa",
+   "views": 97906397,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "bPJSsAr2iu0",
    "artist": "Hozier",
    "title": "Someone New",
@@ -31637,6 +31771,17 @@
    "views": 97393911,
    "region": "global",
    "year": 2009,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
+   "id": "I67cgXr6L6o",
+   "artist": "Shakira",
+   "title": "Donde Estas Corazon",
+   "views": 97348824,
+   "region": "global",
+   "year": 2012,
    "genres": [
     "latin"
    ]
@@ -34060,6 +34205,17 @@
    "year": 2010,
    "genres": [
     "rock"
+   ]
+  },
+  {
+   "id": "Io2hbcrAYBw",
+   "artist": "twenty one pilots",
+   "title": "The Hype",
+   "views": 86875057,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "indie"
    ]
   },
   {
@@ -40592,6 +40748,17 @@
    ]
   },
   {
+   "id": "OWbDJFtHl3w",
+   "artist": "Taylor Swift",
+   "title": "my tears ricochet",
+   "views": 64056724,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "vKPGxGCFgTs",
    "artist": "Westlife",
    "title": "Flying Without Wings",
@@ -41206,6 +41373,17 @@
    "year": 2009,
    "genres": [
     "rock"
+   ]
+  },
+  {
+   "id": "PMk8L9FNqnY",
+   "artist": "Drake",
+   "title": "Over My Dead Body",
+   "views": 62345354,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "hiphop"
    ]
   },
   {
@@ -42584,6 +42762,17 @@
    "genres": [
     "indie",
     "rock"
+   ]
+  },
+  {
+   "id": "EMAjgSJr4Jg",
+   "artist": "Thalía",
+   "title": "Piel Morena",
+   "views": 58688767,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -46802,6 +46991,17 @@
    ]
   },
   {
+   "id": "k1ljpLQ1V6Y",
+   "artist": "Sade",
+   "title": "Your Love Is King",
+   "views": 49142883,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "O4sQmZpRrtI",
    "artist": "Tony! Toni! Toné!",
    "title": "Whatever You Want",
@@ -47327,6 +47527,17 @@
    "year": 2009,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "Z1pmpDRrQhU",
+   "artist": "Ariana Grande",
+   "title": "ghostin",
+   "views": 48358197,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -49328,6 +49539,17 @@
    ]
   },
   {
+   "id": "TDyiREoBw0o",
+   "artist": "Aretha Franklin",
+   "title": "I Say a Little Prayer",
+   "views": 44579490,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "hnpILIIo9ek",
    "artist": "The Smiths",
    "title": "How Soon Is Now?",
@@ -50110,6 +50332,17 @@
    "genres": [
     "indie",
     "rock"
+   ]
+  },
+  {
+   "id": "w-HfMiue7-k",
+   "artist": "Olivia Rodrigo",
+   "title": "1 step forward, 3 steps back",
+   "views": 43073137,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "indie"
    ]
   },
   {
@@ -51143,6 +51376,17 @@
    "views": 41495931,
    "region": "global",
    "year": 2016,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
+   "id": "mmi60Bd4jSs",
+   "artist": "Daft Punk",
+   "title": "Da Funk",
+   "views": 41482161,
+   "region": "global",
+   "year": 2009,
    "genres": [
     "electronic"
    ]
@@ -52807,6 +53051,17 @@
    "views": 38546700,
    "region": "global",
    "year": 2013,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
+   "id": "EPesgQbItcQ",
+   "artist": "Shakira",
+   "title": "Objection (Tango)",
+   "views": 38537609,
+   "region": "global",
+   "year": 2018,
    "genres": [
     "latin"
    ]

@@ -1529,7 +1529,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Changes"
+  "track": "Changes",
+  "video": {
+   "id": "eXvBjCO19QY",
+   "published": "2011-07-05T07:00:00Z",
+   "views": 503276144,
+   "ytTitle": "2Pac - Changes ft. Talent"
+  }
  },
  "2pac - dear mama": {
   "artist": "2Pac",
@@ -4051,7 +4057,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Million Years Ago"
+  "track": "Million Years Ago",
+  "video": {
+   "id": "S8rO_XcnYdM",
+   "published": "2016-05-13T15:52:24Z",
+   "views": 21567891,
+   "ytTitle": "Adele - Million Years Ago (Efe Tekin Remix)"
+  }
  },
  "adele - rolling in the deep": {
   "artist": "Adele",
@@ -4292,7 +4304,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "I Don't Want to Miss a Thing - From \"Armageddon\" Soundtrack"
+  "track": "I Don't Want to Miss a Thing - From \"Armageddon\" Soundtrack",
+  "video": {
+   "id": "JkK8g6FMEXE",
+   "published": "2014-06-29T22:30:00Z",
+   "views": 783129869,
+   "ytTitle": "Aerosmith - I Don't Want to Miss a Thing (Official HD Video)"
+  }
  },
  "aerosmith - jaded": {
   "artist": "Aerosmith",
@@ -7230,7 +7248,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Me & Mr Jones"
+  "track": "Me & Mr Jones",
+  "video": {
+   "id": "8kvb-pJEeEI",
+   "published": "2018-07-26T22:17:02Z",
+   "views": 25995930,
+   "ytTitle": "Me & Mr Jones"
+  }
  },
  "amy winehouse - rehab": {
   "artist": "Amy Winehouse",
@@ -8931,7 +8955,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "I Say a Little Prayer"
+  "track": "I Say a Little Prayer",
+  "video": {
+   "id": "TDyiREoBw0o",
+   "published": "2021-05-06T11:59:47Z",
+   "views": 44579490,
+   "ytTitle": "Aretha Franklin - I Say A Little Prayer (Official Lyric Video)"
+  }
  },
  "aretha franklin - respect": {
   "artist": "Aretha Franklin",
@@ -9114,7 +9144,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "ghostin"
+  "track": "ghostin",
+  "video": {
+   "id": "Z1pmpDRrQhU",
+   "published": "2019-02-15T05:07:25Z",
+   "views": 48358197,
+   "ytTitle": "Ariana Grande - ghostin (Official Audio)"
+  }
  },
  "ariana grande - hampstead": {
   "artist": "Ariana Grande",
@@ -15144,7 +15180,13 @@
   "genres": [
    "indie"
   ],
-  "track": "idontwannabeyouanymore"
+  "track": "idontwannabeyouanymore",
+  "video": {
+   "id": "-tn2S3kJlyU",
+   "published": "2018-01-04T18:00:00Z",
+   "views": 405918105,
+   "ytTitle": "Billie Eilish - idontwannabeyouanymore (Official Vertical Video)"
+  }
  },
  "billie eilish - ilomilo": {
   "artist": "Billie Eilish",
@@ -15164,7 +15206,13 @@
   "genres": [
    "dance"
   ],
-  "track": "L’AMOUR DE MA VIE"
+  "track": "L’AMOUR DE MA VIE",
+  "video": {
+   "id": "am5FI9DkO80",
+   "published": "2024-05-17T04:00:02Z",
+   "views": 49417507,
+   "ytTitle": "Billie Eilish - L’AMOUR DE MA VIE (Official Lyric Video)"
+  }
  },
  "billie eilish - my future": {
   "artist": "Billie Eilish",
@@ -15191,7 +15239,13 @@
   "genres": [
    "dance"
   ],
-  "track": "NDA"
+  "track": "NDA",
+  "video": {
+   "id": "OORBa32WFcM",
+   "published": "2021-07-09T04:00:09Z",
+   "views": 100392106,
+   "ytTitle": "Billie Eilish - NDA (Official Music Video)"
+  }
  },
  "billie eilish - ocean eyes": {
   "artist": "Billie Eilish",
@@ -15520,7 +15574,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "It's Not Up to You"
+  "track": "It's Not Up to You",
+  "video": {
+   "id": "ryfCwiwNTYQ",
+   "published": "2014-08-18T23:44:44Z",
+   "views": 554099,
+   "ytTitle": "It's Not up to You"
+  }
  },
  "bj rk - j ga": {
   "artist": "Björk",
@@ -18504,7 +18564,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Blackout"
+  "track": "Blackout",
+  "video": {
+   "id": "PBZICTaUmU0",
+   "published": "2011-06-24T21:56:32Z",
+   "views": 18663216,
+   "ytTitle": "Breathe Carolina - Blackout Lyric Video"
+  }
  },
  "brenda russell - piano in the dark": {
   "artist": "Brenda Russell",
@@ -18911,7 +18977,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Shadow"
+  "track": "Shadow",
+  "video": {
+   "id": "rYVZImW_S-k",
+   "published": "2017-04-08T03:41:17Z",
+   "views": 1267262,
+   "ytTitle": "Shadow"
+  }
  },
  "britney spears - sometimes": {
   "artist": "Britney Spears",
@@ -22731,7 +22803,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Fruta Fresca"
+  "track": "Fruta Fresca",
+  "video": {
+   "id": "Mtau4v6foHA",
+   "published": "2017-07-28T07:00:01Z",
+   "views": 2007326386,
+   "ytTitle": "Carlos Vives, Sebastián Yatra - Robarte un Beso (Official Video)"
+  }
  },
  "carlos vives - la bicicleta": {
   "artist": "Carlos Vives",
@@ -23173,7 +23251,13 @@
   "genres": [
    "latin"
   ],
-  "track": "La Negra Tiene Tumbao"
+  "track": "La Negra Tiene Tumbao",
+  "video": {
+   "id": "imeXSRNRMeg",
+   "published": "2009-10-25T07:00:29Z",
+   "views": 173607727,
+   "ytTitle": "Celia Cruz - La Negra Tiene Tumbao (Official Video)"
+  }
  },
  "celia cruz - la vida es un carnaval": {
   "artist": "Celia Cruz",
@@ -23534,7 +23618,13 @@
   "genres": [
    "dance"
   ],
-  "track": "claws"
+  "track": "claws",
+  "video": {
+   "id": "WAo8X-rIt8k",
+   "published": "2020-05-01T19:00:13Z",
+   "views": 6629480,
+   "ytTitle": "Charli XCX - claws [Official Video]"
+  }
  },
  "charli xcx - detonate": {
   "artist": "Charli xcx",
@@ -23621,7 +23711,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Mean girls"
+  "track": "Mean girls",
+  "video": {
+   "id": "IKUQDMEBXN0",
+   "published": "2024-06-07T04:41:37Z",
+   "views": 2829977,
+   "ytTitle": "Charli xcx - Mean girls (official lyric video)"
+  }
  },
  "charli xcx - rewind": {
   "artist": "Charli xcx",
@@ -24338,7 +24434,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Fire Fly"
+  "track": "Fire Fly",
+  "video": {
+   "id": "pHHWPTs1zxg",
+   "published": "2012-07-24T07:00:10Z",
+   "views": 14741196,
+   "ytTitle": "Childish Gambino - Fire Fly"
+  }
  },
  "childish gambino - sober": {
   "artist": "Childish Gambino",
@@ -28577,14 +28679,26 @@
   "genres": [
    "electronic"
   ],
-  "track": "Contact"
+  "track": "Contact",
+  "video": {
+   "id": "JI5noh4OyXc",
+   "published": "2014-02-24T08:00:01Z",
+   "views": 9758377,
+   "ytTitle": "Daft Punk - Contact (Official Audio)"
+  }
  },
  "daft punk - da funk": {
   "artist": "Daft Punk",
   "genres": [
    "electronic"
   ],
-  "track": "Da Funk"
+  "track": "Da Funk",
+  "video": {
+   "id": "mmi60Bd4jSs",
+   "published": "2009-02-24T01:51:31Z",
+   "views": 41482161,
+   "ytTitle": "Daft Punk - Da Funk (Official Music Video Remastered)"
+  }
  },
  "daft punk - digital love": {
   "artist": "Daft Punk",
@@ -31373,7 +31487,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Personal Jesus"
+  "track": "Personal Jesus",
+  "video": {
+   "id": "u1xrNaTO1bI",
+   "published": "2009-10-27T01:48:20Z",
+   "views": 222193446,
+   "ytTitle": "Depeche Mode - Personal Jesus (Official Video)"
+  }
  },
  "depeche mode - policy of truth": {
   "artist": "Depeche Mode",
@@ -32902,7 +33022,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Rules"
+  "track": "Rules",
+  "video": {
+   "id": "UVadfCxNnoY",
+   "published": "2019-10-24T14:00:05Z",
+   "views": 235187535,
+   "ytTitle": "Doja Cat - Rules (Official Video)"
+  }
  },
  "doja cat - say so": {
   "artist": "Doja Cat",
@@ -33974,7 +34100,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Over My Dead Body"
+  "track": "Over My Dead Body",
+  "video": {
+   "id": "PMk8L9FNqnY",
+   "published": "2018-07-26T20:12:11Z",
+   "views": 62345354,
+   "ytTitle": "Over My Dead Body"
+  }
  },
  "drake - passionfruit": {
   "artist": "Drake",
@@ -37010,7 +37142,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Tides of Time"
+  "track": "Tides of Time",
+  "video": {
+   "id": "MFPn1lFDlyE",
+   "published": "2019-10-03T10:44:55Z",
+   "views": 982925,
+   "ytTitle": "Tides of Time"
+  }
  },
  "epik high - 1분 1초": {
   "artist": "Epik High",
@@ -41109,7 +41247,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Favourite"
+  "track": "Favourite",
+  "video": {
+   "id": "0a_vpigwDb4",
+   "published": "2024-06-18T17:30:06Z",
+   "views": 6263594,
+   "ytTitle": "Fontaines D.C. - Favourite (Official Video)"
+  }
  },
  "foo fighters - all my life": {
   "artist": "Foo Fighters",
@@ -41587,7 +41731,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Sierra Leone"
+  "track": "Sierra Leone",
+  "video": {
+   "id": "kgplNxRbbaM",
+   "published": "2018-10-30T05:42:25Z",
+   "views": 7769382,
+   "ytTitle": "Sierra Leone"
+  }
  },
  "frank ocean - sweet life": {
   "artist": "Frank Ocean",
@@ -45008,7 +45158,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Plastic Beach (Feat. Mick Jones and Paul Simonon)"
+  "track": "Plastic Beach (Feat. Mick Jones and Paul Simonon)",
+  "video": {
+   "id": "AGM8BMqBcTo",
+   "published": "2015-02-12T17:39:36Z",
+   "views": 27922928,
+   "ytTitle": "Gorillaz - Plastic Beach - Plastic Beach"
+  }
  },
  "gorillaz - rhinestone eyes": {
   "artist": "Gorillaz",
@@ -47402,7 +47558,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Lemon Tang"
+  "track": "Lemon Tang",
+  "video": {
+   "id": "1VqxWNwgf5Q",
+   "published": "2026-06-22T09:00:04Z",
+   "views": 55516841,
+   "ytTitle": "Hearts2Hearts 하츠투하츠 'Lemon Tang' MV"
+  }
  },
  "heather headley - i wish i wasn t": {
   "artist": "Heather Headley",
@@ -48408,7 +48570,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Stars"
+  "track": "Stars",
+  "video": {
+   "id": "gMEB4HNNZ2I",
+   "published": "2018-05-12T11:21:36Z",
+   "views": 3726018,
+   "ytTitle": "HUM - Stars"
+  }
  },
  "hump back - ": {
   "artist": "Hump Back",
@@ -48635,7 +48803,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Good Goodbye"
+  "track": "Good Goodbye",
+  "video": {
+   "id": "Qe8fa4b5xNU",
+   "published": "2025-10-15T09:00:00Z",
+   "views": 198471376,
+   "ytTitle": "화사 (HWASA) - 'Good Goodbye' MV"
+  }
  },
  "hwasa - maria": {
   "artist": "HWASA",
@@ -58467,7 +58641,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Blood on the Leaves"
+  "track": "Blood on the Leaves",
+  "video": {
+   "id": "KXUqSfeekz0",
+   "published": "2021-03-12T22:45:01Z",
+   "views": 2252359,
+   "ytTitle": "Kanye West - Blood on the Leaves | Later... with Jools Holland (2013)"
+  }
  },
  "kanye west - bound 2": {
   "artist": "Kanye West",
@@ -58787,7 +58967,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "I'm in It"
+  "track": "I'm in It",
+  "video": {
+   "id": "_jZuz3NEr18",
+   "published": "2018-07-21T09:54:03Z",
+   "views": 7062090,
+   "ytTitle": "I'm In It"
+  }
  },
  "kanye west - i wonder": {
   "artist": "Kanye West",
@@ -63223,7 +63409,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Padam Padam"
+  "track": "Padam Padam",
+  "video": {
+   "id": "p6Cnazi_Fi0",
+   "published": "2023-05-18T13:00:09Z",
+   "views": 46545340,
+   "ytTitle": "Kylie Minogue - Padam Padam (Official Video)"
+  }
  },
  "kyoungseo - shiny star": {
   "artist": "KyoungSeo",
@@ -64192,7 +64384,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Bel Air"
+  "track": "Bel Air",
+  "video": {
+   "id": "FVKU-NM6sBo",
+   "published": "2020-04-14T19:00:52Z",
+   "views": 3985840,
+   "ytTitle": "Bel Air"
+  }
  },
  "lana del rey - black beauty": {
   "artist": "Lana Del Rey",
@@ -67401,7 +67599,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Castle of Glass"
+  "track": "Castle of Glass",
+  "video": {
+   "id": "ScNNfyq3d_w",
+   "published": "2012-10-10T13:00:23Z",
+   "views": 640923355,
+   "ytTitle": "CASTLE OF GLASS (Official 4K Music Video) - Linkin Park"
+  }
  },
  "linkin park - crawling": {
   "artist": "Linkin Park",
@@ -67475,7 +67679,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Leave Out All the Rest"
+  "track": "Leave Out All the Rest",
+  "video": {
+   "id": "yZIummTz9mM",
+   "published": "2008-06-02T23:28:45Z",
+   "views": 308694366,
+   "ytTitle": "Leave Out All The Rest (Official Music Video) [4K Upgrade] - Linkin Park"
+  }
  },
  "linkin park - lying from you": {
   "artist": "Linkin Park",
@@ -67597,7 +67807,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Waiting for the End"
+  "track": "Waiting for the End",
+  "video": {
+   "id": "5qF_qbaWt3Q",
+   "published": "2010-10-09T03:40:55Z",
+   "views": 279417740,
+   "ytTitle": "Waiting For The End (Official Music Video) [4K Upgrade] - Linkin Park"
+  }
  },
  "linkin park - what i ve done": {
   "artist": "Linkin Park",
@@ -73050,14 +73266,26 @@
   "genres": [
    "rnb"
   ],
-  "track": "Just To Keep You Satisfied"
+  "track": "Just To Keep You Satisfied",
+  "video": {
+   "id": "uS5nkNAfNJY",
+   "published": "2023-08-25T16:00:46Z",
+   "views": 6513574,
+   "ytTitle": "Marvin Gaye - Just To Keep You Satisfied (Visualizer)"
+  }
  },
  "marvin gaye - let s get it on": {
   "artist": "Marvin Gaye",
   "genres": [
    "rnb"
   ],
-  "track": "Let's Get It On"
+  "track": "Let's Get It On",
+  "video": {
+   "id": "igNVdlXhKcI",
+   "published": "2015-04-01T21:03:44Z",
+   "views": 772329720,
+   "ytTitle": "Charlie Puth - Marvin Gaye ft. Meghan Trainor [Official Video]"
+  }
  },
  "marvin gaye - mercy mercy me": {
   "artist": "Marvin Gaye",
@@ -78681,7 +78909,13 @@
   "genres": [
    "rock"
   ],
-  "track": "The World Is Ugly"
+  "track": "The World Is Ugly",
+  "video": {
+   "id": "Sfmzkj5QSto",
+   "published": "2012-12-18T00:36:51Z",
+   "views": 12950173,
+   "ytTitle": "My Chemical Romance - The World Is Ugly [Official Audio]"
+  }
  },
  "my chemical romance - this is how i disappear": {
   "artist": "My Chemical Romance",
@@ -81225,7 +81459,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Chun-Li"
+  "track": "Chun-Li",
+  "video": {
+   "id": "Wpm07-BGJnE",
+   "published": "2018-05-04T16:00:08Z",
+   "views": 213134977,
+   "ytTitle": "Nicki Minaj - Chun-Li"
+  }
  },
  "nicki minaj - high school ft lil wayne": {
   "artist": "Nicki Minaj",
@@ -83088,7 +83328,13 @@
   "genres": [
    "indie"
   ],
-  "track": "1 step forward, 3 steps back"
+  "track": "1 step forward, 3 steps back",
+  "video": {
+   "id": "w-HfMiue7-k",
+   "published": "2021-05-21T04:00:13Z",
+   "views": 43073137,
+   "ytTitle": "Olivia Rodrigo - 1 step forward, 3 steps back (Lyric Video)"
+  }
  },
  "olivia rodrigo - brutal": {
   "artist": "Olivia Rodrigo",
@@ -86407,7 +86653,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Mouthful of Diamonds"
+  "track": "Mouthful of Diamonds",
+  "video": {
+   "id": "ZvSgLHWR16o",
+   "published": "2010-04-01T23:57:11Z",
+   "views": 11915019,
+   "ytTitle": "Phantogram \"Mouthful Of Diamonds\" [Official Video]"
+  }
  },
  "phantogram - when i": {
   "artist": "Phantogram",
@@ -87520,7 +87772,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Cheerleader"
+  "track": "Cheerleader",
+  "video": {
+   "id": "CzJbz9qSsd0",
+   "published": "2024-03-20T16:00:06Z",
+   "views": 7754691,
+   "ytTitle": "Porter Robinson - Cheerleader (Official Music Video)"
+  }
  },
  "porter robinson - divinity": {
   "artist": "Porter Robinson",
@@ -89239,7 +89497,13 @@
   "genres": [
    "rock"
   ],
-  "track": "A Wolf at the Door"
+  "track": "A Wolf at the Door",
+  "video": {
+   "id": "6isz01iv8Ls",
+   "published": "2016-04-06T21:54:59Z",
+   "views": 4850722,
+   "ytTitle": "A Wolf At the Door"
+  }
  },
  "radiohead - airbag": {
   "artist": "Radiohead",
@@ -94260,7 +94524,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Your Love Is King"
+  "track": "Your Love Is King",
+  "video": {
+   "id": "k1ljpLQ1V6Y",
+   "published": "2009-12-12T05:57:15Z",
+   "views": 49142883,
+   "ytTitle": "Sade - Your Love Is King - Official - 1984"
+  }
  },
  "safri duo - played a live": {
   "artist": "Safri Duo",
@@ -94426,7 +94696,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "A Change Is Gonna Come"
+  "track": "A Change Is Gonna Come",
+  "video": {
+   "id": "cEXhZ8PwM-Y",
+   "published": "2013-06-11T01:45:00Z",
+   "views": 160516887,
+   "ytTitle": "A Change is Gonna Come (Sam Cooke Cover) | Brian Owens"
+  }
  },
  "sam cooke - nothing can change this love": {
   "artist": "Sam Cooke",
@@ -97501,7 +97777,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Donde Estas Corazon"
+  "track": "Donde Estas Corazon",
+  "video": {
+   "id": "I67cgXr6L6o",
+   "published": "2012-05-26T02:14:26Z",
+   "views": 97348824,
+   "ytTitle": "Shakira - Dónde Estás Corazón (Official HD Video)"
+  }
  },
  "shakira - en tus pupilas": {
   "artist": "Shakira",
@@ -97713,7 +97995,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Moscas En La Casa"
+  "track": "Moscas En La Casa",
+  "video": {
+   "id": "_KiRbcvdUCM",
+   "published": "2011-09-10T00:57:13Z",
+   "views": 97906397,
+   "ytTitle": "Shakira - Moscas En La Casa (Live Video)"
+  }
  },
  "shakira - no": {
   "artist": "Shakira",
@@ -97754,7 +98042,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Objection (Tango)"
+  "track": "Objection (Tango)",
+  "video": {
+   "id": "EPesgQbItcQ",
+   "published": "2018-11-16T13:10:27Z",
+   "views": 38537609,
+   "ytTitle": "Shakira - Objection (Tango)"
+  }
  },
  "shakira - octavo d a": {
   "artist": "Shakira",
@@ -97831,7 +98125,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Sale el Sol"
+  "track": "Sale el Sol",
+  "video": {
+   "id": "mqqLoUcLX5I",
+   "published": "2011-02-08T22:59:14Z",
+   "views": 143139582,
+   "ytTitle": "Shakira - Sale El Sol (Official Video)"
+  }
  },
  "shakira - she wolf": {
   "artist": "Shakira",
@@ -102289,7 +102589,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Knocks Me Off My Feet"
+  "track": "Knocks Me Off My Feet",
+  "video": {
+   "id": "UwSuPXMHhaE",
+   "published": "2007-11-25T09:38:28Z",
+   "views": 7639696,
+   "ytTitle": "Stevie Wonder - Knocks Me Off My Feet"
+  }
  },
  "stevie wonder - love s in need of love today": {
   "artist": "Stevie Wonder",
@@ -105861,7 +106167,13 @@
   "genres": [
    "indie"
   ],
-  "track": "my tears ricochet"
+  "track": "my tears ricochet",
+  "video": {
+   "id": "OWbDJFtHl3w",
+   "published": "2020-07-24T04:00:06Z",
+   "views": 64056724,
+   "ytTitle": "Taylor Swift – my tears ricochet (Official Lyric Video)"
+  }
  },
  "taylor swift - new year s day": {
   "artist": "Taylor Swift",
@@ -106373,7 +106685,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "The Legacy"
+  "track": "The Legacy",
+  "video": {
+   "id": "2vqL3arbzXc",
+   "published": "2009-04-26T19:58:37Z",
+   "views": 2805595,
+   "ytTitle": "Testament - The Legacy"
+  }
  },
  "tevin campbell - can we talk": {
   "artist": "Tevin Campbell",
@@ -106407,7 +106725,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Piel Morena"
+  "track": "Piel Morena",
+  "video": {
+   "id": "EMAjgSJr4Jg",
+   "published": "2019-08-30T02:54:40Z",
+   "views": 58688767,
+   "ytTitle": "Thalia - Piel Morena - Video Oficial 1995"
+  }
  },
  "thalia - desde esa noche": {
   "artist": "Thalia",
@@ -110905,7 +111229,13 @@
   "genres": [
    "dance"
   ],
-  "track": "AMERICAN GIRL"
+  "track": "AMERICAN GIRL",
+  "video": {
+   "id": "lr62Jcse6us",
+   "published": "2025-09-12T16:00:07Z",
+   "views": 271595,
+   "ytTitle": "Tiffany Day - AMERICAN GIRL"
+  }
  },
  "tim berg - seek bromance ministry of sound": {
   "artist": "Tim Berg",
@@ -113359,7 +113689,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Guns for Hands"
+  "track": "Guns for Hands",
+  "video": {
+   "id": "Pmv8aQKO6k0",
+   "published": "2013-01-08T04:12:22Z",
+   "views": 176402044,
+   "ytTitle": "twenty one pilots: Guns For Hands [OFFICIAL VIDEO]"
+  }
  },
  "twenty one pilots - heathens": {
   "artist": "Twenty One Pilots",
@@ -113472,7 +113808,13 @@
   "genres": [
    "indie"
   ],
-  "track": "The Hype"
+  "track": "The Hype",
+  "video": {
+   "id": "Io2hbcrAYBw",
+   "published": "2019-07-26T15:00:07Z",
+   "views": 86875057,
+   "ytTitle": "twenty one pilots: The Hype (Official Video)"
+  }
  },
  "twenty one pilots - the judge": {
   "artist": "twenty one pilots",
@@ -114162,7 +114504,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Tamale"
+  "track": "Tamale",
+  "video": {
+   "id": "4naLjE6-vAk",
+   "published": "2023-04-06T10:03:40Z",
+   "views": 1761390,
+   "ytTitle": "Tamale"
+  }
  },
  "tyler the creator - yonkers": {
   "artist": "Tyler, The Creator",
@@ -116556,7 +116904,13 @@
   "genres": [
    "rock"
   ],
-  "track": "The Good Life"
+  "track": "The Good Life",
+  "video": {
+   "id": "gkroIXktjgE",
+   "published": "2009-06-17T05:36:29Z",
+   "views": 9682667,
+   "ytTitle": "Weezer - The Good Life"
+  }
  },
  "weezer - undone the sweater song": {
   "artist": "Weezer",
@@ -116577,7 +116931,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Why Bother?"
+  "track": "Why Bother?",
+  "video": {
+   "id": "w9cOmtP5wxg",
+   "published": "2018-07-26T04:22:46Z",
+   "views": 3890485,
+   "ytTitle": "Why Bother?"
+  }
  },
  "weird al yankovic - word crimes": {
   "artist": "\"Weird Al\" Yankovic",
