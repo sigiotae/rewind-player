@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "genres": [
   {
    "id": "pop",
@@ -404,7 +404,7 @@
   },
   {
    "id": "pXRviuL6vMY",
-   "artist": "twenty one pilots",
+   "artist": "Twenty One Pilots",
    "title": "Stressed Out",
    "views": 3278104854,
    "region": "global",
@@ -781,6 +781,18 @@
    ]
   },
   {
+   "id": "8SbUC-UaAxE",
+   "artist": "Guns N' Roses",
+   "title": "November Rain",
+   "views": 2500433595,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rock",
+    "pop"
+   ]
+  },
+  {
    "id": "SXiSVQZLje8",
    "artist": "Ariana Grande",
    "title": "Side To Side ft. Nicki Minaj",
@@ -844,7 +856,7 @@
   },
   {
    "id": "UprcpdwuwCg",
-   "artist": "twenty one pilots",
+   "artist": "Twenty One Pilots",
    "title": "Heathens",
    "views": 2420027694,
    "region": "global",
@@ -1592,7 +1604,7 @@
   },
   {
    "id": "Pw-0pbY9JeU",
-   "artist": "twenty one pilots",
+   "artist": "Twenty One Pilots",
    "title": "Ride",
    "views": 1696836042,
    "region": "global",
@@ -2698,7 +2710,8 @@
    "region": "global",
    "year": 2013,
    "genres": [
-    "dance"
+    "dance",
+    "electronic"
    ]
   },
   {
@@ -5139,7 +5152,8 @@
    "genres": [
     "pop",
     "dance",
-    "electronic"
+    "electronic",
+    "hiphop"
    ]
   },
   {
@@ -5230,6 +5244,19 @@
    ]
   },
   {
+   "id": "I7HahVwYpwo",
+   "artist": "Black Eyed Peas",
+   "title": "Meet Me Halfway",
+   "views": 732574864,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "pop",
+    "hiphop",
+    "rnb"
+   ]
+  },
+  {
    "id": "cmSbXsFE3l8",
    "artist": "Anna Kendrick",
    "title": "Cups (Pitch Perfect’s When I’m Gone) (Director's Cut)",
@@ -5251,18 +5278,6 @@
    "genres": [
     "pop",
     "ballad"
-   ]
-  },
-  {
-   "id": "I7HahVwYpwo",
-   "artist": "The Black Eyed Peas",
-   "title": "Meet Me Halfway",
-   "views": 729821241,
-   "region": "global",
-   "year": 2010,
-   "genres": [
-    "rnb",
-    "pop"
    ]
   },
   {
@@ -5738,6 +5753,17 @@
    "genres": [
     "pop",
     "rock"
+   ]
+  },
+  {
+   "id": "eJnQBXmZ7Ek",
+   "artist": "Twenty One Pilots",
+   "title": "Chlorine",
+   "views": 675108250,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "indie"
    ]
   },
   {
@@ -8972,6 +8998,18 @@
    ]
   },
   {
+   "id": "rMqayQ-U74s",
+   "artist": "Britney Spears",
+   "title": "Womanizer",
+   "views": 443326011,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "pop",
+    "dance"
+   ]
+  },
+  {
    "id": "kVpv8-5XWOI",
    "artist": "Train",
    "title": "Hey, Soul Sister",
@@ -9116,6 +9154,17 @@
    "year": 2009,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "kHLHSlExFis",
+   "artist": "Ariana Grande",
+   "title": "God is a woman",
+   "views": 436950611,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "pop"
    ]
   },
   {
@@ -9387,7 +9436,8 @@
    "year": 2010,
    "genres": [
     "latin",
-    "pop"
+    "pop",
+    "dance"
    ]
   },
   {
@@ -10416,8 +10466,7 @@
    "region": "global",
    "year": 2007,
    "genres": [
-    "rock",
-    "pop"
+    "rock"
    ],
    "aka": "Hybrid Theory Meteora feat. Kiiara"
   },
@@ -11671,6 +11720,17 @@
    ]
   },
   {
+   "id": "G2RCCDSBEGk",
+   "artist": "Mohombi",
+   "title": "Bumpy Ride",
+   "views": 340514158,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "dance"
+   ]
+  },
+  {
    "id": "WDZJPJV__bQ",
    "artist": "Beyoncé",
    "title": "Formation",
@@ -12629,7 +12689,7 @@
   },
   {
    "id": "92XVwY54h5k",
-   "artist": "twenty one pilots",
+   "artist": "Twenty One Pilots",
    "title": "Car Radio",
    "views": 311715759,
    "region": "global",
@@ -14025,6 +14085,17 @@
    ]
   },
   {
+   "id": "K0K46C82v9o",
+   "artist": "The Pussycat Dolls",
+   "title": "When I Grow Up",
+   "views": 280848197,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "dance"
+   ]
+  },
+  {
    "id": "5qF_qbaWt3Q",
    "artist": "Linkin Park",
    "title": "Waiting for the End",
@@ -14301,6 +14372,17 @@
    "views": 270749940,
    "region": "global",
    "year": 2017,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
+   "id": "vCEvCXuglqo",
+   "artist": "Ricky Martin",
+   "title": "María",
+   "views": 270593049,
+   "region": "global",
+   "year": 2009,
    "genres": [
     "latin"
    ]
@@ -17187,12 +17269,13 @@
   },
   {
    "id": "oADpF--uirA",
-   "artist": "Juan Gabriel, Juanes",
+   "artist": "Juan Gabriel",
    "title": "Querida",
-   "views": 220748800,
+   "views": 221022457,
    "region": "global",
    "year": 2015,
    "genres": [
+    "latin",
     "hiphop"
    ]
   },
@@ -17234,7 +17317,7 @@
   },
   {
    "id": "nky4me4NP70",
-   "artist": "twenty one pilots",
+   "artist": "Twenty One Pilots",
    "title": "Tear In My Heart",
    "views": 219617452,
    "region": "global",
@@ -17565,18 +17648,6 @@
    "genres": [
     "pop",
     "electronic"
-   ]
-  },
-  {
-   "id": "CRrf3h9vhp8",
-   "artist": "Olivia Rodrigo",
-   "title": "traitor",
-   "views": 215801564,
-   "region": "global",
-   "year": 2021,
-   "genres": [
-    "pop",
-    "ballad"
    ]
   },
   {
@@ -19508,6 +19579,17 @@
    ]
   },
   {
+   "id": "qolmz4FlnZ0",
+   "artist": "Lana Del Rey",
+   "title": "Doin' Time",
+   "views": 188434809,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "pWgVRK_Ggww",
    "artist": "Shakira",
    "title": "Antología",
@@ -19798,6 +19880,18 @@
    ]
   },
   {
+   "id": "w3JoAPJu7ho",
+   "artist": "Laura Pausini",
+   "title": "Entre tú y Mil Mares",
+   "views": 184750629,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "ballad",
+    "latin"
+   ]
+  },
+  {
    "id": "C3lXxoQPqoA",
    "artist": "Wisin & Yandel",
    "title": "Rakata",
@@ -19818,17 +19912,6 @@
    "genres": [
     "dance",
     "indie"
-   ]
-  },
-  {
-   "id": "w3JoAPJu7ho",
-   "artist": "Laura Pausini",
-   "title": "Entre Tu Y Mil Mares",
-   "views": 183758199,
-   "region": "global",
-   "year": 2010,
-   "genres": [
-    "latin"
    ]
   },
   {
@@ -20151,7 +20234,7 @@
   },
   {
    "id": "mDyxykpYeu8",
-   "artist": "twenty one pilots",
+   "artist": "Twenty One Pilots",
    "title": "House of Gold",
    "views": 181042051,
    "region": "global",
@@ -20241,7 +20324,7 @@
   },
   {
    "id": "ktBMxkLUIwY",
-   "artist": "twenty one pilots",
+   "artist": "Twenty One Pilots",
    "title": "Holding On To You",
    "views": 180614773,
    "region": "global",
@@ -20572,6 +20655,17 @@
    ]
   },
   {
+   "id": "dvf--10EYXw",
+   "artist": "3OH!3",
+   "title": "Starstrukk (feat. Katy Perry)",
+   "views": 177575537,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "4ZG3pwWGJrk",
    "artist": "Don Omar ❌ Tego Calderon",
    "title": "Bandolero",
@@ -20673,7 +20767,7 @@
   },
   {
    "id": "Pmv8aQKO6k0",
-   "artist": "twenty one pilots",
+   "artist": "Twenty One Pilots",
    "title": "Guns for Hands",
    "views": 176402044,
    "region": "global",
@@ -22432,6 +22526,17 @@
    "year": 2018,
    "genres": [
     "hiphop"
+   ]
+  },
+  {
+   "id": "MbXWrmQW-OE",
+   "artist": "The Police",
+   "title": "Message in a Bottle",
+   "views": 159396184,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "rock"
    ]
   },
   {
@@ -24885,7 +24990,7 @@
   },
   {
    "id": "UOUBW8bkjQ4",
-   "artist": "twenty one pilots",
+   "artist": "Twenty One Pilots",
    "title": "Jumpsuit",
    "views": 138835331,
    "region": "global",
@@ -25658,6 +25763,17 @@
    ]
   },
   {
+   "id": "pNj9bXKGOiI",
+   "artist": "Luther Vandross",
+   "title": "Never Too Much",
+   "views": 133591925,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "nsm4ReJaED0",
    "artist": "C. Tangana",
    "title": "Mala Mujer",
@@ -25777,6 +25893,17 @@
    "year": 2011,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "kcPc18SG6uA",
+   "artist": "Sade",
+   "title": "The Sweetest Taboo",
+   "views": 132631315,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -26581,6 +26708,17 @@
    "genres": [
     "indie",
     "ballad"
+   ]
+  },
+  {
+   "id": "r-AuLm7S3XE",
+   "artist": "Dua Lipa",
+   "title": "Blow Your Mind (Mwah)",
+   "views": 125947255,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "dance"
    ]
   },
   {
@@ -29296,6 +29434,18 @@
    ]
   },
   {
+   "id": "Z8FarCnm1mE",
+   "artist": "Rihanna",
+   "title": "Talk That Talk",
+   "views": 108764880,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "dance",
+    "rnb"
+   ]
+  },
+  {
    "id": "M00SmSTkKYM",
    "artist": "Bad Bunny X Farruko",
    "title": "Blockia 📵",
@@ -29350,6 +29500,17 @@
    "genres": [
     "pop",
     "ballad"
+   ]
+  },
+  {
+   "id": "l6LjNOYvhMk",
+   "artist": "Gloria Estefan",
+   "title": "Con los Años Que Me Quedan",
+   "views": 108565924,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -29850,6 +30011,17 @@
    ]
   },
   {
+   "id": "wc7JPaRV5uU",
+   "artist": "Drake",
+   "title": "Shot for Me",
+   "views": 106524346,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "hiphop"
+   ]
+  },
+  {
    "id": "lPx0n6X0d8g",
    "artist": "Ofenbach & Quarterhead",
    "title": "Head Shoulders Knees & Toes (feat. Norma Jean Martine)",
@@ -29915,18 +30087,6 @@
     "dance",
     "electronic",
     "pop"
-   ]
-  },
-  {
-   "id": "knU9gRUWCno",
-   "artist": "The Strokes",
-   "title": "Someday",
-   "views": 106045586,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "rock",
-    "indie"
    ]
   },
   {
@@ -31517,7 +31677,7 @@
   },
   {
    "id": "PbP-aIe51Ek",
-   "artist": "twenty one pilots",
+   "artist": "Twenty One Pilots",
    "title": "The Judge",
    "views": 98366238,
    "region": "global",
@@ -32778,6 +32938,17 @@
    "year": 2017,
    "genres": [
     "electronic"
+   ]
+  },
+  {
+   "id": "RRNdmkH8zrI",
+   "artist": "Mariah Carey",
+   "title": "Through the Rain",
+   "views": 92880654,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -34209,7 +34380,7 @@
   },
   {
    "id": "Io2hbcrAYBw",
-   "artist": "twenty one pilots",
+   "artist": "Twenty One Pilots",
    "title": "The Hype",
    "views": 86875057,
    "region": "global",
@@ -35825,6 +35996,17 @@
    ]
   },
   {
+   "id": "u4lcUooNNLY",
+   "artist": "Racionais MC's",
+   "title": "Negro Drama",
+   "views": 80088869,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "hiphop"
+   ]
+  },
+  {
    "id": "6b5zSAZKBB8",
    "artist": "Joey Montana",
    "title": "La Melodia",
@@ -36682,6 +36864,17 @@
    "year": 2013,
    "genres": [
     "rock"
+   ]
+  },
+  {
+   "id": "MEiVnNNpJLA",
+   "artist": "Twenty One Pilots",
+   "title": "Doubt",
+   "views": 76341784,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "indie"
    ]
   },
   {
@@ -38604,6 +38797,17 @@
    ]
   },
   {
+   "id": "fLVzw9wVd9o",
+   "artist": "Marc Anthony",
+   "title": "I Need to Know",
+   "views": 69929986,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "9fdAt0ke9w8",
    "artist": "Jennifer Lopez",
    "title": "Feel The Light",
@@ -39917,6 +40121,17 @@
    ]
   },
   {
+   "id": "P_SlAzsXa7E",
+   "artist": "Miike Snow",
+   "title": "Genghis Khan",
+   "views": 65993442,
+   "region": "global",
+   "year": 2016,
+   "genres": [
+    "dance"
+   ]
+  },
+  {
    "id": "v54io9f0Wfk",
    "artist": "Future",
    "title": "The Percocet & Stripper Joint",
@@ -40227,6 +40442,17 @@
    "year": 2017,
    "genres": [
     "hiphop"
+   ]
+  },
+  {
+   "id": "jGoM7atmJJA",
+   "artist": "Britney Spears",
+   "title": "Don't Let Me Be the Last to Know",
+   "views": 65319705,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -41575,6 +41801,17 @@
    "year": 2009,
    "genres": [
     "ballad"
+   ]
+  },
+  {
+   "id": "eepLY8J4E6c",
+   "artist": "The Temptations",
+   "title": "My Girl",
+   "views": 61769735,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -43449,6 +43686,17 @@
    "views": 56893336,
    "region": "global",
    "year": 2019,
+   "genres": [
+    "hiphop"
+   ]
+  },
+  {
+   "id": "Gx4JEBwVlXo",
+   "artist": "A$AP Rocky",
+   "title": "LVL",
+   "views": 56869613,
+   "region": "global",
+   "year": 2015,
    "genres": [
     "hiphop"
    ]
@@ -50392,6 +50640,28 @@
    ]
   },
   {
+   "id": "IPWHkK-_a_A",
+   "artist": "George Michael",
+   "title": "A Different Corner",
+   "views": 42999081,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
+   "id": "D8K90hX4PrE",
+   "artist": "Daft Punk",
+   "title": "Technologic",
+   "views": 42988241,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "6T6akWhdLCE",
    "artist": "Boosie Badazz",
    "title": "Wipe Me Down (feat. Foxx, Webbie & Lil Boosie)",
@@ -50673,18 +50943,6 @@
    "genres": [
     "indie",
     "rock"
-   ]
-  },
-  {
-   "id": "ysJ82L-1rEc",
-   "artist": "Evanescence",
-   "title": "Going Under",
-   "views": 42595112,
-   "region": "global",
-   "year": 2018,
-   "genres": [
-    "rock",
-    "pop"
    ]
   },
   {
@@ -51198,6 +51456,17 @@
    "year": 2010,
    "genres": [
     "ballad"
+   ]
+  },
+  {
+   "id": "3J5mE-J1WLk",
+   "artist": "Twenty One Pilots",
+   "title": "Goner",
+   "views": 41760898,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "indie"
    ]
   },
   {
@@ -52256,6 +52525,17 @@
    "year": 2017,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "TrQ7w1bdNvY",
+   "artist": "Kanye West",
+   "title": "All Mine",
+   "views": 39973791,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "hiphop"
    ]
   },
   {
@@ -60806,6 +61086,15 @@
    "views": 97466468,
    "region": "kr",
    "year": 2020,
+   "genres": []
+  },
+  {
+   "id": "wKyMIrBClYw",
+   "artist": "DEAN",
+   "title": "instagram",
+   "views": 97386194,
+   "region": "kr",
+   "year": 2018,
    "genres": []
   },
   {

@@ -2173,7 +2173,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Starstrukk (feat. Katy Perry)"
+  "track": "Starstrukk (feat. Katy Perry)",
+  "video": {
+   "id": "dvf--10EYXw",
+   "published": "2009-10-28T17:19:13Z",
+   "views": 177575537,
+   "ytTitle": "3OH!3 - STARSTRUKK (Feat. Katy Perry) [OFFICIAL MUSIC VIDEO]"
+  }
  },
  "3t - anything": {
   "artist": "3T",
@@ -3380,7 +3386,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "LVL"
+  "track": "LVL",
+  "video": {
+   "id": "Gx4JEBwVlXo",
+   "published": "2015-06-10T21:31:36Z",
+   "views": 56869613,
+   "ytTitle": "A$AP Rocky - L$D (Explicit - Official Video)"
+  }
  },
  "a ap rocky - peso": {
   "artist": "A$AP Rocky",
@@ -4810,7 +4822,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Haegeum"
+  "track": "Haegeum",
+  "video": {
+   "id": "_SAaJkHYRf4",
+   "published": "2023-04-23T07:00:03Z",
+   "views": 2120859,
+   "ytTitle": "[EPISODE] Agust D ‘해금’ MV & Jacket Shoot Sketch - BTS (방탄소년단)"
+  }
  },
  "agust d - 대취타": {
   "artist": "Agust D",
@@ -5350,7 +5368,8 @@
   "genres": [
    "hiphop",
    "dance",
-   "pop"
+   "pop",
+   "rnb"
   ],
   "track": "I Wanna Love You",
   "video": {
@@ -5496,7 +5515,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Tired of Being Alone"
+  "track": "Tired of Being Alone",
+  "video": {
+   "id": "ICKToz7BLLA",
+   "published": "2008-10-17T21:09:14Z",
+   "views": 7256291,
+   "ytTitle": "Al Green - Tired Of Being Alone (SoulSchool)"
+  }
  },
  "alabama shakes - hold on": {
   "artist": "Alabama Shakes",
@@ -7200,6 +7225,13 @@
    "ytTitle": "Aminé - Caroline (Official Video)"
   }
  },
+ "amy winehouse - addicted": {
+  "artist": "Amy Winehouse",
+  "genres": [
+   "rnb"
+  ],
+  "track": "Addicted"
+ },
  "amy winehouse - back to black": {
   "artist": "Amy Winehouse",
   "genres": [
@@ -7216,12 +7248,25 @@
    "ytTitle": "Amy Winehouse - Back To Black"
   }
  },
+ "amy winehouse - fuck me pumps": {
+  "artist": "Amy Winehouse",
+  "genres": [
+   "rnb"
+  ],
+  "track": "Fuck Me Pumps"
+ },
  "amy winehouse - he can only hold her": {
   "artist": "Amy Winehouse",
   "genres": [
    "rnb"
   ],
-  "track": "He Can Only Hold Her"
+  "track": "He Can Only Hold Her",
+  "video": {
+   "id": "lzKQ9I-2AXY",
+   "published": "2018-07-26T20:49:46Z",
+   "views": 13104389,
+   "ytTitle": "He Can Only Hold Her"
+  }
  },
  "amy winehouse - in my bed": {
   "artist": "Amy Winehouse",
@@ -7229,6 +7274,13 @@
    "rnb"
   ],
   "track": "In My Bed"
+ },
+ "amy winehouse - just friends": {
+  "artist": "Amy Winehouse",
+  "genres": [
+   "rnb"
+  ],
+  "track": "Just Friends"
  },
  "amy winehouse - love is a losing game": {
   "artist": "Amy Winehouse",
@@ -8312,7 +8364,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Heliosphan"
+  "track": "Heliosphan",
+  "video": {
+   "id": "7bDNX5ZDKdE",
+   "published": "2010-09-08T13:28:31Z",
+   "views": 732866,
+   "ytTitle": "Aphex Twin - Heliosphan"
+  }
  },
  "aphex twin - i": {
   "artist": "Aphex Twin",
@@ -9152,6 +9210,19 @@
    "ytTitle": "Ariana Grande - ghostin (Official Audio)"
   }
  },
+ "ariana grande - god is a woman": {
+  "artist": "Ariana Grande",
+  "genres": [
+   "pop"
+  ],
+  "track": "God is a woman",
+  "video": {
+   "id": "kHLHSlExFis",
+   "published": "2018-07-13T16:00:04Z",
+   "views": 436950611,
+   "ytTitle": "Ariana Grande - God is a woman (Official Video)"
+  }
+ },
  "ariana grande - hampstead": {
   "artist": "Ariana Grande",
   "genres": [
@@ -9680,6 +9751,13 @@
    "views": 37387734,
    "ytTitle": "Asher Roth - I Love College (MTV Version Edited)"
   }
+ },
+ "ashnikko - halloweenie ii pumpkin spice": {
+  "artist": "Ashnikko",
+  "genres": [
+   "electronic"
+  ],
+  "track": "Halloweenie II: Pumpkin Spice"
  },
  "ashnikko - tantrum": {
   "artist": "Ashnikko",
@@ -10224,7 +10302,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Crimson Day"
+  "track": "Crimson Day",
+  "video": {
+   "id": "eQ30CVJwbiw",
+   "published": "2014-11-06T03:26:29Z",
+   "views": 9136448,
+   "ytTitle": "Crimson Day"
+  }
  },
  "avenged sevenfold - hail to the king": {
   "artist": "Avenged Sevenfold",
@@ -11797,7 +11881,13 @@
   "genres": [
    "latin"
   ],
-  "track": "EoO"
+  "track": "EoO",
+  "video": {
+   "id": "rltG2qA_RnA",
+   "published": "2025-01-09T22:00:44Z",
+   "views": 160505680,
+   "ytTitle": "Bad Bunny - EoO (Video Lyrics)"
+  }
  },
  "bad bunny - estamos bien": {
   "artist": "Bad Bunny",
@@ -12699,6 +12789,13 @@
    "ytTitle": "Bassjackers & MAKJ - DERP (Official Video)"
   }
  },
+ "bassvictim - forever salty": {
+  "artist": "bassvictim",
+  "genres": [
+   "electronic"
+  ],
+  "track": "forever salty"
+ },
  "bastille - bad blood": {
   "artist": "Bastille",
   "genres": [
@@ -13516,7 +13613,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Get Me Away from Here, I'm Dying"
+  "track": "Get Me Away from Here, I'm Dying",
+  "video": {
+   "id": "O_r2K3vvbQ0",
+   "published": "2016-11-22T19:49:42Z",
+   "views": 552248,
+   "ytTitle": "Get Me Away from Here, I'm Dying"
+  }
  },
  "belle and sebastian - like dylan in the movies": {
   "artist": "Belle and Sebastian",
@@ -15501,7 +15604,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "All Is Full of Love"
+  "track": "All Is Full of Love",
+  "video": {
+   "id": "b_VFWR7aB60",
+   "published": "2009-02-13T13:59:37Z",
+   "views": 1495123,
+   "ytTitle": "Björk - All is full of love"
+  }
  },
  "bj rk - army of me": {
   "artist": "Björk",
@@ -15554,7 +15663,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Human Behaviour"
+  "track": "Human Behaviour",
+  "video": {
+   "id": "p0mRIhK9seg",
+   "published": "2019-12-20T12:20:01Z",
+   "views": 9053143,
+   "ytTitle": "björk : human behaviour (HD)"
+  }
  },
  "bj rk - hyperballad": {
   "artist": "Björk",
@@ -17313,7 +17428,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "What You Won't Do for Love"
+  "track": "What You Won't Do for Love",
+  "video": {
+   "id": "n9DmdAwUbxc",
+   "published": "2022-01-20T08:11:19Z",
+   "views": 201318992,
+   "ytTitle": "What You Won't Do for Love"
+  }
  },
  "bobby kim - 고래의 꿈": {
   "artist": "Bobby Kim (바비킴)",
@@ -18789,7 +18910,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Don't Let Me Be the Last to Know"
+  "track": "Don't Let Me Be the Last to Know",
+  "video": {
+   "id": "jGoM7atmJJA",
+   "published": "2009-10-25T07:08:16Z",
+   "views": 65319705,
+   "ytTitle": "Britney Spears - Don't Let Me Be The Last To Know (Official HD Video)"
+  }
  },
  "britney spears - everytime": {
   "artist": "Britney Spears",
@@ -21230,7 +21357,13 @@
   "genres": [
    "rock"
   ],
-  "track": "Pepper"
+  "track": "Pepper",
+  "video": {
+   "id": "KRXty8lDUW0",
+   "published": "2023-05-12T16:00:08Z",
+   "views": 16400641,
+   "ytTitle": "Butthole Surfers - Pepper"
+  }
  },
  "buzz - love from a real heart part 2": {
   "artist": "Buzz",
@@ -21573,7 +21706,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Pecado"
+  "track": "Pecado",
+  "video": {
+   "id": "nc9xXWEj7kk",
+   "published": "2014-08-17T14:03:40Z",
+   "views": 790430,
+   "ytTitle": "Caetano Veloso - Pecado"
+  }
  },
  "caf tacvba - eres": {
   "artist": "Café Tacvba",
@@ -22372,7 +22511,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "B.O.A.T."
+  "track": "B.O.A.T.",
+  "video": {
+   "id": "66YJmK4vt3U",
+   "published": "2024-10-18T19:00:04Z",
+   "views": 731178,
+   "ytTitle": "Camila Cabello - B.O.A.T. | Vevo Official Live Performance"
+  }
  },
  "camila cabello - havana": {
   "artist": "Camila Cabello",
@@ -23684,7 +23829,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Gone"
+  "track": "Gone",
+  "video": {
+   "id": "chSZCtLrgz8",
+   "published": "2019-07-17T18:58:15Z",
+   "views": 12805377,
+   "ytTitle": "Charli XCX & Christine and the Queens - Gone [Official Video]"
+  }
  },
  "charli xcx - good ones": {
   "artist": "Charli xcx",
@@ -27635,6 +27786,13 @@
    "ytTitle": "Crush - 잊을만하면 (Bittersweet) MV"
   }
  },
+ "crystal castles - baptism": {
+  "artist": "Crystal Castles",
+  "genres": [
+   "electronic"
+  ],
+  "track": "Baptism"
+ },
  "crystal castles - courtship dating": {
   "artist": "Crystal Castles",
   "genres": [
@@ -28732,7 +28890,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "End of Line"
+  "track": "End of Line",
+  "video": {
+   "id": "NOMa56y_Was",
+   "published": "2019-05-30T18:48:49Z",
+   "views": 23991580,
+   "ytTitle": "End of Line (From \"TRON: Legacy\"/Score)"
+  }
  },
  "daft punk - face to face": {
   "artist": "Daft Punk",
@@ -28826,7 +28990,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Human After All"
+  "track": "Human After All",
+  "video": {
+   "id": "PXYeARRyDWk",
+   "published": "2015-06-11T17:08:00Z",
+   "views": 9547361,
+   "ytTitle": "Daft Punk - Human After All (Official Audio)"
+  }
  },
  "daft punk - instant crush": {
   "artist": "Daft Punk",
@@ -28914,14 +29084,26 @@
   "genres": [
    "electronic"
   ],
-  "track": "Technologic"
+  "track": "Technologic",
+  "video": {
+   "id": "D8K90hX4PrE",
+   "published": "2015-06-04T15:01:08Z",
+   "views": 42988241,
+   "ytTitle": "Daft Punk - Technologic (Official Music Video Remastered)"
+  }
  },
  "daft punk - the game of love": {
   "artist": "Daft Punk",
   "genres": [
    "electronic"
   ],
-  "track": "The Game of Love"
+  "track": "The Game of Love",
+  "video": {
+   "id": "ajGKWk0auOc",
+   "published": "2014-02-24T08:00:01Z",
+   "views": 17159539,
+   "ytTitle": "Daft Punk - The Game of Love (Official Audio)"
+  }
  },
  "daft punk - touch": {
   "artist": "Daft Punk",
@@ -29050,6 +29232,13 @@
    "views": 91778020,
    "ytTitle": "Damien Rice - The Blower's Daughter - Official Video"
   }
+ },
+ "damien rice - volcano": {
+  "artist": "Damien Rice",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Volcano"
  },
  "damn yankees - high enough": {
   "artist": "Damn Yankees",
@@ -29279,7 +29468,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Didn't I"
+  "track": "Didn't I",
+  "video": {
+   "id": "PZqQT5904_U",
+   "published": "2011-02-17T23:05:54Z",
+   "views": 9781609,
+   "ytTitle": "Darondo - \"Didn't I\" [HQ - REMASTER]"
+  }
  },
  "darude - sandstorm": {
   "artist": "Darude",
@@ -31177,7 +31372,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "For the Love of a Daughter"
+  "track": "For the Love of a Daughter",
+  "video": {
+   "id": "9VZhI5iafH0",
+   "published": "2013-03-29T05:03:36Z",
+   "views": 12592753,
+   "ytTitle": "For the Love of a Daughter (Lyrics) - Demi Lovato"
+  }
  },
  "demi lovato - get back": {
   "artist": "Demi Lovato",
@@ -34140,7 +34341,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Shot for Me"
+  "track": "Shot for Me",
+  "video": {
+   "id": "wc7JPaRV5uU",
+   "published": "2018-07-26T22:13:35Z",
+   "views": 106524346,
+   "ytTitle": "Shot For Me"
+  }
  },
  "drake - started from the bottom": {
   "artist": "Drake",
@@ -34196,6 +34403,19 @@
    "published": "2018-07-26T21:31:58Z",
    "views": 78689116,
    "ytTitle": "The Motto"
+  }
+ },
+ "drake - the resistance": {
+  "artist": "Drake",
+  "genres": [
+   "hiphop"
+  ],
+  "track": "The Resistance",
+  "video": {
+   "id": "ahTCY6593HM",
+   "published": "2018-07-31T12:01:18Z",
+   "views": 28152012,
+   "ytTitle": "The Resistance"
   }
  },
  "drake - way 2 sexy": {
@@ -34422,7 +34642,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Blow Your Mind (Mwah)"
+  "track": "Blow Your Mind (Mwah)",
+  "video": {
+   "id": "r-AuLm7S3XE",
+   "published": "2017-05-26T09:01:48Z",
+   "views": 125947255,
+   "ytTitle": "Dua Lipa - Lost In Your Light feat. Miguel (Official Video)"
+  }
  },
  "dua lipa - don t start now": {
   "artist": "Dua Lipa",
@@ -37031,7 +37257,8 @@
   "artist": "Enrique Iglesias",
   "genres": [
    "latin",
-   "pop"
+   "pop",
+   "dance"
   ],
   "track": "I Like It",
   "video": {
@@ -37748,6 +37975,13 @@
    "views": 50280737,
    "ytTitle": "12:45 (Stripped)"
   }
+ },
+ "etta james - at last": {
+  "artist": "Etta James",
+  "genres": [
+   "rnb"
+  ],
+  "track": "At Last"
  },
  "etta james - i d rather go blind": {
   "artist": "Etta James",
@@ -39618,7 +39852,8 @@
  "far east movement - rocketeer": {
   "artist": "Far East Movement",
   "genres": [
-   "electronic"
+   "electronic",
+   "pop"
   ],
   "track": "Rocketeer",
   "video": {
@@ -40602,7 +40837,8 @@
   "genres": [
    "pop",
    "dance",
-   "electronic"
+   "electronic",
+   "hiphop"
   ],
   "track": "Good Feeling",
   "video": {
@@ -43831,7 +44067,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "A Different Corner"
+  "track": "A Different Corner",
+  "video": {
+   "id": "IPWHkK-_a_A",
+   "published": "2009-10-03T04:28:19Z",
+   "views": 42999081,
+   "ytTitle": "George Michael - A Different Corner (Official Video)"
+  }
  },
  "george michael - freedom 90": {
   "artist": "George Michael",
@@ -44178,7 +44420,13 @@
   "genres": [
    "latin"
   ],
-  "track": "A Mi Manera (Comme D'habitude)"
+  "track": "A Mi Manera (Comme D'habitude)",
+  "video": {
+   "id": "avGAe9EVkjc",
+   "published": "2006-04-17T02:15:24Z",
+   "views": 9518741,
+   "ytTitle": "GIPSY KINGS A MI MANERA"
+  }
  },
  "gipsy kings - volare": {
   "artist": "Gipsy Kings",
@@ -44237,7 +44485,13 @@
   "genres": [
    "indie"
   ],
-  "track": "girls"
+  "track": "girls",
+  "video": {
+   "id": "HQYI-kwnipE",
+   "published": "2022-10-02T10:07:05Z",
+   "views": 12034390,
+   "ytTitle": "girls"
+  }
  },
  "girl in red - we fell in love in october": {
   "artist": "girl in red",
@@ -44650,6 +44904,19 @@
    "ytTitle": "Glass Animals - Gooey (Official Audio)"
   }
  },
+ "gloria estefan - con los a os que me quedan": {
+  "artist": "Gloria Estefan",
+  "genres": [
+   "latin"
+  ],
+  "track": "Con los Años Que Me Quedan",
+  "video": {
+   "id": "l6LjNOYvhMk",
+   "published": "2011-03-23T17:13:37Z",
+   "views": 108565924,
+   "ytTitle": "Gloria Estefan - Con Los Anos Que Me Quedan (Official Video)"
+  }
+ },
  "gloria estefan - hoy": {
   "artist": "Gloria Estefan",
   "genres": [
@@ -45020,7 +45287,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Cracker Island (feat. Thundercat)"
+  "track": "Cracker Island (feat. Thundercat)",
+  "video": {
+   "id": "S03T47hapAc",
+   "published": "2022-07-28T16:00:11Z",
+   "views": 65514662,
+   "ytTitle": "Gorillaz - Cracker Island ft. Thundercat (Official Video)"
+  }
  },
  "gorillaz - dare": {
   "artist": "Gorillaz",
@@ -49592,6 +49865,13 @@
    "ytTitle": "Iggy Azalea - Trouble ft. Jennifer Hudson"
   }
  },
+ "iggy azalea - work": {
+  "artist": "Iggy Azalea",
+  "genres": [
+   "hiphop"
+  ],
+  "track": "Work"
+ },
  "iggy pop - lust for life": {
   "artist": "Iggy Pop",
   "genres": [
@@ -52409,7 +52689,13 @@
   "genres": [
    "dance"
   ],
-  "track": "IT girl"
+  "track": "IT girl",
+  "video": {
+   "id": "DO6vYic0TyA",
+   "published": "2025-01-10T10:00:06Z",
+   "views": 2653163,
+   "ytTitle": "JADE - IT girl (Official Visualiser)"
+  }
  },
  "jadiel - fashion girl": {
   "artist": "Jadiel",
@@ -55097,7 +55383,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "YOURS"
+  "track": "YOURS",
+  "video": {
+   "id": "u6-92VXKTJ0",
+   "published": "2021-11-07T13:30:12Z",
+   "views": 10412789,
+   "ytTitle": "[지리산 OST | MV ] Part.4 진(방탄소년단) - Yours (Official)"
+  }
  },
  "jin ah kwon - lonely night": {
   "artist": "Jin Ah Kwon",
@@ -56528,7 +56820,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Querida"
+  "track": "Querida",
+  "video": {
+   "id": "oADpF--uirA",
+   "published": "2015-01-13T08:00:04Z",
+   "views": 221022457,
+   "ytTitle": "Juan Gabriel, Juanes - Querida"
+  }
  },
  "juan gabriel juanes - querida": {
   "artist": "Juan Gabriel, Juanes",
@@ -58575,7 +58873,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "All Mine"
+  "track": "All Mine",
+  "video": {
+   "id": "TrQ7w1bdNvY",
+   "published": "2018-06-19T04:00:02Z",
+   "views": 39973791,
+   "ytTitle": "Kanye West - All Mine (Lyric Video)"
+  }
  },
  "kanye west - all of the lights": {
   "artist": "Kanye West",
@@ -58885,7 +59189,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Guilt Trip"
+  "track": "Guilt Trip",
+  "video": {
+   "id": "5hthMeEqf40",
+   "published": "2018-07-21T09:53:59Z",
+   "views": 6962717,
+   "ytTitle": "Guilt Trip"
+  }
  },
  "kanye west - heard em say": {
   "artist": "Kanye West",
@@ -58933,7 +59243,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Hey Mama"
+  "track": "Hey Mama",
+  "video": {
+   "id": "B3NmMKfl3Ic",
+   "published": "2018-10-30T02:32:53Z",
+   "views": 13391828,
+   "ytTitle": "Hey Mama"
+  }
  },
  "kanye west - hold my liquor": {
   "artist": "Kanye West",
@@ -63888,6 +64204,13 @@
    "ytTitle": "Lady Gaga - Always Remember Us This Way (from A Star Is Born) (Official Music Video)"
   }
  },
+ "lady gaga - angel down": {
+  "artist": "Lady Gaga",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Angel Down"
+ },
  "lady gaga - applause": {
   "artist": "Lady Gaga",
   "genres": [
@@ -64503,7 +64826,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Doin' Time"
+  "track": "Doin' Time",
+  "video": {
+   "id": "qolmz4FlnZ0",
+   "published": "2019-08-29T16:00:10Z",
+   "views": 188434809,
+   "ytTitle": "Lana Del Rey - Doin' Time"
+  }
  },
  "lana del rey - fucked my way up to the top": {
   "artist": "Lana Del Rey",
@@ -64894,7 +65223,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Entre tú y Mil Mares"
+  "track": "Entre tú y Mil Mares",
+  "video": {
+   "id": "w3JoAPJu7ho",
+   "published": "2010-11-11T18:07:10Z",
+   "views": 184750629,
+   "ytTitle": "Laura Pausini - Entre Tu Y Mil Mares (Official Video)"
+  }
  },
  "laura pausini - entre tu y mil mares": {
   "artist": "Laura Pausini",
@@ -69545,6 +69880,13 @@
    "ytTitle": "Mayor Que Yo 3"
   }
  },
+ "luny tunes - noche de entierro": {
+  "artist": "Luny Tunes",
+  "genres": [
+   "latin"
+  ],
+  "track": "Noche De Entierro"
+ },
  "luny tunes daddy yankee wisin don omar yandel - mayor que yo 3": {
   "artist": "Luny Tunes, Daddy Yankee, Wisin, Don Omar, Yandel",
   "genres": [
@@ -69635,7 +69977,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Never Too Much"
+  "track": "Never Too Much",
+  "video": {
+   "id": "pNj9bXKGOiI",
+   "published": "2009-11-24T11:20:52Z",
+   "views": 133591925,
+   "ytTitle": "Luther Vandross - Never Too Much (Official HD Video)"
+  }
  },
  "luthervandross - endless love": {
   "artist": "LutherVandross",
@@ -71814,7 +72162,13 @@
   "genres": [
    "latin"
   ],
-  "track": "I Need to Know"
+  "track": "I Need to Know",
+  "video": {
+   "id": "fLVzw9wVd9o",
+   "published": "2009-10-03T04:42:46Z",
+   "views": 69929986,
+   "ytTitle": "Marc Anthony - I Need To Know"
+  }
  },
  "marc anthony - muy dentro de m": {
   "artist": "Marc Anthony",
@@ -72201,7 +72555,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Through the Rain"
+  "track": "Through the Rain",
+  "video": {
+   "id": "RRNdmkH8zrI",
+   "published": "2009-12-25T04:46:16Z",
+   "views": 92880654,
+   "ytTitle": "Mariah Carey - Through The Rain (Official Music Video)"
+  }
  },
  "mariah carey - touch my body": {
   "artist": "Mariah Carey",
@@ -76037,7 +76397,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Genghis Khan"
+  "track": "Genghis Khan",
+  "video": {
+   "id": "P_SlAzsXa7E",
+   "published": "2016-01-12T17:00:40Z",
+   "views": 65993442,
+   "ytTitle": "Miike Snow - Genghis Khan (Official Video)"
+  }
  },
  "mike jones - still tippin": {
   "artist": "Mike Jones",
@@ -77205,7 +77571,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Bumpy Ride"
+  "track": "Bumpy Ride",
+  "video": {
+   "id": "G2RCCDSBEGk",
+   "published": "2010-08-06T16:16:25Z",
+   "views": 340514158,
+   "ytTitle": "Mohombi - Bumpy Ride"
+  }
  },
  "mokenstef - he s mine": {
   "artist": "MoKenStef",
@@ -78626,6 +78998,19 @@
    "ytTitle": "My Chemical Romance - AMBULANCE [Official Audio]"
   }
  },
+ "my chemical romance - bulletproof heart": {
+  "artist": "My Chemical Romance",
+  "genres": [
+   "rock"
+  ],
+  "track": "Bulletproof Heart",
+  "video": {
+   "id": "seFu9fQ_-FI",
+   "published": "2010-12-06T09:26:26Z",
+   "views": 6907772,
+   "ytTitle": "Bulletproof Heart - My Chemical Romance"
+  }
+ },
  "my chemical romance - cancer": {
   "artist": "My Chemical Romance",
   "genres": [
@@ -78724,6 +79109,19 @@
    "published": "2015-08-28T20:08:20Z",
    "views": 60117141,
    "ytTitle": "Famous Last Words"
+  }
+ },
+ "my chemical romance - heaven help us": {
+  "artist": "My Chemical Romance",
+  "genres": [
+   "rock"
+  ],
+  "track": "Heaven Help Us",
+  "video": {
+   "id": "BQiTYFwSx60",
+   "published": "2012-06-20T16:28:50Z",
+   "views": 670838,
+   "ytTitle": "Heaven Help Us - My Chemical Romance [Lyrics]"
   }
  },
  "my chemical romance - helena": {
@@ -89451,7 +89849,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Negro Drama"
+  "track": "Negro Drama",
+  "video": {
+   "id": "u4lcUooNNLY",
+   "published": "2017-03-06T17:45:22Z",
+   "views": 80088869,
+   "ytTitle": "Negro Drama - Nada Como Um Dia Após O Outro Dia (Chora Agora)"
+  }
  },
  "radical face - welcome home": {
   "artist": "Radical Face",
@@ -92444,7 +92848,13 @@
   "genres": [
    "latin"
   ],
-  "track": "María"
+  "track": "María",
+  "video": {
+   "id": "vCEvCXuglqo",
+   "published": "2009-10-03T04:57:17Z",
+   "views": 270593049,
+   "ytTitle": "Ricky Martin - María (Official Video)"
+  }
  },
  "ricky martin - tal vez": {
   "artist": "Ricky Martin",
@@ -92932,6 +93342,20 @@
    "published": "2018-07-23T18:36:40Z",
    "views": 150506405,
    "ytTitle": "Take A Bow"
+  }
+ },
+ "rihanna - talk that talk": {
+  "artist": "Rihanna",
+  "genres": [
+   "dance",
+   "rnb"
+  ],
+  "track": "Talk That Talk",
+  "video": {
+   "id": "Z8FarCnm1mE",
+   "published": "2011-11-18T17:00:00Z",
+   "views": 108764880,
+   "ytTitle": "Rihanna - Talk That Talk (Audio) ft. JAŸ-Z"
   }
  },
  "rihanna - te amo": {
@@ -94517,7 +94941,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "The Sweetest Taboo"
+  "track": "The Sweetest Taboo",
+  "video": {
+   "id": "kcPc18SG6uA",
+   "published": "2009-12-12T03:10:13Z",
+   "views": 132631315,
+   "ytTitle": "Sade - The Sweetest Taboo - Official - 1985"
+  }
  },
  "sade - your love is king": {
   "artist": "Sade",
@@ -94580,7 +95010,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Spring"
+  "track": "Spring",
+  "video": {
+   "id": "e8PxSQYdSTE",
+   "published": "2014-11-06T01:51:33Z",
+   "views": 473572,
+   "ytTitle": "Spring"
+  }
  },
  "saint jhn - roses": {
   "artist": "SAINt JHN",
@@ -102034,7 +102470,13 @@
   "genres": [
    "latin"
   ],
-  "track": "The Girl From Ipanema"
+  "track": "The Girl From Ipanema",
+  "video": {
+   "id": "sVdaFQhS86E",
+   "published": "2012-11-09T15:20:07Z",
+   "views": 12688735,
+   "ytTitle": "Astrud Gilberto and Stan Getz - The Girl From Ipanema (1964) LIVE"
+  }
  },
  "standing egg - old song": {
   "artist": "Standing Egg",
@@ -103956,6 +104398,13 @@
    "views": 135504910,
    "ytTitle": "SuperM 슈퍼엠 ‘Jopping’ MV"
   }
+ },
+ "superorganism - something for your m i n d": {
+  "artist": "Superorganism",
+  "genres": [
+   "indie"
+  ],
+  "track": "Something for Your M.I.N.D."
  },
  "supreme team - then then then": {
   "artist": "Supreme Team",
@@ -106871,6 +107320,14 @@
    "ytTitle": "The 1975 - Robbers (Official Video) (Explicit)"
   }
  },
+ "the 1975 - sex": {
+  "artist": "The 1975",
+  "genres": [
+   "indie"
+  ],
+  "track": "Sex",
+  "video": null
+ },
  "the 1975 - somebody else": {
   "artist": "The 1975",
   "genres": [
@@ -106969,6 +107426,13 @@
    "views": 35668064,
    "ytTitle": "The Ataris - The Boys Of Summer"
   }
+ },
+ "the avalanches - frontier psychiatrist": {
+  "artist": "The Avalanches",
+  "genres": [
+   "electronic"
+  ],
+  "track": "Frontier Psychiatrist"
  },
  "the avalanches - since i left you": {
   "artist": "The Avalanches",
@@ -109032,6 +109496,19 @@
    "ytTitle": "Every Breath You Take"
   }
  },
+ "the police - message in a bottle": {
+  "artist": "The Police",
+  "genres": [
+   "rock"
+  ],
+  "track": "Message in a Bottle",
+  "video": {
+   "id": "MbXWrmQW-OE",
+   "published": "2010-02-23T15:28:57Z",
+   "views": 159396184,
+   "ytTitle": "The Police - Message In A Bottle (Official Music Video)"
+  }
+ },
  "the police - roxanne": {
   "artist": "The Police",
   "genres": [
@@ -109250,7 +109727,13 @@
   "genres": [
    "dance"
   ],
-  "track": "When I Grow Up"
+  "track": "When I Grow Up",
+  "video": {
+   "id": "K0K46C82v9o",
+   "published": "2009-11-22T12:01:16Z",
+   "views": 280848197,
+   "ytTitle": "The Pussycat Dolls - When I Grow Up (Official Music Video)"
+  }
  },
  "the radio dept - sleeping in": {
   "artist": "The Radio Dept.",
@@ -109848,7 +110331,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "My Girl"
+  "track": "My Girl",
+  "video": {
+   "id": "eepLY8J4E6c",
+   "published": "2013-11-04T03:17:28Z",
+   "views": 61769735,
+   "ytTitle": "The Temptations - My Girl"
+  }
  },
  "the ting tings - shut up and let me go": {
   "artist": "The Ting Tings",
@@ -113668,21 +114157,46 @@
   "genres": [
    "indie"
   ],
-  "track": "Chlorine"
+  "track": "Chlorine",
+  "video": {
+   "id": "eJnQBXmZ7Ek",
+   "published": "2019-01-23T02:49:28Z",
+   "views": 675108250,
+   "ytTitle": "twenty one pilots - Chlorine (Official Video)"
+  }
  },
  "twenty one pilots - doubt": {
   "artist": "Twenty One Pilots",
   "genres": [
    "indie"
   ],
-  "track": "Doubt"
+  "track": "Doubt",
+  "video": {
+   "id": "MEiVnNNpJLA",
+   "published": "2015-05-26T14:54:14Z",
+   "views": 76341784,
+   "ytTitle": "twenty one pilots - Doubt (Official Audio)"
+  }
+ },
+ "twenty one pilots - fake you out": {
+  "artist": "Twenty One Pilots",
+  "genres": [
+   "indie"
+  ],
+  "track": "Fake You Out"
  },
  "twenty one pilots - goner": {
   "artist": "Twenty One Pilots",
   "genres": [
    "indie"
   ],
-  "track": "Goner"
+  "track": "Goner",
+  "video": {
+   "id": "3J5mE-J1WLk",
+   "published": "2015-05-26T14:54:14Z",
+   "views": 41760898,
+   "ytTitle": "twenty one pilots - Goner (Official Audio)"
+  }
  },
  "twenty one pilots - guns for hands": {
   "artist": "Twenty One Pilots",
@@ -119486,7 +120000,8 @@
  "ylvis - the fox": {
   "artist": "Ylvis",
   "genres": [
-   "dance"
+   "dance",
+   "electronic"
   ],
   "track": "The Fox (What Does The Fox Say?)",
   "video": {
@@ -120329,6 +120844,13 @@
    "views": 445887368,
    "ytTitle": "Zara Larsson - Ain't My Fault (Official Video)"
   }
+ },
+ "zara larsson - hot sexy": {
+  "artist": "Zara Larsson",
+  "genres": [
+   "dance"
+  ],
+  "track": "Hot & Sexy"
  },
  "zara larsson - lush life": {
   "artist": "Zara Larsson",
