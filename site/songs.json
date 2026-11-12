@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "genres": [
   {
    "id": "pop",
@@ -739,6 +739,18 @@
    "year": 2011,
    "genres": [
     "rnb",
+    "pop",
+    "ballad"
+   ]
+  },
+  {
+   "id": "PMivT7MJ41M",
+   "artist": "Bruno Mars",
+   "title": "That’s What I Like",
+   "views": 2563938543,
+   "region": "global",
+   "year": 2017,
+   "genres": [
     "pop",
     "ballad"
    ]
@@ -2674,6 +2686,17 @@
    "genres": [
     "electronic",
     "ballad"
+   ]
+  },
+  {
+   "id": "sOnqjkJTMaA",
+   "artist": "Michael Jackson",
+   "title": "Thriller",
+   "views": 1218333486,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "pop"
    ]
   },
   {
@@ -9568,18 +9591,6 @@
    ]
   },
   {
-   "id": "RYnFIRc0k6E",
-   "artist": "Limp Bizkit",
-   "title": "Rollin' (Air Raid Vehicle)",
-   "views": 414086747,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "rock",
-    "pop"
-   ]
-  },
-  {
    "id": "2NiyrtYegso",
    "artist": "Avicii",
    "title": "Wake Me Up",
@@ -9958,6 +9969,17 @@
    ]
   },
   {
+   "id": "_zR6ROjoOX0",
+   "artist": "Iggy Azalea",
+   "title": "Work",
+   "views": 401161545,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "hiphop"
+   ]
+  },
+  {
    "id": "B3gbisdtJnA",
    "artist": "Shakira",
    "title": "Ciega, Sordomuda",
@@ -9989,6 +10011,17 @@
    "year": 2018,
    "genres": [
     "rnb"
+   ]
+  },
+  {
+   "id": "YIALlhlyqO4",
+   "artist": "Doja Cat",
+   "title": "Juicy",
+   "views": 397745775,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "hiphop"
    ]
   },
   {
@@ -11122,6 +11155,17 @@
    ]
   },
   {
+   "id": "xQzS3JnZQZM",
+   "artist": "Zedd",
+   "title": "The Middle",
+   "views": 354777213,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "jlySoaI0DGI",
    "artist": "Camila",
    "title": "Coleccionista De Canciones",
@@ -12163,6 +12207,18 @@
    "year": 2009,
    "genres": [
     "rock"
+   ]
+  },
+  {
+   "id": "Ic5vxw3eijY",
+   "artist": "Estelle",
+   "title": "American Boy",
+   "views": 327188501,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb",
+    "pop"
    ]
   },
   {
@@ -16169,6 +16225,18 @@
    ]
   },
   {
+   "id": "kRJKB291Z1g",
+   "artist": "Taylor Swift",
+   "title": "Don’t Blame Me",
+   "views": 238227542,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "dance",
+    "electronic"
+   ]
+  },
+  {
    "id": "1RnPB76mjxI",
    "artist": "Usher",
    "title": "OMG ft. will.i.am",
@@ -16829,6 +16897,19 @@
    "genres": [
     "rnb",
     "ballad"
+   ]
+  },
+  {
+   "id": "AzRyxGBGiAE",
+   "artist": "Tove Lo",
+   "title": "Talking Body",
+   "views": 226865586,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "pop",
+    "hiphop",
+    "indie"
    ]
   },
   {
@@ -18885,6 +18966,17 @@
    "year": 2017,
    "genres": [
     "indie"
+   ]
+  },
+  {
+   "id": "u1ZoHfJZACA",
+   "artist": "Black",
+   "title": "Wonderful Life",
+   "views": 199037182,
+   "region": "global",
+   "year": 2016,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -24888,6 +24980,17 @@
    ]
   },
   {
+   "id": "Bcus42ihkTI",
+   "artist": "Etta James",
+   "title": "I'd Rather Go Blind",
+   "views": 139462987,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "b87dBaL4qI0",
    "artist": "Ariana Grande",
    "title": "Almost Is Never Enough (feat. Nathan Sykes)",
@@ -27886,6 +27989,17 @@
    ]
   },
   {
+   "id": "AqAJLh9wuZ0",
+   "artist": "Taylor Swift",
+   "title": "The Man",
+   "views": 117625251,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "dance"
+   ]
+  },
+  {
    "id": "rFz59Jmgewk",
    "artist": "Yung Joc",
    "title": "It's Goin Down",
@@ -28546,6 +28660,17 @@
    "year": 2014,
    "genres": [
     "indie"
+   ]
+  },
+  {
+   "id": "n1mDNXEKWw4",
+   "artist": "Laura Pausini",
+   "title": "Amores Extraños",
+   "views": 114186323,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -29316,6 +29441,17 @@
    "year": 2008,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "X53ZSxkQ3Ho",
+   "artist": "Sir Mix-A-Lot",
+   "title": "Baby Got Back",
+   "views": 109675026,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "hiphop"
    ]
   },
   {
@@ -36278,6 +36414,17 @@
    ]
   },
   {
+   "id": "fu7qWfLjExo",
+   "artist": "Daddy Yankee",
+   "title": "Impacto",
+   "views": 78689091,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "glb2U6y-GdU",
    "artist": "Kid Rock",
    "title": "Cowboy",
@@ -36801,6 +36948,17 @@
    ]
   },
   {
+   "id": "fLCf-URqIf0",
+   "artist": "A$AP Rocky",
+   "title": "Goldie",
+   "views": 76519704,
+   "region": "global",
+   "year": 2012,
+   "genres": [
+    "hiphop"
+   ]
+  },
+  {
    "id": "yetGML1gWow",
    "artist": "UGK",
    "title": "Int'l Players Anthem (I Choose You)",
@@ -36875,17 +37033,6 @@
    "year": 2015,
    "genres": [
     "indie"
-   ]
-  },
-  {
-   "id": "6e6Hj7MwWaI",
-   "artist": "Crystal Castles",
-   "title": "Vanished",
-   "views": 76264671,
-   "region": "global",
-   "year": 2013,
-   "genres": [
-    "electronic"
    ]
   },
   {
@@ -38563,6 +38710,17 @@
    ]
   },
   {
+   "id": "gQtKJbptcns",
+   "artist": "MF DOOM",
+   "title": "Deep Fried Frenz",
+   "views": 70834619,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "hiphop"
+   ]
+  },
+  {
    "id": "eHlDTe_b6bA",
    "artist": "Rome",
    "title": "I Belong To You (Every Time I See Your Face)",
@@ -39895,6 +40053,17 @@
    "aka": "Dark Latin Groove"
   },
   {
+   "id": "S9iTAYYAybI",
+   "artist": "Steve Perry",
+   "title": "Foolish Heart",
+   "views": 66812283,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "s0PZYWA4LoM",
    "artist": "Drake",
    "title": "0 To 100 / The Catch Up",
@@ -40711,6 +40880,17 @@
    "genres": [
     "dance",
     "pop"
+   ]
+  },
+  {
+   "id": "WP7duqy60h8",
+   "artist": "Steve Aoki",
+   "title": "Waste It On Me (feat. BTS)",
+   "views": 64674792,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "electronic"
    ]
   },
   {
@@ -48337,6 +48517,17 @@
    "genres": [
     "dance",
     "pop"
+   ]
+  },
+  {
+   "id": "nhZdL4JlnxI",
+   "artist": "Depeche Mode",
+   "title": "World in My Eyes",
+   "views": 47385777,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "electronic"
    ]
   },
   {
@@ -58197,6 +58388,17 @@
    ]
   },
   {
+   "id": "bS8-qQojlhA",
+   "artist": "Amy Winehouse",
+   "title": "Wake Up Alone",
+   "views": 32021751,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "YeVOnHce37Y",
    "artist": "Ray J",
    "title": "Sexy Can I",
@@ -61086,15 +61288,6 @@
    "views": 97466468,
    "region": "kr",
    "year": 2020,
-   "genres": []
-  },
-  {
-   "id": "wKyMIrBClYw",
-   "artist": "DEAN",
-   "title": "instagram",
-   "views": 97386194,
-   "region": "kr",
-   "year": 2018,
    "genres": []
   },
   {
