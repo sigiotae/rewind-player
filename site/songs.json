@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "genres": [
   {
    "id": "pop",
@@ -739,18 +739,6 @@
    "year": 2011,
    "genres": [
     "rnb",
-    "pop",
-    "ballad"
-   ]
-  },
-  {
-   "id": "PMivT7MJ41M",
-   "artist": "Bruno Mars",
-   "title": "That’s What I Like",
-   "views": 2563938543,
-   "region": "global",
-   "year": 2017,
-   "genres": [
     "pop",
     "ballad"
    ]
@@ -1612,19 +1600,6 @@
     "rock",
     "ballad",
     "pop"
-   ]
-  },
-  {
-   "id": "Pw-0pbY9JeU",
-   "artist": "Twenty One Pilots",
-   "title": "Ride",
-   "views": 1696836042,
-   "region": "global",
-   "year": 2015,
-   "genres": [
-    "pop",
-    "dance",
-    "indie"
    ]
   },
   {
@@ -4698,6 +4673,19 @@
    ]
   },
   {
+   "id": "e2vBLd5Egnk",
+   "artist": "Martin Garrix",
+   "title": "Scared to Be Lonely",
+   "views": 812857509,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "electronic",
+    "pop",
+    "ballad"
+   ]
+  },
+  {
    "id": "ozv4q2ov3Mk",
    "artist": "Calvin Harris",
    "title": "Feels ft. Pharrell Williams, Katy Perry, Big Sean",
@@ -4706,19 +4694,6 @@
    "year": 2017,
    "genres": [
     "electronic"
-   ]
-  },
-  {
-   "id": "e2vBLd5Egnk",
-   "artist": "Martin Garrix & Dua Lipa",
-   "title": "Scared To Be Lonely",
-   "views": 811916493,
-   "region": "global",
-   "year": 2017,
-   "genres": [
-    "pop",
-    "electronic",
-    "ballad"
    ]
   },
   {
@@ -5693,6 +5668,17 @@
    "year": 2014,
    "genres": [
     "ballad"
+   ]
+  },
+  {
+   "id": "GtSRKwDCaZM",
+   "artist": "Bad Bunny",
+   "title": "Yo Perreo Sola",
+   "views": 680182754,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -6863,6 +6849,17 @@
    ]
   },
   {
+   "id": "tXzg2ZA-9Us",
+   "artist": "La Factoria",
+   "title": "Perdóname",
+   "views": 568744930,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "vWaRiD5ym74",
    "artist": "DNCE",
    "title": "Cake by the Ocean",
@@ -7019,17 +7016,6 @@
    "genres": [
     "pop",
     "hiphop"
-   ]
-  },
-  {
-   "id": "tXzg2ZA-9Us",
-   "artist": "Perdóname",
-   "title": "La Factoría ft. Eddy Lover",
-   "views": 556331648,
-   "region": "global",
-   "year": 2021,
-   "genres": [
-    "latin"
    ]
   },
   {
@@ -7766,6 +7752,17 @@
    "genres": [
     "pop",
     "dance"
+   ]
+  },
+  {
+   "id": "f5aDUB1NCnk",
+   "artist": "Bad Bunny",
+   "title": "Vete",
+   "views": 507559194,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -9884,17 +9881,6 @@
    "year": 2011,
    "genres": [
     "pop"
-   ]
-  },
-  {
-   "id": "9mahKFNuHqM",
-   "artist": "Travis Scott",
-   "title": "goosebumps",
-   "views": 406241345,
-   "region": "global",
-   "year": 2016,
-   "genres": [
-    "hiphop"
    ]
   },
   {
@@ -13746,6 +13732,17 @@
    ]
   },
   {
+   "id": "VY1eFxgRR-k",
+   "artist": "Selena Gomez",
+   "title": "Back to You",
+   "views": 289628924,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "0go2nfVXFgA",
    "artist": "The Vamps",
    "title": "Somebody To You ft. Demi Lovato",
@@ -15526,6 +15523,17 @@
    ]
   },
   {
+   "id": "lW9ep22YmlM",
+   "artist": "EGZOD",
+   "title": "Royalty",
+   "views": 249670308,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "ridGylKQ0WY",
    "artist": "JESSE & JOY, Luis Fonsi",
    "title": "Tanto",
@@ -15602,6 +15610,17 @@
    "year": 2009,
    "genres": [
     "rock"
+   ]
+  },
+  {
+   "id": "4TYv2PhG89A",
+   "artist": "Sade",
+   "title": "Smooth Operator",
+   "views": 247970119,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -23789,6 +23808,17 @@
    ]
   },
   {
+   "id": "GR3Liudev18",
+   "artist": "Chappell Roan",
+   "title": "Pink Pony Club",
+   "views": 149064381,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "pop"
+   ]
+  },
+  {
    "id": "7G8QItjTSDA",
    "artist": "Five Finger Death Punch",
    "title": "Remember Everything",
@@ -25191,6 +25221,17 @@
    "year": 2008,
    "genres": [
     "dance"
+   ]
+  },
+  {
+   "id": "PstrAfoMKlc",
+   "artist": "Christina Aguilera",
+   "title": "Stronger Than Ever",
+   "views": 138129517,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -27705,6 +27746,17 @@
    ]
   },
   {
+   "id": "hMAPyGoqQVw",
+   "artist": "Twenty One Pilots",
+   "title": "Nico and the Niners",
+   "views": 119532292,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "qjzNsIYHIns",
    "artist": "Busta Rhymes",
    "title": "I Know What You Want",
@@ -28926,18 +28978,6 @@
    ]
   },
   {
-   "id": "qgaRVvAKoqQ",
-   "artist": "Pearl Jam",
-   "title": "Black",
-   "views": 112300713,
-   "region": "global",
-   "year": 2021,
-   "genres": [
-    "pop",
-    "rock"
-   ]
-  },
-  {
    "id": "cMtBOR_U-pI",
    "artist": "Axel",
    "title": "Tu Amor Por Siempre",
@@ -29410,6 +29450,18 @@
    ]
   },
   {
+   "id": "H7_sqdkaAfo",
+   "artist": "Chaka Khan",
+   "title": "I'm Every Woman",
+   "views": 109930627,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb",
+    "dance"
+   ]
+  },
+  {
    "id": "0DdCoNbbRvQ",
    "artist": "Robin Thicke",
    "title": "Lost Without U",
@@ -29418,18 +29470,6 @@
    "year": 2009,
    "genres": [
     "rnb"
-   ]
-  },
-  {
-   "id": "_2eTNxPxXRc",
-   "artist": "Fall Out Boy",
-   "title": "Sugar, We're Goin Down",
-   "views": 109846744,
-   "region": "global",
-   "year": 2018,
-   "genres": [
-    "rock",
-    "pop"
    ]
   },
   {
@@ -29486,17 +29526,6 @@
    "year": 2019,
    "genres": [
     "latin"
-   ]
-  },
-  {
-   "id": "H7_sqdkaAfo",
-   "artist": "Whitney Houston",
-   "title": "I'm Every Woman",
-   "views": 109568748,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "dance"
    ]
   },
   {
@@ -30358,6 +30387,17 @@
    "year": 2009,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "5Di20x6vVVU",
+   "artist": "Juice WRLD",
+   "title": "Come & Go (with Marshmello)",
+   "views": 105319209,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "electronic"
    ]
   },
   {
@@ -32217,6 +32257,17 @@
    "year": 2018,
    "genres": [
     "electronic"
+   ]
+  },
+  {
+   "id": "_oVI0GW-Xd4",
+   "artist": "Sade",
+   "title": "Nothing Can Come Between Us",
+   "views": 96548391,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -36254,6 +36305,17 @@
    "year": 2007,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "E45fogGN_Y8",
+   "artist": "Cherub",
+   "title": "Doses & Mimosas",
+   "views": 79718910,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "dance"
    ]
   },
   {
@@ -41099,6 +41161,17 @@
    ]
   },
   {
+   "id": "suNBBjPdkhA",
+   "artist": "Harry Styles",
+   "title": "Two Ghosts",
+   "views": 64177800,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "-GFbdWLf2CE",
    "artist": "Alex Rose",
    "title": "Darte",
@@ -41231,6 +41304,17 @@
    "year": 2009,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "xYLxUJ9v6KU",
+   "artist": "Taylor Swift",
+   "title": "I Did Something Bad",
+   "views": 63711294,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "electronic"
    ]
   },
   {
@@ -49923,6 +50007,17 @@
    ]
   },
   {
+   "id": "vORIohoI4m0",
+   "artist": "Demi Lovato",
+   "title": "Sober",
+   "views": 44741134,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "Y9YBE4ywBj4",
    "artist": "CNCO",
    "title": "Hey DJ",
@@ -51281,6 +51376,17 @@
    ]
   },
   {
+   "id": "MTrKkqE9p1o",
+   "artist": "Leon Bridges",
+   "title": "Coming Home",
+   "views": 42388458,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "ssnZ5tIHw1Y",
    "artist": "Luis Miguel",
    "title": "Amarte Es Un Placer",
@@ -52464,6 +52570,17 @@
    ]
   },
   {
+   "id": "wlDmslyGmGI",
+   "artist": "Joe Cocker",
+   "title": "You Are So Beautiful",
+   "views": 40413223,
+   "region": "global",
+   "year": 2007,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "caS88zPqCCc",
    "artist": "Wisin & Yandel",
    "title": "Abusadora",
@@ -52694,6 +52811,17 @@
    "year": 2016,
    "genres": [
     "rnb"
+   ]
+  },
+  {
+   "id": "lpgEUpq2cxI",
+   "artist": "Don Omar",
+   "title": "Conteo",
+   "views": 40044396,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -57515,6 +57643,17 @@
    "genres": [
     "ballad",
     "indie"
+   ]
+  },
+  {
+   "id": "Y9KC7uhMY9s",
+   "artist": "Marvin Gaye",
+   "title": "What's Happening Brother",
+   "views": 32985730,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "rnb"
    ]
   },
   {

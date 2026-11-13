@@ -1088,7 +1088,13 @@
   "genres": [
    "dance"
   ],
-  "track": "poster boy"
+  "track": "poster boy",
+  "video": {
+   "id": "H2vTrHc-OGk",
+   "published": "2023-05-11T17:00:09Z",
+   "views": 66585499,
+   "ytTitle": "2hollis - poster boy (official audio)"
+  }
  },
  "2m택시 - 힘들때 위로가 되는 노래 top10": {
   "artist": "2M택시",
@@ -7248,7 +7254,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Addicted"
+  "track": "Addicted",
+  "video": {
+   "id": "tHXJKTqwpHA",
+   "published": "2009-08-19T21:16:31Z",
+   "views": 2248667,
+   "ytTitle": "Amy Winehouse - Addicted [Subtitulado al Español]"
+  }
  },
  "amy winehouse - back to black": {
   "artist": "Amy Winehouse",
@@ -12111,7 +12123,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Party"
+  "track": "Party",
+  "video": {
+   "id": "Cr8K88UcO0s",
+   "published": "2022-06-01T18:00:02Z",
+   "views": 1130627052,
+   "ytTitle": "Bad Bunny - Tití Me Preguntó (Video Oficial) | Un Verano Sin Ti"
+  }
  },
  "bad bunny - safaera": {
   "artist": "Bad Bunny",
@@ -12188,7 +12206,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Vete"
+  "track": "Vete",
+  "video": {
+   "id": "f5aDUB1NCnk",
+   "published": "2019-11-21T17:00:04Z",
+   "views": 507559194,
+   "ytTitle": "BAD BUNNY - VETE | YHLQMDLG (Video Oficial)"
+  }
  },
  "bad bunny - voy a llevarte pa pr": {
   "artist": "Bad Bunny",
@@ -12208,7 +12232,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Yo Perreo Sola"
+  "track": "Yo Perreo Sola",
+  "video": {
+   "id": "GtSRKwDCaZM",
+   "published": "2020-03-27T19:00:03Z",
+   "views": 680182754,
+   "ytTitle": "BAD BUNNY - YO PERREO SOLA | YHLQMDLG (Video Oficial)"
+  }
  },
  "bad bunny x farruko - blockia": {
   "artist": "Bad Bunny X Farruko",
@@ -13564,7 +13594,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Niño"
+  "track": "Niño",
+  "video": {
+   "id": "wKRW1wZodvk",
+   "published": "2018-07-29T23:09:09Z",
+   "views": 10562267,
+   "ytTitle": "Niño"
+  }
  },
  "belanova - por ti": {
   "artist": "Belanova",
@@ -13737,7 +13773,13 @@
   "genres": [
    "indie"
   ],
-  "track": "The Boy With the Arab Strap"
+  "track": "The Boy With the Arab Strap",
+  "video": {
+   "id": "dN1iW-ee5I8",
+   "published": "2016-11-22T19:44:49Z",
+   "views": 697983,
+   "ytTitle": "The Boy with the Arab Strap"
+  }
  },
  "ben - 180 degree": {
   "artist": "BEN",
@@ -23628,7 +23670,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "I'm Every Woman"
+  "track": "I'm Every Woman",
+  "video": {
+   "id": "H7_sqdkaAfo",
+   "published": "2009-11-14T12:55:34Z",
+   "views": 109930627,
+   "ytTitle": "Whitney Houston - I'm Every Woman (Official Video)"
+  }
  },
  "chaka khan - through the fire": {
   "artist": "Chaka Khan",
@@ -23763,12 +23811,31 @@
   ],
   "track": "Femininomenon"
  },
+ "chappell roan - pink pony club": {
+  "artist": "Chappell Roan",
+  "genres": [
+   "pop"
+  ],
+  "track": "Pink Pony Club",
+  "video": {
+   "id": "GR3Liudev18",
+   "published": "2020-04-03T14:13:14Z",
+   "views": 149064381,
+   "ytTitle": "Chappell Roan - Pink Pony Club (Official Music Video)"
+  }
+ },
  "chappell roan - red wine supernova": {
   "artist": "Chappell Roan",
   "genres": [
    "dance"
   ],
-  "track": "Red Wine Supernova"
+  "track": "Red Wine Supernova",
+  "video": {
+   "id": "VS6ixn2berk",
+   "published": "2023-06-15T20:00:06Z",
+   "views": 31210698,
+   "ytTitle": "Chappell Roan - Red Wine Supernova (Magician's Cut)"
+  }
  },
  "chappell roan - super graphic ultra modern girl": {
   "artist": "Chappell Roan",
@@ -23814,7 +23881,13 @@
   "genres": [
    "dance"
   ],
-  "track": "anthems"
+  "track": "anthems",
+  "video": {
+   "id": "E6oq5HCzG4c",
+   "published": "2020-05-15T07:00:05Z",
+   "views": 1152349,
+   "ytTitle": "Charli XCX - anthems [Official Audio]"
+  }
  },
  "charli xcx - apple": {
   "artist": "Charli xcx",
@@ -24003,7 +24076,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Secret (Shh)"
+  "track": "Secret (Shh)",
+  "video": {
+   "id": "MtQFDKAonIw",
+   "published": "2017-01-25T19:21:14Z",
+   "views": 1665600,
+   "ytTitle": "Secret (Shh)"
+  }
  },
  "charli xcx - silver cross": {
   "artist": "Charli xcx",
@@ -24565,7 +24644,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Doses & Mimosas"
+  "track": "Doses & Mimosas",
+  "video": {
+   "id": "E45fogGN_Y8",
+   "published": "2014-03-13T07:00:00Z",
+   "views": 79718910,
+   "ytTitle": "Cherub - Doses & Mimosas (Official Video)"
+  }
  },
  "cheryl - call my name": {
   "artist": "Cheryl",
@@ -25746,7 +25831,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Stronger Than Ever"
+  "track": "Stronger Than Ever",
+  "video": {
+   "id": "PstrAfoMKlc",
+   "published": "2009-11-18T01:20:05Z",
+   "views": 138129517,
+   "ytTitle": "Christina Aguilera - Fighter (Official HD Video)"
+  }
  },
  "christina aguilera - the voice within": {
   "artist": "Christina Aguilera",
@@ -28501,7 +28592,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Dale Caliente"
+  "track": "Dale Caliente",
+  "video": {
+   "id": "yqTqF4z291k",
+   "published": "2017-07-24T22:00:54Z",
+   "views": 13633087,
+   "ytTitle": "Daddy Yankee - \"Dale caliente\" Barrio Fino (Bonus Track Version) (Audio Oficial)"
+  }
  },
  "daddy yankee - descontrol": {
   "artist": "Daddy Yankee",
@@ -31503,7 +31600,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Fast"
+  "track": "Fast",
+  "video": {
+   "id": "tZ192uMAPRA",
+   "published": "2025-08-01T04:00:07Z",
+   "views": 7414820,
+   "ytTitle": "Demi Lovato - Fast (Official Music Video)"
+  }
  },
  "demi lovato - fix a heart": {
   "artist": "Demi Lovato",
@@ -31694,7 +31797,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Sober"
+  "track": "Sober",
+  "video": {
+   "id": "vORIohoI4m0",
+   "published": "2018-06-21T14:00:07Z",
+   "views": 44741134,
+   "ytTitle": "Demi Lovato - Sober (Official Lyric Video)"
+  }
  },
  "demi lovato - stone cold": {
   "artist": "Demi Lovato",
@@ -33563,7 +33672,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Conteo"
+  "track": "Conteo",
+  "video": {
+   "id": "lpgEUpq2cxI",
+   "published": "2018-10-30T02:49:18Z",
+   "views": 40044396,
+   "ytTitle": "Conteo"
+  }
  },
  "don omar - dale don dale": {
   "artist": "Don Omar",
@@ -35826,7 +35941,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Royalty"
+  "track": "Royalty",
+  "video": {
+   "id": "lW9ep22YmlM",
+   "published": "2021-04-22T17:13:50Z",
+   "views": 249670308,
+   "ytTitle": "Egzod & Maestro Chives - Royalty (ft. Neoni) [Official Lyric Video]"
+  }
  },
  "eiffel 65 - blue": {
   "artist": "Eiffel 65",
@@ -36105,7 +36226,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Explosions"
+  "track": "Explosions",
+  "video": {
+   "id": "miOEmyjpLkU",
+   "published": "2013-01-30T10:12:39Z",
+   "views": 29429141,
+   "ytTitle": "Ellie Goulding - Explosions (Official Video)"
+  }
  },
  "ellie goulding - joy": {
   "artist": "Ellie Goulding",
@@ -36359,7 +36486,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Say Yes"
+  "track": "Say Yes",
+  "video": {
+   "id": "8bxmk09lCzk",
+   "published": "2014-06-04T17:05:39Z",
+   "views": 2278214,
+   "ytTitle": "Elliott Smith - Say Yes (from Either/Or)"
+  }
  },
  "elliott smith - somebody that i used to know": {
   "artist": "Elliott Smith",
@@ -39356,7 +39489,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "All Mine"
+  "track": "All Mine",
+  "video": {
+   "id": "Z0S3knWIdrY",
+   "published": "2016-07-21T15:00:03Z",
+   "views": 15854430,
+   "ytTitle": "[STATION] f(x) 에프엑스 'All Mine' MV"
+  }
  },
  "f - all night": {
   "artist": "f(x)",
@@ -41932,7 +42071,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Waste"
+  "track": "Waste",
+  "video": {
+   "id": "UbEVzpdOlVg",
+   "published": "2011-05-12T21:44:39Z",
+   "views": 8202324,
+   "ytTitle": "Waste - Foster The People"
+  }
  },
  "fountains of wayne - stacy s mom": {
   "artist": "Fountains Of Wayne",
@@ -42505,7 +42650,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Satellites"
+  "track": "Satellites",
+  "video": {
+   "id": "AEEesEP14a0",
+   "published": "2026-06-23T04:00:08Z",
+   "views": 262419,
+   "ytTitle": "Frost Children - Satellites (Official Video)"
+  }
  },
  "ftisland - after love": {
   "artist": "FTISLAND",
@@ -46192,7 +46343,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Shinigami Eyes"
+  "track": "Shinigami Eyes",
+  "video": {
+   "id": "pzPElFdxMCM",
+   "published": "2022-01-26T17:00:10Z",
+   "views": 27327979,
+   "ytTitle": "Grimes - Shinigami Eyes (Official Video)"
+  }
  },
  "grimes - venus fly": {
   "artist": "Grimes",
@@ -47863,7 +48020,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Two Ghosts"
+  "track": "Two Ghosts",
+  "video": {
+   "id": "suNBBjPdkhA",
+   "published": "2017-08-31T12:00:04Z",
+   "views": 64177800,
+   "ytTitle": "Harry Styles - Two Ghosts (live in studio)"
+  }
  },
  "harry styles - watermelon sugar": {
   "artist": "Harry Styles",
@@ -55826,7 +55989,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "You Are So Beautiful"
+  "track": "You Are So Beautiful",
+  "video": {
+   "id": "wlDmslyGmGI",
+   "published": "2007-01-05T21:31:09Z",
+   "views": 40413223,
+   "ytTitle": "Joe Cocker - You are so beautiful (nearly unplugged)"
+  }
  },
  "joe veras - intentalo tu": {
   "artist": "Joe Veras",
@@ -57243,7 +57412,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Come & Go (with Marshmello)"
+  "track": "Come & Go (with Marshmello)",
+  "video": {
+   "id": "5Di20x6vVVU",
+   "published": "2020-07-09T04:00:03Z",
+   "views": 105319209,
+   "ytTitle": "Juice WRLD ft. Marshmello - Come & Go (Official Audio)"
+  }
  },
  "juice wrld - lucid dreams": {
   "artist": "Juice WRLD",
@@ -58822,7 +58997,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Labios Mordidos (with KAROL G)"
+  "track": "Labios Mordidos (with KAROL G)",
+  "video": {
+   "id": "hBJc4koVHLs",
+   "published": "2023-11-24T05:00:07Z",
+   "views": 72692343,
+   "ytTitle": "Kali Uchis, KAROL G - Labios Mordidos [Official Video]"
+  }
  },
  "kali uchis - mu ekita": {
   "artist": "Kali Uchis",
@@ -64079,7 +64260,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Perdóname"
+  "track": "Perdóname",
+  "video": {
+   "id": "tXzg2ZA-9Us",
+   "published": "2021-04-26T23:03:58Z",
+   "views": 568744930,
+   "ytTitle": "Perdóname - La Factoría ft. Eddy Lover (Video Ofical HD)"
+  }
  },
  "la la love you - el fin del mundo feat olaya axolotes mexicanos": {
   "artist": "La La Love You",
@@ -64492,7 +64679,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Dope"
+  "track": "Dope",
+  "video": {
+   "id": "lMyfd5w9kF8",
+   "published": "2013-11-12T05:00:00Z",
+   "views": 7902553,
+   "ytTitle": "Lady Gaga - Dope (Explicit) (VEVO Presents)"
+  }
  },
  "lady gaga - free woman": {
   "artist": "Lady Gaga",
@@ -65217,7 +65410,13 @@
   "genres": [
    "indie"
   ],
-  "track": "This Is What Makes Us Girls"
+  "track": "This Is What Makes Us Girls",
+  "video": {
+   "id": "GpCnunV8hdk",
+   "published": "2020-04-14T19:00:51Z",
+   "views": 12922532,
+   "ytTitle": "This Is What Makes Us Girls"
+  }
  },
  "lana del rey - ultraviolence": {
   "artist": "Lana Del Rey",
@@ -66697,7 +66896,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Coming Home"
+  "track": "Coming Home",
+  "video": {
+   "id": "MTrKkqE9p1o",
+   "published": "2015-03-03T08:00:01Z",
+   "views": 42388458,
+   "ytTitle": "Leon Bridges - Coming Home (Official Video)"
+  }
  },
  "leona lewis - better in time": {
   "artist": "Leona Lewis",
@@ -71129,7 +71334,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "make you mine"
+  "track": "make you mine",
+  "video": {
+   "id": "XFR7v5ix5hU",
+   "published": "2024-04-24T17:00:07Z",
+   "views": 147877530,
+   "ytTitle": "Madison Beer - make you mine (Official Music Video)"
+  }
  },
  "madness - our house": {
   "artist": "Madness",
@@ -72940,7 +73151,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Primadonna"
+  "track": "Primadonna",
+  "video": {
+   "id": "aIubAz3kWQI",
+   "published": "2022-02-24T11:31:12Z",
+   "views": 12538081,
+   "ytTitle": "Marina - Primadonna Girl (Lyrics)"
+  }
  },
  "marina the diamonds - are you satisfied": {
   "artist": "Marina & the Diamonds",
@@ -73581,7 +73798,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Scared to Be Lonely"
+  "track": "Scared to Be Lonely",
+  "video": {
+   "id": "e2vBLd5Egnk",
+   "published": "2017-01-27T05:00:01Z",
+   "views": 812857509,
+   "ytTitle": "Martin Garrix & Dua Lipa - Scared To Be Lonely (Official Video)"
+  }
  },
  "martin garrix - together": {
   "artist": "Martin Garrix",
@@ -73853,7 +74076,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "If I Should Die Tonight"
+  "track": "If I Should Die Tonight",
+  "video": {
+   "id": "xKoLUnPf1uM",
+   "published": "2012-10-17T09:55:11Z",
+   "views": 2185865,
+   "ytTitle": "Marvin Gaye ~ If I Should Die Tonight"
+  }
  },
  "marvin gaye - inner city blues": {
   "artist": "Marvin Gaye",
@@ -73940,7 +74169,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "What's Happening Brother"
+  "track": "What's Happening Brother",
+  "video": {
+   "id": "Y9KC7uhMY9s",
+   "published": "2020-05-05T17:53:26Z",
+   "views": 32985730,
+   "ytTitle": "Marvin Gaye \"What's Going On / What's Happening Brother\""
+  }
  },
  "mary j blige - be without you": {
   "artist": "Mary J. Blige",
@@ -74222,7 +74457,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Daylight"
+  "track": "Daylight",
+  "video": {
+   "id": "zR-0fAGdKpk",
+   "published": "2009-06-14T17:07:36Z",
+   "views": 5122810,
+   "ytTitle": "Daylight- Matt and Kim (w/lyrics)"
+  }
  },
  "matt simons - catch release lyrics video": {
   "artist": "Matt Simons",
@@ -77123,7 +77364,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Cannibal Queen"
+  "track": "Cannibal Queen",
+  "video": {
+   "id": "WrUrv7CBbN4",
+   "published": "2008-10-09T05:40:18Z",
+   "views": 1133957,
+   "ytTitle": "Miniature Tigers - Cannibal Queen (Official Music Video)"
+  }
  },
  "miniature tigers - like or like like": {
   "artist": "Miniature Tigers",
@@ -77157,7 +77404,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Les Fleurs"
+  "track": "Les Fleurs",
+  "video": {
+   "id": "g1kDd6yBQZ4",
+   "published": "2010-04-14T10:23:57Z",
+   "views": 4366436,
+   "ytTitle": "Minnie Riperton - Les Fleurs"
+  }
  },
  "mino - okey dokey": {
   "artist": "MINO",
@@ -82375,7 +82628,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Yo No Soy Tu Marido"
+  "track": "Yo No Soy Tu Marido",
+  "video": {
+   "id": "6G-FF7ksNSU",
+   "published": "2015-01-17T22:12:48Z",
+   "views": 9237863,
+   "ytTitle": "Nicky Jam -  Yo No Soy Tu Marido ( Con letra )"
+  }
  },
  "nico vinz - am i wrong": {
   "artist": "Nico & Vinz",
@@ -83693,7 +83952,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Wraith Pinned To The Mist And Other Games"
+  "track": "Wraith Pinned To The Mist And Other Games",
+  "video": {
+   "id": "L8cCPH1qnYI",
+   "published": "2006-06-28T22:42:52Z",
+   "views": 3932450,
+   "ytTitle": "of Montreal - Wraith Pinned to the Mist [OFFICIAL MUSIC VIDEO]"
+  }
  },
  "ofenbach - be mine": {
   "artist": "Ofenbach",
@@ -84094,7 +84359,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "the grudge"
+  "track": "the grudge",
+  "video": {
+   "id": "Qt5wB7KXSaM",
+   "published": "2023-09-08T04:00:11Z",
+   "views": 19556381,
+   "ytTitle": "Olivia Rodrigo - the grudge (Official Lyric Video)"
+  }
  },
  "olivia rodrigo - traitor": {
   "artist": "Olivia Rodrigo",
@@ -94461,7 +94732,13 @@
   "genres": [
    "latin"
   ],
-  "track": "CHICKEN TERIYAKI"
+  "track": "CHICKEN TERIYAKI",
+  "video": {
+   "id": "OG4gq9fCoRE",
+   "published": "2022-02-24T17:00:11Z",
+   "views": 77612605,
+   "ytTitle": "ROSALÍA - CHICKEN TERIYAKI (Official Video)"
+  }
  },
  "rosal a - con altura": {
   "artist": "ROSALÍA",
@@ -95023,7 +95300,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "emails i can’t send"
+  "track": "emails i can’t send",
+  "video": {
+   "id": "5pu0g_xyJKY",
+   "published": "2022-07-15T04:00:05Z",
+   "views": 5623556,
+   "ytTitle": "Sabrina Carpenter - emails i can't send (Official Audio)"
+  }
  },
  "sabrina carpenter - things i wish you said": {
   "artist": "Sabrina Carpenter",
@@ -95071,7 +95354,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Bullet Proof Soul"
+  "track": "Bullet Proof Soul",
+  "video": {
+   "id": "flbeNTY6Ol4",
+   "published": "2016-03-16T07:00:00Z",
+   "views": 9738715,
+   "ytTitle": "Sade - Bullet Proof Soul (Audio)"
+  }
  },
  "sade - by your side": {
   "artist": "Sade",
@@ -95172,7 +95461,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Nothing Can Come Between Us"
+  "track": "Nothing Can Come Between Us",
+  "video": {
+   "id": "_oVI0GW-Xd4",
+   "published": "2009-12-12T04:49:01Z",
+   "views": 96548391,
+   "ytTitle": "Sade - Nothing Can Come Between Us - Official - 1988"
+  }
  },
  "sade - paradise": {
   "artist": "Sade",
@@ -95205,7 +95500,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Smooth Operator"
+  "track": "Smooth Operator",
+  "video": {
+   "id": "4TYv2PhG89A",
+   "published": "2009-12-12T02:31:50Z",
+   "views": 247970119,
+   "ytTitle": "Sade - Smooth Operator - Official - 1984"
+  }
  },
  "sade - the sweetest taboo": {
   "artist": "Sade",
@@ -97105,7 +97406,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Back to You - From 13 Reasons Why – Season 2 Soundtrack"
+  "track": "Back to You - From 13 Reasons Why – Season 2 Soundtrack",
+  "video": {
+   "id": "VY1eFxgRR-k",
+   "published": "2018-06-05T14:00:07Z",
+   "views": 289628924,
+   "ytTitle": "Selena Gomez - Back To You"
+  }
  },
  "selena gomez - bad liar": {
   "artist": "Selena Gomez",
@@ -102108,7 +102415,13 @@
   "genres": [
    "dance"
   ],
-  "track": "VYZEE"
+  "track": "VYZEE",
+  "video": {
+   "id": "g9HREWxhg_U",
+   "published": "2026-01-14T03:30:20Z",
+   "views": 4726675,
+   "ytTitle": "SOPHIE - VYZEE (Melodic Part Extended Edit)"
+  }
  },
  "sophie ellis bextor - murder on the dancefloor": {
   "artist": "Sophie Ellis-Bextor",
@@ -103406,7 +103719,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Summer Soft"
+  "track": "Summer Soft",
+  "video": {
+   "id": "UDnwWkxEnMY",
+   "published": "2007-11-25T09:49:29Z",
+   "views": 1965610,
+   "ytTitle": "Stevie Wonder - Summer Soft"
+  }
  },
  "stevie wonder - superstition": {
   "artist": "Stevie Wonder",
@@ -103551,7 +103870,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Forever"
+  "track": "Forever",
+  "video": {
+   "id": "8BvV9arABLs",
+   "published": "2006-12-26T06:34:56Z",
+   "views": 10716116,
+   "ytTitle": "Forever - Stratovarius"
+  }
  },
  "stray kids - back door": {
   "artist": "Stray Kids",
@@ -106775,7 +107100,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "I Did Something Bad"
+  "track": "I Did Something Bad",
+  "video": {
+   "id": "xYLxUJ9v6KU",
+   "published": "2018-08-15T22:12:45Z",
+   "views": 63711294,
+   "ytTitle": "I Did Something Bad"
+  }
  },
  "taylor swift - i knew you were trouble": {
   "artist": "Taylor Swift",
@@ -109308,7 +109639,13 @@
   "genres": [
    "indie"
   ],
-  "track": "I Don't Believe in the Sun"
+  "track": "I Don't Believe in the Sun",
+  "video": {
+   "id": "L85cillM6ME",
+   "published": "2009-01-10T00:14:40Z",
+   "views": 647790,
+   "ytTitle": "Magnetic Fields - I Don't Believe in the Sun"
+  }
  },
  "the magnetic fields - i don t want to get over you": {
   "artist": "The Magnetic Fields",
@@ -110607,7 +110944,13 @@
   "genres": [
    "indie"
   ],
-  "track": "My Finest Hour"
+  "track": "My Finest Hour",
+  "video": {
+   "id": "s8GwiPemL8I",
+   "published": "2018-07-31T11:56:07Z",
+   "views": 569737,
+   "ytTitle": "My Finest Hour"
+  }
  },
  "the sundays - on earth": {
   "artist": "The Sundays",
@@ -111887,7 +112230,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "10:35"
+  "track": "10:35",
+  "video": {
+   "id": "EXIWlRrkjKE",
+   "published": "2022-11-03T17:35:10Z",
+   "views": 93052291,
+   "ytTitle": "Tiësto - 10:35 (feat. Tate McRae) (Official Music Video)"
+  }
  },
  "ti sto - red lights": {
   "artist": "Tiësto",
@@ -114608,14 +114957,26 @@
   "genres": [
    "indie"
   ],
-  "track": "Migraine"
+  "track": "Migraine",
+  "video": {
+   "id": "Bs92ejAGLdw",
+   "published": "2013-01-08T04:24:39Z",
+   "views": 27475742,
+   "ytTitle": "twenty one pilots: Migraine (Audio)"
+  }
  },
  "twenty one pilots - nico and the niners": {
   "artist": "Twenty One Pilots",
   "genres": [
    "indie"
   ],
-  "track": "Nico and the Niners"
+  "track": "Nico and the Niners",
+  "video": {
+   "id": "hMAPyGoqQVw",
+   "published": "2018-07-26T15:00:29Z",
+   "views": 119532292,
+   "ytTitle": "twenty one pilots - Nico And The Niners (Official Video)"
+  }
  },
  "twenty one pilots - ode to sleep": {
   "artist": "Twenty One Pilots",
@@ -115831,7 +116192,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Stupid (Can’t run from the urge)"
+  "track": "Stupid (Can’t run from the urge)",
+  "video": {
+   "id": "4OYVc6unRpk",
+   "published": "2024-09-22T18:12:02Z",
+   "views": 454303,
+   "ytTitle": "Stupid(Crftu)_MV_edit-Apr_precolor.mp4"
+  }
  },
  "underscores - tell me": {
   "artist": "underscores",
