@@ -3466,7 +3466,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "If It Means a Lot to You"
+  "track": "If It Means a Lot to You",
+  "video": {
+   "id": "21YJcWdiNfI",
+   "published": "2009-12-03T02:48:24Z",
+   "views": 73187477,
+   "ytTitle": "A Day To Remember - If it means a lot to you LYRICS"
+  }
  },
  "a great big world - say something": {
   "artist": "A Great Big World",
@@ -6588,7 +6594,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Witches"
+  "track": "Witches",
+  "video": {
+   "id": "sPuSIyXBdlU",
+   "published": "2025-03-20T20:22:58Z",
+   "views": 2493961,
+   "ytTitle": "Witches"
+  }
  },
  "alicia keys - a woman s worth": {
   "artist": "Alicia Keys",
@@ -7310,7 +7322,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Just Friends"
+  "track": "Just Friends",
+  "video": {
+   "id": "IvRnrIv3mpM",
+   "published": "2009-12-23T15:31:28Z",
+   "views": 46649813,
+   "ytTitle": "Amy Winehouse - Just Friends"
+  }
  },
  "amy winehouse - love is a losing game": {
   "artist": "Amy Winehouse",
@@ -7379,7 +7397,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Tears Dry (Original Version)"
+  "track": "Tears Dry (Original Version)",
+  "video": {
+   "id": "ojdbDYahiCQ",
+   "published": "2009-12-23T17:35:38Z",
+   "views": 186150779,
+   "ytTitle": "Amy Winehouse - Tears Dry On Their Own"
+  }
  },
  "amy winehouse - tears dry on their own": {
   "artist": "Amy Winehouse",
@@ -11567,7 +11591,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "FOREVER"
+  "track": "FOREVER",
+  "video": {
+   "id": "XLj72wrprlM",
+   "published": "2024-11-01T04:04:06Z",
+   "views": 50456671,
+   "ytTitle": "FOREVER"
+  }
  },
  "bacilos - caraluna": {
   "artist": "Bacilos",
@@ -12136,7 +12166,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Safaera"
+  "track": "Safaera",
+  "video": {
+   "id": "jCQ_6XbATPc",
+   "published": "2020-02-29T04:00:02Z",
+   "views": 433117871,
+   "ytTitle": "BAD BUNNY x JOWELL & RANDY x ÑENGO FLOW - SAFAERA | YHLQMDLG [Visualizer]"
+  }
  },
  "bad bunny - soy peor": {
   "artist": "Bad Bunny",
@@ -12280,7 +12316,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Chulo PT.2"
+  "track": "Chulo PT.2",
+  "video": {
+   "id": "tnbpWZNAT_Y",
+   "published": "2023-06-22T00:00:22Z",
+   "views": 405023706,
+   "ytTitle": "Bad Gyal, Young Miko, Tokischa - Chulo pt.2 - (Official Video)"
+  }
  },
  "bad meets evil - lighters ft bruno mars": {
   "artist": "Bad Meets Evil",
@@ -15285,7 +15327,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Lean on Me"
+  "track": "Lean on Me",
+  "video": {
+   "id": "fOZ-MySzAac",
+   "published": "2014-11-08T04:08:27Z",
+   "views": 89469945,
+   "ytTitle": "Lean on Me"
+  }
  },
  "bill withers - lovely day": {
   "artist": "Bill Withers",
@@ -16098,7 +16146,13 @@
   "genres": [
    "indie"
   ],
-  "track": "I'm Not Gonna Teach Your Boyfriend How to Dance With You"
+  "track": "I'm Not Gonna Teach Your Boyfriend How to Dance With You",
+  "video": {
+   "id": "vaa4eGOtrTg",
+   "published": "2008-03-20T17:35:53Z",
+   "views": 2854948,
+   "ytTitle": "Black Kids - I'm Not Gonna Teach Your Boyfriend How to Dance with You"
+  }
  },
  "black veil brides - in the end": {
   "artist": "Black Veil Brides",
@@ -23809,7 +23863,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Femininomenon"
+  "track": "Femininomenon",
+  "video": {
+   "id": "xdaKBAuO8zg",
+   "published": "2023-07-31T19:50:25Z",
+   "views": 7906081,
+   "ytTitle": "Femininomenon"
+  }
  },
  "chappell roan - pink pony club": {
   "artist": "Chappell Roan",
@@ -24446,7 +24506,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Only You"
+  "track": "Only You",
+  "video": {
+   "id": "T2sO8gK2IKk",
+   "published": "2018-07-12T23:01:00Z",
+   "views": 77613329,
+   "ytTitle": "Cheat Codes, Little Mix - Only You (Official Video)"
+  }
  },
  "cheat codes dante klein - let me hold you": {
   "artist": "Cheat Codes & Dante Klein",
@@ -28246,7 +28312,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Never Saw The Point"
+  "track": "Never Saw The Point",
+  "video": {
+   "id": "NdukOus7muE",
+   "published": "2011-05-27T00:21:11Z",
+   "views": 420932,
+   "ytTitle": "Cults - Never Saw the Point"
+  }
  },
  "cults - you know what i mean": {
   "artist": "Cults",
@@ -33249,7 +33321,8 @@
   "genres": [
    "electronic"
   ],
-  "track": "MAMA OLHANDO PRO PAI"
+  "track": "MAMA OLHANDO PRO PAI",
+  "video": null
  },
  "dj tiesto - adagio for strings": {
   "artist": "DJ Tiesto",
@@ -36388,7 +36461,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Clementine"
+  "track": "Clementine",
+  "video": {
+   "id": "dwsSbAKs3yo",
+   "published": "2023-04-04T13:47:32Z",
+   "views": 1624400,
+   "ytTitle": "Elliott Smith - Clementine live + interview 1995 (Breakfast Time)"
+  }
  },
  "elliott smith - coming up roses": {
   "artist": "Elliott Smith",
@@ -36437,7 +36516,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Needle in the Hay"
+  "track": "Needle in the Hay",
+  "video": {
+   "id": "xUe5k3YLcyQ",
+   "published": "2014-09-02T23:05:25Z",
+   "views": 898903,
+   "ytTitle": "Elliott Smith - Needle In The Hay (Lyrics)"
+  }
  },
  "elliott smith - no name 2": {
   "artist": "Elliott Smith",
@@ -36451,7 +36536,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "No Name #3"
+  "track": "No Name #3",
+  "video": {
+   "id": "lL6f419zXj4",
+   "published": "2014-04-16T15:41:25Z",
+   "views": 713123,
+   "ytTitle": "Elliott Smith - No Name #3 (from Roman Candle)"
+  }
  },
  "elliott smith - no name no 5": {
   "artist": "Elliott Smith",
@@ -40468,7 +40559,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Classy 101"
+  "track": "Classy 101",
+  "video": {
+   "id": "cD5T1Y4b7wA",
+   "published": "2023-03-31T02:12:07Z",
+   "views": 670624920,
+   "ytTitle": "Feid, Young Miko - Classy 101 (Official Video)"
+  }
  },
  "felipe pel ez - vivo pensando en ti": {
   "artist": "Felipe Peláez",
@@ -41101,7 +41198,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Te Quiero"
+  "track": "Te Quiero",
+  "video": {
+   "id": "BQ6_hjFir70",
+   "published": "2012-03-28T03:09:49Z",
+   "views": 64999672,
+   "ytTitle": "Flex Te quiero"
+  }
  },
  "flight facilities - crave you": {
   "artist": "Flight Facilities",
@@ -46356,7 +46459,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Venus Fly"
+  "track": "Venus Fly",
+  "video": {
+   "id": "eTLTXDHrgtw",
+   "published": "2017-02-09T17:24:59Z",
+   "views": 15154162,
+   "ytTitle": "Grimes ft. Janelle Monáe - Venus Fly (Official Video)"
+  }
  },
  "grimes - world princess part ii": {
   "artist": "Grimes",
@@ -47999,7 +48108,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Golden"
+  "track": "Golden",
+  "video": {
+   "id": "P3cffdsEXXw",
+   "published": "2020-10-26T16:00:09Z",
+   "views": 281196162,
+   "ytTitle": "Harry Styles - Golden (Official Video)"
+  }
  },
  "harry styles - sign of the times": {
   "artist": "Harry Styles",
@@ -48075,14 +48190,26 @@
   "genres": [
    "indie"
   ],
-  "track": "Simmer"
+  "track": "Simmer",
+  "video": {
+   "id": "6MtMSbOqBME",
+   "published": "2020-02-05T14:45:53Z",
+   "views": 1932045,
+   "ytTitle": "Hayley Williams - Simmer in the Live Lounge"
+  }
  },
  "he is we - i wouldn t mind": {
   "artist": "He Is We",
   "genres": [
    "ballad"
   ],
-  "track": "I Wouldn't Mind"
+  "track": "I Wouldn't Mind",
+  "video": {
+   "id": "PeaOuLUfKMc",
+   "published": "2021-01-31T22:18:37Z",
+   "views": 9009574,
+   "ytTitle": "Maggie Lindemann - I Wouldn't Mind (He Is We Cover) KROQ"
+  }
  },
  "hear this music - sensualidad": {
   "artist": "Hear This Music",
@@ -52210,7 +52337,13 @@
   "genres": [
    "latin"
   ],
-  "track": "6 AM"
+  "track": "6 AM",
+  "video": {
+   "id": "yUV9JwiQLog",
+   "published": "2014-04-04T19:30:01Z",
+   "views": 1335576827,
+   "ytTitle": "J Balvin - 6 AM ft. Farruko"
+  }
  },
  "j balvin - ay vamos": {
   "artist": "J Balvin",
@@ -52914,7 +53047,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Banana Pancakes"
+  "track": "Banana Pancakes",
+  "video": {
+   "id": "OkyrIRyrRdY",
+   "published": "2008-05-30T13:15:12Z",
+   "views": 41908540,
+   "ytTitle": "Jack Johnson - banana pancakes"
+  }
  },
  "jack johnson - better together": {
   "artist": "Jack Johnson",
@@ -53012,7 +53151,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Upside Down"
+  "track": "Upside Down",
+  "video": {
+   "id": "dqUdI4AIDF0",
+   "published": "2009-06-16T23:29:02Z",
+   "views": 120647917,
+   "ytTitle": "Jack Johnson - Upside Down"
+  }
  },
  "jade - angel of my dreams": {
   "artist": "Jade",
@@ -59010,7 +59155,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Muñekita (with El Alfa & JT)"
+  "track": "Muñekita (with El Alfa & JT)",
+  "video": {
+   "id": "-t24yKUFLRc",
+   "published": "2023-08-04T17:00:09Z",
+   "views": 18768482,
+   "ytTitle": "Kali Uchis, El Alfa, JT - Muñekita [Official Visualizer]"
+  }
  },
  "kali uchis - mu velo": {
   "artist": "Kali Uchis",
@@ -71829,7 +71980,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Light It Up - Remix"
+  "track": "Light It Up - Remix",
+  "video": {
+   "id": "r2LpOUwca94",
+   "published": "2016-06-16T16:53:47Z",
+   "views": 591087649,
+   "ytTitle": "Major Lazer – Light it Up (feat. Nyla & Fuse ODG) (Remix) [Official 4K Music Video]"
+  }
  },
  "major lazer dj snake - lean on": {
   "artist": "Major Lazer & DJ Snake",
@@ -73177,7 +73334,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Seventeen"
+  "track": "Seventeen",
+  "video": {
+   "id": "z5cy0ahhzfE",
+   "published": "2023-05-20T16:13:30Z",
+   "views": 853399,
+   "ytTitle": "Marina- Seventeen (lyrics)"
+  }
  },
  "mario - how do i breathe": {
   "artist": "Mario",
@@ -74089,7 +74252,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Inner City Blues (Make Me Wanna Holler)"
+  "track": "Inner City Blues (Make Me Wanna Holler)",
+  "video": {
+   "id": "57Ykv1D0qEE",
+   "published": "2011-07-05T07:00:00Z",
+   "views": 58668117,
+   "ytTitle": "Marvin Gaye - Inner City Blues (Make Me Wanna Holler)"
+  }
  },
  "marvin gaye - just to keep you satisfied": {
   "artist": "Marvin Gaye",
@@ -78679,7 +78848,13 @@
   "genres": [
    "indie"
   ],
-  "track": "O My Heart"
+  "track": "O My Heart",
+  "video": {
+   "id": "RAISESvit4k",
+   "published": "2013-05-13T18:57:47Z",
+   "views": 2083773,
+   "ytTitle": "Mother Mother - O My Heart"
+  }
  },
  "moves like jagger studio recording from - the voice": {
   "artist": "Moves Like Jagger (Studio Recording From",
@@ -82163,7 +82338,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Pink Moon"
+  "track": "Pink Moon",
+  "video": {
+   "id": "aXnfhnCoOyo",
+   "published": "2007-11-08T12:49:51Z",
+   "views": 4859370,
+   "ytTitle": "Nick Drake - Pink Moon"
+  }
  },
  "nick drake - place to be": {
   "artist": "Nick Drake",
@@ -86755,7 +86936,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Dark Beach"
+  "track": "Dark Beach",
+  "video": {
+   "id": "guDJvZp5Bqk",
+   "published": "2021-08-01T23:59:57Z",
+   "views": 69968925,
+   "ytTitle": "PASTEL GHOST ~ DARK BEACH"
+  }
  },
  "pat benatar - love is a battlefield": {
   "artist": "Pat Benatar",
@@ -87694,7 +87881,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Lasso"
+  "track": "Lasso",
+  "video": {
+   "id": "emad0Z-yAbw",
+   "published": "2013-05-27T16:56:23Z",
+   "views": 4445192,
+   "ytTitle": "Phoenix - Lasso"
+  }
  },
  "phoenix - lisztomania": {
   "artist": "Phoenix",
@@ -88726,7 +88919,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Goodbye To A World"
+  "track": "Goodbye To A World",
+  "video": {
+   "id": "W2TE0DjdNqI",
+   "published": "2014-08-12T07:00:01Z",
+   "views": 78918414,
+   "ytTitle": "Porter Robinson - Goodbye To A World (Audio)"
+  }
  },
  "porter robinson - look at the sky": {
   "artist": "Porter Robinson",
@@ -90863,7 +91062,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "True Love Waits"
+  "track": "True Love Waits",
+  "video": {
+   "id": "z2hZ9CTLICs",
+   "published": "2011-03-08T05:37:08Z",
+   "views": 11377668,
+   "ytTitle": "Radiohead - True Love Waits (90s band version)"
+  }
  },
  "radwimps - ": {
   "artist": "RADWIMPS",
@@ -94771,7 +94976,13 @@
   "genres": [
    "latin"
   ],
-  "track": "DIABLO"
+  "track": "DIABLO",
+  "video": {
+   "id": "0GMeqmqUjEQ",
+   "published": "2022-03-18T04:25:39Z",
+   "views": 11510404,
+   "ytTitle": "ROSALÍA - DIABLO (Official Audio)"
+  }
  },
  "rosal a - malamente": {
   "artist": "ROSALÍA",
@@ -95320,7 +95531,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Vicious"
+  "track": "Vicious",
+  "video": {
+   "id": "cZg3t5Nu1Lo",
+   "published": "2022-07-01T04:00:28Z",
+   "views": 6001824,
+   "ytTitle": "Sabrina Carpenter - “Vicious” (Lyric Video)"
+  }
  },
  "sabrina carpenter sofia carson - wildside": {
   "artist": "Sabrina Carpenter, Sofia Carson",
@@ -95393,7 +95610,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Feel No Pain"
+  "track": "Feel No Pain",
+  "video": {
+   "id": "yoLoEw8D0Bg",
+   "published": "2010-01-14T17:51:52Z",
+   "views": 15986045,
+   "ytTitle": "Sade - Feel No Pain - Official - 1992"
+  }
  },
  "sade - hang on to your love": {
   "artist": "Sade",
@@ -95407,7 +95630,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "I Couldn't Love You More"
+  "track": "I Couldn't Love You More",
+  "video": {
+   "id": "G0G53hJ8Rjs",
+   "published": "2009-02-07T19:39:27Z",
+   "views": 5332092,
+   "ytTitle": "Sade - I Couldn't Love You More"
+  }
  },
  "sade - is it a crime": {
   "artist": "Sade",
@@ -95441,7 +95670,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Never as Good as the First Time"
+  "track": "Never as Good as the First Time",
+  "video": {
+   "id": "UfzmVUrZplw",
+   "published": "2009-12-12T03:56:45Z",
+   "views": 32664397,
+   "ytTitle": "Sade - Never As Good As The First Time - Official - 1986"
+  }
  },
  "sade - no ordinary love": {
   "artist": "Sade",
@@ -100228,7 +100463,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Elastic Heart"
+  "track": "Elastic Heart",
+  "video": {
+   "id": "KWZGAExj-es",
+   "published": "2015-01-07T17:00:02Z",
+   "views": 1418673224,
+   "ytTitle": "Sia - Elastic Heart feat. Shia LaBeouf & Maddie Ziegler (Official Video)"
+  }
  },
  "sia - elastic heart feat shia labeouf maddie ziegler": {
   "artist": "Sia",
@@ -100347,7 +100588,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Goth"
+  "track": "Goth",
+  "video": {
+   "id": "KJoYBw5tJOc",
+   "published": "2023-07-27T10:00:12Z",
+   "views": 130284734,
+   "ytTitle": "Goth (Slowed + Reverb)"
+  }
  },
  "sie7e - tengo tu love": {
   "artist": "Sie7e",
@@ -101217,7 +101464,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Butterflies"
+  "track": "Butterflies",
+  "video": {
+   "id": "zliasEkWx0M",
+   "published": "2021-06-24T16:00:27Z",
+   "views": 5176400,
+   "ytTitle": "Skrillex, Starrah & Four Tet - Butterflies (Official Music Video)"
+  }
  },
  "skrillex - duro": {
   "artist": "Skrillex",
@@ -101526,7 +101779,13 @@
   "genres": [
    "dance"
   ],
-  "track": "WHAT IS IT LIKE, TO BE LIKED?"
+  "track": "WHAT IS IT LIKE, TO BE LIKED?",
+  "video": {
+   "id": "YlL802lNarY",
+   "published": "2026-03-27T04:00:32Z",
+   "views": 573244,
+   "ytTitle": "Slayyyter - WHAT IS IT LIKE, TO BE LIKED? (Official Video)"
+  }
  },
  "sleeping with sirens - if you can t hang": {
   "artist": "Sleeping With Sirens",
@@ -102038,7 +102297,8 @@
   "genres": [
    "electronic"
   ],
-  "track": "So What If I'm A Freak"
+  "track": "So What If I'm A Freak",
+  "video": null
  },
  "soccerbabe2545 - slow ride foghat": {
   "artist": "soccerbabe2545",
@@ -103570,7 +103830,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Don't You Worry 'Bout a Thing"
+  "track": "Don't You Worry 'Bout a Thing",
+  "video": {
+   "id": "RxsBc5p-dPU",
+   "published": "2018-10-30T09:31:48Z",
+   "views": 16818024,
+   "ytTitle": "Don't You Worry 'Bout A Thing"
+  }
  },
  "stevie wonder - for once in my life": {
   "artist": "Stevie Wonder",
@@ -103658,7 +103924,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Love's in Need of Love Today"
+  "track": "Love's in Need of Love Today",
+  "video": {
+   "id": "FGZYWSfiYbM",
+   "published": "2011-09-02T23:41:15Z",
+   "views": 5023740,
+   "ytTitle": "Stevie Wonder  ~ Love's In Need Of Love Today"
+  }
  },
  "stevie wonder - my cherie amour": {
   "artist": "Stevie Wonder",
@@ -103692,7 +103964,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Pastime Paradise"
+  "track": "Pastime Paradise",
+  "video": {
+   "id": "_H3Sv2zad6s",
+   "published": "2008-02-27T20:34:00Z",
+   "views": 8262545,
+   "ytTitle": "Stevie Wonder-Pastime Paradise"
+  }
  },
  "stevie wonder - signed sealed delivered": {
   "artist": "Stevie Wonder",
@@ -103911,7 +104189,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Chk Chk Boom"
+  "track": "Chk Chk Boom",
+  "video": {
+   "id": "0P0aQreFs8w",
+   "published": "2024-07-19T04:00:00Z",
+   "views": 220238323,
+   "ytTitle": "Stray Kids \"Chk Chk Boom\" M/V"
+  }
  },
  "stray kids - christmas evel": {
   "artist": "Stray Kids",
@@ -106460,7 +106744,13 @@
   "genres": [
    "latin"
   ],
-  "track": "FANTASMA | AVC"
+  "track": "FANTASMA | AVC",
+  "video": {
+   "id": "2UXpZPqjOIM",
+   "published": "2023-06-05T22:00:01Z",
+   "views": 26514128,
+   "ytTitle": "FANTASMA | AVC - Tainy, JhayCo (Official Video)"
+  }
  },
  "tainy - lo siento bb": {
   "artist": "Tainy",
@@ -106474,7 +106764,13 @@
   "genres": [
    "latin"
   ],
-  "track": "VOLVER"
+  "track": "VOLVER",
+  "video": {
+   "id": "Db2OLvdhsDk",
+   "published": "2023-06-30T00:00:04Z",
+   "views": 17194286,
+   "ytTitle": "VOLVER - Tainy, Rauw Alejandro, Skrillex, Four Tet (Official Visualizer)"
+  }
  },
  "taio cruz - break your heart": {
   "artist": "Taio Cruz",
@@ -107252,7 +107548,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Miss Americana & the Heartbreak Prince"
+  "track": "Miss Americana & the Heartbreak Prince",
+  "video": {
+   "id": "Kwf7P2GNAVw",
+   "published": "2019-08-23T04:00:05Z",
+   "views": 45978735,
+   "ytTitle": "Taylor Swift - Miss Americana & The Heartbreak Prince (Official Audio)"
+  }
  },
  "taylor swift - my boy only breaks his favorite toys": {
   "artist": "Taylor Swift",
@@ -109652,7 +109954,13 @@
   "genres": [
    "indie"
   ],
-  "track": "I Don't Want to Get Over You"
+  "track": "I Don't Want to Get Over You",
+  "video": {
+   "id": "WVEhNHIzJec",
+   "published": "2009-10-28T03:03:58Z",
+   "views": 1139809,
+   "ytTitle": "The Magnetic Fields - I Don't Want To Get Over You"
+  }
  },
  "the mar as - un mill n": {
   "artist": "The Marías",
@@ -110970,7 +111278,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Summertime"
+  "track": "Summertime",
+  "video": {
+   "id": "Z778slDEsds",
+   "published": "2009-11-21T11:01:31Z",
+   "views": 5893153,
+   "ytTitle": "The Sundays - Summertime"
+  }
  },
  "the sundays - you re not the only one i know": {
   "artist": "The Sundays",
@@ -113786,7 +114100,13 @@
   "genres": [
    "dance"
   ],
-  "track": "2 Die 4"
+  "track": "2 Die 4",
+  "video": {
+   "id": "eUSkZCoGalo",
+   "published": "2022-08-30T16:00:09Z",
+   "views": 8540261,
+   "ytTitle": "Tove Lo - 2 Die 4 (Official Music Video)"
+  }
  },
  "tove lo - habits": {
   "artist": "Tove Lo",
@@ -113864,7 +114184,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Fast Car"
+  "track": "Fast Car",
+  "video": {
+   "id": "DwrHwZyFN7M",
+   "published": "2016-06-17T19:41:26Z",
+   "views": 189181472,
+   "ytTitle": "Tracy Chapman - Fast car"
+  }
  },
  "trademark - only love": {
   "artist": "Trademark",
@@ -116185,7 +116511,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Old money bitch"
+  "track": "Old money bitch",
+  "video": {
+   "id": "fG7foCO6wfc",
+   "published": "2023-08-16T16:00:07Z",
+   "views": 325596,
+   "ytTitle": "underscores 'Old money bitch' Official Video"
+  }
  },
  "underscores - stupid": {
   "artist": "underscores",
@@ -121579,12 +121911,14 @@
   "genres": [
    "dance"
   ],
-  "track": "Hot & Sexy"
+  "track": "Hot & Sexy",
+  "video": null
  },
  "zara larsson - lush life": {
   "artist": "Zara Larsson",
   "genres": [
-   "pop"
+   "pop",
+   "dance"
   ],
   "track": "Lush Life",
   "video": {
@@ -121600,14 +121934,26 @@
   "genres": [
    "electronic"
   ],
-  "track": "Never Forget You"
+  "track": "Never Forget You",
+  "video": {
+   "id": "EwzhHtgXLNs",
+   "published": "2016-07-07T15:55:00Z",
+   "views": 3008345,
+   "ytTitle": "Zara Larsson - Never Forget You (Stripped) (Vevo LIFT)"
+  }
  },
  "zara larsson - wow": {
   "artist": "Zara Larsson",
   "genres": [
    "electronic"
   ],
-  "track": "WOW"
+  "track": "WOW",
+  "video": {
+   "id": "wC9i8w2cHwM",
+   "published": "2020-10-07T16:00:10Z",
+   "views": 36182199,
+   "ytTitle": "Zara Larsson - WOW (Remix - Official Music Video) ft. Sabrina Carpenter"
+  }
  },
  "zara larsson mnek - never forget you": {
   "artist": "Zara Larsson, MNEK",

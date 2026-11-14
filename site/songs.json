@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "genres": [
   {
    "id": "pop",
@@ -2121,6 +2121,19 @@
    ]
   },
   {
+   "id": "KWZGAExj-es",
+   "artist": "Sia",
+   "title": "Elastic Heart",
+   "views": 1418673224,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "rnb",
+    "pop",
+    "hiphop"
+   ]
+  },
+  {
    "id": "m7Bc3pLyij0",
    "artist": "Marshmello",
    "title": "Happier (feat. Bastille)",
@@ -2132,18 +2145,6 @@
     "dance",
     "electronic",
     "ballad"
-   ]
-  },
-  {
-   "id": "KWZGAExj-es",
-   "artist": "Sia",
-   "title": "Elastic Heart feat. Shia LaBeouf & Maddie Ziegler",
-   "views": 1416922078,
-   "region": "global",
-   "year": 2015,
-   "genres": [
-    "pop",
-    "hiphop"
    ]
   },
   {
@@ -2356,6 +2357,17 @@
     "hiphop",
     "pop",
     "ballad"
+   ]
+  },
+  {
+   "id": "yUV9JwiQLog",
+   "artist": "J Balvin",
+   "title": "6 AM",
+   "views": 1335576827,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -3144,6 +3156,19 @@
    ]
   },
   {
+   "id": "dvgZkm1xWPE",
+   "artist": "Coldplay",
+   "title": "Viva la Vida",
+   "views": 1084070065,
+   "region": "global",
+   "year": 2008,
+   "genres": [
+    "rock",
+    "indie",
+    "pop"
+   ]
+  },
+  {
    "id": "W-TE_Ys4iwM",
    "artist": "One Direction",
    "title": "Story of My Life",
@@ -3749,19 +3774,6 @@
    "year": 2016,
    "genres": [
     "latin"
-   ]
-  },
-  {
-   "id": "-CmadmM5cOk",
-   "artist": "Taylor Swift",
-   "title": "Style",
-   "views": 973792981,
-   "region": "global",
-   "year": 2015,
-   "genres": [
-    "pop",
-    "hiphop",
-    "ballad"
    ]
   },
   {
@@ -4469,18 +4481,6 @@
    "genres": [
     "electronic",
     "pop"
-   ]
-  },
-  {
-   "id": "o_1aF54DO60",
-   "artist": "Lana Del Rey",
-   "title": "Young and Beautiful",
-   "views": 843200593,
-   "region": "global",
-   "year": 2013,
-   "genres": [
-    "rock",
-    "indie"
    ]
   },
   {
@@ -6946,19 +6946,6 @@
    ]
   },
   {
-   "id": "oh2LWWORoiM",
-   "artist": "Tove Lo",
-   "title": "Habits (Stay High)",
-   "views": 562273867,
-   "region": "global",
-   "year": 2014,
-   "genres": [
-    "indie",
-    "pop",
-    "electronic"
-   ]
-  },
-  {
    "id": "05dcxPp62BQ",
    "artist": "Alejandro Fernández",
    "title": "Me Dedique A Perderte",
@@ -9234,6 +9221,17 @@
    "genres": [
     "ballad",
     "pop"
+   ]
+  },
+  {
+   "id": "jCQ_6XbATPc",
+   "artist": "Bad Bunny",
+   "title": "Safaera",
+   "views": 433117871,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -14105,6 +14103,17 @@
    ]
   },
   {
+   "id": "P3cffdsEXXw",
+   "artist": "Harry Styles",
+   "title": "Golden",
+   "views": 281196162,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "tupl2hiXbcE",
    "artist": "Rauw Alejandro",
    "title": "El Efecto",
@@ -17818,6 +17827,19 @@
    ]
   },
   {
+   "id": "AqQuRw0S6b4",
+   "artist": "Maroon 5",
+   "title": "This Love",
+   "views": 214966303,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "pop",
+    "rock",
+    "ballad"
+   ]
+  },
+  {
    "id": "0OWj0CiM8WU",
    "artist": "OneRepublic",
    "title": "Love Runs Out",
@@ -19481,6 +19503,18 @@
    ]
   },
   {
+   "id": "RG-D4bcg54s",
+   "artist": "Zara Larsson",
+   "title": "Lush Life",
+   "views": 192303051,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "pop",
+    "dance"
+   ]
+  },
+  {
    "id": "Uc8wmLul3uw",
    "artist": "Gregory Abbott",
    "title": "Shake You Down",
@@ -19628,6 +19662,17 @@
    "genres": [
     "pop",
     "dance"
+   ]
+  },
+  {
+   "id": "DwrHwZyFN7M",
+   "artist": "Tracy Chapman",
+   "title": "Fast Car",
+   "views": 189181472,
+   "region": "global",
+   "year": 2016,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -19901,6 +19946,18 @@
    ]
   },
   {
+   "id": "ojdbDYahiCQ",
+   "artist": "Amy Winehouse",
+   "title": "Tears Dry",
+   "views": 186150779,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb",
+    "ballad"
+   ]
+  },
+  {
    "id": "6DaL-Z4dwzI",
    "artist": "Tiësto & Dzeko",
    "title": "Jackie Chan (feat. Preme & Post Malone)",
@@ -19942,18 +19999,6 @@
    "year": 2017,
    "genres": [
     "indie"
-   ]
-  },
-  {
-   "id": "ojdbDYahiCQ",
-   "artist": "Amy Winehouse",
-   "title": "Tears Dry on Their Own",
-   "views": 185779508,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "rnb",
-    "ballad"
    ]
   },
   {
@@ -21428,6 +21473,17 @@
    ]
   },
   {
+   "id": "_UwWYtLWEZg",
+   "artist": "Sleeping With Sirens",
+   "title": "If You Can't Hang",
+   "views": 171078254,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "rock"
+   ]
+  },
+  {
    "id": "CSJXle3LP_Q",
    "artist": "Korn",
    "title": "Coming Undone",
@@ -22468,17 +22524,6 @@
    "year": 2018,
    "genres": [
     "ballad"
-   ]
-  },
-  {
-   "id": "sEetXo3R-aM",
-   "artist": "Lana Del Rey",
-   "title": "Diet Mountain Dew",
-   "views": 160325171,
-   "region": "global",
-   "year": 2020,
-   "genres": [
-    "indie"
    ]
   },
   {
@@ -27553,6 +27598,17 @@
    ]
   },
   {
+   "id": "dqUdI4AIDF0",
+   "artist": "Jack Johnson",
+   "title": "Upside Down",
+   "views": 120647917,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "dFKjzxWITWw",
    "artist": "JAŸ-Z",
    "title": "Numb / Encore",
@@ -28422,6 +28478,17 @@
    "year": 2009,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "JtH68PJIQLE",
+   "artist": "Grimes",
+   "title": "Oblivion",
+   "views": 115835311,
+   "region": "global",
+   "year": 2012,
+   "genres": [
+    "indie"
    ]
   },
   {
@@ -33906,6 +33973,17 @@
    ]
   },
   {
+   "id": "fOZ-MySzAac",
+   "artist": "Bill Withers",
+   "title": "Lean on Me",
+   "views": 89469945,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "zhjo7zY_Cnc",
    "artist": "Playa Limbo",
    "title": "El Tiempo de Ti",
@@ -36443,6 +36521,17 @@
    ]
   },
   {
+   "id": "W2TE0DjdNqI",
+   "artist": "Porter Robinson",
+   "title": "Goodbye To A World",
+   "views": 78918414,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "KZY9oYSSjFI",
    "artist": "Bee Gees",
    "title": "You Win Again",
@@ -36760,6 +36849,17 @@
    "year": 2009,
    "genres": [
     "rock"
+   ]
+  },
+  {
+   "id": "T2sO8gK2IKk",
+   "artist": "Cheat Codes",
+   "title": "Only You",
+   "views": 77613329,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "electronic"
    ]
   },
   {
@@ -38151,6 +38251,17 @@
    ]
   },
   {
+   "id": "21YJcWdiNfI",
+   "artist": "A Day to Remember",
+   "title": "If It Means a Lot to You",
+   "views": 73187477,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "2r5j9mbePPI",
    "artist": "H-Town",
    "title": "Knockin' da Boots",
@@ -39002,6 +39113,17 @@
    "year": 2016,
    "genres": [
     "ballad"
+   ]
+  },
+  {
+   "id": "guDJvZp5Bqk",
+   "artist": "PASTEL GHOST",
+   "title": "Dark Beach",
+   "views": 69968925,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "electronic"
    ]
   },
   {
@@ -40807,6 +40929,17 @@
    "year": 2006,
    "genres": [
     "rock"
+   ]
+  },
+  {
+   "id": "BQ6_hjFir70",
+   "artist": "Flex",
+   "title": "Te Quiero",
+   "views": 64999672,
+   "region": "global",
+   "year": 2012,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -43274,6 +43407,17 @@
    "year": 2019,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "57Ykv1D0qEE",
+   "artist": "Marvin Gaye",
+   "title": "Inner City Blues (Make Me Wanna Holler)",
+   "views": 58668117,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -48926,6 +49070,17 @@
    ]
   },
   {
+   "id": "IvRnrIv3mpM",
+   "artist": "Amy Winehouse",
+   "title": "Just Friends",
+   "views": 46649813,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "i8nYBqPRNKw",
    "artist": "Carnage & Borgore",
    "title": "Incredible",
@@ -49292,6 +49447,17 @@
    "year": 2018,
    "genres": [
     "rnb"
+   ]
+  },
+  {
+   "id": "Kwf7P2GNAVw",
+   "artist": "Taylor Swift",
+   "title": "Miss Americana & the Heartbreak Prince",
+   "views": 45978735,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "dance"
    ]
   },
   {
@@ -51652,6 +51818,17 @@
    "views": 41908563,
    "region": "global",
    "year": 2016,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
+   "id": "OkyrIRyrRdY",
+   "artist": "Jack Johnson",
+   "title": "Banana Pancakes",
+   "views": 41908540,
+   "region": "global",
+   "year": 2008,
    "genres": [
     "ballad"
    ]
@@ -55413,6 +55590,17 @@
    ]
   },
   {
+   "id": "wC9i8w2cHwM",
+   "artist": "Zara Larsson",
+   "title": "WOW",
+   "views": 36182199,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "CdP2lLODk-A",
    "artist": "Christina Aguilera",
    "title": "Dirrty",
@@ -57954,6 +58142,17 @@
    "year": 2010,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "UfzmVUrZplw",
+   "artist": "Sade",
+   "title": "Never as Good as the First Time",
+   "views": 32664397,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
    ]
   },
   {
