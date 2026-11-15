@@ -4128,7 +4128,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Rumour Has It"
+  "track": "Rumour Has It",
+  "video": {
+   "id": "-_6BBAVfzqM",
+   "published": "2011-02-24T21:12:45Z",
+   "views": 26204652,
+   "ytTitle": "Adele - Rumour Has It"
+  }
  },
  "adele - send my love": {
   "artist": "Adele",
@@ -4514,7 +4520,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Spark - WINTER Solo"
+  "track": "Spark - WINTER Solo",
+  "video": {
+   "id": "ZKnX1ewd1DA",
+   "published": "2024-10-09T09:03:44Z",
+   "views": 21404748,
+   "ytTitle": "Spark (WINTER Solo)"
+  }
  },
  "aespa - spicy": {
   "artist": "aespa",
@@ -7315,7 +7327,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "In My Bed"
+  "track": "In My Bed",
+  "video": {
+   "id": "xdi_yuSgQw8",
+   "published": "2009-12-23T17:39:18Z",
+   "views": 53628747,
+   "ytTitle": "Amy Winehouse - In My Bed"
+  }
  },
  "amy winehouse - just friends": {
   "artist": "Amy Winehouse",
@@ -7719,7 +7737,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Envolver"
+  "track": "Envolver",
+  "video": {
+   "id": "hFCjGiawJi4",
+   "published": "2021-11-12T00:59:27Z",
+   "views": 946792193,
+   "ytTitle": "Anitta - Envolver [Official Music Video]"
+  }
  },
  "anitta - medicina": {
   "artist": "Anitta",
@@ -8641,14 +8665,26 @@
   "genres": [
    "latin"
   ],
-  "track": "KLK"
+  "track": "KLK",
+  "video": {
+   "id": "NL-tvd8jeBc",
+   "published": "2021-11-03T15:00:12Z",
+   "views": 14220452,
+   "ytTitle": "Arca - Prada/Rakata"
+  }
  },
  "arca - rakata": {
   "artist": "Arca",
   "genres": [
    "latin"
   ],
-  "track": "Rakata"
+  "track": "Rakata",
+  "video": {
+   "id": "NL-tvd8jeBc",
+   "published": "2021-11-03T15:00:12Z",
+   "views": 14220452,
+   "ytTitle": "Arca - Prada/Rakata"
+  }
  },
  "arcade fire - everything now": {
   "artist": "Arcade Fire",
@@ -9848,7 +9884,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Tantrum"
+  "track": "Tantrum",
+  "video": {
+   "id": "Msu_fvRmP3Q",
+   "published": "2020-03-23T17:00:11Z",
+   "views": 17425157,
+   "ytTitle": "Ashnikko - Tantrum (Official Music Video)"
+  }
  },
  "asian kung fu generation - rewrite": {
   "artist": "ASIAN KUNG-FU GENERATION",
@@ -10708,7 +10750,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "SOS (feat. Aloe Blacc)"
+  "track": "SOS (feat. Aloe Blacc)",
+  "video": {
+   "id": "u8tdT5pAE34",
+   "published": "2019-04-10T19:00:07Z",
+   "views": 128304412,
+   "ytTitle": "Avicii - SOS (Fan Memories Video) ft. Aloe Blacc"
+  }
  },
  "avicii - sos ft aloe blacc": {
   "artist": "Avicii",
@@ -11914,7 +11962,13 @@
   "genres": [
    "latin"
   ],
-  "track": "BAILE INoLVIDABLE"
+  "track": "BAILE INoLVIDABLE",
+  "video": {
+   "id": "a1Femq4NPxs",
+   "published": "2025-01-09T19:37:59Z",
+   "views": 550987628,
+   "ytTitle": "BAD BUNNY - BAILE INoLVIDABLE (Video Oficial) | DeBÍ TiRAR MáS FOToS"
+  }
  },
  "bad bunny - caile": {
   "artist": "Bad Bunny",
@@ -13794,7 +13848,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Like Dylan in the Movies"
+  "track": "Like Dylan in the Movies",
+  "video": {
+   "id": "rGf3avdnI8U",
+   "published": "2016-11-22T19:51:09Z",
+   "views": 236482,
+   "ytTitle": "Like Dylan in the Movies"
+  }
  },
  "belle and sebastian - piazza new york catcher": {
   "artist": "Belle and Sebastian",
@@ -16006,7 +16066,13 @@
   "genres": [
    "indie"
   ],
-  "track": "The Facts of Life"
+  "track": "The Facts of Life",
+  "video": {
+   "id": "0d3vhHe-zSM",
+   "published": "2018-07-06T09:31:26Z",
+   "views": 219183,
+   "ytTitle": "Black Box Recorder- The Facts of Life (Official Video)"
+  }
  },
  "black crowes - she talks to angels": {
   "artist": "black crowes",
@@ -16201,7 +16267,13 @@
    "electronic",
    "kpop"
   ],
-  "track": "BOOMBAYAH"
+  "track": "BOOMBAYAH",
+  "video": {
+   "id": "18nDrsoii5M",
+   "published": "2016-09-22T03:14:18Z",
+   "views": 185921722,
+   "ytTitle": "붐바야 (Boombayah)"
+  }
  },
  "blackpink - ddu du ddu du": {
   "artist": "BLACKPINK",
@@ -22321,7 +22393,8 @@
  "calvin harris - outside": {
   "artist": "Calvin Harris",
   "genres": [
-   "electronic"
+   "electronic",
+   "pop"
   ],
   "track": "Outside (feat. Ellie Goulding)",
   "video": {
@@ -22646,7 +22719,13 @@
   "genres": [
    "indie"
   ],
-  "track": "French Navy"
+  "track": "French Navy",
+  "video": {
+   "id": "O3CkfvYMCWM",
+   "published": "2009-03-24T15:01:05Z",
+   "views": 6027636,
+   "ytTitle": "Camera Obscura - French Navy (Official Video)"
+  }
  },
  "camila - al jate de mi": {
   "artist": "Camila",
@@ -28866,7 +28945,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Lovumba"
+  "track": "Lovumba",
+  "video": {
+   "id": "9TeyuDnwyrw",
+   "published": "2012-01-11T08:00:00Z",
+   "views": 232217535,
+   "ytTitle": "Daddy Yankee - Lovumba"
+  }
  },
  "daddy yankee - machucando": {
   "artist": "Daddy Yankee",
@@ -36377,7 +36462,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "A Fond Farewell"
+  "track": "A Fond Farewell",
+  "video": {
+   "id": "nabO_UXb6MM",
+   "published": "2007-12-11T18:34:01Z",
+   "views": 3463195,
+   "ytTitle": "A Fond Farewell - Elliott Smith"
+  }
  },
  "elliott smith - alameda": {
   "artist": "Elliott Smith",
@@ -36481,7 +36572,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Everything Reminds Me of Her"
+  "track": "Everything Reminds Me of Her",
+  "video": {
+   "id": "SNgIz0b5lHU",
+   "published": "2018-12-12T11:23:00Z",
+   "views": 979955,
+   "ytTitle": "Everything Reminds Me Of Her"
+  }
  },
  "elliott smith - good to go": {
   "artist": "Elliott Smith",
@@ -36590,7 +36687,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Somebody That I Used to Know"
+  "track": "Somebody That I Used to Know",
+  "video": {
+   "id": "t7mc3Gckfcg",
+   "published": "2018-12-12T11:22:37Z",
+   "views": 1331273,
+   "ytTitle": "Somebody That I Used To Know"
+  }
  },
  "elliott smith - son of sam": {
   "artist": "Elliott Smith",
@@ -36611,7 +36714,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Speed Trials"
+  "track": "Speed Trials",
+  "video": {
+   "id": "UuizNQUOFCI",
+   "published": "2014-06-04T17:05:40Z",
+   "views": 1334979,
+   "ytTitle": "Elliott Smith - Speed Trials (from Either/Or)"
+  }
  },
  "elliott smith - st ides heaven": {
   "artist": "Elliott Smith",
@@ -36660,7 +36769,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Twilight"
+  "track": "Twilight",
+  "video": {
+   "id": "sJthA4l8S5U",
+   "published": "2008-04-02T23:32:25Z",
+   "views": 3354029,
+   "ytTitle": "Elliott Smith-Twilight"
+  }
  },
  "elliott smith - waltz 2": {
   "artist": "Elliott Smith",
@@ -45935,7 +46050,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Tormenta (feat. Bad Bunny)"
+  "track": "Tormenta (feat. Bad Bunny)",
+  "video": {
+   "id": "F_AGC1W_aJk",
+   "published": "2023-02-24T10:32:03Z",
+   "views": 16477324,
+   "ytTitle": "Gorillaz - Tormenta ft. Bad Bunny (Official Audio)"
+  }
  },
  "got the beat - step back": {
   "artist": "GOT the beat",
@@ -48513,7 +48634,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Make Me Beautiful"
+  "track": "Make Me Beautiful",
+  "video": {
+   "id": "P47Hmb7p6Mo",
+   "published": "2022-12-31T10:03:22Z",
+   "views": 1790028,
+   "ytTitle": "Love On The Catwalk"
+  }
  },
  "hi five - i can t wait another minute": {
   "artist": "Hi-Five",
@@ -53060,7 +53187,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Better Together"
+  "track": "Better Together",
+  "video": {
+   "id": "seZMOTGCDag",
+   "published": "2010-04-19T22:46:23Z",
+   "views": 28242741,
+   "ytTitle": "Jack Johnson - Better Together"
+  }
  },
  "jack johnson - breakdown": {
   "artist": "Jack Johnson",
@@ -57048,7 +57181,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Heartbeats"
+  "track": "Heartbeats",
+  "video": {
+   "id": "HxJhYpTIrl8",
+   "published": "2010-05-11T15:38:18Z",
+   "views": 19087947,
+   "ytTitle": "José Gonzales - Heartbeats | Other Voices"
+  }
  },
  "jos gonz lez - stay alive": {
   "artist": "José González",
@@ -59079,7 +59218,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Wait On Me"
+  "track": "Wait On Me",
+  "video": {
+   "id": "JLqXeMabsEQ",
+   "published": "2025-04-21T09:00:26Z",
+   "views": 17256071,
+   "ytTitle": "KAI 카이 'Wait On Me' MV"
+  }
  },
  "kai 카이 - 음": {
   "artist": "KAI 카이",
@@ -59175,7 +59320,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Solita"
+  "track": "Solita",
+  "video": {
+   "id": "MTdj-6Bd5wk",
+   "published": "2019-12-18T17:00:10Z",
+   "views": 9052861,
+   "ytTitle": "Kali Uchis - Solita (Official Video)"
+  }
  },
  "kali uchis - telepat a": {
   "artist": "Kali Uchis",
@@ -62927,7 +63078,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Detour"
+  "track": "Detour",
+  "video": {
+   "id": "7iFSMAQH9Ts",
+   "published": "2026-05-28T10:05:17Z",
+   "views": 621608,
+   "ytTitle": "Detour"
+  }
  },
  "kim petras - freak it": {
   "artist": "Kim Petras",
@@ -64404,7 +64561,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Como Me Duele"
+  "track": "Como Me Duele",
+  "video": {
+   "id": "N_hv9jMOh48",
+   "published": "2021-05-02T06:54:08Z",
+   "views": 23584898,
+   "ytTitle": "Como Me Duele"
+  }
  },
  "la factoria - perd name": {
   "artist": "La Factoria",
@@ -69742,7 +69905,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Where Are You Now"
+  "track": "Where Are You Now",
+  "video": {
+   "id": "PoP2Sa7wYNQ",
+   "published": "2021-08-18T15:00:11Z",
+   "views": 220329287,
+   "ytTitle": "Lost Frequencies ft. Calum Scott - Where Are You Now (Official video)"
+  }
  },
  "lost frequencies feat janieck devy - reality": {
   "artist": "Lost Frequencies feat. Janieck Devy",
@@ -70610,7 +70779,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Gunshot"
+  "track": "Gunshot",
+  "video": {
+   "id": "AIruwzhozTc",
+   "published": "2014-07-15T14:34:29Z",
+   "views": 11175216,
+   "ytTitle": "Lykke Li - Gunshot (Official Video)"
+  }
  },
  "lykke li - i follow rivers": {
   "artist": "Lykke Li",
@@ -73926,7 +74101,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Carry You"
+  "track": "Carry You",
+  "video": {
+   "id": "xVGoGYb55NI",
+   "published": "2024-02-16T16:00:40Z",
+   "views": 9923180,
+   "ytTitle": "Martin Garrix & Third ≡ Party - Carry You (feat. Oaks & Declan J Donovan) [Official Video]"
+  }
  },
  "martin garrix - in the name of love": {
   "artist": "Martin Garrix",
@@ -74205,7 +74386,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Flyin' High (In the Friendly Sky)"
+  "track": "Flyin' High (In the Friendly Sky)",
+  "video": {
+   "id": "WRcgeVmJgzQ",
+   "published": "2007-04-28T23:38:53Z",
+   "views": 867231,
+   "ytTitle": "Marvin Gaye Flyin' High (In the Friendly Sky)"
+  }
  },
  "marvin gaye - god is love": {
   "artist": "Marvin Gaye",
@@ -74318,7 +74505,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Sexual Healing"
+  "track": "Sexual Healing",
+  "video": {
+   "id": "rjlSiASsUIs",
+   "published": "2013-12-07T03:28:10Z",
+   "views": 240744119,
+   "ytTitle": "Marvin Gaye - Sexual Healing (Official HD Video)"
+  }
  },
  "marvin gaye - what s going on": {
   "artist": "Marvin Gaye",
@@ -77566,7 +77759,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Inside My Love"
+  "track": "Inside My Love",
+  "video": {
+   "id": "UVniMFJYY1o",
+   "published": "2009-11-30T08:00:31Z",
+   "views": 10823783,
+   "ytTitle": "Minnie Riperton- Inside My Love"
+  }
  },
  "minnie riperton - les fleurs": {
   "artist": "Minnie Riperton",
@@ -82358,7 +82557,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Road"
+  "track": "Road",
+  "video": {
+   "id": "oQJmaKBcMzo",
+   "published": "2011-11-14T15:11:09Z",
+   "views": 445926,
+   "ytTitle": "Nick Drake - Road"
+  }
  },
  "nick drake - things behind the sun": {
   "artist": "Nick Drake",
@@ -84112,14 +84317,26 @@
   "genres": [
    "indie"
   ],
-  "track": "A Sentence Of Sorts In Kongsvinger"
+  "track": "A Sentence Of Sorts In Kongsvinger",
+  "video": {
+   "id": "0hEQi-cmnQY",
+   "published": "2022-11-08T20:59:06Z",
+   "views": 220810,
+   "ytTitle": "A Sentence Of Sorts In Kongsvinger"
+  }
  },
  "of montreal - gronlandic edit": {
   "artist": "of Montreal",
   "genres": [
    "indie"
   ],
-  "track": "Gronlandic Edit"
+  "track": "Gronlandic Edit",
+  "video": {
+   "id": "HBfgQvM7wtE",
+   "published": "2007-10-10T19:14:01Z",
+   "views": 4070560,
+   "ytTitle": "of Montreal - Gronlandic Edit [OFFICIAL MUSIC VIDEO]"
+  }
  },
  "of montreal - suffer for fashion": {
   "artist": "of Montreal",
@@ -91724,7 +91941,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Lento"
+  "track": "Lento",
+  "video": {
+   "id": "cS07Y4jc-mk",
+   "published": "2020-04-08T02:32:26Z",
+   "views": 1122086,
+   "ytTitle": "Lento"
+  }
  },
  "rbd - s lvame": {
   "artist": "RBD",
@@ -93801,7 +94024,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "FourFiveSeconds"
+  "track": "FourFiveSeconds",
+  "video": {
+   "id": "kt0g4dWxEBo",
+   "published": "2015-02-03T14:00:03Z",
+   "views": 573308204,
+   "ytTitle": "Rihanna, Kanye West, Paul McCartney - FourFiveSeconds"
+  }
  },
  "rihanna - hard ft jeezy": {
   "artist": "Rihanna",
@@ -95203,7 +95432,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Out of the Black"
+  "track": "Out of the Black",
+  "video": {
+   "id": "bSdtvfBQd6c",
+   "published": "2015-02-06T08:29:20Z",
+   "views": 33239959,
+   "ytTitle": "Royal Blood - Out Of The Black (Official Video)"
+  }
  },
  "rozal n - la puerta violeta": {
   "artist": "Rozalén",
@@ -95623,7 +95858,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Hang On to Your Love"
+  "track": "Hang On to Your Love",
+  "video": {
+   "id": "kxNJV83EMJw",
+   "published": "2009-12-12T13:07:00Z",
+   "views": 36916802,
+   "ytTitle": "Sade - Hang On To Your Love - Official - 1984"
+  }
  },
  "sade - i couldn t love you more": {
   "artist": "Sade",
@@ -95663,7 +95904,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Lovers Rock"
+  "track": "Lovers Rock",
+  "video": {
+   "id": "_WcWHZc8s2I",
+   "published": "2009-12-12T02:09:07Z",
+   "views": 222105427,
+   "ytTitle": "Sade - No Ordinary Love - Official - 1992"
+  }
  },
  "sade - never as good as the first time": {
   "artist": "Sade",
@@ -97268,7 +97515,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Your Call"
+  "track": "Your Call",
+  "video": {
+   "id": "vHyCQn1VrLE",
+   "published": "2008-12-02T16:06:19Z",
+   "views": 9197408,
+   "ytTitle": "Secondhand Serenade - Your Call [Official Music Video]"
+  }
  },
  "secret - love is move": {
   "artist": "Secret",
@@ -98144,7 +98397,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Strangers"
+  "track": "Strangers",
+  "video": {
+   "id": "Rk-SrePDxfQ",
+   "published": "2014-04-01T07:00:00Z",
+   "views": 4762550,
+   "ytTitle": "Seven Lions, Myon & Shane 54 - Strangers (Radio Edit) [Lyric Video] ft. Tove Lo"
+  }
  },
  "seven mary three - cumbersome": {
   "artist": "Seven Mary Three",
@@ -103810,7 +104069,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Another Star"
+  "track": "Another Star",
+  "video": {
+   "id": "K9KKBvWTdMQ",
+   "published": "2007-12-06T07:47:05Z",
+   "views": 7627494,
+   "ytTitle": "Stevie Wonder - Another Star"
+  }
  },
  "stevie wonder - as": {
   "artist": "Stevie Wonder",
@@ -103856,7 +104121,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Golden Lady"
+  "track": "Golden Lady",
+  "video": {
+   "id": "CXCTjAMR3eA",
+   "published": "2018-10-30T09:32:50Z",
+   "views": 5017451,
+   "ytTitle": "Golden Lady"
+  }
  },
  "stevie wonder - have a talk with god": {
   "artist": "Stevie Wonder",
@@ -103877,7 +104148,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "I Wish"
+  "track": "I Wish",
+  "video": {
+   "id": "hYKYka-PNt0",
+   "published": "2007-07-21T02:07:42Z",
+   "views": 21877212,
+   "ytTitle": "Stevie Wonder - I Wish (the original version)"
+  }
  },
  "stevie wonder - if it s magic": {
   "artist": "Stevie Wonder",
@@ -104010,7 +104287,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Superstition"
+  "track": "Superstition",
+  "video": {
+   "id": "0CFuCYNx-1g",
+   "published": "2009-06-27T21:50:44Z",
+   "views": 180092540,
+   "ytTitle": "Stevie Wonder Superstition"
+  }
  },
  "stevie wonder - village ghetto land": {
   "artist": "Stevie Wonder",
@@ -104300,7 +104583,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Side Effects"
+  "track": "Side Effects",
+  "video": {
+   "id": "5rPluw_-Eb4",
+   "published": "2019-06-19T08:59:56Z",
+   "views": 77367578,
+   "ytTitle": "Stray Kids \"부작용(Side Effects)\" M/V"
+  }
  },
  "stray kids - 거미줄": {
   "artist": "Stray Kids",
@@ -106757,7 +107046,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Lo Siento BB:/ (with Bad Bunny & Julieta Venegas)"
+  "track": "Lo Siento BB:/ (with Bad Bunny & Julieta Venegas)",
+  "video": {
+   "id": "NO7EtdR3Dyw",
+   "published": "2021-10-05T17:00:12Z",
+   "views": 289072385,
+   "ytTitle": "Tainy, Bad Bunny, Julieta Venegas - Lo Siento BB:/ (Official)"
+  }
  },
  "tainy - volver": {
   "artist": "Tainy",
@@ -107376,7 +107671,13 @@
   "genres": [
    "indie"
   ],
-  "track": "hoax"
+  "track": "hoax",
+  "video": {
+   "id": "ryLGxpjwAhM",
+   "published": "2020-07-24T04:00:21Z",
+   "views": 15150976,
+   "ytTitle": "Taylor Swift – hoax (Official Lyric Video)"
+  }
  },
  "taylor swift - how did it end": {
   "artist": "Taylor Swift",
@@ -107882,7 +108183,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Closer"
+  "track": "Closer",
+  "video": {
+   "id": "9e9NSMY8QiQ",
+   "published": "2012-11-29T17:54:43Z",
+   "views": 28129239,
+   "ytTitle": "Tegan and Sara - Closer [OFFICIAL HD MUSIC VIDEO]"
+  }
  },
  "tego calder n - al natural": {
   "artist": "Tego Calderón",
@@ -111065,7 +111372,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Still Ill - 2011 Remaster"
+  "track": "Still Ill - 2011 Remaster",
+  "video": {
+   "id": "TWvG-QZNsJk",
+   "published": "2015-10-06T03:24:42Z",
+   "views": 4147442,
+   "ytTitle": "Still Ill (2011 Remaster)"
+  }
  },
  "the smiths - the boy with the thorn in his side 2011 remaster": {
   "artist": "The Smiths",
@@ -111664,7 +111977,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "High for This"
+  "track": "High for This",
+  "video": {
+   "id": "sX9DgavXiN4",
+   "published": "2011-03-20T23:55:11Z",
+   "views": 84724104,
+   "ytTitle": "The Weeknd - High For This"
+  }
  },
  "the weeknd - house of balloons glass table girls": {
   "artist": "The Weeknd",
@@ -111925,14 +112244,26 @@
   "genres": [
    "ballad"
   ],
-  "track": "We're Going to Be Friends"
+  "track": "We're Going to Be Friends",
+  "video": {
+   "id": "PKfD8d3XJok",
+   "published": "2009-12-11T20:13:26Z",
+   "views": 19006705,
+   "ytTitle": "The White Stripes - We're Going To Be Friends (Official Music Video)"
+  }
  },
  "the whitest boy alive - burning": {
   "artist": "The Whitest Boy Alive",
   "genres": [
    "indie"
   ],
-  "track": "Burning"
+  "track": "Burning",
+  "video": {
+   "id": "fAWurnyKZUM",
+   "published": "2007-04-24T07:35:01Z",
+   "views": 7905567,
+   "ytTitle": "Whitest Boy Alive - Burning"
+  }
  },
  "the who - baba o riley": {
   "artist": "The Who",
@@ -114859,7 +115190,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "I Remember"
+  "track": "I Remember",
+  "video": {
+   "id": "xgKe-8fPYaI",
+   "published": "2021-05-27T01:49:23Z",
+   "views": 1595223,
+   "ytTitle": "I Remember"
+  }
  },
  "trouble maker - now": {
   "artist": "Trouble Maker",
@@ -114993,7 +115330,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "GIANTS"
+  "track": "GIANTS",
+  "video": {
+   "id": "sGRfTVsdmHY",
+   "published": "2019-11-10T16:49:26Z",
+   "views": 6846618,
+   "ytTitle": "True Damage - GIANTS (ft. (G)I-DLE SOYEON, Becky G, Keke Palmer, DUCKWRTH, Thutmose) | Color Lyrics"
+  }
  },
  "tujamo - booty bounce": {
   "artist": "Tujamo",
@@ -115276,7 +115619,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Legend"
+  "track": "Legend",
+  "video": {
+   "id": "f3bzqzspXPI",
+   "published": "2018-10-05T04:01:11Z",
+   "views": 13651390,
+   "ytTitle": "twenty one pilots - Legend (Official Audio)"
+  }
  },
  "twenty one pilots - migraine": {
   "artist": "Twenty One Pilots",
@@ -115337,7 +115686,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Semi-Automatic"
+  "track": "Semi-Automatic",
+  "video": {
+   "id": "pGb6KYJ3qpA",
+   "published": "2013-01-08T04:24:39Z",
+   "views": 25273912,
+   "ytTitle": "twenty one pilots: Semi-Automatic (Audio)"
+  }
  },
  "twenty one pilots - stressed out": {
   "artist": "Twenty One Pilots",
@@ -119544,7 +119899,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Aprovechalo"
+  "track": "Aprovechalo",
+  "video": {
+   "id": "2aePaflGHQM",
+   "published": "2009-06-27T18:33:18Z",
+   "views": 9580687,
+   "ytTitle": "wisin y yandel aprovechalo"
+  }
  },
  "wisin yandel - besos mojados": {
   "artist": "Wisin & Yandel",

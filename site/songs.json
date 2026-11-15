@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "genres": [
   {
    "id": "pop",
@@ -1701,20 +1701,6 @@
    "genres": [
     "ballad",
     "pop"
-   ]
-  },
-  {
-   "id": "7QU1nvuxaMA",
-   "artist": "Audioslave",
-   "title": "Like a Stone",
-   "views": 1594563582,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "rock",
-    "pop",
-    "dance",
-    "indie"
    ]
   },
   {
@@ -3868,6 +3854,17 @@
    ]
   },
   {
+   "id": "hFCjGiawJi4",
+   "artist": "Anitta",
+   "title": "Envolver",
+   "views": 946792193,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "Rbm6GXllBiw",
    "artist": "Guns N' Roses",
    "title": "Paradise City",
@@ -4301,8 +4298,8 @@
    "region": "global",
    "year": 2014,
    "genres": [
-    "pop",
-    "electronic"
+    "electronic",
+    "pop"
    ]
   },
   {
@@ -6735,6 +6732,19 @@
    ]
   },
   {
+   "id": "kt0g4dWxEBo",
+   "artist": "Rihanna",
+   "title": "FourFiveSeconds",
+   "views": 573308204,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "ballad",
+    "pop",
+    "hiphop"
+   ]
+  },
+  {
    "id": "Mo4cmTaEDIk",
    "artist": "Robin Schulz",
    "title": "Sun Goes Down feat. Jasmine Thompson",
@@ -6743,18 +6753,6 @@
    "year": 2014,
    "genres": [
     "electronic"
-   ]
-  },
-  {
-   "id": "kt0g4dWxEBo",
-   "artist": "Rihanna, Kanye West, Paul McCartney",
-   "title": "FourFiveSeconds",
-   "views": 572044206,
-   "region": "global",
-   "year": 2015,
-   "genres": [
-    "pop",
-    "hiphop"
    ]
   },
   {
@@ -6920,18 +6918,6 @@
     "hiphop",
     "pop",
     "ballad"
-   ]
-  },
-  {
-   "id": "il9nqWw9W3Y",
-   "artist": "Demi Lovato",
-   "title": "Cool for the Summer",
-   "views": 564554063,
-   "region": "global",
-   "year": 2015,
-   "genres": [
-    "pop",
-    "hiphop"
    ]
   },
   {
@@ -9879,6 +9865,17 @@
    "year": 2011,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "9mahKFNuHqM",
+   "artist": "Travis Scott",
+   "title": "goosebumps",
+   "views": 406241345,
+   "region": "global",
+   "year": 2016,
+   "genres": [
+    "hiphop"
    ]
   },
   {
@@ -13741,6 +13738,17 @@
    ]
   },
   {
+   "id": "NO7EtdR3Dyw",
+   "artist": "Tainy",
+   "title": "Lo Siento BB:/ (with Bad Bunny & Julieta Venegas)",
+   "views": 289072385,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "0go2nfVXFgA",
    "artist": "The Vamps",
    "title": "Somebody To You ft. Demi Lovato",
@@ -14504,6 +14512,18 @@
    "year": 2019,
    "genres": [
     "electronic"
+   ]
+  },
+  {
+   "id": "1mB0tP1I-14",
+   "artist": "Lady Gaga",
+   "title": "LoveGame",
+   "views": 268463774,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "dance",
+    "pop"
    ]
   },
   {
@@ -15991,6 +16011,17 @@
    ]
   },
   {
+   "id": "rjlSiASsUIs",
+   "artist": "Marvin Gaye",
+   "title": "Sexual Healing",
+   "views": 240744119,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "VJSiH8_9IQY",
    "artist": "Myke Towers",
    "title": "Bandido",
@@ -16572,6 +16603,17 @@
    "genres": [
     "rnb",
     "hiphop"
+   ]
+  },
+  {
+   "id": "9TeyuDnwyrw",
+   "artist": "Daddy Yankee",
+   "title": "Lovumba",
+   "views": 232217535,
+   "region": "global",
+   "year": 2012,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -17285,6 +17327,17 @@
    ]
   },
   {
+   "id": "_WcWHZc8s2I",
+   "artist": "Sade",
+   "title": "Lovers Rock",
+   "views": 222105427,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "Nco_kh8xJDs",
    "artist": "Alice In Chains",
    "title": "Would?",
@@ -17354,17 +17407,6 @@
    ]
   },
   {
-   "id": "_WcWHZc8s2I",
-   "artist": "Sade",
-   "title": "No Ordinary Love",
-   "views": 221461887,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "rnb"
-   ]
-  },
-  {
    "id": "XWCPbRsMb0Q",
    "artist": "Calvin Harris",
    "title": "One Kiss",
@@ -17398,6 +17440,17 @@
    "genres": [
     "pop",
     "dance"
+   ]
+  },
+  {
+   "id": "PoP2Sa7wYNQ",
+   "artist": "Lost Frequencies",
+   "title": "Where Are You Now",
+   "views": 220329287,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "electronic"
    ]
   },
   {
@@ -20548,6 +20601,17 @@
     "rnb",
     "dance",
     "pop"
+   ]
+  },
+  {
+   "id": "0CFuCYNx-1g",
+   "artist": "Stevie Wonder",
+   "title": "Superstition",
+   "views": 180092540,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -26567,8 +26631,8 @@
   {
    "id": "u8tdT5pAE34",
    "artist": "Avicii",
-   "title": "SOS ft. Aloe Blacc",
-   "views": 128177249,
+   "title": "SOS (feat. Aloe Blacc)",
+   "views": 128304412,
    "region": "global",
    "year": 2019,
    "genres": [
@@ -35179,6 +35243,17 @@
    "year": 2017,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "sX9DgavXiN4",
+   "artist": "The Weeknd",
+   "title": "High for This",
+   "views": 84724104,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -45433,17 +45508,6 @@
    ]
   },
   {
-   "id": "hqvcww4ydh8",
-   "artist": "Kanye West",
-   "title": "Can't Tell Me Nothing",
-   "views": 54040988,
-   "region": "global",
-   "year": 2019,
-   "genres": [
-    "hiphop"
-   ]
-  },
-  {
    "id": "CHk5SWVO4p8",
    "artist": "The 1975",
    "title": "Chocolate",
@@ -45587,6 +45651,17 @@
    "year": 2009,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "xdi_yuSgQw8",
+   "artist": "Amy Winehouse",
+   "title": "In My Bed",
+   "views": 53628747,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -55032,6 +55107,17 @@
    ]
   },
   {
+   "id": "kxNJV83EMJw",
+   "artist": "Sade",
+   "title": "Hang On to Your Love",
+   "views": 36916802,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "o6kKCmaEbvs",
    "artist": "Anthony Hamilton",
    "title": "Pray For Me",
@@ -57638,6 +57724,17 @@
    "year": 2008,
    "genres": [
     "rnb"
+   ]
+  },
+  {
+   "id": "bSdtvfBQd6c",
+   "artist": "Royal Blood",
+   "title": "Out of the Black",
+   "views": 33239959,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "electronic"
    ]
   },
   {
