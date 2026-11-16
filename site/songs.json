@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "genres": [
   {
    "id": "pop",
@@ -4795,19 +4795,6 @@
    "year": 2013,
    "genres": [
     "pop"
-   ]
-  },
-  {
-   "id": "9WbCfHutDSE",
-   "artist": "Ariana Grande",
-   "title": "Dangerous Woman",
-   "views": 785095739,
-   "region": "global",
-   "year": 2016,
-   "genres": [
-    "pop",
-    "rnb",
-    "ballad"
    ]
   },
   {
@@ -10006,6 +9993,18 @@
    ]
   },
   {
+   "id": "cE6wxDqdOV0",
+   "artist": "Lana Del Rey",
+   "title": "Video Games",
+   "views": 397373089,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "indie",
+    "pop"
+   ]
+  },
+  {
    "id": "mMfxI3r_LyA",
    "artist": "Modjo",
    "title": "Lady (Hear Me Tonight)",
@@ -10450,6 +10449,17 @@
    ]
   },
   {
+   "id": "PC0GvyEIXfk",
+   "artist": "Bad Bunny",
+   "title": "Ignorantes",
+   "views": 379722238,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "bek1y2uiQGA",
    "artist": "Avicii vs Nicky Romero",
    "title": "I Could Be The One (Nicktim)",
@@ -10480,7 +10490,8 @@
    "region": "global",
    "year": 2007,
    "genres": [
-    "rock"
+    "rock",
+    "pop"
    ],
    "aka": "Hybrid Theory Meteora feat. Kiiara"
   },
@@ -12423,6 +12434,17 @@
    ]
   },
   {
+   "id": "fEYUoBgYKzw",
+   "artist": "Bad Bunny",
+   "title": "La Difícil",
+   "views": 318849754,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "-J7J_IWUhls",
    "artist": "Paramore",
    "title": "The Only Exception",
@@ -14342,6 +14364,17 @@
    ]
   },
   {
+   "id": "a01QQZyl-_I",
+   "artist": "Queen",
+   "title": "Under Pressure (feat. David Bowie)",
+   "views": 273852094,
+   "region": "global",
+   "year": 2008,
+   "genres": [
+    "rock"
+   ]
+  },
+  {
    "id": "ThlhSnRk21E",
    "artist": "DMX",
    "title": "Ruff Ryders' Anthem",
@@ -14687,17 +14720,6 @@
     "rock",
     "pop",
     "indie"
-   ]
-  },
-  {
-   "id": "Dwzk-XZxZ4k",
-   "artist": "Kali Uchis",
-   "title": "telepatía",
-   "views": 265172400,
-   "region": "global",
-   "year": 2020,
-   "genres": [
-    "rnb"
    ]
   },
   {
@@ -15462,6 +15484,17 @@
    "genres": [
     "hiphop",
     "rock"
+   ]
+  },
+  {
+   "id": "Q8Tiz6INF7I",
+   "artist": "Ray Charles",
+   "title": "Hit the Road Jack",
+   "views": 251119943,
+   "region": "global",
+   "year": 2006,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -18893,6 +18926,17 @@
    ]
   },
   {
+   "id": "UhurAzTl5gs",
+   "artist": "Anitta",
+   "title": "Medicina",
+   "views": 201006259,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "eKavD10nN3E",
    "artist": "KAROL G",
    "title": "Casi Nada",
@@ -22058,6 +22102,17 @@
    ]
   },
   {
+   "id": "1bGOgY1CmiU",
+   "artist": "Stevie Wonder",
+   "title": "I Just Called to Say I Love You",
+   "views": 165062228,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "9PSGoOcwOWM",
    "artist": "Tony Dize",
    "title": "Permitame ft. Yandel",
@@ -23287,6 +23342,18 @@
    "year": 2009,
    "genres": [
     "pop",
+    "dance"
+   ]
+  },
+  {
+   "id": "3dm_5qWWDV8",
+   "artist": "Muse",
+   "title": "Hysteria",
+   "views": 153635883,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "rock",
     "dance"
    ]
   },
@@ -25868,6 +25935,18 @@
    ]
   },
   {
+   "id": "wmGjajXDHKo",
+   "artist": "Rihanna",
+   "title": "Disturbia",
+   "views": 134439741,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "pop",
+    "dance"
+   ]
+  },
+  {
    "id": "Cz_-eTAWr9A",
    "artist": "Pitbull",
    "title": "Time of Our Lives",
@@ -25911,6 +25990,17 @@
    "year": 2017,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "Dm9Zf1WYQ_A",
+   "artist": "Billie Eilish",
+   "title": "My Future",
+   "views": 134147947,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "indie"
    ]
   },
   {
@@ -26157,6 +26247,17 @@
    "year": 2009,
    "genres": [
     "rnb"
+   ]
+  },
+  {
+   "id": "PxaMPLEFv6Y",
+   "artist": "Rauw Alejandro",
+   "title": "Cúrame",
+   "views": 132497235,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -26883,6 +26984,17 @@
     "pop",
     "dance",
     "indie"
+   ]
+  },
+  {
+   "id": "WM7-PYtXtJM",
+   "artist": "Fleetwood Mac",
+   "title": "Landslide",
+   "views": 126566661,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -29109,6 +29221,18 @@
    ]
   },
   {
+   "id": "qgaRVvAKoqQ",
+   "artist": "Pearl Jam",
+   "title": "Black",
+   "views": 112300713,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "pop",
+    "rock"
+   ]
+  },
+  {
    "id": "cMtBOR_U-pI",
    "artist": "Axel",
    "title": "Tu Amor Por Siempre",
@@ -30871,6 +30995,17 @@
    ]
   },
   {
+   "id": "6OkneaH-eTA",
+   "artist": "Daniel Caesar",
+   "title": "Japanese Denim",
+   "views": 103488013,
+   "region": "global",
+   "year": 2016,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "pHKjk1Dtegc",
    "artist": "Pabllo Vittar",
    "title": "Disk Me",
@@ -32278,6 +32413,17 @@
    ]
   },
   {
+   "id": "7CYE0DYIbaw",
+   "artist": "Amy Winehouse",
+   "title": "Stronger Than Me",
+   "views": 97182165,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "vbbDQvXXGBw",
    "artist": "An Nyeong",
    "title": "Dial Your Number",
@@ -32886,6 +33032,17 @@
    "views": 94484432,
    "region": "global",
    "year": 2012,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
+   "id": "wIgmyE5Juzw",
+   "artist": "Wallows",
+   "title": "Are You Bored Yet? (feat. Clairo)",
+   "views": 94330696,
+   "region": "global",
+   "year": 2019,
    "genres": [
     "indie"
    ]
@@ -34056,6 +34213,18 @@
    "year": 2009,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "kemivUKb4f4",
+   "artist": "Weezer",
+   "title": "Buddy Holly",
+   "views": 89397874,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "pop",
+    "rock"
    ]
   },
   {
@@ -35423,6 +35592,17 @@
    "year": 2015,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "p4vQ9fl5r9o",
+   "artist": "Delegation",
+   "title": "Oh Honey",
+   "views": 84031355,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -37651,6 +37831,17 @@
    ]
   },
   {
+   "id": "zdLvqiOmWq4",
+   "artist": "BTS",
+   "title": "So What",
+   "views": 75162528,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "zhiLDRojF84",
    "artist": "Ski Mask The Slump God",
    "title": "Nuketown",
@@ -38381,6 +38572,17 @@
     "pop",
     "ballad",
     "dance"
+   ]
+  },
+  {
+   "id": "nXHcs-HhPN4",
+   "artist": "Baby Ranks",
+   "title": "Mayor Que Yo",
+   "views": 73072789,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -40599,17 +40801,6 @@
    "views": 65922131,
    "region": "global",
    "year": 2009,
-   "genres": [
-    "hiphop"
-   ]
-  },
-  {
-   "id": "JocAXINz-YE",
-   "artist": "Kendrick Lamar",
-   "title": "Alright",
-   "views": 65915273,
-   "region": "global",
-   "year": 2018,
    "genres": [
     "hiphop"
    ]
@@ -44802,6 +44993,17 @@
    ]
   },
   {
+   "id": "TjWmw-8-OEk",
+   "artist": "Chaka Khan",
+   "title": "Through the Fire",
+   "views": 55712472,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "K7dmbMmzf9Q",
    "artist": "Justin Wellington",
    "title": "Iko Iko (My Bestie)",
@@ -47676,6 +47878,17 @@
    ]
   },
   {
+   "id": "Vt4Tq89R8u0",
+   "artist": "Steve Aoki",
+   "title": "Just Hold On",
+   "views": 49204637,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "Nt4fp43U2ys",
    "artist": "Armin van Buuren",
    "title": "Sunny Days (feat. Josh Cumbee)",
@@ -49076,17 +49289,6 @@
    "genres": [
     "pop",
     "dance"
-   ]
-  },
-  {
-   "id": "2CSWw2OVxio",
-   "artist": "Lana Del Rey",
-   "title": "Pretty When You Cry",
-   "views": 46825740,
-   "region": "global",
-   "year": 2018,
-   "genres": [
-    "indie"
    ]
   },
   {
@@ -50919,6 +51121,17 @@
    ]
   },
   {
+   "id": "hajBdDM2qdg",
+   "artist": "Marvin Gaye",
+   "title": "I Heard It Through the Grapevine",
+   "views": 43430767,
+   "region": "global",
+   "year": 2007,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "1kofixtz2Us",
    "artist": "98º",
    "title": "I Do (Cherish You)",
@@ -51084,6 +51297,17 @@
    "year": 2017,
    "genres": [
     "dance"
+   ]
+  },
+  {
+   "id": "iVaqQe3V498",
+   "artist": "Amy Winehouse",
+   "title": "Fuck Me Pumps",
+   "views": 43105121,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rnb"
    ]
   },
   {
@@ -51660,6 +51884,19 @@
     "pop"
    ],
    "aka": "2012"
+  },
+  {
+   "id": "W0VnPiyXSRQ",
+   "artist": "Kanye West",
+   "title": "All Falls Down",
+   "views": 42259814,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "rnb",
+    "ballad",
+    "hiphop"
+   ]
   },
   {
    "id": "dscfeQOMuGw",
@@ -52319,6 +52556,17 @@
    "views": 41305339,
    "region": "global",
    "year": 2015,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
+   "id": "OqN0jsSeqPo",
+   "artist": "Erykah Badu",
+   "title": "Bag Lady",
+   "views": 41295105,
+   "region": "global",
+   "year": 2009,
    "genres": [
     "rnb"
    ]
@@ -55943,6 +56191,17 @@
    ]
   },
   {
+   "id": "7BJ7MDOmLPE",
+   "artist": "Gregory Alan Isakov",
+   "title": "Big Black Car",
+   "views": 35702063,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "vFAf_29KYTs",
    "artist": "Scorpions",
    "title": "Rhythm Of Love",
@@ -58903,6 +59162,17 @@
    ]
   },
   {
+   "id": "qdOHPjMzY8s",
+   "artist": "The Smiths",
+   "title": "The Boy with the Thorn in His Side",
+   "views": 31917178,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "lJXJ5rzcHVQ",
    "artist": "Demi Lovato",
    "title": "Get Back",
@@ -60560,15 +60830,6 @@
    "views": 762550787,
    "region": "kr",
    "year": 2018,
-   "genres": []
-  },
-  {
-   "id": "kOHB85vDuow",
-   "artist": "TWICE",
-   "title": "FANCY",
-   "views": 705409867,
-   "region": "kr",
-   "year": 2019,
    "genres": []
   },
   {
