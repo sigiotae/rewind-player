@@ -5641,7 +5641,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Lily"
+  "track": "Lily",
+  "video": {
+   "id": "ox4tmEV6-QU",
+   "published": "2019-04-04T13:35:08Z",
+   "views": 254222989,
+   "ytTitle": "Alan Walker, K-391 & Emelie Hollow - Lily (Lyrics)"
+  }
  },
  "alan walker - sing me to sleep": {
   "artist": "Alan Walker",
@@ -8262,7 +8268,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Hypnotized (feat. Ellie Goulding)"
+  "track": "Hypnotized (feat. Ellie Goulding)",
+  "video": {
+   "id": "Z92JGegBYm0",
+   "published": "2025-01-10T05:00:32Z",
+   "views": 11681967,
+   "ytTitle": "Anyma - Hypnotized (feat. Ellie Goulding) [Official Video]"
+  }
  },
  "aoa - bingle bangle": {
   "artist": "AOA",
@@ -13967,6 +13979,19 @@
    "ytTitle": "The Boy with the Arab Strap"
   }
  },
+ "bellini - samba de janeiro": {
+  "artist": "Bellini",
+  "genres": [
+   "latin"
+  ],
+  "track": "Samba de Janeiro",
+  "video": {
+   "id": "fhHKYR-v0UE",
+   "published": "2022-10-17T23:20:19Z",
+   "views": 6764917,
+   "ytTitle": "Bellini - Samba De Janeiro - Remastered - 4K - 5.1 Surround"
+  }
+ },
  "ben - 180 degree": {
   "artist": "BEN",
   "genres": [],
@@ -14075,7 +14100,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Promise"
+  "track": "Promise",
+  "video": {
+   "id": "CVUOTzoVeZA",
+   "published": "2013-04-21T16:22:25Z",
+   "views": 39926847,
+   "ytTitle": "Ben Howard - Promise"
+  }
  },
  "benassi bros feat dhany - every single day": {
   "artist": "Benassi Bros Feat. Dhany",
@@ -17462,6 +17493,19 @@
    "ytTitle": "Blue Oyster Cult - (Don't Fear) The Reaper (Official Audio)"
   }
  },
+ "blue yster cult - the reaper": {
+  "artist": "Blue Öyster Cult",
+  "genres": [
+   "rock"
+  ],
+  "track": "(Don't Fear) The Reaper",
+  "video": {
+   "id": "Dy4HA3vUv2c",
+   "published": "2013-06-06T07:01:05Z",
+   "views": 116721328,
+   "ytTitle": "Blue Oyster Cult - (Don't Fear) The Reaper (Official Audio)"
+  }
+ },
  "blues traveler - hook": {
   "artist": "Blues Traveler",
   "genres": [
@@ -19651,7 +19695,13 @@
   "genres": [
    "indie"
   ],
-  "track": "The High Road"
+  "track": "The High Road",
+  "video": {
+   "id": "gWBG1j_flrg",
+   "published": "2010-01-22T01:13:49Z",
+   "views": 12714965,
+   "ytTitle": "Broken Bells, Danger Mouse, James Mercer - The High Road (Official HD Video)"
+  }
  },
  "broken social scene - anthems for a seventeen year old girl": {
   "artist": "Broken Social Scene",
@@ -26420,6 +26470,19 @@
    "ytTitle": "CHVRCHES - Clearest Blue"
   }
  },
+ "chvrches - empty threat": {
+  "artist": "CHVRCHES",
+  "genres": [
+   "dance"
+  ],
+  "track": "Empty Threat",
+  "video": {
+   "id": "KNHxwSp-6Og",
+   "published": "2015-11-20T09:00:00Z",
+   "views": 7599139,
+   "ytTitle": "CHVRCHES - Empty Threat"
+  }
+ },
  "chvrches - the mother we share": {
   "artist": "CHVRCHES",
   "genres": [
@@ -30087,6 +30150,13 @@
    "views": 45223271,
    "ytTitle": "Daryl Hall & John Oates - Out Of Touch (Official HD Video)"
   }
+ },
+ "dashboard confessional - screaming infidelities": {
+  "artist": "Dashboard Confessional",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Screaming Infidelities"
  },
  "daughter - candles": {
   "artist": "Daughter",
@@ -35141,7 +35211,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Sunburn"
+  "track": "Sunburn",
+  "video": {
+   "id": "58oVQuncYUo",
+   "published": "2017-08-15T15:00:42Z",
+   "views": 2370169,
+   "ytTitle": "DROELOE - Sunburn"
+  }
  },
  "drop it like it s hot by snoop dogg ft pharrell - interscope": {
   "artist": "Drop It Like It's Hot by Snoop Dogg ft. Pharrell",
@@ -35347,6 +35423,19 @@
    "published": "2018-10-18T22:56:57Z",
    "views": 271831903,
    "ytTitle": "Dua Lipa & BLACKPINK - Kiss and Make Up (Official Audio)"
+  }
+ },
+ "duffy - distant dreamer": {
+  "artist": "Duffy",
+  "genres": [
+   "rnb"
+  ],
+  "track": "Distant Dreamer",
+  "video": {
+   "id": "aRCLkic9_lE",
+   "published": "2009-06-20T16:54:01Z",
+   "views": 1596937,
+   "ytTitle": "Distant Dreamer  - Duffy (w/lyrics)"
   }
  },
  "duffy - mercy": {
@@ -36114,6 +36203,19 @@
    "ytTitle": "Ed Sheeran & Justin Bieber - I Don't Care [Official Music Video]"
   }
  },
+ "eddie santiago - lluvia": {
+  "artist": "Eddie Santiago",
+  "genres": [
+   "latin"
+  ],
+  "track": "Lluvia",
+  "video": {
+   "id": "jpxfk5n0er8",
+   "published": "2026-02-04T01:51:06Z",
+   "views": 3674639,
+   "ytTitle": "Eddie Santiago - Lluvia (Visualizer)"
+  }
+ },
  "eddie vedder - society": {
   "artist": "Eddie Vedder",
   "genres": [
@@ -36693,7 +36795,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Alphabet Town"
+  "track": "Alphabet Town",
+  "video": {
+   "id": "7Zu7mmMObFE",
+   "published": "2008-06-12T19:32:07Z",
+   "views": 579048,
+   "ytTitle": "Elliott Smith - Alphabet Town"
+  }
  },
  "elliott smith - angel in the snow": {
   "artist": "Elliott Smith",
@@ -36920,7 +37028,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Roman Candle"
+  "track": "Roman Candle",
+  "video": {
+   "id": "7ZrcTh2-uvQ",
+   "published": "2014-04-16T15:41:25Z",
+   "views": 657109,
+   "ytTitle": "Elliott Smith - Roman Candle (from Roman Candle)"
+  }
  },
  "elliott smith - say yes": {
   "artist": "Elliott Smith",
@@ -36934,6 +37048,13 @@
    "views": 2278214,
    "ytTitle": "Elliott Smith - Say Yes (from Either/Or)"
   }
+ },
+ "elliott smith - single file": {
+  "artist": "Elliott Smith",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Single File"
  },
  "elliott smith - somebody that i used to know": {
   "artist": "Elliott Smith",
@@ -36986,7 +37107,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "St. Ides Heaven"
+  "track": "St. Ides Heaven",
+  "video": {
+   "id": "prNyK76NAXE",
+   "published": "2020-01-11T01:17:17Z",
+   "views": 60240,
+   "ytTitle": "St. Ides Heaven"
+  }
  },
  "elliott smith - sweet adeline": {
   "artist": "Elliott Smith",
@@ -37020,7 +37147,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "The White Lady Loves You More"
+  "track": "The White Lady Loves You More",
+  "video": {
+   "id": "8FbZXx_a1UQ",
+   "published": "2012-07-26T05:24:34Z",
+   "views": 81107,
+   "ytTitle": "Elliott Smith - The White Lady Loves You More [Lyrics in Description Box]"
+  }
  },
  "elliott smith - tomorrow tomorrow": {
   "artist": "Elliott Smith",
@@ -41109,7 +41242,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Sober"
+  "track": "Sober",
+  "video": {
+   "id": "ECzdPrapti8",
+   "published": "2026-03-03T16:04:04Z",
+   "views": 88393,
+   "ytTitle": "Sober"
+  }
  },
  "fifth harmony - all in my head ft fetty wap": {
   "artist": "Fifth Harmony",
@@ -41417,7 +41556,13 @@
   "genres": [
    "indie"
   ],
-  "track": "The Walker"
+  "track": "The Walker",
+  "video": {
+   "id": "nGBLlFMn9Xc",
+   "published": "2013-10-13T17:59:12Z",
+   "views": 29182796,
+   "ytTitle": "Fitz And The Tantrums - The Walker [Official Music Video]"
+  }
  },
  "five - everybody get up": {
   "artist": "Five",
@@ -42324,6 +42469,19 @@
    "ytTitle": "Fontaines D.C. - Favourite (Official Video)"
   }
  },
+ "fontaines d c - tongue": {
+  "artist": "Fontaines D.C.",
+  "genres": [
+   "rock"
+  ],
+  "track": "Tongue",
+  "video": {
+   "id": "5OsIwKHppho",
+   "published": "2026-09-30T16:00:06Z",
+   "views": 1482848,
+   "ytTitle": "Fontaines D.C. - Tongue (Official Video)"
+  }
+ },
  "foo fighters - all my life": {
   "artist": "Foo Fighters",
   "genres": [
@@ -42946,28 +43104,52 @@
   "genres": [
    "electronic"
   ],
-  "track": "Jungle"
+  "track": "Jungle",
+  "video": {
+   "id": "zBp7KBmgsdU",
+   "published": "2022-07-05T15:45:30Z",
+   "views": 9810972,
+   "ytTitle": "Fred again.. - Jungle (18 June 2022)"
+  }
  },
  "fred again - leavemealone": {
   "artist": "Fred again..",
   "genres": [
    "electronic"
   ],
-  "track": "leavemealone"
+  "track": "leavemealone",
+  "video": {
+   "id": "rNv8K8AYGi8",
+   "published": "2024-01-10T10:28:27Z",
+   "views": 36631507,
+   "ytTitle": "Fred again.. & Baby Keem - leavemealone"
+  }
  },
  "fred again - places to be": {
   "artist": "Fred again..",
   "genres": [
    "electronic"
   ],
-  "track": "Places to Be"
+  "track": "Places to Be",
+  "video": {
+   "id": "0bVFEOb39vk",
+   "published": "2024-05-31T16:59:57Z",
+   "views": 11757973,
+   "ytTitle": "Fred again.. & Anderson .Paak - places to be (Eagle Rock, 16th April 2024) feat Chika"
+  }
  },
  "fred again - ten": {
   "artist": "Fred again..",
   "genres": [
    "electronic"
   ],
-  "track": "Ten"
+  "track": "Ten",
+  "video": {
+   "id": "x4RXNO9oaS0",
+   "published": "2023-10-12T23:00:34Z",
+   "views": 9926904,
+   "ytTitle": "Fred again.. & Jozzy - ten"
+  }
  },
  "freddie mercury - i was born to love you": {
   "artist": "Freddie Mercury",
@@ -50541,14 +50723,26 @@
   "genres": [
    "electronic"
   ],
-  "track": "TRRST"
+  "track": "TRRST",
+  "video": {
+   "id": "I07MZrmy534",
+   "published": "2020-05-01T21:55:21Z",
+   "views": 1448444,
+   "ytTitle": "IC3PEAK - TRRST (Sub Español)//Lyrics\\\\🖤Sadbøy666🖤"
+  }
  },
  "ic3peak - vampir": {
   "artist": "IC3PEAK",
   "genres": [
    "electronic"
   ],
-  "track": "VAMPIR (feat. Oli Sykes of Bring Me The Horizon)"
+  "track": "VAMPIR (feat. Oli Sykes of Bring Me The Horizon)",
+  "video": {
+   "id": "e6d31K0Yihk",
+   "published": "2021-12-10T14:55:56Z",
+   "views": 344835,
+   "ytTitle": "IC3PEAK - VAMPIR (ft. Oli Sykes) //English lyrics//"
+  }
  },
  "ice cream paint job - dorrough music": {
   "artist": "ICE CREAM PAINT JOB",
@@ -50750,6 +50944,19 @@
    "published": "2012-05-13T01:06:31Z",
    "views": 4725225,
    "ytTitle": "양파(Yang Pa)- 사랑... 그게 뭔데"
+  }
+ },
+ "iggy azalea - black widow": {
+  "artist": "Iggy Azalea",
+  "genres": [
+   "hiphop"
+  ],
+  "track": "Black Widow",
+  "video": {
+   "id": "u3u22OYqFGo",
+   "published": "2014-08-13T16:00:06Z",
+   "views": 705476514,
+   "ytTitle": "Iggy Azalea - Black Widow ft. Rita Ora"
   }
  },
  "iggy azalea - black widow ft rita ora": {
@@ -53570,7 +53777,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Good People"
+  "track": "Good People",
+  "video": {
+   "id": "Lrz2S81HXsM",
+   "published": "2018-07-31T15:06:13Z",
+   "views": 10288519,
+   "ytTitle": "Good People"
+  }
  },
  "jack johnson - i got you": {
   "artist": "Jack Johnson",
@@ -53652,7 +53865,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Angel Of My Dreams"
+  "track": "Angel Of My Dreams",
+  "video": {
+   "id": "UEc-oy93lf8",
+   "published": "2024-07-19T09:00:06Z",
+   "views": 20434981,
+   "ytTitle": "JADE - Angel Of My Dreams (Official Video)"
+  }
  },
  "jade - don t walk away": {
   "artist": "Jade",
@@ -53871,7 +54090,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Blindside"
+  "track": "Blindside",
+  "video": {
+   "id": "UCW5CV_0Vlk",
+   "published": "2023-08-04T13:00:06Z",
+   "views": 5972786,
+   "ytTitle": "James Arthur - Blindside (Official Video)"
+  }
  },
  "james arthur - impossible": {
   "artist": "James Arthur",
@@ -55173,6 +55398,19 @@
    "ytTitle": "JENCARLOS CANELA - \"Amor Quédate\"  Video Oficial"
   }
  },
+ "jennie - extral": {
+  "artist": "Jennie",
+  "genres": [
+   "hiphop"
+  ],
+  "track": "ExtraL (feat. Doechii)",
+  "video": {
+   "id": "eWAdpUyzCkI",
+   "published": "2025-02-21T05:00:40Z",
+   "views": 140998577,
+   "ytTitle": "JENNIE, Doechii - ExtraL (Official Video)"
+  }
+ },
  "jennie - solo": {
   "artist": "Jennie",
   "genres": [
@@ -56161,6 +56399,13 @@
    "ytTitle": "Jet - Look what you've done"
   }
  },
+ "jets to brazil - sweet avenue": {
+  "artist": "Jets to Brazil",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Sweet Avenue"
+ },
  "jewel - foolish games": {
   "artist": "Jewel",
   "genres": [
@@ -56798,14 +57043,26 @@
   "genres": [
    "ballad"
   ],
-  "track": "No Such Thing"
+  "track": "No Such Thing",
+  "video": {
+   "id": "ifa9DgjKZSs",
+   "published": "2026-04-24T04:00:51Z",
+   "views": 460953,
+   "ytTitle": "Kehlani - No Such Thing (feat. Clipse) [Official Audio]"
+  }
  },
  "john mayer - stop this train": {
   "artist": "John Mayer",
   "genres": [
    "ballad"
   ],
-  "track": "Stop This Train"
+  "track": "Stop This Train",
+  "video": {
+   "id": "2UiX4dUUjWc",
+   "published": "2016-07-13T20:48:02Z",
+   "views": 14447860,
+   "ytTitle": "Stop This Train"
+  }
  },
  "john mayer - the heart of life": {
   "artist": "John Mayer",
@@ -59554,6 +59811,19 @@
    "ytTitle": "별처럼"
   }
  },
+ "kacey musgraves - mexico honey": {
+  "artist": "Kacey Musgraves",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Mexico Honey",
+  "video": {
+   "id": "5aXZ0fjAiho",
+   "published": "2026-07-22T16:00:06Z",
+   "views": 2950672,
+   "ytTitle": "Kacey Musgraves - Mexico Honey (Official Music Video)"
+  }
+ },
  "kadokawaanime - tv op muscle video": {
   "artist": "KADOKAWAanime",
   "genres": [],
@@ -61673,7 +61943,8 @@
  "ke ha - backstabber": {
   "artist": "Ke$ha",
   "genres": [
-   "dance"
+   "dance",
+   "pop"
   ],
   "track": "Backstabber",
   "video": {
@@ -61688,7 +61959,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Blah Blah Blah"
+  "track": "Blah Blah Blah",
+  "video": {
+   "id": "3taEuL4EHAg",
+   "published": "2010-02-23T19:31:14Z",
+   "views": 92028877,
+   "ytTitle": "Ke$ha - Blah Blah Blah (Official Video) ft. 3OH!3"
+  }
  },
  "ke ha - blah blah blah ft 3oh 3": {
   "artist": "Ke$ha",
@@ -63929,7 +64206,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "feel U luv Me"
+  "track": "feel U luv Me",
+  "video": {
+   "id": "Cb-SEmhiYjA",
+   "published": "2024-09-27T04:07:36Z",
+   "views": 901844,
+   "ytTitle": "Knock2 - feel U luv Me (Official Visualizer)"
+  }
  },
  "knox x manos - my neck my back": {
   "artist": "Knox x Manos",
@@ -65365,7 +65648,8 @@
  "lady gaga - bloody mary": {
   "artist": "Lady Gaga",
   "genres": [
-   "electronic"
+   "electronic",
+   "pop"
   ],
   "track": "Bloody Mary",
   "video": {
@@ -65388,6 +65672,19 @@
    "published": "2011-02-28T01:54:42Z",
    "views": 328626463,
    "ytTitle": "Lady Gaga - Born This Way (Official Music Video)"
+  }
+ },
+ "lady gaga - dance in the dark": {
+  "artist": "Lady Gaga",
+  "genres": [
+   "dance"
+  ],
+  "track": "Dance in the Dark",
+  "video": {
+   "id": "yk5RORfkeok",
+   "published": "2011-02-13T16:47:05Z",
+   "views": 9400097,
+   "ytTitle": "Lady Gaga - Dance in the Dark - Music Video (HD)"
   }
  },
  "lady gaga - disease": {
@@ -65569,7 +65866,8 @@
  "lady gaga - monster": {
   "artist": "Lady Gaga",
   "genres": [
-   "dance"
+   "dance",
+   "pop"
   ],
   "track": "Monster",
   "video": {
@@ -66518,7 +66816,8 @@
   "artist": "LCD Soundsystem",
   "genres": [
    "indie",
-   "electronic"
+   "electronic",
+   "dance"
   ],
   "track": "Dance Yrself Clean",
   "video": {
@@ -71709,6 +72008,19 @@
    "ytTitle": "Midnight City"
   }
  },
+ "m83 - my tears are becoming a sea": {
+  "artist": "M83",
+  "genres": [
+   "electronic"
+  ],
+  "track": "My Tears Are Becoming a Sea",
+  "video": {
+   "id": "uE8EhJ9gS28",
+   "published": "2014-11-10T13:12:46Z",
+   "views": 12278384,
+   "ytTitle": "M83 - My Tears Are Becoming A Sea (audio)"
+  }
+ },
  "m83 - wait": {
   "artist": "M83",
   "genres": [
@@ -72456,6 +72768,19 @@
    "ytTitle": "Madvillain - Meat Grinder - Madvillainy (Full Album)"
   }
  },
+ "magdalena bay - killing time": {
+  "artist": "Magdalena Bay",
+  "genres": [
+   "indie"
+  ],
+  "track": "Killing Time",
+  "video": {
+   "id": "CDYkitREFxM",
+   "published": "2024-08-23T04:00:08Z",
+   "views": 471333,
+   "ytTitle": "Magdalena Bay - Killing Time (Official Audio)"
+  }
+ },
  "maggie lindemann - pretty girl cheat codes x cade remix": {
   "artist": "Maggie Lindemann",
   "genres": [
@@ -72751,7 +73076,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "The Dragonborn Comes"
+  "track": "The Dragonborn Comes",
+  "video": {
+   "id": "FOkkE93coIg",
+   "published": "2016-05-19T05:36:44Z",
+   "views": 28480474,
+   "ytTitle": "The Dragonborn Comes - Malukah - Lyrics ( extended version )"
+  }
  },
  "maluma - 11 pm": {
   "artist": "Maluma",
@@ -73746,6 +74077,19 @@
    "ytTitle": "Mariah Carey - My All (Official HD Video)"
   }
  },
+ "mariah carey - never too far": {
+  "artist": "Mariah Carey",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Never Too Far",
+  "video": {
+   "id": "MWoIO_hjvos",
+   "published": "2007-03-24T07:20:30Z",
+   "views": 12709939,
+   "ytTitle": "Mariah Carey Never Too Far Away"
+  }
+ },
  "mariah carey - obsessed": {
   "artist": "Mariah Carey",
   "genres": [
@@ -73772,6 +74116,19 @@
    "published": "2009-11-24T11:34:37Z",
    "views": 403046528,
    "ytTitle": "Mariah Carey, Boyz II Men - One Sweet Day (Official Video)"
+  }
+ },
+ "mariah carey - reflections": {
+  "artist": "Mariah Carey",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Reflections (Care Enough)",
+  "video": {
+   "id": "dIjwwo7Z2Pk",
+   "published": "2009-01-08T22:17:17Z",
+   "views": 2015905,
+   "ytTitle": "Mariah Carey-Reflection's (Care Enough) with lyrics"
   }
  },
  "mariah carey - through the rain": {
@@ -75924,7 +76281,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Piece of Your Heart"
+  "track": "Piece of Your Heart",
+  "video": {
+   "id": "KWjV25q34Hw",
+   "published": "2019-02-01T16:30:01Z",
+   "views": 200792826,
+   "ytTitle": "MEDUZA, Goodboys - Piece Of Your Heart (Visualizer)"
+  }
  },
  "meduza becky hill goodboys - lose control": {
   "artist": "MEDUZA, Becky Hill, Goodboys",
@@ -77343,7 +77706,8 @@
  "michael jackson - thriller": {
   "artist": "Michael Jackson",
   "genres": [
-   "pop"
+   "pop",
+   "dance"
   ],
   "track": "Thriller",
   "video": {
@@ -78582,6 +78946,19 @@
    "published": "2008-03-07T17:29:23Z",
    "views": 38899382,
    "ytTitle": "Missy Elliott 'Ching-A-Ling' Step Up 2: The Streets"
+  }
+ },
+ "missy elliott - get ur freak on": {
+  "artist": "Missy Elliott",
+  "genres": [
+   "hiphop"
+  ],
+  "track": "Get Ur Freak On",
+  "video": {
+   "id": "FPoKiGQzbSQ",
+   "published": "2009-10-27T02:58:34Z",
+   "views": 100107511,
+   "ytTitle": "Missy Elliott - Get Ur Freak On [Official Music Video]"
   }
  },
  "missy elliott - lose control": {
@@ -80431,7 +80808,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Desert Song"
+  "track": "Desert Song",
+  "video": {
+   "id": "NxQVElXpTVg",
+   "published": "2017-07-24T19:18:04Z",
+   "views": 1969556,
+   "ytTitle": "Desert Song"
+  }
  },
  "my chemical romance - disenchanted": {
   "artist": "My Chemical Romance",
@@ -80695,7 +81078,13 @@
   "genres": [
    "rock"
   ],
-  "track": "To the End"
+  "track": "To the End",
+  "video": {
+   "id": "rWwJLm1R1W4",
+   "published": "2014-11-06T18:40:57Z",
+   "views": 16896352,
+   "ytTitle": "To the End"
+  }
  },
  "my chemical romance - welcome to the black parade": {
   "artist": "My Chemical Romance",
@@ -83070,7 +83459,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Things Behind the Sun"
+  "track": "Things Behind the Sun",
+  "video": {
+   "id": "j14PgxHghjQ",
+   "published": "2021-05-27T10:01:47Z",
+   "views": 1686874,
+   "ytTitle": "Things Behind The Sun"
+  }
  },
  "nick drake - which will": {
   "artist": "Nick Drake",
@@ -83427,6 +83822,19 @@
    "published": "2025-02-08T00:54:28Z",
    "views": 52934367,
    "ytTitle": "El Perdón (with Enrique Iglesias)"
+  }
+ },
+ "nicky jam - hasta el amanecer": {
+  "artist": "Nicky Jam",
+  "genres": [
+   "latin"
+  ],
+  "track": "Hasta el Amanecer",
+  "video": {
+   "id": "kkx-7fsiWgg",
+   "published": "2016-01-15T03:39:24Z",
+   "views": 1715031623,
+   "ytTitle": "22. Hasta el Amanecer - Nicky Jam | Video Oficial"
   }
  },
  "nicky jam - por el momento feat plan b": {
@@ -85899,6 +86307,19 @@
    "ytTitle": "OSMANI GARCIA Ft. PITBULL, SENSATO, DAYAMI LA MUSA - El Taxi (Official Video) Reggaeton Cubaton"
   }
  },
+ "otis redding - try a little tenderness": {
+  "artist": "Otis Redding",
+  "genres": [
+   "rnb"
+  ],
+  "track": "Try a Little Tenderness",
+  "video": {
+   "id": "UnPMoAb4y8U",
+   "published": "2008-09-21T23:31:57Z",
+   "views": 27924490,
+   "ytTitle": "Otis Redding - Try A Little Tenderness"
+  }
+ },
  "otto knows - million voices": {
   "artist": "Otto Knows",
   "genres": [
@@ -86820,7 +87241,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Always"
+  "track": "Always",
+  "video": {
+   "id": "PBtkFUjcs2A",
+   "published": "2017-07-27T12:25:50Z",
+   "views": 2760604,
+   "ytTitle": "Always"
+  }
  },
  "panic at the disco - high hopes": {
   "artist": "Panic! At The Disco",
@@ -90930,6 +91357,13 @@
    "ytTitle": "Queens Of The Stone Age - No One Knows (Official Music Video)"
   }
  },
+ "queens of the stone age - this lullaby": {
+  "artist": "Queens of the Stone Age",
+  "genres": [
+   "ballad"
+  ],
+  "track": "This Lullaby"
+ },
  "queensr che - silent lucidity": {
   "artist": "Queensrÿche",
   "genres": [
@@ -94281,6 +94715,19 @@
    "ytTitle": "Hustlin'"
   }
  },
+ "rick ross - stay schemin": {
+  "artist": "Rick Ross",
+  "genres": [
+   "hiphop"
+  ],
+  "track": "Stay Schemin",
+  "video": {
+   "id": "Ygb8BRdl2kI",
+   "published": "2018-08-14T18:41:41Z",
+   "views": 85098615,
+   "ytTitle": "Stay Schemin"
+  }
+ },
  "rick ross - you the boss": {
   "artist": "Rick Ross",
   "genres": [
@@ -94522,7 +94969,8 @@
   "artist": "Rihanna",
   "genres": [
    "pop",
-   "dance"
+   "dance",
+   "rnb"
   ],
   "track": "Disturbia",
   "video": {
@@ -95058,7 +95506,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Hero of War"
+  "track": "Hero of War",
+  "video": {
+   "id": "_DboMAghWcA",
+   "published": "2009-11-25T23:19:27Z",
+   "views": 56955141,
+   "ytTitle": "Rise Against - Hero Of War"
+  }
  },
  "rise against - savior": {
   "artist": "Rise Against",
@@ -96263,6 +96717,19 @@
    "ytTitle": "달리기"
   }
  },
+ "s rgio mendes - magalenha": {
+  "artist": "Sérgio Mendes",
+  "genres": [
+   "latin"
+  ],
+  "track": "Magalenha",
+  "video": {
+   "id": "ijnujobdJ4c",
+   "published": "2021-06-24T14:28:30Z",
+   "views": 58344486,
+   "ytTitle": "Sergio Mendes - Magalenha (Official Visualizer)"
+  }
+ },
  "sabai - mirror": {
   "artist": "Sabai",
   "genres": [
@@ -97025,6 +97492,19 @@
    "published": "2009-12-23T15:25:21Z",
    "views": 151222065,
    "ytTitle": "Sandoval - \"A Quién Tu Decidiste Amar\" (Video Oficial)"
+  }
+ },
+ "santana - black magic woman": {
+  "artist": "Santana",
+  "genres": [
+   "latin"
+  ],
+  "track": "Black Magic Woman",
+  "video": {
+   "id": "axbtig7w7a8",
+   "published": "2014-09-26T19:00:16Z",
+   "views": 47013586,
+   "ytTitle": "Santana - Black Magic Woman | Live at Tanglewood (1970)"
   }
  },
  "santana - evil ways": {
@@ -98685,7 +99165,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Ghost of You"
+  "track": "Ghost of You",
+  "video": {
+   "id": "Hycf_aYc7A8",
+   "published": "2011-07-31T17:39:28Z",
+   "views": 4300357,
+   "ytTitle": "Selena Gomez & The Scene - Ghost of You (Lyrics on Screen + No Pitch Change)"
+  }
  },
  "selena gomez the scene - hit the lights": {
   "artist": "Selena Gomez & The Scene",
@@ -98969,7 +99455,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Don’t Leave"
+  "track": "Don’t Leave",
+  "video": {
+   "id": "SKlbCjNCDn4",
+   "published": "2014-04-29T10:32:51Z",
+   "views": 4909808,
+   "ytTitle": "Seven Lions - Don't Leave (Ft. Ellie Goulding)"
+  }
  },
  "seven lions - strangers": {
   "artist": "Seven Lions",
@@ -100115,7 +100607,13 @@
   "genres": [
    "latin"
   ],
-  "track": "No Creo"
+  "track": "No Creo",
+  "video": {
+   "id": "cNIJCqmUlJI",
+   "published": "2020-06-22T07:00:20Z",
+   "views": 10904506,
+   "ytTitle": "Shakira - No Creo (Video Oficial)"
+  }
  },
  "shakira - nunca me acuerdo de olvidarte": {
   "artist": "Shakira",
@@ -100148,7 +100646,13 @@
   "genres": [
    "latin"
   ],
-  "track": "Octavo Día"
+  "track": "Octavo Día",
+  "video": {
+   "id": "G1Jfqcmteh0",
+   "published": "2016-10-05T07:00:01Z",
+   "views": 11111039,
+   "ytTitle": "Shakira - Octavo Día (from Live & Off the Record)"
+  }
  },
  "shakira - ojos as": {
   "artist": "Shakira",
@@ -112786,7 +113290,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Rolling Stone"
+  "track": "Rolling Stone",
+  "video": {
+   "id": "ORVz_qeKgvg",
+   "published": "2012-10-03T07:00:17Z",
+   "views": 57713036,
+   "ytTitle": "The Weeknd - Rolling Stone (Explicit) (Official Video)"
+  }
  },
  "the weeknd - starboy": {
   "artist": "The Weeknd",
@@ -113574,7 +114084,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Where U Are"
+  "track": "Where U Are",
+  "video": {
+   "id": "z7mnDOGc8NM",
+   "published": "2019-10-10T10:53:04Z",
+   "views": 4421443,
+   "ytTitle": "Where U Are"
+  }
  },
  "ti sto - 10 35": {
   "artist": "Tiësto",
@@ -123199,7 +123715,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Good Thing (with Kehlani)"
+  "track": "Good Thing (with Kehlani)",
+  "video": {
+   "id": "CMla2ZIz7-4",
+   "published": "2019-10-03T16:00:12Z",
+   "views": 92409910,
+   "ytTitle": "Zedd & Kehlani - Good Thing (Official Music Video)"
+  }
  },
  "zedd - i want you to know": {
   "artist": "Zedd",
@@ -123254,7 +123776,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Stay the Night - featuring Hayley Williams of Paramore"
+  "track": "Stay the Night - featuring Hayley Williams of Paramore",
+  "video": {
+   "id": "i-gyZ35074k",
+   "published": "2013-09-23T10:00:29Z",
+   "views": 311657608,
+   "ytTitle": "Zedd - Stay The Night ft. Hayley Williams"
+  }
  },
  "zedd - stay the night ft hayley williams": {
   "artist": "Zedd",
@@ -123728,6 +124256,19 @@
    "published": "2017-02-09T03:02:22Z",
    "views": 164365113,
    "ytTitle": "Otra Vez (feat. J Balvin)"
+  }
+ },
+ "zion - periodico de ayer": {
+  "artist": "Zion",
+  "genres": [
+   "latin"
+  ],
+  "track": "Periodico De Ayer",
+  "video": {
+   "id": "qYkpURie5cU",
+   "published": "2014-11-13T23:19:34Z",
+   "views": 54835444,
+   "ytTitle": "Hector Lavoe - Periodico De Ayer"
   }
  },
  "zion - te hago el amor": {

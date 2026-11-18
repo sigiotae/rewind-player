@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "genres": [
   {
    "id": "pop",
@@ -2692,7 +2692,8 @@
    "region": "global",
    "year": 2009,
    "genres": [
-    "pop"
+    "pop",
+    "dance"
    ]
   },
   {
@@ -5503,7 +5504,8 @@
    "region": "global",
    "year": 2014,
    "genres": [
-    "pop"
+    "pop",
+    "hiphop"
    ]
   },
   {
@@ -10339,6 +10341,18 @@
    ]
   },
   {
+   "id": "uAOR6ib95kQ",
+   "artist": "Gorillaz",
+   "title": "DARE",
+   "views": 390408799,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "electronic",
+    "indie"
+   ]
+  },
+  {
    "id": "4JkIs37a2JE",
    "artist": "Jamiroquai",
    "title": "Virtual Insanity",
@@ -12803,6 +12817,18 @@
    ]
   },
   {
+   "id": "i-gyZ35074k",
+   "artist": "Zedd",
+   "title": "Stay the Night - featuring Hayley Williams of Paramore",
+   "views": 311657608,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "electronic",
+    "pop"
+   ]
+  },
+  {
    "id": "f2JuxM-snGc",
    "artist": "Lorde",
    "title": "Team",
@@ -12815,18 +12841,6 @@
     "pop",
     "rock",
     "electronic"
-   ]
-  },
-  {
-   "id": "i-gyZ35074k",
-   "artist": "Zedd",
-   "title": "Stay The Night ft. Hayley Williams",
-   "views": 310823394,
-   "region": "global",
-   "year": 2013,
-   "genres": [
-    "electronic",
-    "pop"
    ]
   },
   {
@@ -15369,6 +15383,17 @@
    "year": 2014,
    "genres": [
     "hiphop"
+   ]
+  },
+  {
+   "id": "ox4tmEV6-QU",
+   "artist": "Alan Walker",
+   "title": "Lily",
+   "views": 254222989,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "electronic"
    ]
   },
   {
@@ -19015,6 +19040,17 @@
    ]
   },
   {
+   "id": "KWjV25q34Hw",
+   "artist": "MEDUZA",
+   "title": "Piece of Your Heart",
+   "views": 200792826,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "JDKGWaCglRM",
    "artist": "P!nk",
    "title": "Just Like A Pill",
@@ -19023,17 +19059,6 @@
    "year": 2009,
    "genres": [
     "pop"
-   ]
-  },
-  {
-   "id": "KWjV25q34Hw",
-   "artist": "MEDUZA, Goodboys",
-   "title": "Piece Of Your Heart",
-   "views": 200523326,
-   "region": "global",
-   "year": 2019,
-   "genres": [
-    "electronic"
    ]
   },
   {
@@ -22176,6 +22201,18 @@
    "year": 2009,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "mGgMZpGYiy8",
+   "artist": "The Cure",
+   "title": "Friday I'm In Love",
+   "views": 164673424,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "pop",
+    "rock"
    ]
   },
   {
@@ -25998,7 +26035,8 @@
    "year": 2018,
    "genres": [
     "pop",
-    "dance"
+    "dance",
+    "rnb"
    ]
   },
   {
@@ -31750,6 +31788,17 @@
    ]
   },
   {
+   "id": "FPoKiGQzbSQ",
+   "artist": "Missy Elliott",
+   "title": "Get Ur Freak On",
+   "views": 100107511,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "hiphop"
+   ]
+  },
+  {
    "id": "5Ulr4o-WZgM",
    "artist": "Ricky Martin",
    "title": "La Mordidita",
@@ -33562,6 +33611,17 @@
    ]
   },
   {
+   "id": "CMla2ZIz7-4",
+   "artist": "Zedd",
+   "title": "Good Thing (with Kehlani)",
+   "views": 92409910,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "yjJL9DGU7Gg",
    "artist": "Stone Temple Pilots",
    "title": "Interstate Love Song",
@@ -33643,6 +33703,18 @@
    ]
   },
   {
+   "id": "3taEuL4EHAg",
+   "artist": "Ke$ha",
+   "title": "Blah Blah Blah",
+   "views": 92028877,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "dance",
+    "pop"
+   ]
+  },
+  {
    "id": "PIh07c_P4hc",
    "artist": "John Legend",
    "title": "Ordinary People",
@@ -33674,17 +33746,6 @@
    "views": 91994385,
    "region": "global",
    "year": 2014,
-   "genres": [
-    "pop"
-   ]
-  },
-  {
-   "id": "3taEuL4EHAg",
-   "artist": "Ke$ha",
-   "title": "Blah Blah Blah ft. 3OH!3",
-   "views": 91899261,
-   "region": "global",
-   "year": 2010,
    "genres": [
     "pop"
    ]
@@ -35399,6 +35460,17 @@
    "year": 2020,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "Ygb8BRdl2kI",
+   "artist": "Rick Ross",
+   "title": "Stay Schemin",
+   "views": 85098615,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "hiphop"
    ]
   },
   {
@@ -43965,6 +44037,17 @@
    ]
   },
   {
+   "id": "ijnujobdJ4c",
+   "artist": "Sérgio Mendes",
+   "title": "Magalenha",
+   "views": 58344486,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "latin"
+   ]
+  },
+  {
    "id": "dCCXq9QB-dQ",
    "artist": "alt-J",
    "title": "Hunger Of The Pine",
@@ -44117,6 +44200,17 @@
    "year": 2015,
    "genres": [
     "electronic"
+   ]
+  },
+  {
+   "id": "ORVz_qeKgvg",
+   "artist": "The Weeknd",
+   "title": "Rolling Stone",
+   "views": 57713036,
+   "region": "global",
+   "year": 2012,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -44438,6 +44532,17 @@
    "year": 2018,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "_DboMAghWcA",
+   "artist": "Rise Against",
+   "title": "Hero of War",
+   "views": 56955141,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -45482,6 +45587,17 @@
    "year": 2009,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "qYkpURie5cU",
+   "artist": "Zion",
+   "title": "Periodico De Ayer",
+   "views": 54835444,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -49365,6 +49481,17 @@
    "year": 2013,
    "genres": [
     "rnb"
+   ]
+  },
+  {
+   "id": "axbtig7w7a8",
+   "artist": "Santana",
+   "title": "Black Magic Woman",
+   "views": 47013586,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -53487,6 +53614,17 @@
    "year": 2018,
    "genres": [
     "hiphop"
+   ]
+  },
+  {
+   "id": "CVUOTzoVeZA",
+   "artist": "Ben Howard",
+   "title": "Promise",
+   "views": 39926847,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -60962,6 +61100,15 @@
    "views": 762550787,
    "region": "kr",
    "year": 2018,
+   "genres": []
+  },
+  {
+   "id": "kOHB85vDuow",
+   "artist": "TWICE",
+   "title": "FANCY",
+   "views": 705409867,
+   "region": "kr",
+   "year": 2019,
    "genres": []
   },
   {
