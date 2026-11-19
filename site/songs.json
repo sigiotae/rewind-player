@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "genres": [
   {
    "id": "pop",
@@ -5485,6 +5485,18 @@
    ]
   },
   {
+   "id": "u3u22OYqFGo",
+   "artist": "Iggy Azalea",
+   "title": "Black Widow",
+   "views": 705476514,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "hiphop",
+    "pop"
+   ]
+  },
+  {
    "id": "nPLV7lGbmT4",
    "artist": "Santana",
    "title": "Maria Maria ft. The Product G&B",
@@ -5494,18 +5506,6 @@
    "genres": [
     "rnb",
     "pop"
-   ]
-  },
-  {
-   "id": "u3u22OYqFGo",
-   "artist": "Iggy Azalea",
-   "title": "Black Widow ft. Rita Ora",
-   "views": 704848225,
-   "region": "global",
-   "year": 2014,
-   "genres": [
-    "pop",
-    "hiphop"
    ]
   },
   {
@@ -8453,6 +8453,17 @@
    ]
   },
   {
+   "id": "BgfcToAjfdc",
+   "artist": "Kygo",
+   "title": "Stole The Show",
+   "views": 468841826,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "jUe8uoKdHao",
    "artist": "David Guetta",
    "title": "Without You ft. Usher",
@@ -8464,17 +8475,6 @@
     "electronic",
     "pop",
     "ballad"
-   ]
-  },
-  {
-   "id": "BgfcToAjfdc",
-   "artist": "Kygo",
-   "title": "Stole The Show feat. Parson James",
-   "views": 468195744,
-   "region": "global",
-   "year": 2015,
-   "genres": [
-    "electronic"
    ]
   },
   {
@@ -15183,6 +15183,18 @@
    "aka": "Hybrid Theory Meteora feat. Kiiara"
   },
   {
+   "id": "X46t8ZFqUB4",
+   "artist": "Zedd",
+   "title": "I Want You to Know",
+   "views": 258370845,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "electronic",
+    "hiphop"
+   ]
+  },
+  {
    "id": "Oe4Ic7fHWf8",
    "artist": "Rihanna",
    "title": "Te Amo",
@@ -15191,17 +15203,6 @@
    "year": 2010,
    "genres": [
     "pop"
-   ]
-  },
-  {
-   "id": "X46t8ZFqUB4",
-   "artist": "Zedd",
-   "title": "I Want You To Know ft. Selena Gomez",
-   "views": 257903034,
-   "region": "global",
-   "year": 2015,
-   "genres": [
-    "hiphop"
    ]
   },
   {
@@ -15511,6 +15512,17 @@
    ]
   },
   {
+   "id": "S19UcWdOA-I",
+   "artist": "Lost Sky",
+   "title": "Fearless Pt. II",
+   "views": 252862069,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "eCK772REqw0",
    "artist": "21 Savage",
    "title": "Bank Account",
@@ -15519,6 +15531,17 @@
    "year": 2017,
    "genres": [
     "hiphop"
+   ]
+  },
+  {
+   "id": "WEFJnYMz0Ec",
+   "artist": "Maggie Lindemann",
+   "title": "Pretty Girl",
+   "views": 252330915,
+   "region": "global",
+   "year": 2017,
+   "genres": [
+    "electronic"
    ]
   },
   {
@@ -16076,18 +16099,6 @@
     "pop",
     "electronic"
    ]
-  },
-  {
-   "id": "0xyxtzD54rM",
-   "artist": "Linkin Park",
-   "title": "Given Up",
-   "views": 241501182,
-   "region": "global",
-   "year": 2008,
-   "genres": [
-    "rock"
-   ],
-   "aka": "Hybrid Theory Meteora feat. Kiiara"
   },
   {
    "id": "VkXjvHfP3MM",
@@ -19352,6 +19363,17 @@
    ]
   },
   {
+   "id": "Ly7uj0JwgKg",
+   "artist": "Flume",
+   "title": "Never Be Like You",
+   "views": 196879900,
+   "region": "global",
+   "year": 2016,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "BE9CXWV1alg",
    "artist": "Limp Bizkit",
    "title": "My Generation",
@@ -19372,17 +19394,6 @@
    "year": 2009,
    "genres": [
     "rnb"
-   ]
-  },
-  {
-   "id": "Ly7uj0JwgKg",
-   "artist": "Flume",
-   "title": "Never Be Like You feat. Kai",
-   "views": 196495581,
-   "region": "global",
-   "year": 2016,
-   "genres": [
-    "electronic"
    ]
   },
   {
@@ -29821,6 +29832,18 @@
    ]
   },
   {
+   "id": "_2eTNxPxXRc",
+   "artist": "Fall Out Boy",
+   "title": "Sugar, We're Goin Down",
+   "views": 109846744,
+   "region": "global",
+   "year": 2018,
+   "genres": [
+    "rock",
+    "pop"
+   ]
+  },
+  {
    "id": "TdROFMLpdgQ",
    "artist": "Camp Rock",
    "title": "This Is Me - Movie Version",
@@ -31073,6 +31096,18 @@
    "year": 2016,
    "genres": [
     "ballad"
+   ]
+  },
+  {
+   "id": "7EJbFg_LxjY",
+   "artist": "Justin Timberlake",
+   "title": "Rock Your Body",
+   "views": 103654003,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "pop",
+    "dance"
    ]
   },
   {
@@ -44313,6 +44348,17 @@
    ]
   },
   {
+   "id": "EOFA9kPQ_uU",
+   "artist": "Tally Hall",
+   "title": "Hidden In The Sand",
+   "views": 57394939,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "3YSUvYDJ6R4",
    "artist": "Wayne Wonder",
    "title": "No Letting Go",
@@ -49159,6 +49205,17 @@
    ]
   },
   {
+   "id": "aojTGWAqUIQ",
+   "artist": "John Mayer",
+   "title": "Half of My Heart",
+   "views": 47660671,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "Z0GFRcFm-aY",
    "artist": "R.E.M.",
    "title": "It's The End Of The World",
@@ -49403,6 +49460,17 @@
    "year": 2010,
    "genres": [
     "rnb"
+   ]
+  },
+  {
+   "id": "cgqOSCgc8xc",
+   "artist": "Damien Rice",
+   "title": "9 Crimes",
+   "views": 47163359,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -49939,6 +50007,17 @@
    "year": 2021,
    "genres": [
     "rnb"
+   ]
+  },
+  {
+   "id": "lm8oxC24QZc",
+   "artist": "Eddie Vedder",
+   "title": "Society",
+   "views": 46032026,
+   "region": "global",
+   "year": 2011,
+   "genres": [
+    "ballad"
    ]
   },
   {
@@ -54548,6 +54627,17 @@
    "year": 2009,
    "genres": [
     "rnb"
+   ]
+  },
+  {
+   "id": "rZLbUIa7exE",
+   "artist": "John Mayer",
+   "title": "Daughters",
+   "views": 38415492,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "ballad"
    ]
   },
   {
