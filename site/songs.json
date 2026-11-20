@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "genres": [
   {
    "id": "pop",
@@ -23437,6 +23437,17 @@
    ]
   },
   {
+   "id": "uCUpvTMis-Y",
+   "artist": "My Chemical Romance",
+   "title": "The Ghost Of You",
+   "views": 153697072,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rock"
+   ]
+  },
+  {
    "id": "g4tpuu-Up90",
    "artist": "Michael Jackson",
    "title": "You Rock My World",
@@ -23765,6 +23776,18 @@
    "year": 2009,
    "genres": [
     "latin"
+   ]
+  },
+  {
+   "id": "dhZTNgAs4Fc",
+   "artist": "My Chemical Romance",
+   "title": "I'm Not Okay (I Promise)",
+   "views": 151118402,
+   "region": "global",
+   "year": 2010,
+   "genres": [
+    "pop",
+    "rock"
    ]
   },
   {
@@ -53608,6 +53631,17 @@
    ]
   },
   {
+   "id": "90mzH1kvznQ",
+   "artist": "Daughter",
+   "title": "Candles",
+   "views": 40102580,
+   "region": "global",
+   "year": 2012,
+   "genres": [
+    "ballad"
+   ]
+  },
+  {
    "id": "1B89Osfj8dg",
    "artist": "Shinedown",
    "title": "The Crow & the Butterfly",
@@ -67306,16 +67340,6 @@
    "region": "kr",
    "year": 2019,
    "genres": []
-  },
-  {
-   "id": "W6zKPBsRRog",
-   "artist": "izi(Oh Jin Sung)",
-   "title": "응급실",
-   "views": 22404727,
-   "region": "kr",
-   "year": 2005,
-   "genres": [],
-   "aka": "Oh Jin Sung"
   },
   {
    "id": "vMrI9LXohYo",
