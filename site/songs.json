@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "genres": [
   {
    "id": "pop",
@@ -1612,6 +1612,19 @@
     "rock",
     "ballad",
     "pop"
+   ]
+  },
+  {
+   "id": "Pw-0pbY9JeU",
+   "artist": "Twenty One Pilots",
+   "title": "Ride",
+   "views": 1696836042,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "pop",
+    "dance",
+    "indie"
    ]
   },
   {
@@ -4155,18 +4168,6 @@
    "genres": [
     "ballad",
     "pop"
-   ]
-  },
-  {
-   "id": "gl1aHhXnN1k",
-   "artist": "Ariana Grande",
-   "title": "thank u, next",
-   "views": 898220650,
-   "region": "global",
-   "year": 2018,
-   "genres": [
-    "pop",
-    "rnb"
    ]
   },
   {
@@ -10341,18 +10342,6 @@
    ]
   },
   {
-   "id": "uAOR6ib95kQ",
-   "artist": "Gorillaz",
-   "title": "DARE",
-   "views": 390408799,
-   "region": "global",
-   "year": 2010,
-   "genres": [
-    "electronic",
-    "indie"
-   ]
-  },
-  {
    "id": "4JkIs37a2JE",
    "artist": "Jamiroquai",
    "title": "Virtual Insanity",
@@ -12909,6 +12898,18 @@
    "year": 2014,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "Ee_uujKuJMI",
+   "artist": "Green Day",
+   "title": "American Idiot",
+   "views": 308854187,
+   "region": "global",
+   "year": 2012,
+   "genres": [
+    "rock",
+    "dance"
    ]
   },
   {
@@ -30646,6 +30647,18 @@
     "dance",
     "electronic",
     "pop"
+   ]
+  },
+  {
+   "id": "knU9gRUWCno",
+   "artist": "The Strokes",
+   "title": "Someday",
+   "views": 106045586,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rock",
+    "indie"
    ]
   },
   {
@@ -67340,6 +67353,16 @@
    "region": "kr",
    "year": 2019,
    "genres": []
+  },
+  {
+   "id": "W6zKPBsRRog",
+   "artist": "izi(Oh Jin Sung)",
+   "title": "응급실",
+   "views": 22404727,
+   "region": "kr",
+   "year": 2005,
+   "genres": [],
+   "aka": "Oh Jin Sung"
   },
   {
    "id": "vMrI9LXohYo",
