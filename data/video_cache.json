@@ -74633,6 +74633,19 @@
    "ytTitle": "marina and the diamonds // are you satisfied? (español)"
   }
  },
+ "marina - bubblegum bitch": {
+  "artist": "Marina",
+  "genres": [
+   "dance"
+  ],
+  "track": "Bubblegum Bitch",
+  "video": {
+   "id": "TcnrXHtRgKc",
+   "published": "2021-08-13T17:00:11Z",
+   "views": 4304618,
+   "ytTitle": "MARINA - Bubblegum Bitch (Live from the Desert)"
+  }
+ },
  "marina - how to be a heartbreaker": {
   "artist": "Marina",
   "genres": [
@@ -113121,7 +113134,13 @@
   "genres": [
    "indie"
   ],
-  "track": "This Night Has Opened My Eyes - 2011 Remaster"
+  "track": "This Night Has Opened My Eyes - 2011 Remaster",
+  "video": {
+   "id": "tzg0JK-VpG8",
+   "published": "2016-07-16T07:45:34Z",
+   "views": 17967166,
+   "ytTitle": "This Night Has Opened My Eyes (2011 Remaster)"
+  }
  },
  "the strokes - 12 51": {
   "artist": "The Strokes",
