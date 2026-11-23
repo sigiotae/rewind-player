@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "genres": [
   {
    "id": "pop",
@@ -586,19 +586,6 @@
    "genres": [
     "pop",
     "latin"
-   ]
-  },
-  {
-   "id": "lY2yjAdbvdQ",
-   "artist": "Shawn Mendes",
-   "title": "Treat You Better",
-   "views": 2831987117,
-   "region": "global",
-   "year": 2016,
-   "genres": [
-    "pop",
-    "indie",
-    "ballad"
    ]
   },
   {
@@ -4444,18 +4431,6 @@
    ]
   },
   {
-   "id": "EgT_us6AsDg",
-   "artist": "Selena Gomez & The Scene",
-   "title": "Love You Like a Love Song",
-   "views": 847370271,
-   "region": "global",
-   "year": 2011,
-   "genres": [
-    "pop",
-    "ballad"
-   ]
-  },
-  {
    "id": "WA4iX5D9Z64",
    "artist": "Taylor Swift",
    "title": "We Are Never Ever Getting Back Together",
@@ -4558,7 +4533,8 @@
    "region": "global",
    "year": 2007,
    "genres": [
-    "rock"
+    "rock",
+    "ballad"
    ],
    "aka": "Hybrid Theory Meteora feat. Kiiara"
   },
@@ -4808,6 +4784,19 @@
    "year": 2013,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "9WbCfHutDSE",
+   "artist": "Ariana Grande",
+   "title": "Dangerous Woman",
+   "views": 785095739,
+   "region": "global",
+   "year": 2016,
+   "genres": [
+    "pop",
+    "rnb",
+    "ballad"
    ]
   },
   {
@@ -6930,6 +6919,18 @@
     "hiphop",
     "pop",
     "ballad"
+   ]
+  },
+  {
+   "id": "il9nqWw9W3Y",
+   "artist": "Demi Lovato",
+   "title": "Cool for the Summer",
+   "views": 564554063,
+   "region": "global",
+   "year": 2015,
+   "genres": [
+    "pop",
+    "hiphop"
    ]
   },
   {
@@ -12901,6 +12902,17 @@
    ]
   },
   {
+   "id": "cYT325Fe9zU",
+   "artist": "Surf Curse",
+   "title": "Freaks",
+   "views": 308490968,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "udxZ9zkDzpo",
    "artist": "The Game",
    "title": "My Life ft. Lil Wayne",
@@ -14247,17 +14259,6 @@
    ]
   },
   {
-   "id": "92cwKCU8Z5c",
-   "artist": "ABBA",
-   "title": "The Winner Takes It All",
-   "views": 278672545,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "pop"
-   ]
-  },
-  {
    "id": "6rgStv12dwA",
    "artist": "Baby Bash",
    "title": "Suga Suga ft. Frankie J",
@@ -14756,17 +14757,6 @@
     "rock",
     "pop",
     "indie"
-   ]
-  },
-  {
-   "id": "s6b33PTbGxk",
-   "artist": "Britney Spears",
-   "title": "Criminal",
-   "views": 264977332,
-   "region": "global",
-   "year": 2011,
-   "genres": [
-    "pop"
    ]
   },
   {
@@ -29177,6 +29167,17 @@
    ]
   },
   {
+   "id": "TlMgAsAmQKE",
+   "artist": "Cults",
+   "title": "Always Forever",
+   "views": 113137171,
+   "region": "global",
+   "year": 2014,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "KCggcs7X_2Y",
    "artist": "Chris Jedi",
    "title": "Ahora Dice",
@@ -37657,17 +37658,6 @@
    "year": 2015,
    "genres": [
     "indie"
-   ]
-  },
-  {
-   "id": "6e6Hj7MwWaI",
-   "artist": "Crystal Castles",
-   "title": "Vanished",
-   "views": 76264671,
-   "region": "global",
-   "year": 2013,
-   "genres": [
-    "electronic"
    ]
   },
   {
@@ -61201,6 +61191,15 @@
    "genres": []
   },
   {
+   "id": "i0p1bmr0EmE",
+   "artist": "TWICE",
+   "title": "What is Love?",
+   "views": 950499239,
+   "region": "kr",
+   "year": 2018,
+   "genres": []
+  },
+  {
    "id": "2ips2mM7Zqw",
    "artist": "BIGBANG",
    "title": "뱅뱅뱅 (BANG BANG BANG)",
@@ -62388,6 +62387,15 @@
    "views": 97466468,
    "region": "kr",
    "year": 2020,
+   "genres": []
+  },
+  {
+   "id": "wKyMIrBClYw",
+   "artist": "DEAN",
+   "title": "instagram",
+   "views": 97386194,
+   "region": "kr",
+   "year": 2018,
    "genres": []
   },
   {
