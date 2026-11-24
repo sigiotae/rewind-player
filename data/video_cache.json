@@ -6967,7 +6967,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "I Need a Dollar"
+  "track": "I Need a Dollar",
+  "video": {
+   "id": "nFZP8zQ5kzk",
+   "published": "2011-03-17T22:54:37Z",
+   "views": 129025724,
+   "ytTitle": "Aloe Blacc - I Need A Dollar"
+  }
  },
  "aloe blacc - the man": {
   "artist": "Aloe Blacc",
@@ -9321,7 +9327,8 @@
   "artist": "Ariana Grande",
   "genres": [
    "rnb",
-   "ballad"
+   "ballad",
+   "pop"
   ],
   "track": "break up with your girlfriend, i'm bored",
   "video": {
@@ -11218,7 +11225,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Something New"
+  "track": "Something New",
+  "video": {
+   "id": "7ZqbOV3ZJtI",
+   "published": "2019-09-24T05:26:40Z",
+   "views": 177812,
+   "ytTitle": "Axwell /\\ Ingrosso - Something New (subtitulada español)"
+  }
  },
  "ayo teo - rolex": {
   "artist": "Ayo & Teo",
@@ -16150,7 +16163,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Possibly Maybe"
+  "track": "Possibly Maybe",
+  "video": {
+   "id": "6S-EVEGe1w0",
+   "published": "2014-11-06T02:53:59Z",
+   "views": 124650,
+   "ytTitle": "Possibly Maybe"
+  }
  },
  "bj rk - venus as a boy": {
   "artist": "Björk",
@@ -26168,6 +26187,19 @@
    "ytTitle": "Christina Aguilera - Beautiful (Official HD Video)"
   }
  },
+ "christina aguilera - blank page": {
+  "artist": "Christina Aguilera",
+  "genres": [
+   "ballad"
+  ],
+  "track": "Blank Page",
+  "video": {
+   "id": "NHpv7NKNxco",
+   "published": "2012-11-03T16:54:23Z",
+   "views": 3888740,
+   "ytTitle": "Christina Aguilera - Blank Page (Official Audio)"
+  }
+ },
  "christina aguilera - dirrty": {
   "artist": "Christina Aguilera",
   "genres": [
@@ -26691,6 +26723,19 @@
    "published": "2015-08-12T00:16:08Z",
    "views": 43444827,
    "ytTitle": "Oh"
+  }
+ },
+ "cibo matto - aguas de marco": {
+  "artist": "Cibo Matto",
+  "genres": [
+   "latin"
+  ],
+  "track": "Aguas de Marco",
+  "video": {
+   "id": "3vt7x_g6lv8",
+   "published": "2010-11-28T11:54:14Z",
+   "views": 56686,
+   "ytTitle": "Cibo Matto - Aguas De Marco"
   }
  },
  "cigarettes after sex - k": {
@@ -28983,7 +29028,13 @@
   "genres": [
    "indie"
   ],
-  "track": "Romantic Homicide"
+  "track": "Romantic Homicide",
+  "video": {
+   "id": "eKL3TceSxvk",
+   "published": "2022-09-07T18:00:08Z",
+   "views": 222588460,
+   "ytTitle": "d4vd - Romantic Homicide"
+  }
  },
  "da hool - meet her at the loveparade official video": {
   "artist": "Da Hool",
@@ -29199,6 +29250,19 @@
    "published": "2009-12-20T06:13:36Z",
    "views": 78689091,
    "ytTitle": "Daddy Yankee - Impacto (Remix) ft. Fergie"
+  }
+ },
+ "daddy yankee - king daddy": {
+  "artist": "Daddy Yankee",
+  "genres": [
+   "latin"
+  ],
+  "track": "King Daddy",
+  "video": {
+   "id": "nuTFl7l4L-0",
+   "published": "2017-07-24T22:00:43Z",
+   "views": 5167168,
+   "ytTitle": "Daddy Yankee | \"King Daddy\" - Barrio Fino (Bonus Track Version) (Audio Oficial)"
   }
  },
  "daddy yankee - la despedida": {
@@ -31633,7 +31697,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Invincible"
+  "track": "Invincible",
+  "video": {
+   "id": "SA1ESPFd3LQ",
+   "published": "2021-10-21T15:15:01Z",
+   "views": 5050994,
+   "ytTitle": "Deaf Kev - Invincible Part II (feat. Sendi Hoxha) | Glitch Hop | NCS - Copyright Free Music"
+  }
  },
  "deaf kev - invincible glitch hop ncs copyright free music": {
   "artist": "DEAF KEV",
@@ -34630,6 +34700,19 @@
    "published": "2011-09-24T14:43:11Z",
    "views": 45821486,
    "ytTitle": "Hunter Hayes Wanted Lyrics"
+  }
+ },
+ "donny hathaway - love love love": {
+  "artist": "Donny Hathaway",
+  "genres": [
+   "rnb"
+  ],
+  "track": "Love, Love, Love",
+  "video": {
+   "id": "9UjkZnK-pJM",
+   "published": "2014-08-26T15:31:27Z",
+   "views": 3058809,
+   "ytTitle": "Love, Love, Love"
   }
  },
  "dove shack - summertime in the lbc": {
@@ -37637,7 +37720,13 @@
   "genres": [
    "hiphop"
   ],
-  "track": "Just Lose It"
+  "track": "Just Lose It",
+  "video": {
+   "id": "9dcVOmEQzKA",
+   "published": "2009-12-25T01:07:59Z",
+   "views": 337576452,
+   "ytTitle": "Eminem - Just Lose It (Official Music Video)"
+  }
  },
  "eminem - kill you": {
   "artist": "Eminem",
@@ -47316,6 +47405,19 @@
    "ytTitle": "Grimes - Oblivion"
   }
  },
+ "grimes - realiti": {
+  "artist": "Grimes",
+  "genres": [
+   "dance"
+  ],
+  "track": "REALiTi",
+  "video": {
+   "id": "N9XKLqGqwLA",
+   "published": "2015-03-09T06:42:26Z",
+   "views": 41914338,
+   "ytTitle": "Grimes - REALiTi"
+  }
+ },
  "grimes - shinigami eyes": {
   "artist": "Grimes",
   "genres": [
@@ -47709,7 +47811,8 @@
   "artist": "Guns N' Roses",
   "genres": [
    "rock",
-   "pop"
+   "pop",
+   "ballad"
   ],
   "track": "November Rain",
   "video": {
@@ -54011,7 +54114,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Breakdown"
+  "track": "Breakdown",
+  "video": {
+   "id": "Y4O7ufx9D_s",
+   "published": "2010-04-19T22:51:42Z",
+   "views": 20392563,
+   "ytTitle": "Jack Johnson - Breakdown"
+  }
  },
  "jack johnson - do you remember": {
   "artist": "Jack Johnson",
@@ -54084,7 +54193,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "No Other Way"
+  "track": "No Other Way",
+  "video": {
+   "id": "bekkZK3OqMM",
+   "published": "2018-07-31T15:09:49Z",
+   "views": 2956978,
+   "ytTitle": "No Other Way"
+  }
  },
  "jack johnson - sitting waiting wishing": {
   "artist": "Jack Johnson",
@@ -54124,7 +54239,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Times Like These"
+  "track": "Times Like These",
+  "video": {
+   "id": "GO2-ipT2NN0",
+   "published": "2018-07-26T19:53:06Z",
+   "views": 6832796,
+   "ytTitle": "Times Like These"
+  }
  },
  "jack johnson - upside down": {
   "artist": "Jack Johnson",
@@ -54610,7 +54731,8 @@
  "jane remover - beauty sleep": {
   "artist": "Jane Remover",
   "genres": [
-   "electronic"
+   "electronic",
+   "dance"
   ],
   "track": "Beauty Sleep",
   "video": {
@@ -58106,6 +58228,19 @@
    "published": "2017-03-14T15:13:14Z",
    "views": 51879327,
    "ytTitle": "No Te Hagas"
+  }
+ },
+ "jos feliciano - feliz navidad": {
+  "artist": "José Feliciano",
+  "genres": [
+   "latin"
+  ],
+  "track": "Feliz Navidad",
+  "video": {
+   "id": "N8NcQzMQN_U",
+   "published": "2019-08-16T16:34:18Z",
+   "views": 85555238,
+   "ytTitle": "José Feliciano - Feliz Navidad (Official Audio)"
   }
  },
  "jos gonz lez - crosses": {
@@ -64077,7 +64212,8 @@
  "kim petras - detour": {
   "artist": "Kim Petras",
   "genres": [
-   "electronic"
+   "electronic",
+   "dance"
   ],
   "track": "Detour",
   "video": {
@@ -64277,7 +64413,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Misread"
+  "track": "Misread",
+  "video": {
+   "id": "pdv5n_Qgiw4",
+   "published": "2021-04-30T08:00:11Z",
+   "views": 4814358,
+   "ytTitle": "Kings Of Convenience - Rocky Trail (Official Video)"
+  }
  },
  "kings of leon - chapter 1 waste a moment": {
   "artist": "Kings Of Leon",
@@ -67167,7 +67309,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Someone Great"
+  "track": "Someone Great",
+  "video": {
+   "id": "qwoLACv_srQ",
+   "published": "2009-03-12T19:25:21Z",
+   "views": 3728739,
+   "ytTitle": "LCD Soundsystem - Someone Great (Official Video)"
+  }
  },
  "lcecreamy - 바비킴 사랑 그놈 with": {
   "artist": "lceCreamy",
@@ -69826,7 +69974,13 @@
   "genres": [
    "rock"
   ],
-  "track": "New Divide"
+  "track": "New Divide",
+  "video": {
+   "id": "ysSxxIqKNN0",
+   "published": "2009-06-15T17:01:53Z",
+   "views": 726606312,
+   "ytTitle": "New Divide (Official Music Video) [4K Upgrade] - Linkin Park"
+  }
  },
  "linkin park - new divide getthem": {
   "artist": "Linkin Park",
@@ -70814,7 +70968,13 @@
   "genres": [
    "indie"
   ],
-  "track": "White Teeth Teens"
+  "track": "White Teeth Teens",
+  "video": {
+   "id": "qD_PyhJehjA",
+   "published": "2013-09-26T21:51:34Z",
+   "views": 7814459,
+   "ytTitle": "LORDE - White Teeth Teens (Lyrics on screen)"
+  }
  },
  "lorde - yellow flicker beat": {
   "artist": "Lorde",
@@ -73507,6 +73667,19 @@
    "published": "2016-10-06T11:56:40Z",
    "views": 171116583,
    "ytTitle": "Cuatro Babys"
+  }
+ },
+ "maluma - el perdedor": {
+  "artist": "Maluma",
+  "genres": [
+   "latin"
+  ],
+  "track": "El Perdedor",
+  "video": {
+   "id": "PJniSb91tvo",
+   "published": "2016-04-22T07:00:01Z",
+   "views": 1359812089,
+   "ytTitle": "Maluma - El Perdedor (Official Video)"
   }
  },
  "maluma - el pr stamo": {
@@ -81207,6 +81380,19 @@
    "ytTitle": "My Chemical Romance - Disenchanted"
   }
  },
+ "my chemical romance - drowning lessons": {
+  "artist": "My Chemical Romance",
+  "genres": [
+   "rock"
+  ],
+  "track": "Drowning Lessons",
+  "video": {
+   "id": "c0Z6HyYSYwA",
+   "published": "2017-07-27T00:57:53Z",
+   "views": 5697298,
+   "ytTitle": "Drowning Lessons"
+  }
+ },
  "my chemical romance - early sunsets over monroeville": {
   "artist": "My Chemical Romance",
   "genres": [
@@ -81355,6 +81541,32 @@
    "published": "2016-09-23T20:16:26Z",
    "views": 7111313,
    "ytTitle": "My Chemical Romance - Sleep"
+  }
+ },
+ "my chemical romance - summertime": {
+  "artist": "My Chemical Romance",
+  "genres": [
+   "rock"
+  ],
+  "track": "Summertime",
+  "video": {
+   "id": "LW7FxWXt3ok",
+   "published": "2015-08-07T22:47:54Z",
+   "views": 7218662,
+   "ytTitle": "Summertime"
+  }
+ },
+ "my chemical romance - surrender the night": {
+  "artist": "My Chemical Romance",
+  "genres": [
+   "rock"
+  ],
+  "track": "Surrender the Night",
+  "video": {
+   "id": "6_kCpzMJ1Wo",
+   "published": "2013-02-06T00:42:14Z",
+   "views": 2249548,
+   "ytTitle": "My Chemical Romance - Surrender the Night [Official Audio]"
   }
  },
  "my chemical romance - teenagers": {
@@ -82845,7 +83057,8 @@
   "artist": "Ne-Yo",
   "genres": [
    "hiphop",
-   "ballad"
+   "ballad",
+   "rnb"
   ],
   "track": "Sexy Love",
   "video": {
@@ -88574,7 +88787,13 @@
   "genres": [
    "ballad"
   ],
-  "track": "Du får göra som du vill"
+  "track": "Du får göra som du vill",
+  "video": {
+   "id": "4JdnG6y6UWI",
+   "published": "2009-10-03T05:34:40Z",
+   "views": 999003,
+   "ytTitle": "Patrik Isaksson - Du Får Göra Som Du Vill (Video)"
+  }
  },
  "patty smyth - sometimes love just ain t enough ft don henley": {
   "artist": "Patty Smyth",
@@ -91750,6 +91969,19 @@
    "ytTitle": "Queens Of The Stone Age - Go With The Flow (Official Music Video)"
   }
  },
+ "queens of the stone age - i sat by the ocean": {
+  "artist": "Queens of the Stone Age",
+  "genres": [
+   "rock"
+  ],
+  "track": "I Sat by the Ocean",
+  "video": {
+   "id": "4E4S0XWPMgQ",
+   "published": "2013-08-21T21:37:39Z",
+   "views": 7722559,
+   "ytTitle": "Queens Of The Stone Age - I Sat by the Ocean (Fox Uninvited Guest)"
+  }
+ },
  "queens of the stone age - little sister": {
   "artist": "Queens Of The Stone Age",
   "genres": [
@@ -93492,7 +93724,13 @@
   "genres": [
    "dance"
   ],
-  "track": "Visions Again"
+  "track": "Visions Again",
+  "video": {
+   "id": "m5xl7gnupTg",
+   "published": "2026-09-04T04:11:42Z",
+   "views": 64368,
+   "ytTitle": "Rebecca Black - Visions Again (Official Visualizer)"
+  }
  },
  "recplay - he tratado victor manuelle con letra": {
   "artist": "RecPlay",
@@ -97167,7 +97405,13 @@
   "genres": [
    "electronic"
   ],
-  "track": "Mirror"
+  "track": "Mirror",
+  "video": {
+   "id": "YIY32RZ47LQ",
+   "published": "2022-10-08T16:00:18Z",
+   "views": 1398821,
+   "ytTitle": "SABAI - Mirror (Lyrics)"
+  }
  },
  "sabrina carpenter - because i liked a boy": {
   "artist": "Sabrina Carpenter",
@@ -100925,7 +101169,13 @@
   "genres": [
    "latin"
   ],
-  "track": "La Pared"
+  "track": "La Pared",
+  "video": {
+   "id": "__gKfrQrPvE",
+   "published": "2009-12-11T20:56:18Z",
+   "views": 18762314,
+   "ytTitle": "Shakira - La Pared (Live 2007)"
+  }
  },
  "shakira - la tortura": {
   "artist": "Shakira",
@@ -105881,7 +106131,13 @@
   "genres": [
    "rnb"
   ],
-  "track": "Part-Time Lover"
+  "track": "Part-Time Lover",
+  "video": {
+   "id": "jN2AdOjI4FI",
+   "published": "2009-11-01T10:34:39Z",
+   "views": 82980232,
+   "ytTitle": "Stevie Wonder - Part Time Lover (Lyrics)"
+  }
  },
  "stevie wonder - pastime paradise": {
   "artist": "Stevie Wonder",
@@ -106546,6 +106802,19 @@
    "published": "2017-12-01T08:00:01Z",
    "views": 106321530,
    "ytTitle": "Sufjan Stevens - Mystery of Love (From \"Call Me By Your Name\" Soundtrack)"
+  }
+ },
+ "sufjan stevens - to be alone with you": {
+  "artist": "Sufjan Stevens",
+  "genres": [
+   "ballad"
+  ],
+  "track": "To Be Alone With You",
+  "video": {
+   "id": "U_paxKhWy3o",
+   "published": "2013-02-07T23:53:02Z",
+   "views": 1309153,
+   "ytTitle": "Sufjan Stevens - To Be Alone With You (Lyrics) HD"
   }
  },
  "suisei channel - ": {
@@ -109309,6 +109578,19 @@
   ],
   "track": "Down Bad"
  },
+ "taylor swift - evermore": {
+  "artist": "Taylor Swift",
+  "genres": [
+   "ballad"
+  ],
+  "track": "evermore (feat. Bon Iver)",
+  "video": {
+   "id": "EXLgZZE072g",
+   "published": "2020-12-11T05:00:02Z",
+   "views": 24046815,
+   "ytTitle": "Taylor Swift - evermore (Official Lyric Video) ft. Bon Iver"
+  }
+ },
  "taylor swift - everything has changed ft ed sheeran": {
   "artist": "Taylor Swift",
   "genres": [
@@ -111930,6 +112212,19 @@
    "published": "2012-01-11T19:19:18Z",
    "views": 1290255,
    "ytTitle": "The Magnetic Fields - Andrew In Drag"
+  }
+ },
+ "the magnetic fields - come back from san francisco": {
+  "artist": "The Magnetic Fields",
+  "genres": [
+   "indie"
+  ],
+  "track": "Come Back From San Francisco",
+  "video": {
+   "id": "wnFQn7GD1rg",
+   "published": "2024-11-20T17:01:00Z",
+   "views": 559623,
+   "ytTitle": "The Magnetic Fields: Tiny Desk Concert"
   }
  },
  "the magnetic fields - i don t believe in the sun": {
