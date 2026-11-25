@@ -19466,7 +19466,8 @@
  "britney spears - gimme more": {
   "artist": "Britney Spears",
   "genres": [
-   "dance"
+   "dance",
+   "pop"
   ],
   "track": "Gimme More",
   "video": {
@@ -66357,7 +66358,8 @@
  "lady gaga - paparazzi": {
   "artist": "Lady Gaga",
   "genres": [
-   "pop"
+   "pop",
+   "dance"
   ],
   "track": "Paparazzi",
   "video": {
