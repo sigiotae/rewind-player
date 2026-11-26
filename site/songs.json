@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "genres": [
   {
    "id": "pop",
@@ -1664,19 +1664,6 @@
     "rock",
     "pop",
     "dance"
-   ]
-  },
-  {
-   "id": "CSvFpBOe8eY",
-   "artist": "System Of A Down",
-   "title": "Chop Suey!",
-   "views": 1629250933,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "pop",
-    "rock",
-    "indie"
    ]
   },
   {
@@ -8361,18 +8348,6 @@
    ]
   },
   {
-   "id": "elueA2rofoo",
-   "artist": "Britney Spears",
-   "title": "Gimme More",
-   "views": 473664704,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "dance",
-    "pop"
-   ]
-  },
-  {
    "id": "pco91kroVgQ",
    "artist": "Lady Gaga",
    "title": "Applause",
@@ -9111,21 +9086,6 @@
    "year": 2018,
    "genres": [
     "latin"
-   ]
-  },
-  {
-   "id": "GemKqzILV4w",
-   "artist": "Snow Patrol",
-   "title": "Chasing Cars",
-   "views": 439327462,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "indie",
-    "rock",
-    "ballad",
-    "pop",
-    "dance"
    ]
   },
   {
@@ -11191,18 +11151,6 @@
    "genres": [
     "indie",
     "rock"
-   ]
-  },
-  {
-   "id": "d2smz_1L2_0",
-   "artist": "Lady Gaga",
-   "title": "Paparazzi",
-   "views": 356116303,
-   "region": "global",
-   "year": 2009,
-   "genres": [
-    "pop",
-    "dance"
    ]
   },
   {
@@ -14818,6 +14766,17 @@
    ]
   },
   {
+   "id": "Dwzk-XZxZ4k",
+   "artist": "Kali Uchis",
+   "title": "telepatía",
+   "views": 265172400,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "rnb"
+   ]
+  },
+  {
    "id": "9PBZy9j3H3I",
    "artist": "Keyshia Cole",
    "title": "Love",
@@ -15240,6 +15199,18 @@
    "year": 2010,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "b8-tXG8KrWs",
+   "artist": "The Strokes",
+   "title": "Reptilia",
+   "views": 257828796,
+   "region": "global",
+   "year": 2009,
+   "genres": [
+    "rock",
+    "indie"
    ]
   },
   {
@@ -17128,19 +17099,6 @@
    "genres": [
     "rnb",
     "ballad"
-   ]
-  },
-  {
-   "id": "AzRyxGBGiAE",
-   "artist": "Tove Lo",
-   "title": "Talking Body",
-   "views": 226865586,
-   "region": "global",
-   "year": 2015,
-   "genres": [
-    "pop",
-    "hiphop",
-    "indie"
    ]
   },
   {
@@ -22786,6 +22744,17 @@
    ]
   },
   {
+   "id": "sEetXo3R-aM",
+   "artist": "Lana Del Rey",
+   "title": "Diet Mountain Dew",
+   "views": 160325171,
+   "region": "global",
+   "year": 2020,
+   "genres": [
+    "indie"
+   ]
+  },
+  {
    "id": "CqnU_sJ8V-E",
    "artist": "Lynyrd Skynyrd",
    "title": "Free Bird",
@@ -24929,7 +24898,7 @@
   },
   {
    "id": "5vBGOrI6yBk",
-   "artist": "System Of A Down",
+   "artist": "System of A Down",
    "title": "Sugar",
    "views": 142202992,
    "region": "global",
@@ -25619,7 +25588,7 @@
   },
   {
    "id": "OMtq6JzREcA",
-   "artist": "System Of A Down",
+   "artist": "System of A Down",
    "title": "B.Y.O.B.",
    "views": 137282814,
    "region": "global",
@@ -27759,7 +27728,7 @@
   },
   {
    "id": "ENBv2i88g6Y",
-   "artist": "System Of A Down",
+   "artist": "System of A Down",
    "title": "Question!",
    "views": 122112310,
    "region": "global",
@@ -37740,6 +37709,17 @@
    ]
   },
   {
+   "id": "6e6Hj7MwWaI",
+   "artist": "Crystal Castles",
+   "title": "Vanished",
+   "views": 76264671,
+   "region": "global",
+   "year": 2013,
+   "genres": [
+    "electronic"
+   ]
+  },
+  {
    "id": "5tXh_MfrMe0",
    "artist": "Rascal Flatts",
    "title": "Life Is a Highway",
@@ -39265,7 +39245,7 @@
   },
   {
    "id": "pvP_YJTpt44",
-   "artist": "System Of A Down",
+   "artist": "System of A Down",
    "title": "Hypnotize",
    "views": 71634441,
    "region": "global",
@@ -44886,18 +44866,6 @@
    ]
   },
   {
-   "id": "TeccAtqd5K8",
-   "artist": "Carly Rae Jepsen",
-   "title": "Run Away with Me",
-   "views": 56678983,
-   "region": "global",
-   "year": 2015,
-   "genres": [
-    "dance",
-    "hiphop"
-   ]
-  },
-  {
    "id": "5KNEZJ6KkLI",
    "artist": "Jonas Brothers",
    "title": "Burnin' Up",
@@ -45819,7 +45787,7 @@
   },
   {
    "id": "9VBiJvJfC0Q",
-   "artist": "System Of A Down",
+   "artist": "System of A Down",
    "title": "Lonely Day",
    "views": 54668999,
    "region": "global",
@@ -46083,6 +46051,17 @@
    "year": 2009,
    "genres": [
     "pop"
+   ]
+  },
+  {
+   "id": "hqvcww4ydh8",
+   "artist": "Kanye West",
+   "title": "Can't Tell Me Nothing",
+   "views": 54040988,
+   "region": "global",
+   "year": 2019,
+   "genres": [
+    "hiphop"
    ]
   },
   {
@@ -47094,6 +47073,17 @@
    "genres": [
     "rock",
     "indie"
+   ]
+  },
+  {
+   "id": "88OG2PJ_vCI",
+   "artist": "Tito \"El Bambino\"",
+   "title": "Mi Cama Huele a Ti (feat. Zion & Lennox)",
+   "views": 51750957,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "latin"
    ]
   },
   {
@@ -50590,17 +50580,6 @@
    "year": 2014,
    "genres": [
     "latin"
-   ]
-  },
-  {
-   "id": "D00M2KZH1J0",
-   "artist": "Daryl Hall & John Oates",
-   "title": "Out Of Touch",
-   "views": 45223271,
-   "region": "global",
-   "year": 2015,
-   "genres": [
-    "rock"
    ]
   },
   {
@@ -56646,6 +56625,17 @@
    "year": 2013,
    "genres": [
     "rock"
+   ]
+  },
+  {
+   "id": "utNRPF_UeD8",
+   "artist": "Tito \"El Bambino\"",
+   "title": "Te Comencé a Querer",
+   "views": 35749092,
+   "region": "global",
+   "year": 2021,
+   "genres": [
+    "latin"
    ]
   },
   {
